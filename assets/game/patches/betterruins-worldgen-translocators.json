@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 800,
+                  "chance": 1,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o2/*"
+                  ],
+                  "offsety": -2
+    },
+    "file": "worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 800,
+                  "chance": 0.5,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o10/*"
+                  ],
+                  "offsety": -10
+    },
+    "file": "worldgen/structures.json"
+  }
+]
