@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "ruins",
+                  "minGroupDistance": 100,
+                  "chance": 0.4,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/ruins-o2/*"
+                  ],
+                  "offsety": -2
+    },
+    "file": "worldgen/structures.json"
+  }
+]
