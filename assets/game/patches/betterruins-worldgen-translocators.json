@@ -30,5 +30,22 @@
                   "offsety": -10
     },
     "file": "worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 800,
+                  "chance": 0.3,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o3/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -3
+    },
+    "file": "worldgen/structures.json"
   }
 ]

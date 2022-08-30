@@ -5,13 +5,30 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 100,
+                  "minGroupDistance": 200,
                   "chance": 0.4,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
                   ],
                   "offsety": -2
+    },
+    "file": "worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "ruins",
+                  "minGroupDistance": 200,
+                  "chance": 0.05,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/ruins-o4/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -4
     },
     "file": "worldgen/structures.json"
   }
