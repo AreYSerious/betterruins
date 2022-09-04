@@ -1,3 +1,13 @@
+<!-- INSTALL -->
+## Install
+
+1. Download the latest mod version from the [ModDatabase](https://mods.vintagestory.at/betterruins).
+2. Open your game and go to your Mod Manager.
+3. Select Open Mods Folder (on the bottom).
+4. Now copy the downloaded mod into this folder.
+5. The mod is automaticly enabled and ready to go. Have fun.
+
+
 <!-- FEATURES -->
 ## Features
 * 17 detailed ruins
