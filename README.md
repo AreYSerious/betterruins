@@ -1,7 +1,10 @@
-<!-- Showcase -->
-## Showcase Video
-[![Watch the video](https://img.youtube.com/vi/5tnIOj_BegM/default.jpg)](https://www.youtube.com/watch?v=5tnIOj_BegM)
+<!-- Community Driven -->
+## Community Driven
 
+<br>
+WIP
+<br>
+<br>
 
 <!-- INSTALL -->
 ## Install
@@ -9,7 +12,7 @@
 1. Download the latest mod version from the [ModDatabase](https://mods.vintagestory.at/betterruins).
 2. Open your game and go to your Mod Manager.
 3. Select Open Mods Folder (on the bottom).
-4. Now copy the downloaded mod into this folder.
+4. Now copy the downloaded mod into this folder (You can leave it as a .zip file).
 5. The mod is automaticly enabled and ready to go. Have fun.
 
 
@@ -22,6 +25,7 @@
 * Serverside only
 * Structures in different stonetypes (v0.0.2)
 
+[![Watch the video](https://img.youtube.com/vi/5tnIOj_BegM/default.jpg)](https://www.youtube.com/watch?v=5tnIOj_BegM)
 
 <!-- ROADMAP -->
 ## Roadmap
