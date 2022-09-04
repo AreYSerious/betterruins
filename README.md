@@ -1,3 +1,8 @@
+<!-- Showcase -->
+## Showcase Video
+[![Watch the video](https://img.youtube.com/vi/5tnIOj_BegM/default.jpg)](https://www.youtube.com/watch?v=5tnIOj_BegM)
+
+
 <!-- INSTALL -->
 ## Install
 
