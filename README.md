@@ -20,3 +20,10 @@
     - [ ] Loot
     - [ ] Variants 
 
+<!-- CONTRIBUTERS -->
+## Contributers
+
+* CatNoir
+    * Ruinbuilder: CatNoir sent me some awesome chiseled ruin builds and helped me with some inspirations. (Discord: CatNoir90#2016)
+* Dampus
+    * Ruinbuilder: v0.0.2 contains 2 builds provided by Dampus huge thank you! (Discord: Dampus#3479)
