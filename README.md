@@ -25,7 +25,10 @@ WIP
 * Serverside only
 * Structures in different stonetypes (v0.0.2)
 
-[![Watch the video](https://img.youtube.com/vi/5tnIOj_BegM/default.jpg)](https://www.youtube.com/watch?v=5tnIOj_BegM)
+<a href="https://www.youtube.com/watch?v=5tnIOj_BegM" target="_blank">
+ <img src="https://img.youtube.com/vi/5tnIOj_BegM/maxresdefault.jpg" alt="Watch the video" width="560" height="315" border="10" />
+</a>
+
 
 <!-- ROADMAP -->
 ## Roadmap
