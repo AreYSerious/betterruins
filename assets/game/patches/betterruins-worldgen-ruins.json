@@ -5,8 +5,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 500,
-                  "chance": 0.1,
+                  "minGroupDistance": 400,
+                  "chance": 0.2,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
@@ -21,8 +21,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 500,
-                  "chance": 0.05,
+                  "minGroupDistance": 400,
+                  "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o4/*"
