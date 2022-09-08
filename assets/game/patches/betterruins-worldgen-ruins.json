@@ -5,7 +5,7 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 400,
+                  "minGroupDistance": 500,
                   "chance": 0.2,
                   "placement": "surface",
                   "schematics": [
@@ -21,7 +21,7 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 400,
+                  "minGroupDistance": 500,
                   "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
