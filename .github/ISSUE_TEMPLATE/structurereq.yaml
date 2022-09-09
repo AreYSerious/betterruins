@@ -54,6 +54,6 @@ body:
     attributes:
       label: Offset-Y
       description: Define a Offset-Y. How many blocks your structures bottom blocks should spawn underground.
-      placeholder: -2
+      placeholder: "-2"
     validations:
       required: false
