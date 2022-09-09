@@ -1,5 +1,5 @@
 ---
-name: Structure Request
+name: Structure request
 about: Use this to suggest or contribute builds
 title: ''
 labels: structure request
