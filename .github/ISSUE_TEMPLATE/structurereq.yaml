@@ -12,7 +12,7 @@ body:
     id: shortdescription
     attributes:
       label: Short description
-      description: Describe your build in one senctence.
+      description: Describe your structure in one senctence.
       placeholder: Small tower like ruin.
     validations:
       required: false
