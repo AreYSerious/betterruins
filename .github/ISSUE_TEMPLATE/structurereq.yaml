@@ -39,12 +39,12 @@ body:
       value: "## Upload" 
   - type: markdown
     attributes:
-      value: "Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS)" 
+      value: "If you want to upload a schematics file that you exported from your world. <br> Use this [link](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) and upload your file there. <br> (I recommend that you contain your name in the structurefile.)" 
   - type: input
     id: filename
     attributes:
       label: Filename
       description: Enter your Filename here.
-      placeholder: structure.json
+      placeholder: structure-areyserious.json
     validations:
       required: false
