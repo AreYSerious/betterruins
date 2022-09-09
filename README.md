@@ -1,11 +1,11 @@
 <!-- Community Driven -->
 ## Community Driven
 
-<br>
-WIP
-LUL
-<br>
-<br>
+
+This Project is aims to be community driven that means everyone can contribute or suggest structures, ideas or more. <br>
+### How
+1. You got a structure or screenshot to show or want you suggest/contribute it.
+2. Start [here](https://github.com/AreYSerious/betterruins/issues/new?assignees=&labels=structure+request&template=structure-request.md&title=%5BStructure%5D) to fill out a [Template for Structure requests](https://github.com/AreYSerious/betterruins/issues/new?assignees=&labels=structure+request&template=structurereq.yaml&title=%5BStructure%5D%3A+).
 
 <!-- INSTALL -->
 ## Install
