@@ -47,6 +47,6 @@ body:
     validations:
       required: false
   - type: markdown
-      attributes:
-        value: "### Technical"
+    attributes:
+      value: "### Technical"
 
