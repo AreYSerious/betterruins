@@ -49,12 +49,4 @@ body:
   - type: markdown
       attributes:
         value: "### Technical"
-  - type: input
-     id: yoffset
-    attributes:
-      label: Offset-Y
-       description: Define a Offset-Y. How many blocks your structures bottom blocks should spawn underground.
-       placeholder: -2
-    validations:
-      required: false
 
