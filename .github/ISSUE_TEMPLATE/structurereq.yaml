@@ -51,4 +51,4 @@ body:
       value: "### Technical"
 - type: markdown
     attributes:
-      value: "<a href="https://www.w3schools.com">Visit W3Schools</a>"
+      value: "<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>"
