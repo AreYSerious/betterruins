@@ -49,6 +49,12 @@ body:
 - type: markdown
     attributes:
       value: "### Technical"
-- type: markdown
+  - type: input
+    id: yoffset
     attributes:
-      value: "<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>"
+      label: Offset-Y
+      description: Define a Offset-Y. How many blocks your structures bottom blocks should spawn underground.
+      placeholder: -2
+    validations:
+      required: false
+
