@@ -36,15 +36,12 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: |
-        <br>
-        Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) <br>
-        Leave this as it is you can upload after you finished this Issue/Structure request. 
+      value: Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) <br> Leave this as it is you can upload after you finished this Issue/Structure request. 
   - type: input
     id: filename
     attributes:
       label: Filename
-      description: Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS)
+      description: Enter your Filename here.
       placeholder: structure.json
     validations:
       required: false
