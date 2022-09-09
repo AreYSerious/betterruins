@@ -7,9 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Short Description about your awesome structure that you want to suggest or contribute!
   - type: input
-    id: contact
+    id: shortdescription
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
