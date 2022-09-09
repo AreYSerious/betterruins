@@ -46,3 +46,9 @@ body:
       placeholder: structure-areyserious.json
     validations:
       required: false
+- type: markdown
+    attributes:
+      value: "### Technical"
+- type: markdown
+    attributes:
+      value: "<a href="https://www.w3schools.com">Visit W3Schools</a>"
