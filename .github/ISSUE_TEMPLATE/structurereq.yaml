@@ -6,7 +6,7 @@ labels: ["structure request"]
 body:
   - type: markdown
     attributes:
-      value: "![This](https://imgur.com/a/SDpooM3)"
+      value: "[This](https://imgur.com/a/SDpooM3)"
   - type: markdown
     attributes:
       value: |
