@@ -6,6 +6,9 @@ labels: ["structure request"]
 body:
   - type: markdown
     attributes:
+      value: "![This](https://imgur.com/a/SDpooM3)"
+  - type: markdown
+    attributes:
       value: |
         Short Description about your awesome structure that you want to suggest or contribute!
   - type: input
