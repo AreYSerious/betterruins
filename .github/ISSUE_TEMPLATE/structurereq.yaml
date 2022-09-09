@@ -20,7 +20,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: If you want to write something more about your structure like Lore or Secrets.
+      description: If you want to write something more about your structure you can do that here.
       placeholder: The structure contains leftovers from traders that passed away.
       value: "The structure contains leftovers from traders that passed away."
     validations:
