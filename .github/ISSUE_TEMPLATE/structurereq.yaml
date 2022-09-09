@@ -48,7 +48,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: "## Technical"
+      value: "## Optional"
   - type: input
     id: yoffset
     attributes:
