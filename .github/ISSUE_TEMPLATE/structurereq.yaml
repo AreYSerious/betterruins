@@ -36,7 +36,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: "Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) <br> Leave this as it is you can upload after you finished this Issue/Structure request." 
+      value: "Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS)" 
   - type: input
     id: filename
     attributes:
