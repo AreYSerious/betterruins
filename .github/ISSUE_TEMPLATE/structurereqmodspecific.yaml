@@ -21,7 +21,7 @@ body:
     attributes:
       label: Modname
       description: Enter your Modname here.
-      placeholder: Small tower like ruin.
+      placeholder: ExpandedFoodsv0.0.0
     validations:
       required: true
   - type: textarea
