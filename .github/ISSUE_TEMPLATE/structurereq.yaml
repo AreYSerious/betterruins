@@ -8,12 +8,10 @@ body:
     attributes:
       value: |
         Short Description about your awesome structure that you want to suggest or contribute!
-  - type: markdown
-    attributes:
-      value: "## Title"
   - type: input
     id: shortdescription
     attributes:
+      label: Title
       description: Describe your structure in one senctence.
       placeholder: Small tower like ruin.
     validations:
