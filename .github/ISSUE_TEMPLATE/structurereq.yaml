@@ -34,16 +34,16 @@ body:
       value: "Drag and drop pictures here."
     validations:
       required: false
-  - type: textarea
-    id: logs
+  - type: markdown
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-  - type: checkboxes
-    id: terms
+      value: |
+        Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) <br>
+        Leave this as it is you can upload after you finished this Issue/Structure request. 
+  - type: input
+    id: filename
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Filename
+      description: Enter your filename that you uploaded.
+      placeholder: structure.json
+    validations:
+      required: false
