@@ -1,7 +1,7 @@
 ---
 name: Structure request
 about: Use this to suggest or contribute builds
-title: ''
+title: "[Structure]"
 labels: structure request
 assignees: ''
 
