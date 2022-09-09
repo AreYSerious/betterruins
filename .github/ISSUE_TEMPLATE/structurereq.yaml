@@ -36,7 +36,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: "### Schematicsupload" 
+      value: "### Schematics Upload" 
   - type: markdown
     attributes:
       value: "If you want to upload a schematics file that you exported from your world. <br> Use this [link](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) and upload your file there. <br> (I recommend that you contain your name in the structurefile.)" 
