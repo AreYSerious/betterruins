@@ -17,7 +17,16 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: description
+    attributes:
+      label: Description
+      description: If you want to write something more about your structure like Lore or Secrets.
+      placeholder: The structure contains leftovers from traders that passed away.
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
