@@ -11,7 +11,7 @@ body:
   - type: input
     id: shortdescription
     attributes:
-      label: Short description
+      label: Title
       description: Describe your structure in one senctence.
       placeholder: Small tower like ruin.
     validations:
