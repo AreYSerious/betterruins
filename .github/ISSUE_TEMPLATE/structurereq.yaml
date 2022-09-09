@@ -44,7 +44,7 @@ body:
     id: filename
     attributes:
       label: Filename
-      description: Enter your filename that you uploaded.
+      description: Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS)
       placeholder: structure.json
     validations:
       required: false
