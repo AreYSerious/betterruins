@@ -1,0 +1,56 @@
+name: Mod specific structure request
+description: Use this to suggest or contribute structures that only spawn with another mod installed.
+title: "[ModStructure]: "
+labels: ["structure request"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Short Description about your awesome structure that you want to suggest or contribute!
+  - type: input
+    id: shortdescription
+    attributes:
+      label: Short description
+      description: Describe your structure in one senctence.
+      placeholder: Small tower like ruin.
+    validations:
+      required: true
+  - type: input
+    id: modname
+    attributes:
+      label: Modname
+      description: Enter your Modname here.
+      placeholder: Small tower like ruin.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: If you want to write something more about your structure you can do that here.
+      placeholder: The structure contains leftovers from traders that passed away.
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Upload your screenshots here.
+      placeholder: Drag and drop pictures here.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "### Schematics Upload" 
+  - type: markdown
+    attributes:
+      value: "If you want to upload a schematics file that you exported from your world. <br> Use this [link](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) and upload your file there. <br> (I recommend that you contain your name in the structurefile.)" 
+  - type: input
+    id: filename
+    attributes:
+      label: Filename
+      description: Enter your Filename here.
+      placeholder: structure-areyserious.json
+    validations:
+      required: false
