@@ -17,5 +17,5 @@ Insert pictures here.
 Contains leftovers from settled traders.
 
 **Structure File:**
-Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS)
+Upload your Structure File here: [OneDriveFolder](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) <br>
 Leave this as it is you can upload after you finished this Issue/Structure request.
