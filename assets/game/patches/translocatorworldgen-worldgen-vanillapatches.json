@@ -8,13 +8,6 @@
   },
   {
     "op": "replace",
-    "path": "/structures/4/chance",
-    "value": 0.001
-    ,
-    "file": "worldgen/structures.json"
-  },
-  {
-    "op": "replace",
     "path": "/structures/4/schematics",
     "value": ["overground/civicruins1/*"]
     ,
