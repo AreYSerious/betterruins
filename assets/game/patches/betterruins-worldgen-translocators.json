@@ -13,7 +13,8 @@
                   ],
                   "offsety": -2
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -29,7 +30,8 @@
                   ],
                   "offsety": -10
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -46,6 +48,7 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -3
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   }
 ]
