@@ -32,18 +32,12 @@ body:
       placeholder: Drag and drop pictures here.
     validations:
       required: false
-  - type: markdown
+    - type: textarea
+    id: schematicsupload
     attributes:
-      value: "## Schematics Upload" 
-  - type: markdown
-    attributes:
-      value: "If you want to upload a schematics file that you exported from your world. <br> Use this [link](https://1drv.ms/u/s!AvmodXdmrW-QhuU_PUTj-4QiswS5bQ?e=ENXhLS) and upload your file there. <br> (I recommend that you contain your name in the structurefile.)" 
-  - type: input
-    id: filename
-    attributes:
-      label: Filename
-      description: Enter your Filename here.
-      placeholder: structure-areyserious.json
+      label: Schematics Upload
+      description: Put your structures into a .zip file and drag and drop it in the field below.
+      placeholder: Upload your .zip file containing the structure files here.
     validations:
       required: false
   - type: markdown
