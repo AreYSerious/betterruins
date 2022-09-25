@@ -1,0 +1,82 @@
+name: Bugreport
+description: You can report a bug or issue here.
+title: "[BUG]: "
+labels: ["bug"]
+
+body:
+  - type: input
+    id: shortdescription
+    attributes:
+      label: Game Version
+      description: What Game Version where you using?
+      placeholder: v1.17.4
+    validations:
+      required: true
+  - type: checkboxes
+    id: operating-systems
+    attributes:
+      label: Platform
+      description: Select your operating system.
+      options:
+        - label: Windows
+        - label: Mac
+        - label: Linux
+    validations:
+      required: true
+  - type: checkboxes
+    id: modded
+    attributes:
+      label: Modded
+      description: Did you use mods.
+      options:
+        - label: Yes 
+        - label: No 
+    validations:
+      required: true
+  - type: checkboxes
+    id: playmode
+    attributes:
+      label: SP/MP
+      description: Single- or Multiplayer
+      options:
+        - label: Singleplayer
+        - label: Multiplayer
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: If you want to write something more about your structure you can do that here.
+      placeholder: The structure contains leftovers from traders that passed away.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: If you want to write something more about your structure you can do that here.
+      placeholder: 1. Make a '....'
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach a screenshot if it helps explain the issue / shows a visual bug.
+      placeholder: Drag and drop pictures here.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: In the game's Logs folder you may be able to find more information
+inside client-main.txt and server-main.txt. Alternatively, you may use
+gist.github.com to upload logs, linking them here, if they're too large.
+      placeholder: Paste crash between the triple backticks.
+      value: 1. Make a '....'
+2. Use it on '....'
+3. It crashes / doesn't do the thing.
+    validations:
+      required: false
