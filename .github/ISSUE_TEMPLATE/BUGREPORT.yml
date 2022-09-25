@@ -12,7 +12,7 @@ body:
       placeholder: v1.17.4
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: operating-systems
     attributes:
       label: Platform
@@ -23,7 +23,7 @@ body:
         - label: Linux
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: modded
     attributes:
       label: Modded
@@ -33,7 +33,7 @@ body:
         - label: Vanilla
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: playmode
     attributes:
       label: SP/MP
