@@ -32,7 +32,7 @@ body:
       placeholder: Drag and drop pictures here.
     validations:
       required: false
-   - type: textarea
+  - type: textarea
     id: schematicsupload
     attributes:
       label: Schematics Upload
