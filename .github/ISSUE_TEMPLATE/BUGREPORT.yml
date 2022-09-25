@@ -18,9 +18,9 @@ body:
       label: Platform
       description: Select your operating system.
       options:
-        - label: Windows
-        - label: Mac
-        - label: Linux
+        - Windows
+        - Mac
+        - Linux
     validations:
       required: true
   - type: dropdown
@@ -29,8 +29,8 @@ body:
       label: Modded
       description: Did you use mods.
       options:
-        - label: Mods
-        - label: Vanilla
+        - Modded
+        - Vanilla
     validations:
       required: true
   - type: dropdown
@@ -39,8 +39,8 @@ body:
       label: SP/MP
       description: Single- or Multiplayer
       options:
-        - label: Singleplayer
-        - label: Multiplayer
+        - Singleplayer
+        - Multiplayer
     validations:
       required: true
   - type: textarea
