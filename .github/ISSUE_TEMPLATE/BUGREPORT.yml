@@ -29,8 +29,8 @@ body:
       label: Modded
       description: Did you use mods.
       options:
-        - label: Yes
-        - label: No
+        - label: sdafadsg
+        - label: aafeewaf
     validations:
       required: true
   - type: checkboxes
