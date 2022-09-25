@@ -73,6 +73,6 @@ body:
       label: Logs
       description: In the game's Logs folder you may be able to find more information inside client-main.txt and server-main.txt. Alternatively, you may use gist.github.com to upload logs, linking them here, if they're too large.
       placeholder: Paste crash between the triple backticks.
-      value: ```Log```
+      value: "```Log```"
     validations:
       required: false
