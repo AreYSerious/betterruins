@@ -5,7 +5,7 @@ labels: ["bug"]
 
 body:
   - type: input
-    id: shortdescription
+    id: mod-version
     attributes:
       label: Mod Version
       description: What BetterRuins Version where you using?
@@ -13,7 +13,7 @@ body:
     validations:
       required: true
   - type: input
-    id: shortdescription
+    id: game-version
     attributes:
       label: Game Version
       description: What Game Version where you using?
