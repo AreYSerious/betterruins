@@ -41,7 +41,7 @@
                   "code": "ruin",
                   "group": "megaruins",
                   "minGroupDistance": 4000,
-                  "chance": 2, 
+                  "chance": 1, 
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructure1-o12/*"
