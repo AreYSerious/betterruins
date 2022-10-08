@@ -6,14 +6,15 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 800,
-                  "chance": 0.5,
+                  "chance": 0.7,
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o2/*"
                   ],
                   "offsety": -2
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -22,14 +23,15 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 800,
-                  "chance": 0.2,
+                  "chance": 0.3,
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o10/*"
                   ],
                   "offsety": -10
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -38,7 +40,7 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 800,
-                  "chance": 0.4,
+                  "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o3/*"
@@ -46,6 +48,7 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -3
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   }
 ]

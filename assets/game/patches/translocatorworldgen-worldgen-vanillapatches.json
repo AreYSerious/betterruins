@@ -1,35 +1,31 @@
 [
   {
     "op": "replace",
-    "path": "/structures/3/schematics",
-    "value": ["overground/civicruins/*"]
+    "path": "/structures/3/chance",
+    "value": 0
     ,
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "replace",
     "path": "/structures/4/schematics",
-    "value": ["overground/civicruins1/*"]
+    "value": ["overground/civicruins/*"]
     ,
-    "file": "worldgen/structures.json"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/4/chance",
-    "value": 0.001
-    ,
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   },
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "spanruins",
-                  "chance": 0.025,
+                  "chance": 0.01,
                   "schematics": [
                     "overground/vanillarework-spanruins/*"
                   ]
     },
-    "file": "worldgen/structures.json"
+    "file": "worldgen/structures.json",
+    "side": "Server"
   }
 ]
