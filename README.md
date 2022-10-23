@@ -26,8 +26,8 @@ This Project is aims to be community driven that means everyone can suggest stru
 * Serverside only
 * Structures in different stonetypes (v0.0.2)
 
-<a href="https://youtu.be/6zs5y08kmF0" target="_blank">
- <img src="https://img.youtube.com/vi/6zs5y08kmF0/maxresdefault.jpg" alt="Watch the video" width="560" height="315" border="10" />
+<a href="https://youtu.be/E_z6qCdQKQA" target="_blank">
+ <img src="https://img.youtube.com/vi/E_z6qCdQKQA/maxresdefault.jpg" alt="Watch the video" width="560" height="315" border="10" />
 </a>
 
 
