@@ -19,11 +19,12 @@ This Project is aims to be community driven that means everyone can suggest stru
 
 <!-- FEATURES -->
 ## Features
-* 17 detailed ruins
+* 29 detailed new ruins
 * Custom loottables and vanilla lore items
 * Translocators on the surface
 * Vanilla friendly
 * Serverside only
+* Mega Structures
 * Structures in different stonetypes (v0.0.2)
 
 <a href="https://youtu.be/E_z6qCdQKQA" target="_blank">
