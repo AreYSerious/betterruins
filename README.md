@@ -22,9 +22,10 @@ This Project is aims to be community driven that means everyone can suggest stru
 * 29 detailed new ruins
 * Custom loottables and vanilla lore items
 * Translocators on the surface
+* Reworked multiple ruin types (Done: agriruins, ancientruins, civicruins, houseruins, marshalruins, spanruins, religiosruins | Todo: village)
 * Vanilla friendly
 * Serverside only
-* Mega Structures
+* Mega Structures (v0.0.4)
 * Structures in different stonetypes (v0.0.2)
 
 <a href="https://youtu.be/E_z6qCdQKQA" target="_blank">
