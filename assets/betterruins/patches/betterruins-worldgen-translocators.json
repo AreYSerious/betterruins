@@ -1,0 +1,53 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 1000,
+                  "chance": 0.2,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o2/*"
+                  ],
+                  "offsety": -2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 1000,
+                  "chance": 0.3,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o10/*"
+                  ],
+                  "offsety": -10
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 1000,
+                  "chance": 0.1,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o3/*"
+                  ],
+                  "offsety": -3
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]
