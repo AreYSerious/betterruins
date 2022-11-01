@@ -5,8 +5,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 400,
-                  "chance": 0.06,
+                  "minGroupDistance": 300,
+                  "chance": 0.12,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
@@ -22,13 +22,48 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 400,
+                  "minGroupDistance": 300,
+                  "chance": 0.12,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/ruinsbig-o2/*"
+                  ],
+                  "offsety": -2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "ruins",
+                  "minGroupDistance": 300,
                   "chance": 0.08,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o4/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -4
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "ruins",
+                  "minGroupDistance": 300,
+                  "chance": 0.16,
+                  "minTemp": 24,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/desertruin-o4/*"
+                  ],
                   "offsety": -4
     },
     "file": "game:worldgen/structures.json",
@@ -57,12 +92,30 @@
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
-                  "chance": 0.06,
+                  "chance": 0.12,
                   "group": "ruins",
-                  "minGroupDistance": 400,
+                  "minGroupDistance": 300,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o1/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "chance": 0.24,
+                  "group": "ruins",
+                  "minGroupDistance": 300,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/ruinsbig-o1/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -1

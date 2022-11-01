@@ -23,6 +23,23 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 1000,
+                  "chance": 0.15,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/trans-o1/*"
+                  ],
+                  "offsety": -1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "group": "translocators",
+                  "minGroupDistance": 1000,
                   "chance": 0.3,
                   "placement": "surface",
                   "schematics": [
