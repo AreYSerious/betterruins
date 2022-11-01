@@ -19,7 +19,7 @@ This Project is aims to be community driven that means everyone can suggest stru
 
 <!-- FEATURES -->
 ## Features
-* 29 detailed new ruins
+* 43 detailed new ruins
 * Custom loottables and vanilla lore items
 * Translocators on the surface
 * Reworked multiple ruin types (Done: agriruins, ancientruins, civicruins, houseruins, marshalruins, spanruins, religiosruins | Todo: village)
@@ -28,8 +28,8 @@ This Project is aims to be community driven that means everyone can suggest stru
 * Mega Structures (v0.0.4)
 * Structures in different stonetypes (v0.0.2)
 
-<a href="https://youtu.be/E_z6qCdQKQA" target="_blank">
- <img src="https://img.youtube.com/vi/E_z6qCdQKQA/maxresdefault.jpg" alt="Watch the video" width="560" height="315" border="10" />
+<a href="https://youtu.be/WFyX432Fnws" target="_blank">
+ <img src="https://img.youtube.com/vi/WFyX432Fnws/maxresdefault.jpg" alt="Watch the video" width="560" height="315" border="10" />
 </a>
 
 
@@ -49,6 +49,8 @@ This Project is aims to be community driven that means everyone can suggest stru
 ## Contributers
 
 * CatNoir
-    * Ruinbuilder: CatNoir sent me some awesome chiseled ruin builds and helped me with some inspirations. (Discord: CatNoir90#2016)
+    * Ruinbuilder (Discord: CatNoir90#2016): CatNoir sent me some awesome chiseled ruin builds and helped me with some inspirations. 
 * Dampus
-    * Ruinbuilder: v0.0.2 contains 2 builds provided by Dampus huge thank you! (Discord: Dampus#3479)
+    * Ruinbuilder (Discord: Dampus#3479): v0.0.2 contains 2 builds and v0.0.5 contains 3 builds provided by Dampus huge thank you! 
+* djvirus
+    * Ruinbuilder (Discord: djvirus#3526): v0.0.5 contains 1 build provided by djvirus huge thank you! 
