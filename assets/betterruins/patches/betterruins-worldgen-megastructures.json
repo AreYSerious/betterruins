@@ -1,0 +1,75 @@
+[
+
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.10, 
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructure-o12/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -12
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.04,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructure-o4/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -4
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.04,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructure-o5/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -5
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000,
+                  "chance": 0.08,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructure-o6/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "offsety": -6
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]
