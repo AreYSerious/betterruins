@@ -6,7 +6,7 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 1000,
-                  "chance": 0.1, 
+                  "chance": 0.13, 
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o2/*"
@@ -23,7 +23,7 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 1000,
-                  "chance": 0.07,
+                  "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o1/*"
@@ -40,7 +40,7 @@
                   "code": "gates",
                   "group": "translocators",
                   "minGroupDistance": 1000,
-                  "chance": 0.01,
+                  "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o3/*"
