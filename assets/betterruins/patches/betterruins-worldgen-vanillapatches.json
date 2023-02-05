@@ -1,0 +1,95 @@
+[
+  {
+    "op": "replace",
+    "path": "/structures/3/chance",
+    "value": 0
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/4/schematics",
+    "value": ["overground/br-civicruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/5/schematics",
+    "value": ["overground/br-houseruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/6/schematics",
+    "value": ["overground/br-religiosruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/7/schematics",
+    "value": ["overground/br-agriruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/8/schematics",
+    "value": ["overground/br-marshalruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/9/schematics",
+    "value": ["overground/br-ancientruins/*"]
+    ,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "spanruins",
+                  "chance": 0.005,
+                  "schematics": [
+                    "overground/vanillarework-spanruins/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+                "code": "ruinedvillage",
+                "chance": 0.01,
+                "generator": "LooselyGrouped",
+                "quantityStructures": { "avg": 5, "var": 2 },
+                "schematics": [
+                  { "path": "overground/villages-granite/*", "offsetY": -3, "weight": 100 }
+                ],
+                "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/villageTypes/0/chance",
+    "value": 0.02
+    ,
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  }
+]
