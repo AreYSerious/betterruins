@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "item",
+          "code": "ore-quartz",
+          "quantity": {
+            "avg": 15,
+            "var": 5
+          },
+          "chance": 100
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "armor",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

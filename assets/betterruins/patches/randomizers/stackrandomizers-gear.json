@@ -1,0 +1,81 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "clothes-butterflypin-temporal",
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "metalbit-silver",
+      "quantity": {
+        "avg": 6,
+        "var": 2
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "metalbit-gold",
+      "quantity": {
+        "avg": 5,
+        "var": 3
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "gear-temporal",
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+
+
+
+
+
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "resonator-north",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "omoktabletop",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

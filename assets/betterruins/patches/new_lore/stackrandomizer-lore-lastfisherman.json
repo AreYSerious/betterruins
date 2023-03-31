@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lastfisherman",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        { "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastfisherman" } }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "lastfisherman",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

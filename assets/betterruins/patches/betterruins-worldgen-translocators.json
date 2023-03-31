@@ -1,17 +1,19 @@
 [
+  // Ruins contain translocators
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "gates",
                   "group": "translocators",
-                  "minGroupDistance": 1000,
-                  "chance": 0.35, 
+                  "minGroupDistance": 1200, //1000
+                  "chance": 0.18, //0.12
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o2/*"
                   ],
-                  "offsety": -2
+                  "offsety": -2,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -22,13 +24,14 @@
     "value": {
                   "code": "gates",
                   "group": "translocators",
-                  "minGroupDistance": 1000,
-                  "chance": 0.3,
+                  "minGroupDistance": 1200, //1200
+                  "chance": 0.06, //0.04
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o1/*"
                   ],
-                  "offsety": -1
+                  "offsety": -1,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -39,13 +42,14 @@
     "value": {
                   "code": "gates",
                   "group": "translocators",
-                  "minGroupDistance": 1000,
-                  "chance": 0.10,
+                  "minGroupDistance": 1200, //1200
+                  "chance": 0.03, //0.02
                   "placement": "surface",
                   "schematics": [
                     "overground/trans-o3/*"
                   ],
-                  "offsety": -3
+                  "offsety": -3,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

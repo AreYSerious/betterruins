@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-wolfstone",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        { "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "wolfstone" } }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "wolfstone",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
