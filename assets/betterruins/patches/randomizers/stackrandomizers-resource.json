@@ -1,0 +1,317 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "bonemeal",
+      "quantity": {
+        "avg": 15,
+        "var": 10
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "crushed-alum",
+      "quantity": {
+        "avg": 6,
+        "var": 2
+      },
+      "chance": 4
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "crushed-quartz",
+      "quantity": {
+        "avg": 10,
+        "var": 7
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "salt",
+      "quantity": {
+        "avg": 7,
+        "var": 3
+      },
+      "chance": 4
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "saltpeter",
+      "quantity": {
+        "avg": 20,
+        "var": 7
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "powderedborax",
+      "quantity": {
+        "avg": 10,
+        "var": 5
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "beeswax",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "compost",
+      "quantity": {
+        "avg": 16,
+        "var": 8
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 25,
+        "var": 8
+      },
+      "chance": 12
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "fat",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 6
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "feather",
+      "quantity": {
+        "avg": 8,
+        "var": 2
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "flaxfibers",
+      "quantity": {
+        "avg": 8,
+        "var": 4
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "cattailtops",
+      "quantity": {
+        "avg": 10,
+        "var": 3
+      },
+      "chance": 12
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "clay-blue",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "clay-fire",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "hide-raw-large",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "resin",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 6
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "poultice-reed-horsetail",
+      "quantity": {
+        "avg": 4,
+        "var": 1
+      },
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "metalbit-copper",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 4
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "firewood",
+      "quantity": {
+        "avg": 8,
+        "var": 6
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-resource/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "rot",
+      "quantity": {
+        "avg": 20,
+        "var": 15
+      },
+      "chance": 12
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

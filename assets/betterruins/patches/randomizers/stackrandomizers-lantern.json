@@ -1,0 +1,158 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "bed-woodaged-head-north",
+      "chance": 50
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "bookshelves-ns",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 50
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "resonator-north",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "door-sleek-windowed-aged",
+      "chance": 70
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "door-solid-aged",
+      "chance": 70
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "door-1x3gate-aged",
+      "chance": 50
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "door-2x2gate-aged",
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "door-2x4gate-aged",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "forge",
+      "chance": 70
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "irondoor-north-down-closed-left",
+      "chance": 30
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "torchholder-brass-empty-north",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 70
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "jonas-lamp",
+      "attributes": {"type": "lightsource/on/lumi-pipe-v-lamp"},
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "torchholder-aged-empty-north",
+      "chance": 70
+    },
+    "quantity": {
+      "avg": 2,
+      "var": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

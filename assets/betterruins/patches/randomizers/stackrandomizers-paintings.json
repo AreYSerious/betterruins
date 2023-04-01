@@ -1,0 +1,243 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "omoktabletop",
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "woodenrails-flat_ns",
+      "quantity": {
+        "avg": 6,
+        "var": 2
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "altar-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-sunkenruin-north",
+      "chance": 30
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-traveler-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "ironfence-base-ew",
+      "quantity": {
+        "avg": 10,
+        "var": 5
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "ironfence-top-ew",
+      "quantity": {
+        "avg": 10,
+        "var": 5
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "cage-wooden-north",
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-bogfort-north",
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-castleruin-north",
+      "chance": 25
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-cow-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-hunterintheforest-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-seraph-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "spiderweb",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 40
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "plaster-diagonal-ud",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "plaster-stripes-ud",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "plaster-plain",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "plaster-square",
+      "quantity": {
+        "avg": 20,
+        "var": 10
+      },
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "painting-sodhouse-north",
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

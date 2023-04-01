@@ -1,0 +1,267 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-acacia",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-birch",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-kapok",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-maple",
+      "quantity": {
+        "avg": 5,
+        "var": 3
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-oak",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 15
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-pine",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-larch",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 10
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-crimsonkingmaple",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-redwood",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-greenspirecypress",
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-purpleheart",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-walnut",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-ebony",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "treeseed-baldcypress",
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-pineapple",
+      "quantity": {
+        "avg": 3,
+        "var": 1
+      },
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-cassava",
+      "quantity": {
+        "avg": 2,
+        "var": 1
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-amaranth",
+      "quantity": {
+        "avg": 4,
+        "var": 1
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-peanut",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "seeds-sunflower",
+      "quantity": {
+        "avg": 4,
+        "var": 2
+      },
+      "chance": 8
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-newlore",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "item",
+          "code": "lore-book-aged-orangebrown",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-orange",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-darkgreen",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-darkgray",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-cherryred",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-brickred",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-darkolive",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-darkbeige",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-olive",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-purpleorange",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-aged-gray",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-rotten-gray",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-rotten-rust",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-rotten-purple",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-rotten-green",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-book-rotten-brown",
+          "chance": 10
+        },
+        {
+          "type": "item",
+          "code": "lore-paper",
+          "chance": 100
+        },
+        {
+          "type": "item",
+          "code": "lore-scroll",
+          "chance": 100
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "newlore",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

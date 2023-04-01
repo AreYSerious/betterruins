@@ -1,0 +1,335 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "block",
+          "code": "storagevessel-oxblood",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-loam",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-undergrowth",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-beehive",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-harvest",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-honeydew",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-rutile",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-seasalt",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-springflowers",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-volcanic",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "wateringcan-burned",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "bowl-fired",
+          "chance": 100
+        },
+        {
+          "type": "block",
+          "code": "ingotmold-burned",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-axe",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-pickaxe",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-shovel",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-blade-falx",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-hammer",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-anvil",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-helvehammer",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-hoe",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-prospectingpick",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "toolmold-burned-lamellae",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-burnt",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "crucible-burned",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "crock-burned-east",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-amber",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-boneash",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-celadon",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-copper",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-earthern",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-moss",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-rutile",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-ochre",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-seasalt",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "flowerpot-tenmoku",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "jug-blue-fired",
+          "chance": 100
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-burnt",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-amber",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-ashforest",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-copper",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-cthonic",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-earthern",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-loam",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-ochre",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-rime",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-seasalt",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-tenmoku",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "clayplanter-undergrowth",
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "claypot-burned",
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-ashforest",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-chthonic",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-copper",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-earthen",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-rain",
+          "attributes": {"type": "normal"},
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-raw",
+          "chance": 3
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-burned",
+          "attributes": {"type": "normal"},
+          "chance": 80
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-cowrie",
+          "attributes": {"type": "normal"},
+          "chance": 10
+        },
+        {
+          "type": "block",
+          "code": "storagevessel-rime",
+          "attributes": {"type": "normal"},
+          "chance": 10
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "clayproducts",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

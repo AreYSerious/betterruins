@@ -1,12 +1,13 @@
 [
+  // New Ruins
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 500,
-                  "chance": 0.10,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.2,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
@@ -22,14 +23,15 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 500,
-                  "chance": 0.06,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.02,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o4/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
-                  "offsety": -4
+                  "offsety": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -39,15 +41,16 @@
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
-                  "chance": 0.07,
+                  "chance": 0.1,
                   "group": "ruins",
-                  "minGroupDistance": 500,
+                  "minGroupDistance": 400, //500
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o1/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
-                  "offsety": -1
+                  "offsety": -1,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
