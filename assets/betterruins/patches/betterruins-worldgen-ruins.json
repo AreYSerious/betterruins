@@ -12,6 +12,8 @@
                   "schematics": [
                     "overground/ruins-o2/*"
                   ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "offsety": -2
     },
     "file": "game:worldgen/structures.json",
@@ -31,6 +33,8 @@
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -4,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
@@ -50,6 +54,8 @@
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -1,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",

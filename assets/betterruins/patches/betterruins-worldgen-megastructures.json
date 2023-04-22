@@ -7,13 +7,16 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure which is a giant wallpiece has 7 random stonevariants
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.1, 
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+
                   "offsety": -4
     },
     "file": "game:worldgen/structures.json",
@@ -26,7 +29,7 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure has multiple giant stones which look out of place. Has a experiment lab in one of the stones and pipes around it. Spawns with local stone type.
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 2,
                   "placement": "surface",
                   "schematics": [
@@ -34,6 +37,8 @@
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -10,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
@@ -46,13 +51,15 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure which looks like a nordic house which has fallen apart. Has 2 different variants and spawns with 3 different random stonetypes for each variant.
-                  "minGroupDistance": 200, //5000
-                  "chance": 0.3,
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.2,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "offsety": -6
     },
     "file": "game:worldgen/structures.json",
@@ -65,13 +72,16 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Dampus built after the rl ruin Visingsborg. Spawns with local stone type.
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.4,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-4/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 180,
                   "offsety": -6,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -85,13 +95,16 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Catnoir ruinified by me. Spawns with local stone type.
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 270,
                   "offsety": -5,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -105,13 +118,15 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by bodláček. Spawns with local stone type.
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.3,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-6/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "offsety": -5,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -125,13 +140,16 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Par. Spawns with local stone type.
-                  "minGroupDistance": 200, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.8,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 270,
                   "offsety": -5
     },
     "file": "game:worldgen/structures.json",

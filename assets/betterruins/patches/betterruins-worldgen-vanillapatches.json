@@ -364,7 +364,7 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.011,
+                "chance": 0.008,
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 1 },
                 "schematics": [
