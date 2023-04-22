@@ -13,6 +13,8 @@
                     "overground/trans-o2/*"
                   ],
                   "offsety": -2,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
@@ -31,6 +33,8 @@
                     "overground/trans-o1/*"
                   ],
                   "offsety": -1,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
@@ -49,6 +53,8 @@
                     "overground/trans-o3/*"
                   ],
                   "offsety": -3,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",

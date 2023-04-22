@@ -14,6 +14,9 @@
                     "overground/megastructures/megastructure-1/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+
                   "offsety": -4
     },
     "file": "game:worldgen/structures.json",
@@ -34,6 +37,8 @@
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -10,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
@@ -47,12 +52,14 @@
                   "group": "megaruins",
                   // Megastructure which looks like a nordic house which has fallen apart. Has 2 different variants and spawns with 3 different random stonetypes for each variant.
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.3,
+                  "chance": 0.2,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "offsety": -6
     },
     "file": "game:worldgen/structures.json",
@@ -72,6 +79,9 @@
                     "overground/megastructures/megastructure-4/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 180,
                   "offsety": -6,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -92,6 +102,9 @@
                     "overground/megastructures/megastructure-5/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 270,
                   "offsety": -5,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -112,6 +125,8 @@
                     "overground/megastructures/megastructure-6/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
                   "offsety": -5,
                   "rockTypeRemapGroup": "surfaceruins"
     },
@@ -126,12 +141,15 @@
                   "group": "megaruins",
                   // Megastructure by Par. Spawns with local stone type.
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.4,
+                  "chance": 0.8,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 270,
                   "offsety": -5
     },
     "file": "game:worldgen/structures.json",
