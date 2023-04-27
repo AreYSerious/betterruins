@@ -3,9 +3,9 @@
   "modid": "betterruins",
   "name": "BetterRuins",
   "description" : "Adds more Ruins to the worldgen (and translocators within them)",
-  "authors": ["NiclAss"],
+  "authors": ["NiclAss", "Dampus", "Djvirus", "Bodlacek", "Catnoir", "Par", "NiteFox"],
   "version": "0.1.0",
-  "requiredOnClient": false,
+  "requiredOnClient": true, //set this from false to true
   "dependency": {
     "game": ""
   }
