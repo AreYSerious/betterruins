@@ -21,5 +21,20 @@
     "lore-glimmershield-piece1": "Nestled in the heart of the kingdom, there stood a grand castle known as Glimmershield. It was a marvel to behold, with its imposing square shape surrounded by a deep moat and guarded by four mighty towers, each standing tall and proud in its own right.\r\nThe Wycliffe family, a powerful and influential clan, were the lords of Glimmershield during the early centuries.\r\nTheir castle was the envy of all who laid eyes upon it, a true testament to their wealth, power, and prestige.\r\nThe castle walls were adorned with sculptures and paintings, each one more exquisite than the last. In the library, a vast collection of books filled every shelf, a treasure trove of knowledge that the family had acquired through their many journeys and dealings.___NEWPAGE___",
     "lore-glimmershield-piece2": "But the Wycliffe family were not just wealthy, they were also powerful. Within the castle's armory, weapons and armor were stored, enough to equip an entire army of 200 soldiers. The Wycliffe family was a force to be reckoned with, and they knew it.\r\nOutside the walls of the castle, the Wycliffe family's lands stretched far and wide, and it was a sight to behold. Large orchards and gardens could be seen in all directions, carefully tended to by the family's servants and laborers. It was a symbol of their power, a testament to their rule over the land.\r\nHowever, as with all great things, Glimmershield's glory eventually came to an end. After the death of Earl Edmund Wycliffe, the castle sat empty for many years, falling into disrepair as the family struggled to maintain their power and influence.___NEWPAGE___",
     "lore-glimmershield-piece3": "It wasn't until the later centuries that the castle was given a new purpose, but not one it would have welcomed. The castle was transformed into a prison camp for war prisoners, a dark and foreboding place that saw much suffering and hardship.\r\nThe prisoners who were confined within the castle walls were treated harshly, with little regard for their wellbeing or basic human rights. Many of them died within the castle walls, their bodies left to rot in the dungeons and forgotten corners of the castle.\r\nIn the end, it was said that it was the prisoners themselves who set fire to the castle, reducing it to ruins and ash. Today, only the left wing of Glimmershield Castle remains, a stark reminder of the family's once-powerful rule and the tumultuous events that led to its destruction.",
-    "game:ingamediscovery-lore-glimmershield": "Discovered lore 'The Glimmershield Castle'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>"
+    "game:ingamediscovery-lore-glimmershield": "Discovered lore 'The Glimmershield Castle'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+
+
+
+    "game:item-stackrandomizer-darkheat":"BetterRuins LoreRandomizer Darkheat",
+    "game:item-stackrandomizer-glimmershield":"BetterRuins LoreRandomizer Glimmershield",
+    "game:item-stackrandomizer-lastfisherman":"BetterRuins LoreRandomizer Lastfisherman",
+    "game:item-stackrandomizer-lastwall":"BetterRuins LoreRandomizer Lastwall",
+    "game:item-stackrandomizer-wolfstone":"BetterRuins LoreRandomizer Wolfstone",
+
+    "game:item-stackrandomizer-armor":"BetterRuins LootRandomizer Armor (WIP)",
+    "game:item-stackrandomizer-buildingblocks":"BetterRuins LootRandomizer Buildingblocks",
+    "game:item-stackrandomizer-clayproducts":"BetterRuins LootRandomizer Clayproducts",
+    "game:item-stackrandomizer-mechanical":"BetterRuins LootRandomizer Mechanical",
+    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer Newlore"
 }

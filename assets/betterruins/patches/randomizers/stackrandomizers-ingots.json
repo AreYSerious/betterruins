@@ -1,0 +1,107 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-electrum",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-cupronickel",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 6
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-leadsolder",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-chromium",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 0.25
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-platinum",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 0.25
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-titanium",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 0.25
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "ingot-uranium",
+      "quantity": {
+        "avg": 1.5,
+        "var": 0.5
+      },
+      "chance": 0.25
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
