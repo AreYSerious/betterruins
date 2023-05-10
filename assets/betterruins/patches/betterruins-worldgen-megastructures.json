@@ -154,5 +154,33 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "megaruins",
+                  // Megastructure by StAdrian. Spawns with local stone type. Not working yet
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0, // 6
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-8/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "EntranceRotation": 270,
+                  "offsety": -2,
+                  "minTemp": 20,
+                  "maxTemp": 39,
+                  "minRain": 0.1,
+                  "maxRain": 1,
+                  "minForest": 0.1,
+                  "maxForest": 1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
