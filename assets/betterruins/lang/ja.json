@@ -17,15 +17,5 @@
     "lore-glimmershield-piece1": "王国の中心部に、グリマーシールドと呼ばれる壮大な城が建っていた。その堂々たる四角い城は、深い堀に囲まれ、4つの塔に守られ、それぞれが高くそびえ立っていた。\r\nワイクリフ家は、強大な影響力を持つ一族で、初期の数世紀はグリマーシールドの領主でした。\r\n彼らの城は、見る者すべての羨望を集め、富と権力と威信を如実に物語っていた。\r\n城壁は彫刻や絵画で飾られ、そのひとつひとつがより精巧に出来ていた。書斎には、一族が旅や取引を通じて得た知識の宝庫である膨大な数の本が、あらゆる棚を埋め尽くしていた。___NEWPAGE___",
     "lore-glimmershield-piece2": "しかし、ワイクリフ家は単に裕福なだけでなく、強大な影響力を持っていた。城の武器庫には武器や鎧が保管されており、200人の兵士の全軍を装備出来るほどだった。ワイクリフ家は侮れない存在であり、彼らはそれを知っていた。\r\n城壁の外には、ワイクリフ家の土地が広く広がっていて、それは素晴らしい光景であった。広大な果樹園や庭園が四方八方に広がり、一家の使用人や労働者によって丁寧に手入れされていた。それは彼らの力の象徴であり、この地を支配している証でもあった。\r\nしかし、あらゆる偉業と同様に、グリマーシールドの栄光もやがて終わりを告げる。エドマンド・ワイクリフ伯爵の死後、城は何年も空き家となり、一族が権力と影響力を維持するのに苦労する中、荒廃していった。___NEWPAGE___",
     "lore-glimmershield-piece3": "しかし、後世になってから、この城は新たな目的を与えられた。城は戦争捕虜の収容所となり、暗く不気味な場所で、多くの苦痛と苦難を経験することになった。\r\n城壁の中に閉じ込められた囚人たちは、彼らの健康や基本的人権をほとんど考慮することなく、過酷な扱いを受けた。多くの囚人が城の中で死に、その亡骸は地下牢や城の隅に放置され、朽ち果てた。\r\n結局、城に火を放ち、廃墟と化したのは囚人たち自身であったと言われている。現在では、グリマーシールド城の左翼だけが残っており、かつての一族の強大な支配力と、その破壊に至った波乱万丈の出来事を、如実に物語っている。",
-    "game:ingamediscovery-lore-glimmershield": "伝承「グリマーシールド城」\r\nパート {0} / {1} を発見した\r\n<font size=\"20\">Jキーでジャーナルを開こう</font>",
-    "game:item-stackrandomizer-darkheat": "BetterRuins LoreRandomizer Darkheat",
-    "game:item-stackrandomizer-glimmershield": "BetterRuins LoreRandomizer Glimmershield",
-    "game:item-stackrandomizer-lastfisherman": "BetterRuins LoreRandomizer Lastfisherman",
-    "game:item-stackrandomizer-lastwall": "BetterRuins LoreRandomizer Lastwall",
-    "game:item-stackrandomizer-wolfstone": "BetterRuins LoreRandomizer Wolfstone",
-    "game:item-stackrandomizer-armor": "BetterRuins LootRandomizer Armor (WIP)",
-    "game:item-stackrandomizer-buildingblocks": "BetterRuins LootRandomizer Buildingblocks",
-    "game:item-stackrandomizer-clayproducts": "BetterRuins LootRandomizer Clayproducts",
-    "game:item-stackrandomizer-mechanical": "BetterRuins LootRandomizer Mechanical",
-    "game:item-stackrandomizer-newlore": "BetterRuins LootRandomizer Newlore"
+    "game:ingamediscovery-lore-glimmershield": "伝承「グリマーシールド城」\r\nパート {0} / {1} を発見した\r\n<font size=\"20\">Jキーでジャーナルを開こう</font>"
 }
