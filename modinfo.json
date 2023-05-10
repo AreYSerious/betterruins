@@ -4,8 +4,9 @@
   "name": "BetterRuins",
   "description" : "Adds more Ruins to the worldgen (and translocators within them)",
   "authors": ["NiclAss", "Dampus", "Djvirus", "Bodlacek", "Catnoir", "Par", "NiteFox"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "requiredOnClient": true, //set this from false to true
+  "requiredOnServer": true,
   "dependency": {
     "game": ""
   }
