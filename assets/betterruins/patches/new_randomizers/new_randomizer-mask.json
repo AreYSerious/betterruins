@@ -1,0 +1,157 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-mask",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "item",
+          "code": "clothes-face-survivor",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-miner",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-surgeon",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-marketeer",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-festivecat",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-cat",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-hummingbird",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-crow",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-sheepskull",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-tailor-mask",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-malefactor-mask",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-hunter-mask",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-leather-reinforced-mask",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-marketeer",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-alchemist",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-surgeon",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-marketeer",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-mianguan",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-crown",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-fancy-head-dress",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-tophat",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-straw-hat",
+          "chance": 1000
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "mask",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
