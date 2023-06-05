@@ -1,0 +1,30 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/types/192/lightHSV",
+    "value": [ 32, 7, 9 ],
+    "file": "game:blocktypes/clutter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/types/193/lightHSV",
+    "value": [ 32, 7, 9 ],
+    "file": "game:blocktypes/clutter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/types/187/lightHSV",
+    "value": [ 32, 7, 9 ],
+    "file": "game:blocktypes/clutter.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/types/300/lightHSV",
+    "value": [ 32, 7, 9 ],
+    "file": "game:blocktypes/clutter.json",
+    "side": "Server"
+  }
+]
