@@ -9,6 +9,7 @@
 		schematics: ["treasure/chests/rank1/*"],
 		"placement": "surface",
 		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+    "mindistance": 200,
  		"offsety": -4
     },
     "file": "game:worldgen/structures.json",
@@ -24,6 +25,7 @@
 		schematics: ["treasure/chests/rank2/*"],
 		"placement": "surface",
 		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+    "mindistance": 200,
  		"offsety": -4
     },
     "file": "game:worldgen/structures.json",
@@ -39,6 +41,7 @@
 		schematics: ["treasure/chests/rank3*"],
 		"placement": "surface",
 		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+    "mindistance": 200,
  		"offsety": -4
     },
     "file": "game:worldgen/structures.json",
