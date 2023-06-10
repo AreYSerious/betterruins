@@ -1,0 +1,118 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergrounddungeon",
+                  "chance": 50,
+                  "name": "underground-common",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-common/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergrounddungeon",
+                  "chance": 18,
+                  "name": "underground-common-lowerchance",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-common-lowerchance/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergrounddungeon",
+                  "chance": 35,
+                  "name": "underground-uncommon",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-uncommon/*"
+                  ],
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergrounddungeon",
+                  "chance": 10,
+                  "name": "underground-uncommon-lowerchance",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-uncommon-lowerchance/*"
+                  ],
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergrounddungeon",
+                  "chance": 25,
+                  "name": "underground-rare",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-rare/*"
+                  ],
+                  "depth": { "dist": "invexp", "avg": 70, "var": 40 }
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "chance": 12,
+                  "name": "underground-translocator-common",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-translocator-common/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "chance": 18,
+                  "name": "underground-translocator-common-lowerchance",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-translocator-common-lowerchance/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "gates",
+                  "chance": 35,
+                  "name": "underground-translocator-uncommon",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-translocator-uncommon/*"
+                  ],
+                  "depth": { "dist": "invexp", "avg": 70, "var": 30 }
+    },
+    "file": "game:worldgen/structures.json"
+  }
+]
