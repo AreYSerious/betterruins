@@ -1,0 +1,102 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rottenkingclothing",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "item",
+          "code": "clothes-face-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-foot-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbodyover-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-rottenking",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-face-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-foot-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-shoulder-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbodyover-rotwalker",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "cloth-plain",
+          "chance": 5000
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "rottenkingclothing",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

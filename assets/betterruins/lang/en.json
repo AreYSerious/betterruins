@@ -32,9 +32,13 @@
     "game:item-stackrandomizer-lastwall":"BetterRuins LoreRandomizer Lastwall",
     "game:item-stackrandomizer-wolfstone":"BetterRuins LoreRandomizer Wolfstone",
 
-    "game:item-stackrandomizer-armor":"BetterRuins LootRandomizer Armor (WIP)",
+    "game:item-stackrandomizer-armor":"BetterRuins LootRandomizer Armor",
     "game:item-stackrandomizer-buildingblocks":"BetterRuins LootRandomizer Buildingblocks",
     "game:item-stackrandomizer-clayproducts":"BetterRuins LootRandomizer Clayproducts",
     "game:item-stackrandomizer-mechanical":"BetterRuins LootRandomizer Mechanical",
-    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer Newlore"
+    "game:item-stackrandomizer-backpack":"BetterRuins LootRandomizer Backpack",
+    "game:item-stackrandomizer-kingclothing":"BetterRuins LootRandomizer King Clothing",
+    "game:item-stackrandomizer-rottenkingclothing":"BetterRuins LootRandomizer RottenKing Clothing",
+    "game:item-stackrandomizer-mask":"BetterRuins LootRandomizer Mask",
+    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer AllLoreEntries"
 }

@@ -213,6 +213,13 @@
     "side": "Server"
   },
   {
+    "op": "replace",
+    "path": "/structures/4/chance",
+    "value": 0.007,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
     "op": "remove",
     "path": "/structures/5/rockTypeRemapGroup",
     "file": "game:worldgen/structures.json",
@@ -222,6 +229,13 @@
     "op": "replace",
     "path": "/structures/5/schematics/0",
     "value": "overground/br-houseruins/*",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/5/chance",
+    "value": 0.007,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -240,8 +254,22 @@
   },
   {
     "op": "replace",
+    "path": "/structures/6/chance",
+    "value": 0.0015,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/structures/7/schematics/0",
     "value": "overground/br-agriruins/*",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/7/chance",
+    "value": 0.0007,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -254,8 +282,22 @@
   },
   {
     "op": "replace",
+    "path": "/structures/8/chance",
+    "value": 0.001,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/structures/9/schematics/0",
     "value": "overground/br-ancientruins/*",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/8/chance",
+    "value": 0.0005,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -264,7 +306,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "spanruins",
-                  "chance": 0.003,
+                  "chance": 0.0015,
                   "schematics": [
                     "overground/vanillarework-spanruins/*"
                   ]
@@ -278,7 +320,7 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.005,
+                "chance": 0.001,
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 2 },
                 "schematics": [
@@ -331,7 +373,7 @@
                   "drystone-granite": "drystone-{rock}",
                   "looseboulders-granite-free": "looseboulders-{rock}-free",
                   "polishedrockold-cobbled-granite": "rockpolished-{rock}",
-                  "polishedrockold-full-granite":"drystone-{rock}",
+                  "polishedrockold-full-granite":"agedstonebricks-{rock}",
                   "stonebrickslab-granite-down-free":"stonebrickslab-{rock}-down-free",
                   
                   "drystonefence-granite-ew-free":"drystonefence-{rock}-ew-free",
@@ -364,7 +406,7 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.008,
+                "chance": 0.003,
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 1 },
                 "schematics": [
@@ -436,7 +478,7 @@
                   "drystone-granite": "drystone-{rock}",
                   "looseboulders-granite-free": "looseboulders-{rock}-free",
                   "polishedrockold-cobbled-granite": "rockpolished-{rock}",
-                  "polishedrockold-full-granite":"drystone-{rock}",
+                  "polishedrockold-full-granite":"agedstonebricks-{rock}",
                   "stonebrickslab-granite-down-free":"stonebrickslab-{rock}-down-free",
                   
                   "drystonefence-granite-ew-free":"drystonefence-{rock}-ew-free",
@@ -469,7 +511,7 @@
   {
     "op": "replace",
     "path": "/villageTypes/0/chance",
-    "value": 0.02
+    "value": 0.01
     ,
     "file": "game:worldgen/villages.json",
     "side": "Server"

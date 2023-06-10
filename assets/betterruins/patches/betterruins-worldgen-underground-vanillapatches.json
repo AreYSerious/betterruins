@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/structures/10/chance",
+    "value": 35,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/17/chance",
+    "value": 75,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/18/chance",
+    "value": 35,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/19/chance",
+    "value": 15,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/20/chance",
+    "value": 10,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/21/chance",
+    "value": 5,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/22/chance",
+    "value": 0.025,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/23/chance",
+    "value": 0.05,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/24/chance",
+    "value": 0.025,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/structures/25/chance",
+    "value": 0.005,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

@@ -1,62 +1,98 @@
 [
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-		"code": "buriedtreasurechest",
-		name: "buriedtreasurechest",
-		chance: 0.03,
-		schematics: ["treasure/graves/rank1/*"],
-		"placement": "surface",
-		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
- 		"offsety": -4
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "buriedtreasurechest",
+            "name": "buriedtreasurechest",
+            "chance": 0.015,
+            "schematics": [
+                "treasure/graves/rank1/*"
+            ],
+            "placement": "surface",
+            "replacewithblocklayers": [
+                "soil-low-none",
+                "soil-medium-none",
+                "soil-medium-normal",
+                "soil-low-normal",
+                "forestfloor-1"
+            ],
+            "mindistance": 200,
+            "offsety": -4
+        },
+        "file": "game:worldgen/structures.json",
+        "side": "Server"
     },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-		"code": "buriedtreasurechest",
-		name: "buriedtreasurechest",
-		chance: 0.02,
-		schematics: ["treasure/graves/rank2/*"],
-		"placement": "surface",
-		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
- 		"offsety": -4
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "buriedtreasurechest",
+            "name": "buriedtreasurechest",
+            "chance": 0.01,
+            "schematics": [
+                "treasure/graves/rank2/*"
+            ],
+            "placement": "surface",
+            "replacewithblocklayers": [
+                "soil-low-none",
+                "soil-medium-none",
+                "soil-medium-normal",
+                "soil-low-normal",
+                "forestfloor-1"
+            ],
+            "mindistance": 200,
+            "offsety": -4
+        },
+        "file": "game:worldgen/structures.json",
+        "side": "Server"
     },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-		"code": "buriedtreasurechest",
-		name: "buriedtreasurechest",
-		chance: 0.01,
-		schematics: ["treasure/graves/rank3/*"],
-		"placement": "surface",
-		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
- 		"offsety": -4
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "buriedtreasurechest",
+            "name": "buriedtreasurechest",
+            "chance": 0.005,
+            "schematics": [
+                "treasure/graves/rank3/*"
+            ],
+            "placement": "surface",
+            "replacewithblocklayers": [
+                "soil-low-none",
+                "soil-medium-none",
+                "soil-medium-normal",
+                "soil-low-normal",
+                "forestfloor-1"
+            ],
+            "mindistance": 200,
+            "offsety": -4
+        },
+        "file": "game:worldgen/structures.json",
+        "side": "Server"
     },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-		"code": "buriedtreasurechest",
-		name: "buriedtreasurechest",
-		chance: 0.005,
-		schematics: ["treasure/graves/rank4/*"],
-		"placement": "surface",
-		"replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
- 		"offsety": -4
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  }
+    {
+        "op": "add",
+        "path": "/structures/-",
+        "value": {
+            "code": "buriedtreasurechest",
+            "name": "buriedtreasurechest",
+            "chance": 0.0025,
+            "schematics": [
+                "treasure/graves/rank4/*"
+            ],
+            "placement": "surface",
+            "replacewithblocklayers": [
+                "soil-low-none",
+                "soil-medium-none",
+                "soil-medium-normal",
+                "soil-low-normal",
+                "forestfloor-1"
+            ],
+            "mindistance": 200,
+            "offsety": -4
+        },
+        "file": "game:worldgen/structures.json",
+        "side": "Server"
+    }
 ]

@@ -1,0 +1,207 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-kingclothing",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        {
+          "type": "item",
+          "code": "clothes-foot-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbodyover-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-king",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-fancy-royal-collar",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-fancy-royal-belt",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-foot-noble-shoes",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-noble-riding-gloves",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-noble-fillet",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-noble-pants",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-noble-necklace",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-prince-waistband",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-noble-shirt",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-noble-sash",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-foot-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-deep",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-deep",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-deep",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-neck-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-deep",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbodyover-forgotten",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-crown",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-head-fortune-tellers-scarf",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-waist-fortune-teller-hip-scarf",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-emblem-royal-pin",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-foot-prince-boots",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-hand-prince-gloves",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-lowerbody-prince-breeches",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-shoulder-royal-fur",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "clothes-upperbody-prince-tunic",
+          "chance": 1000
+        },
+        {
+          "type": "item",
+          "code": "cloth-plain",
+          "chance": 10000
+        }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "kingclothing",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
