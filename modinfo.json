@@ -3,8 +3,8 @@
   "modid": "betterruins",
   "name": "BetterRuins",
   "description" : "Adds more Ruins to the worldgen (and translocators within them)",
-  "authors": ["NiclAss", "Dampus", "Djvirus", "Bodlacek", "Catnoir", "Par", "NiteFox", "SamGrey", "StAdrian"],
-  "version": "0.1.1",
+  "authors": ["NiclAss", "Dampus", "Djvirus", "Bodlacek", "Catnoir", "Par", "NiteFox", "SamGrey", "StAdrian", "Bellcross"],
+  "version": "0.2.0",
   "requiredOnClient": true,
   "requiredOnServer": true,
   "dependency": {
