@@ -39,5 +39,6 @@
     "game:item-stackrandomizer-backpack":"BetterRuins LootRandomizer Backpack",
     "game:item-stackrandomizer-kingclothing":"BetterRuins LootRandomizer King Clothing",
     "game:item-stackrandomizer-rottenkingclothing":"BetterRuins LootRandomizer RottenKing Clothing",
-    "game:item-stackrandomizer-mask":"BetterRuins LootRandomizer Mask"
+    "game:item-stackrandomizer-mask":"BetterRuins LootRandomizer Mask",
+    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer AllLoreEntries"
 }
