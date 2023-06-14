@@ -10,7 +10,7 @@
                   "maxRain": 0.5,
                   "minForest": 0,
                   "maxForest": 1,
-                  "chance": 0.05,
+                  "chance": 0.1,
                   "group": "ruins",
                   "minGroupDistance": 400,
                   "placement": "surface",

@@ -4,7 +4,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergrounddungeon",
-                  "chance": 50,
+                  "chance": 40,
                   "name": "underground-common",
                   "placement": "underground",
                   "schematics": [
@@ -18,7 +18,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergrounddungeon",
-                  "chance": 18,
+                  "chance": 15,
                   "name": "underground-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
@@ -32,7 +32,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergrounddungeon",
-                  "chance": 35,
+                  "chance": 28,
                   "name": "underground-uncommon",
                   "placement": "underground",
                   "schematics": [
@@ -62,7 +62,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergrounddungeon",
-                  "chance": 25,
+                  "chance": 20,
                   "name": "underground-rare",
                   "placement": "underground",
                   "schematics": [
@@ -77,7 +77,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 12,
+                  "chance": 10,
                   "name": "underground-translocator-common",
                   "placement": "underground",
                   "schematics": [
@@ -91,7 +91,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 18,
+                  "chance": 15,
                   "name": "underground-translocator-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
@@ -105,7 +105,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 35,
+                  "chance": 30,
                   "name": "underground-translocator-uncommon",
                   "placement": "underground",
                   "schematics": [
