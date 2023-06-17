@@ -215,7 +215,7 @@
   {
     "op": "replace",
     "path": "/structures/4/chance",
-    "value": 0.007,
+    "value": 0.01,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -235,7 +235,7 @@
   {
     "op": "replace",
     "path": "/structures/5/chance",
-    "value": 0.007,
+    "value": 0.01,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -255,7 +255,7 @@
   {
     "op": "replace",
     "path": "/structures/6/chance",
-    "value": 0.0015,
+    "value": 0.0020,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -269,7 +269,7 @@
   {
     "op": "replace",
     "path": "/structures/7/chance",
-    "value": 0.0007,
+    "value": 0.001,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -283,7 +283,7 @@
   {
     "op": "replace",
     "path": "/structures/8/chance",
-    "value": 0.001,
+    "value": 0.002,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -297,7 +297,7 @@
   {
     "op": "replace",
     "path": "/structures/8/chance",
-    "value": 0.0005,
+    "value": 0.0007,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -511,7 +511,7 @@
   {
     "op": "replace",
     "path": "/villageTypes/0/chance",
-    "value": 0.01
+    "value": 0.02
     ,
     "file": "game:worldgen/villages.json",
     "side": "Server"
