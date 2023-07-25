@@ -64,5 +64,22 @@
     "game:item-stackrandomizer-kingclothing":"BetterRuins LootRandomizer King Clothing",
     "game:item-stackrandomizer-rottenkingclothing":"BetterRuins LootRandomizer RottenKing Clothing",
     "game:item-stackrandomizer-mask":"BetterRuins LootRandomizer Mask",
-    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer AllLoreEntries"
+    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer AllLoreEntries",
+
+
+
+
+
+    "game:location-graves": "Forgotten Tombstone",
+    "game:location-gates": "Damaged Apparatus",
+    "game:location-undergroundruins": "Cavernous Tombs",
+    "game:location-forlornhopetower": "Estimated Outpost",
+    "game:location-giantcathedral": "Sacred Place",
+
+    "item-locatormap-graves": "Lost Tombstone Tracings",
+    "item-locatormap-gates": "Mechanical Reliquary Map",
+    "item-locatormap-undergroundruins": "Depths Expedition Map",
+    "item-locatormap-forlornhopetower": "Estimated Outpost Location",
+    "item-locatormap-giantcathedral": "Estimaded Scared Place"
+
 }
