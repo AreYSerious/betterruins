@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "undergrounddungeon",
+                  "code": "undergroundruins",
                   "chance": 40,
                   "name": "underground-common",
                   "placement": "underground",
@@ -17,7 +17,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "undergrounddungeon",
+                  "code": "undergroundruins",
                   "chance": 15,
                   "name": "underground-common-lowerchance",
                   "placement": "underground",
@@ -31,7 +31,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "undergrounddungeon",
+                  "code": "undergroundruins",
                   "chance": 28,
                   "name": "underground-uncommon",
                   "placement": "underground",
@@ -46,7 +46,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "undergrounddungeon",
+                  "code": "undergroundruins",
                   "chance": 10,
                   "name": "underground-uncommon-lowerchance",
                   "placement": "underground",
@@ -61,7 +61,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "undergrounddungeon",
+                  "code": "undergroundruins",
                   "chance": 20,
                   "name": "underground-rare",
                   "placement": "underground",

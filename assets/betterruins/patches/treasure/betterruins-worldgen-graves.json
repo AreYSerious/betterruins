@@ -3,8 +3,8 @@
         "op": "add",
         "path": "/structures/-",
         "value": {
-            "code": "buriedtreasurechest",
-            "name": "buriedtreasurechest",
+            "code": "graves",
+            "name": "graves",
             "chance": 0.015,
             "schematics": [
                 "treasure/graves/rank1/*"
@@ -17,7 +17,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 200,
+            "mindistance": 500,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -27,8 +27,8 @@
         "op": "add",
         "path": "/structures/-",
         "value": {
-            "code": "buriedtreasurechest",
-            "name": "buriedtreasurechest",
+            "code": "graves",
+            "name": "graves",
             "chance": 0.01,
             "schematics": [
                 "treasure/graves/rank2/*"
@@ -41,7 +41,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 200,
+            "mindistance": 500,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -51,8 +51,8 @@
         "op": "add",
         "path": "/structures/-",
         "value": {
-            "code": "buriedtreasurechest",
-            "name": "buriedtreasurechest",
+            "code": "graves",
+            "name": "graves",
             "chance": 0.005,
             "schematics": [
                 "treasure/graves/rank3/*"
@@ -65,7 +65,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 200,
+            "mindistance": 500,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -75,8 +75,8 @@
         "op": "add",
         "path": "/structures/-",
         "value": {
-            "code": "buriedtreasurechest",
-            "name": "buriedtreasurechest",
+            "code": "graves",
+            "name": "graves",
             "chance": 0.0025,
             "schematics": [
                 "treasure/graves/rank4/*"
@@ -89,7 +89,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 200,
+            "mindistance": 500,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
