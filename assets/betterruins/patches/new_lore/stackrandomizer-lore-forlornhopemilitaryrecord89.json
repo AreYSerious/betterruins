@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-forlornhopemilitaryrecord89",
+    "value": {
+      "handbook": {
+        "exclude": true
+      },
+      "stacks": [
+        { "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "forlornhopemilitaryrecord89" } }
+      ]
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "forlornhopemilitaryrecord89",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
