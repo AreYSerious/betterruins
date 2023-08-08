@@ -1,0 +1,53 @@
+[
+  // Vanilla ruin rework
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "vanillaruins",
+                  "minGroupDistance": 300, //150
+                  "chance": 0.01,
+                  "placement": "surfaceruin",
+                  "schematics": [
+                    "overground/vanilla-rework-common/*"
+                  ],
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "vanillaruins",
+                  "minGroupDistance": 300, //150
+                  "chance": 0.01,
+                  "placement": "surfaceruin",
+                  "schematics": [
+                    "overground/vanilla-rework-rare/*"
+                  ],
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "ruin",
+                  "group": "vanillaruins",
+                  "minGroupDistance": 300, //150
+                  "chance": 0.01,
+                  "placement": "surfaceruin",
+                  "schematics": [
+                    "overground/vanilla-rework-ancientruins/*"
+                  ]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

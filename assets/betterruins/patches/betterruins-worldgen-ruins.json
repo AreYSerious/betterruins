@@ -14,7 +14,8 @@
                   ],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -2
+                  "offsety": -2,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -45,7 +46,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
-                  "chance": 0.05,
+                  "chance": 0.04,
                   "group": "ruins",
                   "minGroupDistance": 300, //500
                   "placement": "surface",
