@@ -58,14 +58,7 @@
 					0.25,
 					1,
 					1
-				],
-				"offset": {
-					"x": 20,
-					"y": 0,
-					"z": 75
-				},
-				"randomX": 20,
-				"randomZ": 20
+				]
 			},
 			"*-giantcathedral": {
 				"schematiccode": "giantcathedral",
@@ -76,14 +69,7 @@
 					0.25,
 					1,
 					1
-				],
-				"offset": {
-					"x": 20,
-					"y": 0,
-					"z": 75
-				},
-				"randomX": 20,
-				"randomZ": 20
+				]
 			}
 		}
 	},
