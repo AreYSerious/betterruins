@@ -1,0 +1,391 @@
+{
+	components: [
+		{
+			code: "testhasmet",
+			owner: "trader",
+			type: "condition",
+			variable: "entity.hasmet",
+			isNotValue: "true",
+			thenJumpTo: "firstmeet",
+			elseJumpTo: "welcomeback"
+		},
+		{
+			code: "firstmeet",
+			owner: "trader",
+			type: "talk",
+			setVariables: { "entity.hasmet": "true" },
+			text: [
+				{ value: "Greetings, stranger! Your appearance is quite unique. I've not crossed paths with you before. Where are you from?" },
+			],
+		},
+		{
+			code: "firstmeetresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "What do you mean?", jumpTo: "daisies" },
+				{ value: "I don't really know where im from to be honest.", jumpTo: "morning" },
+				{ value: "I might still be dreaming.", jumpTo: "dream" },
+				{ value: "This is a relief to encounter a friendly countenance amidst these lands.", jumpTo: "bold" },
+			],
+		},
+
+		{
+			code: "daisies",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Your folk have sprung forth like daisies across these lands, yet the origins that brought you here remain a mystery. None among you seem willing to share." }
+			],
+		},
+		{
+			code: "daisiesresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Sorry ... but somethings are best left unspoken.", jumpTo: "alright" },
+				{ value: "I find myself lacking in complete certainty as well.", jumpTo: "hm" },
+				{ value: "I'm just trying to survive. As always.", jumpTo: "always" },
+				{ value: "Are there others out there like me?", jumpTo: "strangers" }
+			],
+		},
+		{
+			code: "alright",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Fear not. My hopes were not set high." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "hm",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Ah, I do wish I could offer more assistance to you." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "always",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>He nods soberly</i>As always." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "strangers",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Indeed, it is so. Unfamiliarly colored strangers traverse these lands." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "morning",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hmph, well good morning to ya. Name's {npcname}. I roam around these parts, finding and trading what I can." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "dream",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hah, this ain't a dream, stranger. 'Least not one you'd like to be in." }
+			]
+		},
+		{
+			code: "dreamresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "I've seen worse.", jumpTo: "notbad" },
+				{ value: "Can you not see how beautiful it is? The air, the sun, the fields... how can it be real?", jumpTo: "tired" },
+				{ value: "Perhaps you're right. There's still work to do.", jumpTo: "alwaysmore" },
+			],
+		},
+		{
+			code: "notbad",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>He inhales deeply, exhales, and gives a broad smile</i>Yeah, it's not bad out here at all. Mind the beasts, though. And the damned <i>kurstzats</i>." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "tired",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "<i>They give you a tired smile</i>I can see it, friend. It's real, but it's treacherous. Demons stalk the land. And the world itself shifts." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "alwaysmore",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Aye, there's always more work to do. I might have something for you to do ..." }
+			],
+			jumpTo: "main"
+		},
+
+		{
+			code: "bold",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Hah, bold of you to assume I'm friendly! They call me {npcname}. Welcome to my home." }
+			],
+		},
+		{
+			code: "wellmet",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Well met.", jumpTo: "main" }
+			]
+		},
+
+		{
+			code: "welcomeback",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Welcome back {playername}! What can I do for you?" }
+			]
+		},
+		{
+			code: "main",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Got anything to trade, {npcname}?", jumpTo: "opentrade" },
+				{ value: "Why live out here like this?", jumpTo: "profit" },
+				{ value: "From where do you get all those valuable items?", jumpTo: "strategy", conditions: [{ variable: "entity.globedone", isNotValue: "true" } ] },
+				{ value: "I'm back, and I bring with an intact Globe.", jumpTo: "takeglobe", conditions: [{ variable: "entity.requestglobe", isValue: "true" }, { variable: "entity.globereceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'block', code: 'game:clutter', attributes: { type: 'globe1',collected:true } }" } ] },
+				{ value: "Could you remind me where you\nthought the location marked on the Globe was?", jumpTo: "maprepeat", conditions: [{ variable: "entity.globedone", isValue: "true" }] }
+			]
+		},
+		{
+			code: "opentrade",
+			owner: "trader",
+			trigger: "opentrade"
+		},
+		{
+			code: "profit",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Most people live in the villages, holed up and cautious of any threats. And there certainly are threats, as you`ve likely seen. Not me, though. I like it out here. And besides, there`s a profit to be made." }
+			]
+		},
+		{
+			code: "profitresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "What are those horrible creatures?", jumpTo: "drifters" },
+				{ value: "The beasts are ravenous. Is wealth really worth all the risk?", jumpTo: "wealth" },
+				{ value: "I'd live in a nice, safe village if I could.'", jumpTo: "main" }
+			]
+		},
+		{
+			code: "drifters",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Ah, those miserable <i>kurstzats</i>. Cursed ones. Drifters. They come and go, lost in grief and rage. Punished by God, they were. They could seek atonement, but nae all they wish to do is spread more misery" }
+			]
+		},
+		{
+			code: "driftersresponse",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Punished by God! What crime could lead to such a dreadful fate?", jumpTo: "challenged" },
+				{ value: "I saw them crawling out of a hole in the very air itself. I thought I had gone mad.", jumpTo: "bonds" },
+				{ value: "I had hoped the world could not house such horrors.", jumpTo: "afraidso" }
+			]
+		},
+		{
+			code: "challenged",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "They challenged God himself. And God cast them down into the earth to wriggle like worms. They remain there still, in the deep. It`s not safe down below. Not safe at all." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "bonds",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Aye, sometimes they slip their bonds and flee to the surface. But they are truly lost creatures. They can only wander blindly, causing what pain they may before they are inexorably drawn into their prison again." }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "afraidso",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "I`m afraid so, friend. But God shares wonders in kind. He created this world and those who inhabit it. And when he shows His face to us the earth itself trembles and we tremble with it. In awe of His glory" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "wealth",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Of course. Wealth is a virtue unto itself. There may yet come a time when the Great Arks appear before us and if that happens I would show them the fruits of my labor. I would lay out before them my gears, my gold and silver, and everything else I have gathered. And if I am deemed worthy, I will join them on their endless journey" }
+			],
+			jumpTo: "main"
+		},
+		{
+			code: "strategy",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "I'm always on the lookout, acquiring them from other traders, customers, and intrepid treasure hunters who roam the realm." }
+			],
+			jumpTo: "strategy2"
+		},
+		{
+			code: "strategy2",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Speaking of treasures, anything\nspecific you're seeking right now?", jumpTo: "strategy3" }
+			]
+		},
+		{
+			code: "strategy3",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Funny you ask! I've got a distinct request from a long time customer. They're in search of a large intact Globe, as a present for their friend. Think you might stumble upon something like that in your travels?" }
+			],
+			jumpTo: "strategy4"
+		},
+		{
+			code: "strategy4",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "I'll keep my eyes peeled for a large globe.\nIf I come across anything matching \nyour description, you'll be the first to know.", jumpTo: "strategy5" },
+				{ value: "Im quite busy at the moment sorry. Maybe another time.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "strategy5",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "I appreciate your enthusiasm. Rest assured, if you find me such a treasure, I will reward you handsomely." } ],
+			jumpTo: "main",
+			setVariables: { "entity.requestglobe": "true" },
+		},
+		{
+			code: "takeglobe",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "You've managed to find the Globe?! I see. Let me have a closer look at this remarkable piece. (He carefully examines the Globe, tracing the intricate lines with a finger and studying the faded maps.)" } ],
+			jumpTo: "globediscussion",
+			trigger: "takefrominventory",
+			triggerdata: {type: 'block', code: 'game:clutter', attributes: {type:'globe1',collected:true}}
+			
+		},
+		{
+			code: "globediscussion",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "Incredible craftsmanship, truly a relic of its time. But there's something here, a mark that has piqued my curiosity. (The Trader continues to scrutinize the Globe, his brow furrowing slightly as he examines a particular spot on the map.)" } ],
+			jumpTo: "globediscussion1"
+		},
+		{
+			code: "globediscussion1",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "Is there something of significance,\nsomething that has caught your attention?", jumpTo: "globediscussion2" }
+			]
+		},
+		{
+			code: "globediscussion2",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "Indeed, my friend. Look here, at this specific mark. It seems deliberate, unlike the usual cartographic details. A point of interest, perhaps a hidden location lost to history." } ],
+			jumpTo: "globediscussion3"
+		},
+		{
+			code: "globediscussion3",
+			owner: "player",
+			type: "talk",
+			text: [
+				{ value: "A hidden location, you say?\nThat does sound intriguing.\nWhat could it possibly signify?", jumpTo: "globediscussion4" }
+			]
+		},
+		{
+			code: "globediscussion4",
+			owner: "trader",
+			type: "talk",
+			text: [ { value: "That, my dear adventurer, is the question that has ignited my curiosity. It could be forgotten treasure, an abandoned settlement, or even a fortress. I cannot say for certain without further investigation. (He looks up from the Globe, his eyes meeting yours with a mixture of excitement and contemplation.)" } ],
+			jumpTo: "globediscussion5"
+		},
+		{
+			code: "globediscussion5",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "I will need to bring this globe to my customer, but it seems to be somewhere to the north it shows a snowy terrain ... can't really pinpoint but try your luck? Maybe you can try to find it, and if you do, perhaps you could find some valuable items that share my interest. Take this Temporal gear you might need it for such a long walk." }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "game:gear-temporal", stacksize: 1 },
+			setVariables: { "entity.globereceived": "true" },
+			jumpTo: "globediscussion6"
+		},
+		{
+			code: "globediscussion6",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "And as promised, here's your well-earned reward of 10 rusty gears for bringing me the globe. Thank you very much!" }
+			],
+			trigger: "giveitemstack",
+			triggerdata: { type: "item", code: "game:gear-rusty", stacksize: 10 },
+			jumpTo: "globediscussion7"
+		},
+		{
+			code: "globediscussion7",
+			owner: "player",
+			type: "talk",
+			setVariables: { "entity.globedone": "true" },
+			text: [
+				{ value: "Nice doing business with you.", jumpTo: "main" }
+			]
+		},
+		{
+			code: "maprepeat",
+			owner: "trader",
+			type: "talk",
+			text: [
+				{ value: "Mhh let me think again ... it was somewhere to the north can't remember the exact location." }
+			],
+			jumpTo: "main"
+		}
+	]
+}

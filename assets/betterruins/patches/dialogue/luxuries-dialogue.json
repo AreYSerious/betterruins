@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/client/behaviors/4/dialogue",
+    "value": "betterruins:config/dialogue/luxuries",
+    "file": "game:entities/humanoid/trader-luxuries.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/dialogue",
+    "value": "betterruins:config/dialogue/luxuries",
+    "file": "game:entities/humanoid/trader-luxuries.json"
+  }
+]
