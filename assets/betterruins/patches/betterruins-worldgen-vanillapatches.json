@@ -1,6 +1,48 @@
 [
   {
     "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-08",
+    "value": "stalagsection-{rock}-08",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-04",
+    "value": "stalagsection-{rock}-04",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-10",
+    "value": "stalagsection-{rock}-10",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-06",
+    "value": "stalagsection-{rock}-06",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/drystonefence-granite-nesw-free",
+    "value": "drystonefence-{rock}-nesw-free",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/drystonefence-granite-ns-free",
+    "value": "drystonefence-{rock}-ns-free",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
     "path": "/rocktypeRemapGroups/surfaceruins/looseores-nativecopper-granite-free",
     "value": "looseores-nativecopper-{rock}-free",
     "file": "game:worldgen/structures.json",
