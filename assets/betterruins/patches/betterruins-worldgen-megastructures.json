@@ -1,5 +1,4 @@
 [
-
   {
     "op": "add",
     "path": "/structures/-",
@@ -7,8 +6,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure which is a giant wallpiece has 7 random stonevariants
-                  "minGroupDistance": 500, //5000
-                  "chance": 0.1, 
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.03, 
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
@@ -17,7 +16,8 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
 
-                  "offsety": -4
+                  "offsety": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -29,8 +29,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure has multiple giant stones which look out of place. Has a experiment lab in one of the stones and pipes around it. Spawns with local stone type.
-                  "minGroupDistance": 500, //5000
-                  "chance": 2.5,
+                  "minGroupDistance": 5000, //5000
+                  "chance": 1.5,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-2/*"
@@ -51,7 +51,7 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure which looks like a nordic house which has fallen apart. Has 2 different variants and spawns with 3 different random stonetypes for each variant.
-                  "minGroupDistance": 500, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
@@ -60,7 +60,8 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -5
+                  "offsety": -9,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -72,8 +73,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Dampus built after the rl ruin Visingsborg. Spawns with local stone type.
-                  "minGroupDistance": 500, //5000
-                  "chance": 0.1,
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-4/*"
@@ -95,8 +96,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Catnoir ruinified by me. Spawns with local stone type.
-                  "minGroupDistance": 500, //5000
-                  "chance": 0.1,
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.01,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
@@ -118,8 +119,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by bodláček. Spawns with local stone type.
-                  "minGroupDistance": 500, //5000
-                  "chance": 0.2, //0.5
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.2, //0.2
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-6/*"
@@ -140,7 +141,7 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by Par. Spawns with local stone type.
-                  "minGroupDistance": 500, //5000
+                  "minGroupDistance": 5000, //5000
                   "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
@@ -162,8 +163,8 @@
                   "code": "ruin",
                   "group": "megaruins",
                   // Megastructure by StAdrian. Spawns with local stone type. Not working yet
-                  "minGroupDistance": 500, //5000
-                  "chance": 6, // 6
+                  "minGroupDistance": 5000, //5000
+                  "chance": 3, // 3
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-8/*"
@@ -187,11 +188,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "forlornhopetower",
                   "group": "megaruins",
                   // Forlorn Hope megastructure
-                  "minGroupDistance": 50, //5000
-                  "chance": 0.05, // 20
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.06, // 0.06
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-9/common/*"
@@ -200,7 +201,8 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minTemp": -30,
-                  "maxTemp": -5
+                  "maxTemp": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -209,11 +211,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "forlornhopetower",
                   "group": "megaruins",
                   // Forlorn Hope megastructure
-                  "minGroupDistance": 50, //5000
-                  "chance": 0.02, // 20
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.03, // 0.03
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-9/rare/*"
@@ -222,7 +224,31 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minTemp": -30,
-                  "maxTemp": -5
+                  "maxTemp": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "giantcathedral",
+                  "group": "megaruins",
+                  // Cathedral
+                  "minGroupDistance": 5000, //10000
+                  "chance": 15, // 15
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-10/*"
+                  ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -23,
+                  "minTemp": -30,
+                  "maxTemp": -7,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
