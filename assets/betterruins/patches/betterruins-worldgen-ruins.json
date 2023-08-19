@@ -6,8 +6,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
-                  "chance": 0.3,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
@@ -26,8 +26,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
-                  "chance": 0.04,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.01,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o4/*"
@@ -48,7 +48,7 @@
                   "code": "ruin",
                   "chance": 0.04,
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
+                  "minGroupDistance": 400, //500
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o1/*"
