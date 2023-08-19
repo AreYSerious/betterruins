@@ -1,5 +1,4 @@
 [
-
   {
     "op": "add",
     "path": "/structures/-",
@@ -8,7 +7,7 @@
                   "group": "megaruins",
                   // Megastructure which is a giant wallpiece has 7 random stonevariants
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.1, 
+                  "chance": 0.03, 
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
@@ -17,7 +16,8 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
 
-                  "offsety": -4
+                  "offsety": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -30,7 +30,7 @@
                   "group": "megaruins",
                   // Megastructure has multiple giant stones which look out of place. Has a experiment lab in one of the stones and pipes around it. Spawns with local stone type.
                   "minGroupDistance": 5000, //5000
-                  "chance": 2.5,
+                  "chance": 1.5,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-2/*"
@@ -60,7 +60,8 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -6
+                  "offsety": -9,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -73,7 +74,7 @@
                   "group": "megaruins",
                   // Megastructure by Dampus built after the rl ruin Visingsborg. Spawns with local stone type.
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.1,
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-4/*"
@@ -96,7 +97,7 @@
                   "group": "megaruins",
                   // Megastructure by Catnoir ruinified by me. Spawns with local stone type.
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.1,
+                  "chance": 0.01,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
@@ -119,7 +120,7 @@
                   "group": "megaruins",
                   // Megastructure by bodláček. Spawns with local stone type.
                   "minGroupDistance": 5000, //5000
-                  "chance": 0.2, //0.5
+                  "chance": 0.2, //0.2
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-6/*"
@@ -163,13 +164,12 @@
                   "group": "megaruins",
                   // Megastructure by StAdrian. Spawns with local stone type. Not working yet
                   "minGroupDistance": 5000, //5000
-                  "chance": 6, // 6
+                  "chance": 3, // 3
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-8/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
-                  "postPass": true,
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
@@ -180,6 +180,75 @@
                   "maxRain": 1,
                   "minForest": 0.1,
                   "maxForest": 1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "forlornhopetower",
+                  "group": "megaruins",
+                  // Forlorn Hope megastructure
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.06, // 0.06
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-9/common/*"
+                  ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -8,
+                  "minTemp": -30,
+                  "maxTemp": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "forlornhopetower",
+                  "group": "megaruins",
+                  // Forlorn Hope megastructure
+                  "minGroupDistance": 5000, //5000
+                  "chance": 0.03, // 0.03
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-9/rare/*"
+                  ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -8,
+                  "minTemp": -30,
+                  "maxTemp": -4,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "giantcathedral",
+                  "group": "megaruins",
+                  // Cathedral
+                  "minGroupDistance": 5000, //10000
+                  "chance": 15, // 15
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-10/*"
+                  ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -23,
+                  "minTemp": -30,
+                  "maxTemp": -7,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

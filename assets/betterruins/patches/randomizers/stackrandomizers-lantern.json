@@ -15,21 +15,6 @@
     "path": "/attributesByType/*-lantern/stacks/-",
     "value": {
       "type": "block",
-      "code": "bookshelves-ns",
-      "quantity": {
-        "avg": 4,
-        "var": 2
-      },
-      "chance": 50
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-lantern/stacks/-",
-    "value": {
-      "type": "block",
       "code": "resonator-north",
       "chance": 1
     },

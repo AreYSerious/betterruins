@@ -4,8 +4,10 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "minTemp": 10,
-                "maxTemp": 30,
+                "minRain": 0.5,
+                "maxRain": 1,
+                "minForest": 0.8,
+                "maxForest": 1,
                 "chance": 0.005, //0.005
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 2 },

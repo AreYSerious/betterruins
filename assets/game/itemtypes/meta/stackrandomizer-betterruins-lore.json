@@ -1,0 +1,103 @@
+{
+	code: "stackrandomizer",
+	class: "ItemStackRandomizer",
+	variantgroups: [
+		{ code: "type", states: [
+			"darkheat", 
+			"forlornhope", 
+			"glimmershield", 
+			"lastfisherman", 
+			"lastwall",
+			"wolfstone"
+		] }
+	],
+	attributesByType: {
+		"*-darkheat": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "darkheat" } }
+			  ]
+		},
+		
+		"*-forlornhope": {
+			handbook: { exclude: true },
+			stacks: [
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-gray",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-rust",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-purple",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-green",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-paper",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 50
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 50
+				}
+			  ]
+		},
+		
+		
+		"*-glimmershield": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "glimmershield" } }
+			  ]
+		},
+		
+		"*-lastfisherman": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastfisherman" } }
+			  ]
+		},
+		
+		"*-lastwall": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastwall" } }
+			  ]
+		},
+		
+		"*-wolfstone": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "wolfstone" } }
+			  ]
+		}
+	},
+	maxstacksize: 1,
+	texture: { base: "item/meta/randomizer/{type}" },
+	creativeinventory: { "meta": ["*"] },
+	materialDensity: 600
+}

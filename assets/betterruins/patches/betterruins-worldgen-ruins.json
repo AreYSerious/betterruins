@@ -6,15 +6,16 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
-                  "chance": 0.3,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.1,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o2/*"
                   ],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -2
+                  "offsety": -2,
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -25,8 +26,8 @@
     "value": {
                   "code": "ruin",
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
-                  "chance": 0.04,
+                  "minGroupDistance": 400, //500
+                  "chance": 0.01,
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o4/*"
@@ -45,9 +46,9 @@
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
-                  "chance": 0.05,
+                  "chance": 0.04,
                   "group": "ruins",
-                  "minGroupDistance": 300, //500
+                  "minGroupDistance": 400, //500
                   "placement": "surface",
                   "schematics": [
                     "overground/ruins-o1/*"

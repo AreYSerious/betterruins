@@ -1,0 +1,162 @@
+{
+	"code": "locatormap",
+	"class": "ItemLocatorMap",
+	"maxstacksize": 1,
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [
+				"graves",
+				"gates",
+				"undergroundruins",
+				"forlornhopetower",
+				"giantcathedral"
+			]
+		}
+	],
+	"attributes": {
+		"locatorPropsbyType": {
+			"*-graves": {
+				"schematiccode": "graves",
+				"waypointtext": "location-graves",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.5,
+					0.5,
+					0.5,
+					1
+				]
+			},
+			"*-gates": {
+				"schematiccode": "gates",
+				"waypointtext": "location-gates",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.3,
+					1,
+					1,
+					1
+				]
+			},
+			"*-undergroundruins": {
+				"schematiccode": "undergroundruins",
+				"waypointtext": "location-undergroundruins",
+				"waypointicon": "x",
+				"waypointcolor":[
+					0.6,
+					0.4,
+					0.2,
+					1
+				]
+			},
+			"*-forlornhopetower": {
+				"schematiccode": "forlornhopetower",
+				"waypointtext": "location-forlornhopetower",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-giantcathedral": {
+				"schematiccode": "giantcathedral",
+				"waypointtext": "location-giantcathedral",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			}
+		}
+	},
+	"shape": {
+		"base": "game:item/lore/map-treasure"
+	},
+	"creativeinventory": {
+		"general": [
+			""
+		],
+		"items": [
+			""
+		]
+	},
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 13,
+			"y": -39,
+			"z": -163
+		},
+		"origin": {
+			"x": 0.43,
+			"y": 0.57,
+			"z": 0.46
+		},
+		"scaleXyz": {
+			"x": -1.3,
+			"y": 1.3,
+			"z": 1.3
+		}
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.1,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 3,
+			"y": 3,
+			"z": 8
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.02,
+			"z": 0.5
+		},
+		"scale": 1.36
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": -65,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 1.62
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.3,
+			"y": -0.7,
+			"z": -1.2
+		},
+		"rotation": {
+			"x": -57,
+			"y": -165,
+			"z": 92
+		},
+		"origin": {
+			"x": 0.4,
+			"y": 0.2,
+			"z": 0.4
+		}
+	}
+}

@@ -2,9 +2,9 @@
   "type": "content",
   "modid": "betterruins",
   "name": "BetterRuins",
-  "description" : "Adds more Ruins to the worldgen (and translocators within them)",
-  "authors": ["NiclAss", "Dampus", "Djvirus", "Bodlacek", "Catnoir", "Par", "NiteFox", "SamGrey", "StAdrian", "Bellcross"],
-  "version": "0.2.1",
+  "description" : "Adds more Ruins to the worldgen (and translocators within them)\nBuilderteam: Dampus, SamGrey, StAdrian, Bellcross, Djvirus, Bodlacek, Catnoir, Par, Rowly, Vilderos\nTranslators: Xandoria, macoto_hino, yanazake, Knave2000, Grigoriewich",
+  "authors": ["NiclAss"],
+  "version": "0.2.2",
   "requiredOnClient": true,
   "requiredOnServer": true,
   "dependency": {

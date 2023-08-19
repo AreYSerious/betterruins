@@ -46,7 +46,7 @@
     "value": {
       "type": "item",
       "code": "gear-temporal",
-      "chance": 20
+      "chance": 2
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"

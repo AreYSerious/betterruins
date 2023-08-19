@@ -1,0 +1,194 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:spikeplate-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:fishinglure-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:metalfishinghook-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:buckethandle-copper",
+      "chance": 5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:spikeplate-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "primitivesurvival:spikeplate-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:fishinglure-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:fishinglure-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:metalfishinghook-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:metalfishinghook-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:buckethandle-tinbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "primitivesurvival:buckethandle-bismuthbronze",
+      "chance": 1
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "primitivesurvival"
+      }
+    ]
+  }
+]
