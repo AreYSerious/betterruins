@@ -23,7 +23,13 @@
     "game:item-stackrandomizer-lastfisherman": "BetterRuinsの伝承ランダム化(ある漁師の最後の言葉)",
     "game:item-stackrandomizer-lastwall": "BetterRuinsの伝承ランダム化(そびえ立つ最後の壁)",
     "game:item-stackrandomizer-wolfstone": "BetterRuinsの伝承ランダム化(ウルフストーン城)",
+    "game:item-stackrandomizer-armor": "BetterRuinsの戦利品ランダム化(防具)",
     "game:item-stackrandomizer-buildingblocks": "BetterRuinsの戦利品ランダム化(建築ブロック)",
     "game:item-stackrandomizer-clayproducts": "BetterRuinsの戦利品ランダム化(粘土製品)",
-    "game:item-stackrandomizer-mechanical": "BetterRuinsの戦利品ランダム化(機械)"
+    "game:item-stackrandomizer-mechanical": "BetterRuinsの戦利品ランダム化(機械)",
+    "game:item-stackrandomizer-backpack": "BetterRuinsの戦利品ランダム化(バックパック)",
+    "game:item-stackrandomizer-kingclothing": "BetterRuinsの戦利品ランダム化(王様の衣服)",
+    "game:item-stackrandomizer-rottenkingclothing": "BetterRuinsの戦利品ランダム化(朽ちた王様の衣服)",
+    "game:item-stackrandomizer-mask": "BetterRuinsの戦利品ランダム化(マスク)",
+    "game:item-stackrandomizer-newlore": "BetterRuinsの戦利品ランダム化(新たな伝承)"
 }

@@ -23,9 +23,13 @@
     "game:item-stackrandomizer-lastfisherman": "BetterRuins Überlieferungs Zufallsgenerator Der letzte Fischer",
     "game:item-stackrandomizer-lastwall": "BetterRuins Überlieferungs Zufallsgenerator Letzte Mauer",
     "game:item-stackrandomizer-wolfstone": "BetterRuins Überlieferungs Zufallsgenerator Burg Wolfstein",
-    "game:item-stackrandomizer-armor": "BetterRuins Überlieferungs Zufallsgenerator Rüstung (WIP)",
-    "game:item-stackrandomizer-buildingblocks": "BetterRuins Überlieferungs Zufallsgenerator Baustoffe",
-    "game:item-stackrandomizer-clayproducts": "BetterRuins Überlieferungs Zufallsgenerator Tonprodukte",
-    "game:item-stackrandomizer-mechanical": "BetterRuins Überlieferungs Zufallsgenerator Mechanisch",
-    "game:item-stackrandomizer-newlore": "BetterRuins Überlieferungs Zufallsgenerator Neue Überlieferungen"
+    "game:item-stackrandomizer-armor": "BetterRuins Zufallsgenerator Rüstung",
+    "game:item-stackrandomizer-buildingblocks": "BetterRuins Zufallsgenerator Baustoffe",
+    "game:item-stackrandomizer-clayproducts": "BetterRuins Zufallsgenerator Tonprodukte",
+    "game:item-stackrandomizer-mechanical": "BetterRuins Zufallsgenerator Mechanische Komponenten",
+    "game:item-stackrandomizer-backpack": "BetterRuins Zufallsgenerator Rucksack",
+    "game:item-stackrandomizer-kingclothing": "BetterRuins Zufallsgenerator königliche Kleidung",
+    "game:item-stackrandomizer-rottenkingclothing": "BetterRuins Zufallsgenerator Kleidung",
+    "game:item-stackrandomizer-mask": "BetterRuins Zufallsgenerator Masken",
+    "game:item-stackrandomizer-newlore": "BetterRuins Zufallsgenerator alle Überlieferungen"
 }
