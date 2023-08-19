@@ -6,8 +6,8 @@
     "value": {
                   "code": "ruin",
                   "group": "vanillaruins",
-                  "minGroupDistance": 300, //150
-                  "chance": 0.01,
+                  "minGroupDistance": 200, //150
+                  "chance": 0.05,
                   "placement": "surfaceruin",
                   "schematics": [
                     "overground/vanilla-rework-common/*"
@@ -23,8 +23,8 @@
     "value": {
                   "code": "ruin",
                   "group": "vanillaruins",
-                  "minGroupDistance": 300, //150
-                  "chance": 0.01,
+                  "minGroupDistance": 200, //150
+                  "chance": 0.006,
                   "placement": "surfaceruin",
                   "schematics": [
                     "overground/vanilla-rework-rare/*"
@@ -40,12 +40,13 @@
     "value": {
                   "code": "ruin",
                   "group": "vanillaruins",
-                  "minGroupDistance": 300, //150
-                  "chance": 0.01,
+                  "minGroupDistance": 200, //150
+                  "chance": 0.005,
                   "placement": "surfaceruin",
                   "schematics": [
                     "overground/vanilla-rework-ancientruins/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "surfaceruins"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
