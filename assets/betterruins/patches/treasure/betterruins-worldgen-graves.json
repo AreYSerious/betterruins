@@ -4,7 +4,7 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
-            "name": "graves",
+            "group": "graves",
             "chance": 0.015,
             "schematics": [
                 "treasure/graves/rank1/*"
@@ -28,7 +28,7 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
-            "name": "graves",
+            "group": "graves",
             "chance": 0.01,
             "schematics": [
                 "treasure/graves/rank2/*"
@@ -52,7 +52,7 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
-            "name": "graves",
+            "group": "graves",
             "chance": 0.005,
             "schematics": [
                 "treasure/graves/rank3/*"
@@ -76,7 +76,7 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
-            "name": "graves",
+            "group": "graves",
             "chance": 0.0025,
             "schematics": [
                 "treasure/graves/rank4/*"
