@@ -15,21 +15,6 @@
     "path": "/attributesByType/*-painting/stacks/-",
     "value": {
       "type": "block",
-      "code": "woodenrails-flat_ns",
-      "quantity": {
-        "avg": 6,
-        "var": 2
-      },
-      "chance": 10
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-painting/stacks/-",
-    "value": {
-      "type": "block",
       "code": "altar-north",
       "chance": 15
     },
@@ -65,7 +50,7 @@
       "type": "block",
       "code": "ironfence-base-ew",
       "quantity": {
-        "avg": 10,
+        "avg": 15,
         "var": 5
       },
       "chance": 20
@@ -80,21 +65,10 @@
       "type": "block",
       "code": "ironfence-top-ew",
       "quantity": {
-        "avg": 10,
+        "avg": 15,
         "var": 5
       },
       "chance": 20
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-painting/stacks/-",
-    "value": {
-      "type": "block",
-      "code": "cage-wooden-north",
-      "chance": 10
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -176,7 +150,7 @@
       "type": "block",
       "code": "plaster-diagonal-ud",
       "quantity": {
-        "avg": 20,
+        "avg": 50,
         "var": 10
       },
       "chance": 20
@@ -191,7 +165,7 @@
       "type": "block",
       "code": "plaster-stripes-ud",
       "quantity": {
-        "avg": 20,
+        "avg": 50,
         "var": 10
       },
       "chance": 20
@@ -206,7 +180,7 @@
       "type": "block",
       "code": "plaster-plain",
       "quantity": {
-        "avg": 20,
+        "avg": 50,
         "var": 10
       },
       "chance": 20
@@ -221,7 +195,7 @@
       "type": "block",
       "code": "plaster-square",
       "quantity": {
-        "avg": 20,
+        "avg": 50,
         "var": 10
       },
       "chance": 20
