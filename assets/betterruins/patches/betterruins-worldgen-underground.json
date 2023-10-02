@@ -38,7 +38,7 @@
                   "schematics": [
                     "underground/underground-uncommon/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+                  "depth": { "dist": "invexp", "avg": 30, "var": 20 }
     },
     "file": "game:worldgen/structures.json"
   },
@@ -53,7 +53,7 @@
                   "schematics": [
                     "underground/underground-uncommon-lowerchance/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+                  "depth": { "dist": "invexp", "avg": 30, "var": 20 }
     },
     "file": "game:worldgen/structures.json"
   },
@@ -62,13 +62,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 0,//13
+                  "chance": 13,//13
                   "name": "underground-rare",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-rare/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 70, "var": 40 }
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
     },
     "file": "game:worldgen/structures.json"
   },
@@ -105,13 +105,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 0,//20
+                  "chance": 7,//20
                   "name": "underground-translocator-uncommon",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-translocator-uncommon/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 70, "var": 30 }
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
     },
     "file": "game:worldgen/structures.json"
   }
