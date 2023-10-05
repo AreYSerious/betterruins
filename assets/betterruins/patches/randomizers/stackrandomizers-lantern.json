@@ -139,5 +139,16 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "block",
+      "code": "chandelier-candle0",
+      "chance": 20
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]
