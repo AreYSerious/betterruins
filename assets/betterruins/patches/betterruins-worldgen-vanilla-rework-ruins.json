@@ -41,7 +41,7 @@
                   "code": "ruin",
                   "group": "vanillaruins",
                   "minGroupDistance": 200, //150
-                  "chance": 0.005,
+                  "chance": 0.002,
                   "placement": "surfaceruin",
                   "schematics": [
                     "overground/vanilla-rework-ancientruins/*"

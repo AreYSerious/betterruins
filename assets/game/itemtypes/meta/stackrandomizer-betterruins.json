@@ -313,7 +313,7 @@
 				  "type": "item",
 				  "code": "cattailtops",
 				  "chance": 2000,
-				  "quantity": { "avg": 20, "var": 7 }
+				  "quantity": { "avg": 45, "var": 7 }
 				},
 				{
 				  "type": "item",
@@ -338,7 +338,7 @@
 				  "type": "block",
 				  "code": "wallpaper-blue4",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -347,7 +347,7 @@
 				  "type": "block",
 				  "code": "wallpaper-green1",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -356,7 +356,7 @@
 				  "type": "block",
 				  "code": "wallpaper-grey1",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -365,7 +365,7 @@
 				  "type": "block",
 				  "code": "wallpaper-brown",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -374,7 +374,7 @@
 				  "type": "block",
 				  "code": "wallpaper-walnut",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -383,7 +383,7 @@
 				  "type": "block",
 				  "code": "wallpaper-darkpurple",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -392,7 +392,7 @@
 				  "type": "block",
 				  "code": "wallpaper-yellow",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -401,7 +401,7 @@
 				  "type": "block",
 				  "code": "wallpaper-pink",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -410,7 +410,7 @@
 				  "type": "block",
 				  "code": "wallpaper-lightgreen",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -419,7 +419,7 @@
 				  "type": "block",
 				  "code": "spiderweb",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 2
 				  },
 				  "chance": 500
@@ -428,7 +428,7 @@
 				  "type": "block",
 				  "code": "clayshingleblock-fire",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -464,7 +464,7 @@
 				  "type": "block",
 				  "code": "mudbrick-light",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -473,7 +473,7 @@
 				  "type": "block",
 				  "code": "mudbrick-dark",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -482,7 +482,7 @@
 				  "type": "block",
 				  "code": "mudbrickslab-dark-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -527,7 +527,7 @@
 				  "type": "block",
 				  "code": "agedwallpaperplanks-blue-east",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -536,7 +536,7 @@
 				  "type": "block",
 				  "code": "agedwallpaperplanks-green-east",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -545,7 +545,7 @@
 				  "type": "block",
 				  "code": "agedwallpaperplanks-grey-east",
 				  "quantity": {
-					"avg": 10,
+					"avg": 35,
 					"var": 5
 				  },
 				  "chance": 100
@@ -569,7 +569,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-bottom-plain-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -578,7 +578,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-middle-plain-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -587,7 +587,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-top-plain-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -596,7 +596,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-bottom-fancy-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -605,7 +605,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-middle-fancy-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -614,7 +614,7 @@
 				  "type": "block",
 				  "code": "carvedlog-acacia-aged-top-fancy-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -686,7 +686,7 @@
 				  "type": "block",
 				  "code": "clayshingleblock-red",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -731,7 +731,7 @@
 				  "type": "block",
 				  "code": "clayshinglelabs-blue-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -740,7 +740,7 @@
 				  "type": "block",
 				  "code": "clayshinglelabs-brown-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -749,7 +749,7 @@
 				  "type": "block",
 				  "code": "clayshinglelabs-fire-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -758,7 +758,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-slate-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -767,7 +767,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-slate-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -776,7 +776,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-slate-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -785,7 +785,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-slate-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -794,7 +794,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-slate-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -884,7 +884,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-copper-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -893,7 +893,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-copper-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -902,7 +902,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-copper-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -911,7 +911,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-copper-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -920,7 +920,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-copper-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -929,7 +929,7 @@
 				  "type": "block",
 				  "code": "hay-aged-ud",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -938,7 +938,7 @@
 				  "type": "block",
 				  "code": "claybricks-blue",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -947,7 +947,7 @@
 				  "type": "block",
 				  "code": "claybricks-brown",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -956,7 +956,7 @@
 				  "type": "block",
 				  "code": "claybricks-fire",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -965,7 +965,7 @@
 				  "type": "block",
 				  "code": "claybricks-red",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -974,7 +974,7 @@
 				  "type": "block",
 				  "code": "brickslabs-blue-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -983,7 +983,7 @@
 				  "type": "block",
 				  "code": "brickslabs-brown-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -992,7 +992,7 @@
 				  "type": "block",
 				  "code": "brickslabs-fire-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1001,7 +1001,7 @@
 				  "type": "block",
 				  "code": "brickslabs-red-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1010,7 +1010,7 @@
 				  "type": "block",
 				  "code": "brickstairs-blue-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1019,7 +1019,7 @@
 				  "type": "block",
 				  "code": "brickstairs-brown-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1028,7 +1028,7 @@
 				  "type": "block",
 				  "code": "brickstairs-fire-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1037,7 +1037,7 @@
 				  "type": "block",
 				  "code": "brickstairs-red-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1046,7 +1046,7 @@
 				  "type": "block",
 				  "code": "clayshingleblock-blue",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1055,7 +1055,7 @@
 				  "type": "block",
 				  "code": "clayshingleblock-brown",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1064,7 +1064,7 @@
 				  "type": "block",
 				  "code": "clayshinglelabs-red-down-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1073,7 +1073,7 @@
 				  "type": "block",
 				  "code": "clayshinglestairs-blue-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1082,7 +1082,7 @@
 				  "type": "block",
 				  "code": "clayshinglestairs-brown-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1091,7 +1091,7 @@
 				  "type": "block",
 				  "code": "clayshinglestairs-fire-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1100,7 +1100,7 @@
 				  "type": "block",
 				  "code": "clayshinglestairs-red-up-north-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1109,7 +1109,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-fireclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1118,7 +1118,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-blueclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1127,7 +1127,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-redclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1136,7 +1136,7 @@
 				  "type": "block",
 				  "code": "slantedroofing-brownclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1145,7 +1145,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-fireclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1154,7 +1154,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-blueclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1163,7 +1163,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-redclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1172,7 +1172,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerinner-brownclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1181,7 +1181,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-fireclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1190,7 +1190,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-blueclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1199,7 +1199,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-redclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1208,7 +1208,7 @@
 				  "type": "block",
 				  "code": "slantedroofingcornerouter-brownclay-east-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1217,7 +1217,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-fireclay-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1226,7 +1226,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-blueclay-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1235,7 +1235,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-redclay-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1244,7 +1244,7 @@
 				  "type": "block",
 				  "code": "slantedroofingridge-brownclay-ns-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1253,7 +1253,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-fireclay-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1262,7 +1262,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-blueclay-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1271,7 +1271,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-redclay-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
@@ -1280,7 +1280,7 @@
 				  "type": "block",
 				  "code": "slantedroofingtip-brownclay-free",
 				  "quantity": {
-					"avg": 20,
+					"avg": 45,
 					"var": 10
 				  },
 				  "chance": 100
