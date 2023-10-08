@@ -4,9 +4,8 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.01, //0.025
+                "chance": 0.002, //0.002
                 "generator": "LooselyGrouped",
-                "maxTemp": -7,
                 "quantityStructures": { "avg": 5, "var": 2 },
                 "schematics": [
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/1", "offsetY": -10, "weight": 40 },

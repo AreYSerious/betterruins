@@ -8,9 +8,9 @@
                 "maxRain": 1,
                 "minForest": 0.8,
                 "maxForest": 1,
-                "chance": 0.005, //0.005
+                "chance": 0.002, //0.005
                 "generator": "LooselyGrouped",
-                "quantityStructures": { "avg": 5, "var": 2 },
+                "quantityStructures": { "avg": 2, "var": 1 },
                 "schematics": [
                   { "path": "overground/climates/forest-plains/par-village1/par-vill1-1", "offsetY": -1, "weight": 100 },
                   { "path": "overground/climates/forest-plains/par-village1/par-vill1-2", "offsetY": -1, "weight": 100 },
