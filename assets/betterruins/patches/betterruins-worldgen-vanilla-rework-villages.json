@@ -5,9 +5,9 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.0025,
+                "chance": 0.001,
                 "generator": "LooselyGrouped",
-                "quantityStructures": { "avg": 5, "var": 2 },
+                "quantityStructures": { "avg": 3, "var": 1 },
                 "schematics": [
                   { "path": "overground/br-village/*", "offsetY": -3, "weight": 100 }
                 ],
@@ -91,7 +91,7 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.00025,
+                "chance": 0.005,
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 1 },
                 "schematics": [
@@ -198,9 +198,9 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.005,
+                "chance": 0.01,
                 "generator": "LooselyGrouped",
-                "quantityStructures": { "avg": 5, "var": 10, "dist": "InvExp" },
+                "quantityStructures": { "avg": 5, "var": 2, "dist": "InvExp" },
                 "schematics": [
                   { "path": "overground/vanilla-rework-villages/villages-vanilla-1", "offsetY": -5, "weight": 20 },
                   { "path": "overground/vanilla-rework-villages/villages-vanilla-2", "offsetY": -3, "weight": 20 },

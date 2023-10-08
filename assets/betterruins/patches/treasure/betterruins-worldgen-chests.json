@@ -5,7 +5,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.015,
+            "chance": 0.01,
             "schematics": [
                 "treasure/chests/rank1/*"
             ],
@@ -17,7 +17,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 500,
+            "mindistance": 750,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -29,7 +29,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.0075,
+            "chance": 0.005,
             "schematics": [
                 "treasure/chests/rank2/*"
             ],
@@ -41,7 +41,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 500,
+            "mindistance": 750,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -53,7 +53,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.0025,
+            "chance": 0.001,
             "schematics": [
                 "treasure/chests/rank3*"
             ],
@@ -65,7 +65,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 500,
+            "mindistance": 750,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
