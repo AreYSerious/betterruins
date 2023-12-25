@@ -4,12 +4,12 @@
     "path": "/villageTypes/-",
     "value": {
                 "code": "ruinedvillage",
-                "chance": 0.002, //0.002
+                "chance": 0.0007, //0.002
                 "generator": "LooselyGrouped",
                 "quantityStructures": { "avg": 5, "var": 2 },
                 "schematics": [
-                  { "path": "overground/climates/coldclimate/virrnogamr-village1/1", "offsetY": -10, "weight": 40 },
-                  { "path": "overground/climates/coldclimate/virrnogamr-village1/2", "offsetY": -8, "weight": 40 },
+                  { "path": "overground/climates/coldclimate/virrnogamr-village1/1", "offsetY": -10, "weight": 60 },
+                  { "path": "overground/climates/coldclimate/virrnogamr-village1/2", "offsetY": -8, "weight": 50 },
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/3", "offsetY": -6, "weight": 30 },
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/4", "offsetY": -1, "weight": 30 },
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/5", "offsetY": -1, "weight": 65 },
@@ -20,7 +20,8 @@
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/10", "offsetY": -1, "weight": 30 },
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/11", "offsetY": -1, "weight": 65 },
                   { "path": "overground/climates/coldclimate/virrnogamr-village1/12", "offsetY": -1, "weight": 65 },
-                  { "path": "overground/climates/coldclimate/virrnogamr-village1/13", "offsetY": -1, "weight": 20 }
+                  { "path": "overground/climates/coldclimate/virrnogamr-village1/13", "offsetY": -1, "weight": 20 },
+                  { "path": "overground/climates/coldclimate/virrnogamr-village1/14", "offsetY": -1, "weight": 20 }
                 ],
                 "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
                 "rocktyperemaps": {
