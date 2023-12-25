@@ -1,0 +1,267 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "X,S,B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Block", code: "game:plankslab-aged-*" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "X__,SSS,CBC",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Block", code: "game:plankslab-aged-*" },
+            "B": {type: "Item", code: "game:plank-aged" },
+            "C": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long", "collected":true } }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "BBB,BXB,B_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-aged", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "BBB,BXB",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-aged", "collected":true } }
+        
+    },
+
+
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:candle", quantity: 2 },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-accessories", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-blue" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-blue", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-green" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-green", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-purple" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-purple", "collected":true } }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-red" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long", "collected":true } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-red", "collected":true } }
+        
+    },
+    
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X,S,B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Block", code: "game:plankslab-aged-*" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long"} }
+        
+    },
+    {
+        "ingredientPattern": "X__,SSS,CBC",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Block", code: "game:plankslab-aged-*" },
+            "B": {type: "Item", code: "game:plank-aged" },
+            "C": {type: "Block", code: "game:clutter", attributes: { "type": "chair-long"} }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        
+    },
+    {
+        "ingredientPattern": "BBB,BXB,B_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-aged"} }
+        
+    },
+    {
+        "ingredientPattern": "BBB,BXB",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "B": {type: "Item", code: "game:plank-aged" }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "chair-aged"} }
+        
+    },
+
+
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:candle", quantity: 2 },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-accessories"} }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-blue" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-blue"} }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-green" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-green"} }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-purple" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-purple"} }
+        
+    },
+    {
+        "ingredientPattern": "S,T,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-table" },
+            "S": {type: "Item", code: "game:cloth-red" },
+            "T": {type: "Block", code: "game:clutter", attributes: { "type": "table-long"} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "table-long-with-cloth-red"} }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+]

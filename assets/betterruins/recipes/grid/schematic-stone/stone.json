@@ -1,0 +1,163 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:rock-*", quantity: 8 , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-14" , quantity: 8}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stalagsection-*-14", quantity: 8  , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-12" , quantity: 8}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stalagsection-*-12", quantity: 8  , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-10" , quantity: 8}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stalagsection-*-10", quantity: 8  , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-08" , quantity: 8}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stalagsection-*-08", quantity: 8  , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-06" , quantity: 8}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:pickaxe-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stalagsection-*-06", quantity: 8  , name:"rock", skipVariants: ["tuff", "suevite", "scoria", "kimberlite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:stalagsection-{rock}-04" , quantity: 8}
+        
+    },
+
+
+
+
+
+
+
+    
+    {
+        "ingredientPattern": "P,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:stone-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:overlay-damagedstone" , "quantity": 16}
+        
+    },
+
+
+
+
+    {
+        "ingredientPattern": "P,B,X",
+        "enabled": false,
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stonebricks-*", name: "rock"}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:crackedstonebricks-{rock}"}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:cobblestone-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:agedstonebricks-{rock}"}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "andesite", "chalk", "conglomerate", "shale", "basalt", "phyllite", "bauxite"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:polishedrockold-full-{rock}"}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:polishedrockold-full-*", name: "rock", skipVariants: ["pinkmarble"]}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:polishedrockold-cobbled-{rock}"}
+        
+    },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:rock-*", name: "rock"}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:crackedrock-{rock}"}
+        
+    },
+]
+

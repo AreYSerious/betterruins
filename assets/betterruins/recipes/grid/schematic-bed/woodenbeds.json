@@ -1,0 +1,211 @@
+[
+
+
+
+    {
+        "ingredientPattern": "_S_,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed-short-green", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "_S_,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-plain" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed-short-stitched-ruined", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "_S_,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-brown" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed-short-old" , "collected": true } }
+        
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "PSP,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "PSP,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-plain" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-stitched-ruined", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "PSP,PCP,PPP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "C": {type: "Item", code: "game:cloth-brown" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old" , "collected": true } }
+        
+    },
+
+
+
+
+    {
+        "ingredientPattern": "BS,C_",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old" , "collected": true} },
+            "C": {type: "Item", code: "game:cloth-brown" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-opened" , "collected": true} }
+        
+    },
+    {
+        "ingredientPattern": "BS",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-opened" , "collected": true} },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-closed" , "collected": true} }
+        
+    },
+    {
+        "ingredientPattern": "BS",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-closed" , "collected": true} },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-old-drapes-opened" , "collected": true} }
+        
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "BS,C_",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green" , "collected": true} },
+            "C": {type: "Item", code: "game:cloth-green" },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-opened" , "collected": true} }
+        
+    },
+    {
+        "ingredientPattern": "BS",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-opened" , "collected": true} },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-closed" , "collected": true} }
+        
+    },
+    {
+        "ingredientPattern": "BS",
+        "ingredients": {
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-closed" , "collected": true} },
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "fancy-bed-green-drapes-opened" , "collected": true} }
+        
+    },
+
+
+    {
+        "ingredientPattern": "S__,CPC,BBB",
+        "ingredients": {
+            "C": {type: "Item", code: "game:cloth-plain" },
+            "P": {type: "Block", code: "game:linen-normal-down" , quantity: 2},
+            "B": {type: "Item", code: "game:plank-aged" , quantity: 5},
+            "S": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:bed-woodaged-head-north" }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+]

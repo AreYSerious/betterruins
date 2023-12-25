@@ -1,0 +1,195 @@
+[
+    {
+        "ingredientPattern": "OX,BS,C_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "O": {
+                "type": "item",
+                "code": "game:leather-orange"
+            },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunsmall-orange-top",
+                "collected": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "CX,BS,O_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "O": {
+                "type": "item",
+                "code": "game:leather-orange"
+            },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunsmall-orange-bottom",
+                "collected": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "CX,CS,C_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunsmall-orange-segment",
+                "collected": true
+            }
+        }
+    },
+
+
+    {
+        "ingredientPattern": "XO,SB,_C",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "O": {
+                "type": "item",
+                "code": "game:leather-orange"
+            },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunlarge-orange-top",
+                "collected": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "XC,SB,_O",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "O": {
+                "type": "item",
+                "code": "game:leather-orange"
+            },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-*"
+            },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunlarge-orange-bottom",
+                "collected": true
+            }
+        }
+    },
+    {
+        "ingredientPattern": "XC,SC,_C",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:cloth-orange"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:clutter",
+            "attributes": {
+                "type": "banner-sunlarge-orange-segment",
+                "collected": true
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

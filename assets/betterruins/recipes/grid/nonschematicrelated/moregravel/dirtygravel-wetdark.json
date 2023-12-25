@@ -1,0 +1,71 @@
+[
+    {
+        "ingredientPattern": "G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:muddygravel",
+                "quantity": 1
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*-none",
+                "allowedVariants": [
+                    "medium"
+                ],
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-wetdark-plain",
+            "quantity": 2
+        }
+    },
+	{
+        "ingredientPattern": "G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:dirtygravel-wetdark-plain",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-wetdark-cracked",
+            "quantity": 1
+        }
+    },
+	{
+        "ingredientPattern": "S,G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:dirtygravel-wetdark-cracked",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-wetdark-stoney",
+            "quantity": 1
+        }
+    }
+]

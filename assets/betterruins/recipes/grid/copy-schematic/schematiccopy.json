@@ -1,0 +1,29 @@
+{
+    "ingredientPattern": "I_,SP",
+    "ingredients": {
+        "I": {
+            "type": "Item",
+            "code": "game:inkandquill"
+			
+        },
+        "S": {
+            "type": "item",
+            "code": "game:paper-parchment",
+            "quantity": 1
+        },
+        "P": {
+            "type": "item",
+            "code": "br-schematic-*",
+            "name": "type"
+        }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 2,
+    "name": "brschematiccopy",
+    "output": {
+        "type": "item",
+        "code": "br-schematic-{type}",
+        "quantity": 1
+    }
+}

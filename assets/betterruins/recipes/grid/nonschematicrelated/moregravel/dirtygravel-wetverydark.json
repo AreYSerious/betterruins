@@ -1,0 +1,23 @@
+[
+    {
+        "ingredientPattern": "G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:muddygravel",
+                "quantity": 1
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*-none",
+                "allowedVariants": [
+                    "compost", "high"
+                ],
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:dirtygravel-wetverydark-plain" }
+    }
+]

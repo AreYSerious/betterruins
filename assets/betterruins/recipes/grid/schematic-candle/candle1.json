@@ -1,0 +1,222 @@
+[
+ 
+    
+    {
+        "ingredientPattern": "RGR,XN_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "N": {type: "Item", code: "game:metalplate-*" },
+            "R": {type: "Item", code: "game:clearquartz" },
+            "G": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single" , "collected": true} }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" , "collected": true} }
+        
+    },
+
+    
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:hammer-*" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" , "collected": true} }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground2" , "collected": true} }
+        
+    },
+    
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 5 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch4", "collected": true} }
+        
+    },
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 4 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch3", "collected": true} }
+        
+    },
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 3 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch2", "collected": true} }
+        
+    },
+
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 2 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch1", "collected": true} }
+        
+    },
+
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 1 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single", "collected": true} }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+        "ingredientPattern": "RGR,XN_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "N": {type: "Item", code: "game:metalplate-*" },
+            "R": {type: "Item", code: "game:clearquartz" },
+            "G": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single" } }
+        },
+        "width": 3,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" } }
+        
+    },
+
+    
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:hammer-*" },
+            "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" } }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground2" } }
+        
+    },
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 5 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch4"} }
+        
+    },
+
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 4 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch3"} }
+        
+    },
+
+    
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 3 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch2"} }
+        
+    },
+
+
+    
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 2 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestubs-bunch1"} }
+        
+    },
+
+    {
+        "ingredientPattern": "H,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "H": {type: "Item", code: "game:beeswax", quantity: 1 }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "candlestub-single"} }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
