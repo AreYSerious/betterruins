@@ -5,7 +5,7 @@
     "value": {
       "type": "item",
       "code": "clothes-butterflypin-temporal",
-      "chance": 3
+      "chance": 2
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
