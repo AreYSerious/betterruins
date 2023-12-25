@@ -4,14 +4,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "ruin",
-                  "minTemp": 28,
+                  "minTemp": 25,
                   "maxTemp": 60,
                   "minRain": 0,
                   "maxRain": 0.5,
                   "minForest": 0,
                   "maxForest": 1,
-                  "chance": 0.1,
-                  "group": "ruins",
+                  "chance": 0.15,
                   "minGroupDistance": 400,
                   "placement": "surface",
                   "schematics": [

@@ -11,8 +11,8 @@
                   "minForest": 0,
                   "maxForest": 1,
                   "chance": 0.05,
-                  "group": "ruins",
-                  "minGroupDistance": 400,
+                  "group": "desertruins",
+                  "minGroupDistance": 1400,
                   "placement": "surface",
                   "schematics": [
                     "overground/climates/desert-savanna/ruins-o1/*"
