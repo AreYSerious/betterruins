@@ -1,0 +1,70 @@
+{
+	code: "br-schematic",
+	maxstacksize: 1,
+	behaviors: [
+		{ name: "GroundStorable", properties: {layout: 'Quadrants', placeRemoveSound: 'game:sounds/player/build', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1 }} }
+	],
+	variantgroups: [
+		{ code: "type", states: ["door", "bed", "book", "chest", "crate", "gaslamp", "jonaslamp", "banner", "table", "stone", "wood", "ancient", "candle", "road"] },
+	],
+	attributes: {
+
+		moldrackable: true,
+		onmoldrackTransform: {
+			translation: { x: 0.178, y: -0.12, z: -0.23 },
+			rotation: { x: 90, y: 0, z: 86 },
+			scale: 0.6
+		},
+		displaycaseable: true, 
+		onDisplayTransform: {
+			translation: { x: 0, y: -0.12, z: 0 },
+			scale: 0.75
+		},
+		noConsumeOnCrafting: true,
+		groundStorageTransform: {
+			rotation: { x: 0, y: 7, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 0.6
+		},
+		onshelfTransform: {
+			translation: { x: 0.35, y: -0.36, z: 0.1 },
+			rotation: { x: 90, y: 0, z: 80 },
+			origin: { x: -0.2, y: 0.74, z: 0.1 },
+			scale: 0.46
+		},
+		shelvable: true,
+		bookshelveable: true
+	},	
+	shape: { base: "item/betterruins-schematic/schematic-shape" },
+	"texturesbyType": {
+		"*": {
+			"map-blank": { "base": "game:item/utility/map-blank"},
+			"schematic-glider": { "base": "item/betterruins/{type}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -54, y: -24, z: -180 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scaleXyz: { x: -1.3, y: 1.3, z: 1.3 }
+	},
+	fpHandTransform: {
+		translation: { x: -0.1, y: 0, z: 0 },
+		rotation: { x: 3, y: 3, z: 8 },
+		origin: { x: 0.5, y: 0.02, z: 0.5 },
+		scale: 1.36
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: -0.02, z: 0.5 },
+		scale: 2.94
+	},
+	tpHandTransform: {
+		translation: { x: -1.27, y: -0.63, z: -0.8 },
+		rotation: { x: -44, y: -141, z: 83 },
+		origin: { x: 0.4, y: 0.2, z: 0.4 },
+		scale: 0.6
+	}
+}
