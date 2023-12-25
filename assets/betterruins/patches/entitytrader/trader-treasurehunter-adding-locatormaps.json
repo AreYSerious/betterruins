@@ -11,7 +11,7 @@
         "var": 0.75
       },
       "price": {
-        "avg": 8,
+        "avg": 5,
         "var": 2
       }
     },
@@ -29,8 +29,8 @@
         "var": 0.75
       },
       "price": {
-        "avg": 16,
-        "var": 1
+        "avg": 10,
+        "var": 2
       }
     },
     "file": "game:entities/humanoid/trader-treasurehunter.json"
@@ -47,7 +47,7 @@
         "var": 0.75
       },
       "price": {
-        "avg": 12,
+        "avg": 8,
         "var": 3
       }
     },
