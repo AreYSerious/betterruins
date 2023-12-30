@@ -2,11 +2,10 @@
   "type": "content",
   "modid": "betterruins",
   "name": "BetterRuins",
-  "description" : "Adds a lot of structures to the worldgen over and underground.\nBuilderteam: Dampus, SamGrey, StAdrian, Bellcross, Djvirus, Bodlacek, Catnoir, Par, Rowly, Vilderos, virrnogamr\nTranslators: Xandoria, macoto_hino, yanazake, Knave2000, Grigoriewich, Jefferzon, Srloboalbino",
+  "description" : "Adds a lot of structures to the worldgen over and underground.\nBuilderteam: Dampus, SamGrey, StAdrian, Bellcross, Djvirus, Bodlacek, Catnoir, Par, Rowly, Vilderos, Virrnogamr,\nQuentinQP, OnBean, Boitameu, LordJarJar, Yerts, XurxoMF, Marlim\nTranslators: Xandoria, macoto_hino, yanazake, Knave2000, Grigoriewich, Jefferzon, Srloboalbino, Vilderos",
   "authors": ["NiclAss"],
-  "version": "0.2.4",
-  "requiredOnClient": true,
-  "requiredOnServer": true,
+  "version": "0.2.5",
+  "side": "Universal",
   "dependency": {
     "game": ""
   }

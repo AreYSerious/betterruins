@@ -1,0 +1,16 @@
+[
+    {
+        "ingredientPattern": "BBB,BMB,BSB",
+        "ingredients": {
+            "B": {type: "Item", code: "game:plank-aged" },
+            "S": {"type": "Item", "code": "br-schematic-chest" },
+            "M": {type: "Block", code: "game:metal-scraps", quantity: 2 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chest-east", attributes: { "type": "normal-aged" } }
+        
+    }
+
+
+]

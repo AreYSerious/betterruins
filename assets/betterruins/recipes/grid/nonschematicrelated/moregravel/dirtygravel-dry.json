@@ -1,0 +1,88 @@
+[
+    {
+        "ingredientPattern": "G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:gravel-*",
+                "quantity": 1,
+                "name": "gravel",
+                "allowedVariants": [
+                    "andesite",
+                    "chalk",
+                    "chert",
+                    "conglomerate",
+                    "limestone",
+                    "claystone",
+                    "granite",
+                    "sandstone",
+                    "shale",
+                    "basalt",
+                    "peridotite",
+                    "phyllite",
+                    "slate",
+                    "bauxite"
+                ]
+            },
+            "S": {
+                "type": "block",
+                "code": "game:soil-*-none",
+                "allowedVariants": [
+                    "low"
+                ],
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-dry-plain",
+            "quantity": 2
+        }
+    },
+	{
+        "ingredientPattern": "G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:dirtygravel-dry-plain",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "quantity": 1
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-dry-cracked",
+            "quantity": 1
+        }
+    },
+	{
+        "ingredientPattern": "S,G,S",
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:dirtygravel-dry-cracked",
+                "quantity": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "game:stone-*",
+                "quantity": 1
+            }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {
+            "type": "block",
+            "code": "game:dirtygravel-dry-stoney",
+            "quantity": 1
+        }
+    }
+]

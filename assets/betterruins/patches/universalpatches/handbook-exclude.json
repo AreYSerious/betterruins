@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:blocktypes/overlay/damagedstone.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  }
+]

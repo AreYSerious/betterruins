@@ -17,7 +17,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 750,
+            "mindistance": 850,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -41,7 +41,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 750,
+            "mindistance": 850,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -65,7 +65,7 @@
                 "soil-low-normal",
                 "forestfloor-1"
             ],
-            "mindistance": 750,
+            "mindistance": 850,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",

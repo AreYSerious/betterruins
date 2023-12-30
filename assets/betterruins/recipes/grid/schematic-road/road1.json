@@ -1,0 +1,50 @@
+[
+ 
+    {
+        ingredientPattern: "L_,SX",
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-road" },
+            "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 4 },
+            "S": { type: "block", code: "game:soil-*" },
+            
+        },
+        width: 2,
+        height: 2,
+        output: { type: "block", code: "game:stonepath-free", quantity: 4 }
+    },
+    {
+        ingredientPattern: "LSL,_X_",
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-road" },
+            "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 1 },
+            "S": { type: "block", code: "game:soil-*" },
+            "C": { type: "item", code: "game:shovel-*", name: "metal", isTool: true},
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "game:stonepathslab-free", quantity: 4 }
+    },
+    {
+        ingredientPattern: "LM_,SX_",
+        ingredients: {
+            "X": {type: "Item", code: "br-schematic-road" },
+            "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 3 },
+            "M": { type: "item", code: "game:stone-*", name: "rock", quantity: 1 },
+            "S": { type: "block", code: "game:soil-*" },
+        },
+        width: 3,
+        height: 2,
+        output: { type: "block", code: "game:stonepathstairs-up-north-free", quantity: 4 }
+    },
+    {
+        ingredientPattern: "SPX",
+        ingredients: {
+            "S": { type: "item", code: "game:saw-*", isTool: true },
+            "X": {type: "Item", code: "br-schematic-road" },
+            "P": { type: "item", code: "game:plank-*", quantity: 2 }
+        },
+        width: 3,
+        height: 1,
+        output: { type: "block", code: "game:woodenpath-ns", quantity: 4  }
+    }
+]

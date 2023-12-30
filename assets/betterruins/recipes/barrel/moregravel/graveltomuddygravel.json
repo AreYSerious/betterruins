@@ -1,0 +1,37 @@
+{
+    "code": "muddygravel",
+    "ingredients": [
+        {
+            "type": "item",
+            "code": "game:waterportion",
+            "litres": 1
+        },
+        {
+            "type": "block",
+            "code": "game:gravel-*",
+            "quantity": 1,
+            "name": "gravel",
+            "allowedVariants": [
+                "andesite",
+                "chalk",
+                "chert",
+                "conglomerate",
+                "limestone",
+                "claystone",
+                "granite",
+                "sandstone",
+                "shale",
+                "basalt",
+                "peridotite",
+                "phyllite",
+                "slate",
+				"bauxite"
+            ]
+        }
+    ],
+    "output": {
+        "type": "block",
+        "code": "game:muddygravel",
+        "stackSize": 1
+    }
+}

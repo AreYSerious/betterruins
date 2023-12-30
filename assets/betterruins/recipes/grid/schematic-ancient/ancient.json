@@ -1,0 +1,71 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "XH,WC",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-ancient" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:rock-chalk" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:quartz-plain" }
+        
+    },
+    {
+        "ingredientPattern": "XH,WC",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-ancient" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:quartz-plain" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:quartz-ornate" }
+        
+    },
+    {
+        "ingredientPattern": "HX,CW",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-ancient" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:quartz-plain" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:quartzpillar-ud" }
+        
+    },
+    {
+        "ingredientPattern": "X_,SW",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-ancient" },
+            "S": {type: "Item", code: "game:saw-*", isTool: true },
+            "W": {type: "Block", code: "game:quartz-plain" },
+
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:quartzslab-down-free", quantity: 2 }
+        
+    },
+    {
+        "ingredientPattern": "XS,_W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-ancient" },
+            "S": {type: "Item", code: "game:saw-*", isTool: true },
+            "W": {type: "Block", code: "game:quartz-plain" },
+
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:quartzstairs-up-north-free", "quantity": 2 }
+        
+    },
+]

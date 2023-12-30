@@ -1,0 +1,388 @@
+[
+ 
+    
+    {
+        "ingredientPattern": "XM_,G_G,_P_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*", quantity: 2  },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "XP_,G_G,_M_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*", quantity: 2  },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "XP_,G_G,_MM",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" , "collected":true} }
+        
+    },
+   
+
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" , "collected":true} },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" , "collected":true} },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" , "collected":true} }
+        
+    },
+
+
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" , "collected":true} },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" , "collected":true} }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-ceiling1" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor2" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-wall2" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor1" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor3" , "collected":true} }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" , "collected":true} },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-wall1" , "collected":true} }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    {
+        "ingredientPattern": "XM_,G_G,_P_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*", quantity: 2  },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" } }
+        
+    },
+    {
+        "ingredientPattern": "XP_,G_G,_M_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*", quantity: 2  },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" } }
+        
+    },
+    {
+        "ingredientPattern": "XP_,G_G,_MM",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "M": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "P": {type: "Item", code: "game:metalplate-brass"},
+            "G": {type: "Block", code: "game:glassslab-*-down-free"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" } }
+        
+    },
+   
+
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" } },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" } }
+        
+    },
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" } },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" } }
+        
+    },
+
+
+
+    {
+        "ingredientPattern": "H,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" } },
+            "H": {type: "Item", code: "game:hammer-*" , "isTool": true},
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" } }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-ceiling1" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-ceiling1" } }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor2" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor2" } }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall2" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-wall2" } }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor1" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor1" } }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-floor3" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-floor3" } }
+        
+    },
+    {
+        "ingredientPattern": "O,L,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-gaslamp" },
+            "L": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/off/gas-wall1" } },
+            "O": {type: "Block", code: "game:oillamp-up" },
+
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:jonas-lamp", attributes: { "type": "lightsource/on/gas-wall1" } }
+        
+    },
+]
+
+
+

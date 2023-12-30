@@ -1,6 +1,62 @@
 [
   {
     "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/sand-granite",
+    "value": "sand-{rock}",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-7",
+    "value": "gravel-{rock}-land-7",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-6",
+    "value": "gravel-{rock}-land-6",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-5",
+    "value": "gravel-{rock}-land-5",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-4",
+    "value": "gravel-{rock}-land-4",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-3",
+    "value": "gravel-{rock}-land-3",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-2",
+    "value": "gravel-{rock}-land-2",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-1",
+    "value": "gravel-{rock}-land-1",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
     "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-08",
     "value": "stalagsection-{rock}-08",
     "file": "game:worldgen/structures.json",
@@ -17,6 +73,20 @@
     "op": "add",
     "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-10",
     "value": "stalagsection-{rock}-10",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-12",
+    "value": "stalagsection-{rock}-12",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/stalagsection-granite-14",
+    "value": "stalagsection-{rock}-14",
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },

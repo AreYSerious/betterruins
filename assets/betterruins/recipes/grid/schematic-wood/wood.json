@@ -1,0 +1,177 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "HX,C_,W_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-top-plain-ud" }
+        
+    },
+       
+    {
+        "ingredientPattern": "H_,CX,W_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-middle-plain-ud" }  
+    },
+
+    {
+        "ingredientPattern": "H_,C_,WX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-plain-ud" }  
+    },
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "HX,C_,W_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-top-fancy-ud" }
+        
+    },
+       
+    {
+        "ingredientPattern": "H_,CX,W_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-middle-fancy-ud" }
+    },
+
+    {
+        "ingredientPattern": "H_,C_,WX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
+            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-fancy-ud" }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "X,W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:planks-ebony-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:planks-agedebony-ud" }
+    },
+    {
+        "ingredientPattern": "X,W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:planks-agedebony-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:planks-rottenebony-ud" }
+    },
+
+
+
+
+
+    {
+        "ingredientPattern": "X,W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:debarkedlog-aged-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:debarkedlog-veryaged-ud" }
+    },
+    {
+        "ingredientPattern": "X,W",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:debarkedlog-veryaged-*" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:debarkedlog-veryagedrotten-ud" }
+    },
+
+
+
+    {
+        "ingredientPattern": "BXB,BSB,B_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "B": {type: "Item", code: "game:plank-aged" },
+            "S": {type: "Item", code: "game:stick" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "ladder-aged1", "collected":true } }
+    },
+    {
+        "ingredientPattern": "BXB,BSB,B_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "B": {type: "Item", code: "game:plank-aged" },
+            "S": {type: "Item", code: "game:stick" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "ladder-aged1" } }
+    },
+
+
+]

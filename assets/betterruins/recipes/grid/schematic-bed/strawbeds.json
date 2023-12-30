@@ -1,0 +1,108 @@
+[
+
+
+    {
+        "ingredientPattern": "H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-normal-ud" }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {type: "Block", code: "game:hay-aged-ud" }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 7},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-double1", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 6},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-ruined1", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 5},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-ruined2", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 4},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-single1", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 3},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-single2", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 2},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-small1", "collected": true } }
+        
+    },
+    {
+        "ingredientPattern": "X,H",
+        "ingredients": {
+            "H": {type: "Block", code: "game:hay-aged-ud" , quantity: 1},
+            "X": {"type": "Item", "code": "br-schematic-bed" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "bed/bed-straw-small2", "collected": true } }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

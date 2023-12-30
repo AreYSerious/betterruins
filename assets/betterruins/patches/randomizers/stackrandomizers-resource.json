@@ -186,8 +186,8 @@
       "type": "item",
       "code": "cattailtops",
       "quantity": {
-        "avg": 10,
-        "var": 3
+        "avg": 25,
+        "var": 8
       },
       "chance": 12
     },
@@ -201,7 +201,7 @@
       "type": "item",
       "code": "clay-blue",
       "quantity": {
-        "avg": 20,
+        "avg": 25,
         "var": 10
       },
       "chance": 10
@@ -216,7 +216,7 @@
       "type": "item",
       "code": "clay-fire",
       "quantity": {
-        "avg": 20,
+        "avg": 25,
         "var": 10
       },
       "chance": 8
@@ -276,10 +276,10 @@
       "type": "item",
       "code": "metalbit-copper",
       "quantity": {
-        "avg": 4,
-        "var": 2
+        "avg": 8,
+        "var": 4
       },
-      "chance": 4
+      "chance": 5
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -291,7 +291,7 @@
       "type": "item",
       "code": "firewood",
       "quantity": {
-        "avg": 8,
+        "avg": 17,
         "var": 6
       },
       "chance": 10

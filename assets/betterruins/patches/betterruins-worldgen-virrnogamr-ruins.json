@@ -1,0 +1,63 @@
+[
+  // New Ruins
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "greenhouse",
+                  "group": "ruins",
+                  "minGroupDistance": 400, //500
+                  "chance": 0.001,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/virrnogamr/greenhouses/o2/*"
+                  ],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -2,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "museum",
+                  "group": "ruins",
+                  "minGroupDistance": 400, //500
+                  "chance": 0.0005,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/virrnogamr/museum/o8/*"
+                  ],
+                  "offsety": -8,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "windmill",
+                  "group": "ruins",
+                  "minGroupDistance": 400, //500
+                  "chance": 0.003,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/virrnogamr/windmills/o2/*"
+                  ],
+                  "offsety": -2,
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "rockTypeRemapGroup": "surfaceruins"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

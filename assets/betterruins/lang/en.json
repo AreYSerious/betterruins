@@ -81,6 +81,26 @@
     "item-locatormap-gates": "Mechanical Reliquary Map",
     "item-locatormap-undergroundruins": "Depths Expedition Map",
     "item-locatormap-forlornhopetower": "Estimated Outpost Location",
-    "item-locatormap-giantcathedral": "Estimaded Scared Place"
+    "item-locatormap-giantcathedral": "Estimated Scared Place",
+
+
+
+
+
+    "item-br-schematic-door": "Gatekeeper's Blueprint",
+    "item-br-schematic-book": "Bookbinder's Blueprint",
+    "item-br-schematic-chest": "Treasure Guardian's Blueprint",
+    "item-br-schematic-crate": "Storagemaster's Blueprint",
+    "item-br-schematic-bed": "Carpenter's Bed Blueprint",
+    "item-br-schematic-gaslamp": "Lampwright's Blueprint",
+    "item-br-schematic-jonaslamp": "Metalworker's Jonaslamp Blueprint",
+    "item-br-schematic-banner": "Flagmaker's Banner Blueprint",
+    "item-br-schematic-table": "Joiner's Table Blueprint",
+    "item-br-schematic-stone": "Stonemason's Blueprint",
+    "item-br-schematic-wood": "Lumberwright's Blueprint",
+    "item-br-schematic-ancient": "Relic Stonemason's Blueprint",
+    "item-br-schematic-candle": "Chandler's Blueprint",
+    "item-br-schematic-road": "Paver's Road Blueprint"
+
 
 }

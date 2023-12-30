@@ -1,0 +1,98 @@
+[
+    {
+        "ingredientPattern": "PP_,PPS,PP_",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "S": {"type": "Item", "code": "br-schematic-door" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "game:door-ruined-rough1" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "ingredients": {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "D": {"type": "Block", "code": "game:door-ruined-rough1" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:door-ruined-rough2" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "ingredients": {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "D": {type: "Block", code: "game:door-ruined-rough2" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:door-ruined-rough3" }
+        
+    },
+
+
+
+
+
+
+    {
+        "ingredientPattern": "_PP,SPP,_PP",
+        "ingredients": {
+            "P": {"type": "Item", "code": "game:plank-aged" },
+            "S": {"type": "Item", "code": "br-schematic-door" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:door-ruined-windowed1" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "ingredients": {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "D": {type: "Block", code: "game:door-ruined-windowed1" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:door-ruined-windowed2" }
+        
+    },
+    {
+        "ingredientPattern": "A,D",
+        "ingredients": {
+            "A": { type: "item", code: "game:axe-*", isTool: true  },
+            "D": {type: "Block", code: "game:door-ruined-windowed2" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {type: "Block", code: "game:door-ruined-windowed3" }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		name: "Fancy door",
+		ingredientPattern: "AWW,SWW,_WW",
+		ingredients: {
+			"W": { type: "item", code: "game:plank-*", name: "wood" },
+            "A": { type: "item", code: "game:saw-*", isTool: true  },
+            "S": {"type": "Item", "code": "br-schematic-door" }
+		},
+		width: 3,
+		height: 3,
+		output: {type: "Block", code: "game:door-sleek-windowed-{wood}" }
+	},
+]

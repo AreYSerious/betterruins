@@ -4,7 +4,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 30,
+                  "chance": 2,
                   "name": "underground-common",
                   "placement": "underground",
                   "schematics": [
@@ -18,7 +18,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 10,
+                  "chance": 15,
                   "name": "underground-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
@@ -32,7 +32,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 20,
+                  "chance": 25,
                   "name": "underground-uncommon",
                   "placement": "underground",
                   "schematics": [
@@ -47,7 +47,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 7,
+                  "chance": 10,
                   "name": "underground-uncommon-lowerchance",
                   "placement": "underground",
                   "schematics": [
@@ -62,7 +62,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 13,//13
+                  "chance": 15,//13
                   "name": "underground-rare",
                   "placement": "underground",
                   "schematics": [
@@ -77,7 +77,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 7,
+                  "chance": 10,
                   "name": "underground-translocator-common",
                   "placement": "underground",
                   "schematics": [
@@ -91,7 +91,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 10,
+                  "chance": 13,
                   "name": "underground-translocator-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
@@ -105,13 +105,27 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 7,//20
+                  "chance": 10,//20
                   "name": "underground-translocator-uncommon",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-translocator-uncommon/*"
                   ],
                   "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+    },
+    "file": "game:worldgen/structures.json"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "undergroundruins",
+                  "chance": 50,//20
+                  "name": "underground-translocator-verycommon",
+                  "placement": "underground",
+                  "schematics": [
+                    "underground/underground-verycommon/*"
+                  ]
     },
     "file": "game:worldgen/structures.json"
   }
