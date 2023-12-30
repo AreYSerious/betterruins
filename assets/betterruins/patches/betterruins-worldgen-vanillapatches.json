@@ -1,6 +1,13 @@
 [
   {
     "op": "add",
+    "path": "/rocktypeRemapGroups/surfaceruins/sand-granite",
+    "value": "sand-{rock}",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
     "path": "/rocktypeRemapGroups/surfaceruins/gravel-granite-land-7",
     "value": "gravel-{rock}-land-7",
     "file": "game:worldgen/structures.json",
