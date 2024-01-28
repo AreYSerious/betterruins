@@ -11,6 +11,11 @@
     "path": "/chanceMultiplier",
     "value": 0.30, // # default = 0.30; vanilla = 0.46; 33% = 0.10; 66% = 0.20; 150% = 0.45; 200% = 0.60; 300% = 0.90
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "strspawnchances", "invert": true
+      }
+    ]
   }
 ]
