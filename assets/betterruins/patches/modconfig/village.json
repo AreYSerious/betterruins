@@ -1,0 +1,167 @@
+[
+  //
+  //
+  // Villages
+  //
+  //
+
+
+  // old vanilla reworked village tileset
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "code": "custom-village-main",
+      "chance": 0.01, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 7,
+        "var": 3,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o1-0302","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o1-0304","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o1-0306","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o11-0503","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o12-0502","weight": 33},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o2-0401","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o2-0402","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o22-0504","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o3-0101","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o3-0102","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o3-0103","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o3-0404","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o4-0203","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o4-0405","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o4-0501","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o4-0505","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o5-0204","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0104","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0105","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0202","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0205","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0301","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0303","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0305","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0403","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o6-0406","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o7-0206","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o8-0106","weight": 100},
+        {"path": "overground/main/oldvanilla-village/villagesvanilla-niclass-o8-0201","weight": 100}
+    ],
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // Vsvillage styled ruined houses
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "code": "vsvillage-village-main",
+      "chance": 0.3, // # default = 0.3 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 9,
+        "var": 4,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/vsvillage-village/houses/*","weight": 100},
+        {"path": "overground/main/vsvillage-village/wells/*","weight": 100, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/vsvillage-village/mainbuildings/*","weight": 10},
+        {"path": "overground/main/vsvillage-village/wallsegments/*","weight": 10, "minQuantity": 1, "maxQuantity": 3},
+        {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 2, "maxQuantity": 3}
+    ],
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // Forest styled village with a windmill mostly rotten wood
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "code": "forest-village-main",
+      "chance": 0.15, // # default = 0.15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 8,
+        "var": 4,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0105","weight": 33},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0106","weight": 15},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0107","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0303","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0401","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0404","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-par-o1-0604","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0101","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0102","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0103","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0104","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0201","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0202","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0203","weight": 40},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0204","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0205","weight": 40},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0403","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o1-0501","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o10-0402","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o2-0301","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o2-0302","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o5-0503","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o5-0603","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o6-0602","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o8-0502","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-virrno-o8-0601","weight": 100},
+        {"path": "overground/main/forest-village/windmills/*","weight": 100, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 2, "maxQuantity": 2}
+    ],
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // Desert styled village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "code": "desert-village-main",
+      "chance": 0.04, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 5,
+        "var": 1,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/desert-village/desertvillage-par-o2-0102","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/desert-village/desertvillage-par-o2-0103","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/desert-village/desertvillage-par-o2-0105","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/desert-village/desertvillage-par-o2-0106","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/desert-village/desertvillage-par-o3-0104","weight": 25, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/desert-village/desertvillage-par-o6-0101","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 1, "maxQuantity": 2}
+    ],
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  }
+]
