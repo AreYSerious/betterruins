@@ -238,7 +238,7 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minTemp": -30,
-                  "maxTemp": -4
+                  "maxTemp": -7
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
