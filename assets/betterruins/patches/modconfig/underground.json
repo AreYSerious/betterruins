@@ -1,15 +1,23 @@
 [
+  //
+  //
+  // Underground !!! NOT DOCUMENTED !!!
+  //
+  //
+
+
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 2,
+                  "chance": 4,
                   "name": "underground-common",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-common/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -18,12 +26,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 15,
+                  "chance": 20,
                   "name": "underground-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-common-lowerchance/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -32,13 +41,14 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 25,
+                  "chance": 35,
                   "name": "underground-uncommon",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-uncommon/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 30, "var": 20 }
+                  "depth": { "dist": "invexp", "avg": 30, "var": 20 },
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -47,13 +57,14 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 10,
+                  "chance": 14,
                   "name": "underground-uncommon-lowerchance",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-uncommon-lowerchance/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 30, "var": 20 }
+                  "depth": { "dist": "invexp", "avg": 30, "var": 20 },
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -62,13 +73,14 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 15,//13
+                  "chance": 25,//13
                   "name": "underground-rare",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-rare/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 },
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -77,12 +89,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 10,
+                  "chance": 14,
                   "name": "underground-translocator-common",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-translocator-common/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -91,12 +104,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 13,
+                  "chance": 18,
                   "name": "underground-translocator-common-lowerchance",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-translocator-common-lowerchance/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -105,13 +119,14 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
-                  "chance": 10,//20
+                  "chance": 14,//20
                   "name": "underground-translocator-uncommon",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-translocator-uncommon/*"
                   ],
-                  "depth": { "dist": "invexp", "avg": 50, "var": 30 }
+                  "depth": { "dist": "invexp", "avg": 50, "var": 30 },
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   },
@@ -120,12 +135,13 @@
     "path": "/structures/-",
     "value": {
                   "code": "undergroundruins",
-                  "chance": 50,//20
+                  "chance": 60,//20
                   "name": "underground-translocator-verycommon",
                   "placement": "underground",
                   "schematics": [
                     "underground/underground-verycommon/*"
-                  ]
+                  ],
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json"
   }
