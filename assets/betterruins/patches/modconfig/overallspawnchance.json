@@ -17,5 +17,28 @@
         "modid": "strspawnchances", "invert": true
       }
     ]
+  },
+
+
+
+
+
+
+  //
+  //
+  // This value affects all villages in the whole game!
+  //
+  //
+  {
+    "op": "replace",
+    "path": "/chanceMultiplier",
+    "value": 0.035, // # default = 0.035; vanilla = 0.05; 33% = 0.10; 66% = 0.20; 150% = 0.45; 200% = 0.60; 300% = 0.90
+    "file": "game:worldgen/villages.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "strspawnchances", "invert": true
+      }
+    ]
   }
 ]
