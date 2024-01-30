@@ -267,7 +267,16 @@
           "type": "item",
           "code": "armor-legs-tailored-yellow-linen",
           "chance": 100
-        }
+        },
+		{
+			"type": "item",
+			"code": "game:stick",
+			"chance": 1200,
+			"quantity": {
+			  "avg": 7,
+			  "var": 6
+			}
+		  }
       ]
 		},
 		
@@ -2115,7 +2124,7 @@
 					"avg": 4,
 					"var": 2
 				  },
-				  "chance": 50
+				  "chance": 120
 				},
 				{
 				  "type": "item",
@@ -2124,7 +2133,7 @@
 					"avg": 4,
 					"var": 2
 				  },
-				  "chance": 50
+				  "chance": 120
 				},
 				{
 				  "type": "item",
