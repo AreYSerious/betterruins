@@ -17,7 +17,7 @@
       "type": "item",
       "code": "metalbit-silver",
       "quantity": {
-        "avg": 6,
+        "avg": 4,
         "var": 2
       },
       "chance": 2
@@ -32,8 +32,8 @@
       "type": "item",
       "code": "metalbit-gold",
       "quantity": {
-        "avg": 5,
-        "var": 3
+        "avg": 3,
+        "var": 2
       },
       "chance": 2
     },
@@ -223,6 +223,21 @@
       "type": "item",
       "code": "betterruins:br-schematic-road",
       "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:stick",
+      "chance": 100,
+      "quantity": {
+        "avg": 7,
+        "var": 6
+      }
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"

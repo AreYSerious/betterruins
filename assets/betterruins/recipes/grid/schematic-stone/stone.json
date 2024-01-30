@@ -128,7 +128,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "andesite", "chalk", "conglomerate", "shale", "basalt", "phyllite", "bauxite"]}
+            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "andesite", "chalk", "conglomerate", "shale", "basalt", "phyllite", "bauxite", "obsidian"]}
         },
         "width": 1,
         "height": 3,

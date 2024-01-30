@@ -103,5 +103,20 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:stick",
+      "chance": 40,
+      "quantity": {
+        "avg": 7,
+        "var": 6
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 ]
