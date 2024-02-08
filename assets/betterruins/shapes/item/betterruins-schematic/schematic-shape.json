@@ -9,7 +9,7 @@
 	},
 	"textures": {
 		"map-blank": "item/betterruins/map-blank",
-		"schematic-glider": "item/betterruins/schematic-door"
+		"schematic-glider": "item/betterruins/door"
 	},
 	"elements": [
 		{
