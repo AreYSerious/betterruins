@@ -64,7 +64,7 @@
     "path": "/villageTypes/-",
     "value": {
       "code": "vsvillage-village-main",
-      "chance": 0.3, // # default = 0.3 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.1, // # default = 0.1 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 9,
@@ -92,7 +92,7 @@
     "path": "/villageTypes/-",
     "value": {
       "code": "forest-village-main",
-      "chance": 0.15, // # default = 0.15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.085, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 8,
@@ -143,7 +143,7 @@
     "path": "/villageTypes/-",
     "value": {
       "code": "desert-village-main",
-      "chance": 0.04, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 5,
@@ -159,6 +159,7 @@
         {"path": "overground/main/desert-village/desertvillage-par-o6-0101","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 1, "maxQuantity": 2}
     ],
+
       "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/villages.json",
