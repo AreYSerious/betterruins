@@ -5,7 +5,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.01,
+            "chance": 0.001,
             "schematics": ["treasure/chests/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
@@ -20,7 +20,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.005,
+            "chance": 0.0005,
             "schematics": ["treasure/chests/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
@@ -35,7 +35,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.001,
+            "chance": 0.0001,
             "schematics": ["treasure/chests/rank3*"],
             "placement": "surface",
             "mindistance": 850,
@@ -50,7 +50,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.015,
+            "chance": 0.0015,
             "schematics": ["treasure/graves/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
@@ -65,7 +65,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.005,
+            "chance": 0.0005,
             "schematics": ["treasure/graves/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
@@ -80,7 +80,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.003,
+            "chance": 0.0003,
             "schematics": ["treasure/graves/rank3/*"],
             "placement": "surface",
             "mindistance": 850,
@@ -95,7 +95,7 @@
         "value": {
             "code": "graves",
             "group": "graves",
-            "chance": 0.001,
+            "chance": 0.0001,
             "schematics": ["treasure/graves/rank4/*"],
             "placement": "surface",
             "mindistance": 850,
