@@ -313,5 +313,26 @@
     "value": "stonebrickstairs-{rock}-up-west-free",
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/standard/polishedrockslab-granite-down-free",
+    "value": "polishedrockslab-{rock}-down-free",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/standard/polishedrockslab-granite-up-free",
+    "value": "polishedrockslab-{rock}-up-free",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/rocktypeRemapGroups/standard/ore-flint-granite",
+    "value": "ore-flint-{rock}",
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
