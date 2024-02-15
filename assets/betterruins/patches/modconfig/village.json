@@ -11,6 +11,7 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "oldvanillavillage",
       "code": "custom-village-main",
       "chance": 0.01, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
@@ -63,6 +64,7 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "vsvillage",
       "code": "vsvillage-village-main",
       "chance": 0.1, // # default = 0.1 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
@@ -91,6 +93,7 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "forestvillage",
       "code": "forest-village-main",
       "chance": 0.085, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",
@@ -142,6 +145,7 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "desertvillage",
       "code": "desert-village-main",
       "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "generator": "LooselyGrouped",

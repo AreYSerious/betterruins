@@ -12,6 +12,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-small",
+                  "name": "brsurfaceruins-small",
                   "chance": 0.008, // # default = 0.008 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/oldvanilla-ruins-small/*"
@@ -30,6 +31,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-ancient",
+                  "name": "brsurfaceruins-ancient",
                   "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/oldvanilla-ancientruins/*"
@@ -48,6 +50,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-large",
+                  "name": "brsurfaceruins-large",
                   "chance": 0.004, // # default = 0.004 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/largeruins/*"
@@ -67,6 +70,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-medium",
+                  "name": "brsurfaceruins-medium",
                   "chance": 0.007, // # default = 0.007 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/mediumruins/*"
@@ -101,6 +105,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-1",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
                   "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -120,6 +125,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-2",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
                   "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -139,9 +145,10 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-3",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
-                  "chance": 0.0005, // # default = 0.0005 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/main/translocators/o4/*"
@@ -177,6 +184,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert1",
+                  "name": "brsurfaceruins-desert1",
                   "group": "desertspecific", // group name used for minGroupDistance
                   "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
                   "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -198,6 +206,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert2",
+                  "name": "brsurfaceruins-desert2",
                   "group": "desertspecific", // group name used for minGroupDistance
                   "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
                   "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -230,6 +239,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-coldclimate1",
+                  "name": "brsurfaceruins-coldclimate1",
                   "group": "ironsnowball", // group name used for minGroupDistance
                   "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
                   "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
