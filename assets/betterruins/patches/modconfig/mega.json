@@ -12,7 +12,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "01wallsegment",
+                  "name": "01wallsegment",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.05, // # default = 0.05 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -37,10 +38,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "02rockformation",
+                  "name": "02rockformation",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.85, // # default = 0.85 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.9, // # default = 0.85 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-2/*"
@@ -62,10 +64,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "03nordichouse",
+                  "name": "03nordichouse",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.055, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
@@ -87,10 +90,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "04visingsborg",
+                  "name": "04visingsborg",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.055, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-4/*"
@@ -113,10 +117,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "05catnoirscastleruin",
+                  "name": "05catnoirscastleruin",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.01, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.013, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
@@ -139,10 +144,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "06destroyedlargechurch",
+                  "name": "06destroyedlargechurch",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.12, // # default = 0.12 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.14, // # default = 0.12 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-6/*"
@@ -164,10 +170,11 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "07wolfstonecastle",
+                  "name": "07wolfstonecastle",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.05, // # default = 0.05 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.066, // # default = 0.05 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/*"
@@ -189,7 +196,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "08oasis",
+                  "name": "08oasis",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 2.8, // # default = 2.8 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -217,7 +225,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "forlornhopetower",
+                  "code": "09forlornhopetower-common",
+                  "name": "09forlornhopetower-common",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.06, // # default = 0.06 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -239,7 +248,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "forlornhopetower",
+                  "code": "09forlornhopetower-rare",
+                  "name": "09forlornhopetower-rare",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -265,7 +275,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "giantcathedral",
+                  "code": "10giantcathedral",
+                  "name": "10giantcathedral",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 15, // # default = 15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -291,7 +302,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "11shoppingcentre",
+                  "name": "11shoppingcentre",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.2, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -316,7 +328,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "ruin",
+                  "code": "12undergroundlibrary",
+                  "name": "12undergroundlibrary",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0, // disabled for now bcs of framedrops waiting for a vanilla fix # default = 2.7 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
