@@ -62,5 +62,19 @@
     "item-locatormap-gates": "遺物安置所の地図",
     "item-locatormap-undergroundruins": "深部探査の地図",
     "item-locatormap-forlornhopetower": "前哨基地の予想地",
-    "item-locatormap-giantcathedral": "神聖な場所の予想地"
+    "item-locatormap-giantcathedral": "神聖な場所の予想地",
+    "item-br-schematic-door": "ゲートキーパーの設計図",
+    "item-br-schematic-book": "ブックバインダーの設計図",
+    "item-br-schematic-chest": "トレジャーガーディアンの設計図",
+    "item-br-schematic-crate": "ストレージマスターの設計図",
+    "item-br-schematic-bed": "大工のベッド設計図",
+    "item-br-schematic-gaslamp": "ランプライトの設計図",
+    "item-br-schematic-jonaslamp": "金属工のジョナスランプ設計図",
+    "item-br-schematic-banner": "フラッグメーカーのバナー設計図",
+    "item-br-schematic-table": "ジョイナーのテーブル設計図",
+    "item-br-schematic-stone": "石工の設計図",
+    "item-br-schematic-wood": "木工の設計図",
+    "item-br-schematic-ancient": "古代の石工の設計図",
+    "item-br-schematic-candle": "チャンドラーの設計図",
+    "item-br-schematic-road": "舗装工の道路設計図"
 }

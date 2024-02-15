@@ -62,5 +62,19 @@
     "item-locatormap-gates": "Mechanische Reliquariumkarte",
     "item-locatormap-undergroundruins": "Tiefen Expeditionskarte",
     "item-locatormap-forlornhopetower": "Vermuteter Außenposten",
-    "item-locatormap-giantcathedral": "Vermuteter Heiligen Ort"
+    "item-locatormap-giantcathedral": "Vermuteter Heiligen Ort",
+    "item-br-schematic-door": "Bauplan des Torwächters",
+    "item-br-schematic-book": "Bauplan des Buchbinders",
+    "item-br-schematic-chest": "Bauplan des Schatzhüters",
+    "item-br-schematic-crate": "Bauplan des Lagerverwalters",
+    "item-br-schematic-bed": "Bauplan für das Zimmermannsbett",
+    "item-br-schematic-gaslamp": "Bauplan des Lampenmachers",
+    "item-br-schematic-jonaslamp": "Bauplan für die Jonaslampe des Metallarbeiters",
+    "item-br-schematic-banner": "Bauplan des Fahnenherstellers",
+    "item-br-schematic-table": "Bauplan des Tischlers",
+    "item-br-schematic-stone": "Bauplan des Steinmetzes",
+    "item-br-schematic-wood": "Bauplan des Holzbearbeiters",
+    "item-br-schematic-ancient": "Bauplan des antiken Steinmetzes",
+    "item-br-schematic-candle": "Bauplan des Kerzenziehers",
+    "item-br-schematic-road": "Bauplan des Straßenpflasters"
 }

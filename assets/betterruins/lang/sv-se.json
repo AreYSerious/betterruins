@@ -11,5 +11,19 @@
     "game:item-stackrandomizer-kingclothing": "BetterRuins LootRandomizer Kungliga kläder",
     "item-locatormap-gates": "Karta över mekanisk likviditet",
     "item-locatormap-undergroundruins": "Karta över expeditioner på djupet",
-    "item-locatormap-forlornhopetower": "Beräknad plats för utpost"
+    "item-locatormap-forlornhopetower": "Beräknad plats för utpost",
+    "item-br-schematic-door": "Portvaktens ritning",
+    "item-br-schematic-book": "Bokbindarens ritning",
+    "item-br-schematic-chest": "Skattkammarvaktens ritning",
+    "item-br-schematic-crate": "Förvaringsmästarens ritning",
+    "item-br-schematic-bed": "Snickarens sängritning",
+    "item-br-schematic-gaslamp": "Lampmakarens ritning",
+    "item-br-schematic-jonaslamp": "Metallarbetarens Jonaslamp-ritning",
+    "item-br-schematic-banner": "Flaggtillverkarens banderollritning",
+    "item-br-schematic-table": "Snickeriets bordritning",
+    "item-br-schematic-stone": "Stenmästarens ritning",
+    "item-br-schematic-wood": "Timmermannens ritning",
+    "item-br-schematic-ancient": "Antik stenmästarens ritning",
+    "item-br-schematic-candle": "Ljusmakarens ritning",
+    "item-br-schematic-road": "Stenläggarens vägritning"
 }
