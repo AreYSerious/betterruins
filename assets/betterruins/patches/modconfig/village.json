@@ -168,5 +168,39 @@
     },
     "file": "game:worldgen/villages.json",
     "side": "Server"
+  },
+
+
+  // Prison village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "prisonvillage",
+      "code": "prison-village-main",
+      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 5,
+        "var": 1,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/prison-village/prison-1-long","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-2-big","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-3-medium","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-4-smalldestroyed","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-5-field","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-6-tinyroad","weight": 10},
+        {"path": "overground/main/prison-village/prison-7-road","weight": 100},
+        {"path": "overground/main/prison-village/prison-8-road","weight": 100},
+        {"path": "overground/main/prison-village/prison-9-road","weight": 100}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
   }
 ]
