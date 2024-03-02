@@ -10,6 +10,7 @@
             "schematics": ["treasure/chests/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -26,6 +27,7 @@
             "schematics": ["treasure/chests/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -42,6 +44,7 @@
             "schematics": ["treasure/chests/rank3*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -58,6 +61,7 @@
             "schematics": ["treasure/graves/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -74,6 +78,7 @@
             "schematics": ["treasure/graves/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -90,6 +95,7 @@
             "schematics": ["treasure/graves/rank3/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -106,6 +112,7 @@
             "schematics": ["treasure/graves/rank4/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",

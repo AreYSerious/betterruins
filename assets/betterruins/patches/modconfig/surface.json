@@ -18,6 +18,7 @@
                     "overground/main/oldvanilla-ruins-small/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "offsetY": -3
     },
     "file": "game:worldgen/structures.json",
@@ -37,6 +38,7 @@
                     "overground/main/oldvanilla-ancientruins/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "offsetY": -3
     },
     "file": "game:worldgen/structures.json",
@@ -56,6 +58,7 @@
                     "overground/main/largeruins/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -77,6 +80,7 @@
                   ],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
+                  "minY": -0.02,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -114,6 +118,7 @@
                     "overground/main/translocators/o2/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -134,6 +139,7 @@
                     "overground/main/translocators/o1/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -154,6 +160,7 @@
                     "overground/main/translocators/o4/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -192,6 +199,7 @@
                     "overground/main/desert-climate/desertclimate-o1-niclass-small1", "overground/main/desert-climate/desertclimate-o1-niclass-small2", "overground/main/desert-climate/desertclimate-o1-niclass-small3", "overground/main/desert-climate/desertclimate-o1-niclass-small4"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": 28,
                   "maxTemp": 60
     },
@@ -218,6 +226,7 @@
                     "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": 25,
                   "maxTemp": 60
     },
@@ -247,6 +256,7 @@
                     "overground/main/cold-climate/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": -30,
                   "maxTemp": -7
     },
