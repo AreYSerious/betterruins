@@ -13,7 +13,7 @@
     "value": {
       "name": "oldvanillavillage",
       "code": "custom-village-main",
-      "chance": 0.01, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.005, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -150,7 +150,7 @@
     "value": {
       "name": "desertvillage",
       "code": "desert-village-main",
-      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.02, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
