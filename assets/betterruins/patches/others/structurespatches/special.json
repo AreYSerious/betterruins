@@ -1,0 +1,92 @@
+[
+  //
+  //
+  // Special structures
+  //
+  //
+
+
+  
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "quentin-waystones",
+                  "name": "quentin-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.05, 
+                  "schematics": [
+                    "overground/special/waystones/quentin/default-o0/*"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": 0
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "quentin-waystones",
+                  "name": "quentin-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.005, 
+                  "schematics": [
+                    "overground/special/waystones/quentin/waystone-quentin-legendarychisel-o3"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -3
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "quentin-waystones",
+                  "name": "quentin-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.01, 
+                  "schematics": [
+                    "overground/special/waystones/quentin/waystone-quentin-locusttrap-o1"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "quentin-waystones",
+                  "name": "quentin-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.1, 
+                  "schematics": [
+                    "overground/special/waystones/quentin/waystone-quentin-tropical-o8"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -8,
+                  "minTemp": 28,
+                  "maxTemp": 39,
+                  "minRain": 0.75,
+                  "maxRain": 1,
+                  "minForest": 0.1,
+                  "maxForest": 1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+]
