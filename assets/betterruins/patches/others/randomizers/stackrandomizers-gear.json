@@ -4,6 +4,21 @@
     "path": "/attributesByType/*-gear/stacks/-",
     "value": {
       "type": "item",
+      "code": "game:stick",
+      "chance": 100,
+      "quantity": {
+        "avg": 7,
+        "var": 6
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
       "code": "clothes-butterflypin-temporal",
       "chance": 2
     },
@@ -226,21 +241,7 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-gear/stacks/-",
-    "value": {
-      "type": "item",
-      "code": "game:stick",
-      "chance": 100,
-      "quantity": {
-        "avg": 7,
-        "var": 6
-      }
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
   }
+
 
 ]

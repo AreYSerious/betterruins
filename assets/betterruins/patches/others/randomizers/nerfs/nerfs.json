@@ -1,0 +1,182 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-clayproducts/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-backpack/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-mechanical/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer-betterruins.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-painting/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-lantern/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-coppertool/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-copperweapon/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ruinedweapon/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-seed/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "drygrass",
+      "quantity": {
+        "avg": 15,
+        "var": 8
+      },
+      "chance": 0
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

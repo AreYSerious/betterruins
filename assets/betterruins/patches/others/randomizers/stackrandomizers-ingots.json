@@ -4,6 +4,21 @@
     "path": "/attributesByType/*-ingot/stacks/-",
     "value": {
       "type": "item",
+      "code": "game:stick",
+      "chance": 40,
+      "quantity": {
+        "avg": 7,
+        "var": 6
+      }
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-ingot/stacks/-",
+    "value": {
+      "type": "item",
       "code": "ingot-electrum",
       "quantity": {
         "avg": 1.5,
@@ -100,21 +115,6 @@
         "var": 0.5
       },
       "chance": 0.25
-    },
-    "file": "game:itemtypes/meta/stackrandomizer.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/attributesByType/*-ingot/stacks/-",
-    "value": {
-      "type": "item",
-      "code": "game:stick",
-      "chance": 40,
-      "quantity": {
-        "avg": 7,
-        "var": 6
-      }
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
