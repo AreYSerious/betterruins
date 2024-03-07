@@ -100,7 +100,10 @@
     "item-br-schematic-wood": "Lumberwright's Blueprint",
     "item-br-schematic-ancient": "Relic Stonemason's Blueprint",
     "item-br-schematic-candle": "Chandler's Blueprint",
-    "item-br-schematic-road": "Paver's Road Blueprint"
+    "item-br-schematic-road": "Paver's Road Blueprint",
+    "item-br-schematic-jonaspart": "Tinkerer's Part Blueprint",
+    "item-br-schematic-jonasassembly": "Engineer's Assembly Blueprint",
+    "item-br-schematic-mechanical": "Machinist's Mechanism Blueprint",
 
 
 }

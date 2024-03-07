@@ -1,0 +1,96 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "XP_,_GN,_P_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 3},
+            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-iron" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-gearbox01" }
+        
+    },
+    {
+        "ingredientPattern": "XP_,JGN,_P_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 5},
+            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "J": {type: "Item", code: "game:metalnailsandstrips-iron" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-gearbox02" }
+        
+    },
+    {
+        "ingredientPattern": "X__,NGN,___",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 3},
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-oscillator01" }
+        
+    },
+    {
+        "ingredientPattern": "XJ_,GNG,_O_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 1},
+            "O": {type: "Item", code: "game:metalplate-iron" },
+            "J": {type: "Item", code: "game:metalnailsandstrips-iron" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-spring01" }
+        
+    },
+    {
+        "ingredientPattern": "XM_,_N_,___",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "M": {type: "Block", code: "game:metal-parts", quantity: 2 },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-joint01" }
+        
+    },
+    {
+        "ingredientPattern": "XM_,GGG,M_M",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "M": {type: "Block", code: "game:metal-parts", quantity: 1 },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-gears01" }
+        
+    },
+    {
+        "ingredientPattern": "XN_,BGB,___",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" },
+            "B": {type: "Item", code: "game:metalnailsandstrips-iron" },
+            "G": {type: "Item", code: "game:gear-rusty" , quantity: 5}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasframes-gears02" }
+        
+    },
+]
