@@ -12,7 +12,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-small",
-                  "name": "brsurfaceruins-small",
                   "chance": 0.008, // # default = 0.008 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/oldvanilla-ruins-small/*"
@@ -32,7 +31,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-ancient",
-                  "name": "brsurfaceruins-ancient",
                   "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/oldvanilla-ancientruins/*"
@@ -52,7 +50,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-large",
-                  "name": "brsurfaceruins-large",
                   "chance": 0.004, // # default = 0.004 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/largeruins/*"
@@ -73,7 +70,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-medium",
-                  "name": "brsurfaceruins-medium",
                   "chance": 0.007, // # default = 0.007 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/mediumruins/*"
@@ -250,8 +246,8 @@
                   "code": "brsurfaceruins-coldclimate1",
                   "name": "brsurfaceruins-coldclimate1",
                   "group": "ironsnowball", // group name used for minGroupDistance
-                  "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
-                  "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 3000, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
+                  "chance": 0.0002, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/cold-climate/*"
                   ],
