@@ -13,10 +13,9 @@
     "path": "/structures/-",
     "value": {
                   "code": "01wallsegment",
-                  "name": "01wallsegment",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.05, // # default = 0.05 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.035, // # default = 0.035 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
@@ -25,6 +24,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -4,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -39,16 +39,16 @@
     "path": "/structures/-",
     "value": {
                   "code": "02rockformation",
-                  "name": "02rockformation",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.9, // # default = 0.85 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.7, // # default = 0.85 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-2/*"
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -10,
+                  "minY": -0.06,
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
@@ -65,7 +65,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "03nordichouse",
-                  "name": "03nordichouse",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.055, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -77,6 +76,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -9,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -91,7 +91,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "04visingsborg",
-                  "name": "04visingsborg",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.055, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -104,6 +103,7 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 180,
                   "offsety": -6,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -118,7 +118,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "05catnoirscastleruin",
-                  "name": "05catnoirscastleruin",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.013, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -131,6 +130,7 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -5,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -145,7 +145,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "06destroyedlargechurch",
-                  "name": "06destroyedlargechurch",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.14, // # default = 0.12 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -157,6 +156,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -5,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -170,20 +170,27 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "07wolfstonecastle",
-                  "name": "07wolfstonecastle",
+                  "code": "07wolfstonecastle-normalclimate",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.066, // # default = 0.05 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.05, // # default = 0.09 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
-                    "overground/megastructures/megastructure-7/*"
+                    "overground/megastructures/megastructure-7/megastructure7-5-normal",
+                    "overground/megastructures/megastructure-7/megastructure7-6-normal"
                   ],
-			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
-                  "offsety": -5
+                  "offsety": -4,
+                  "minY": -0.06,
+                  "minTemp": -40,
+                  "maxTemp": 32,
+                  "minRain": 0.2,
+                  "maxRain": 0.49,
+                  "minForest": 0.5,
+                  "maxForest": 0.79,
+                  "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -197,7 +204,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "08oasis",
-                  "name": "08oasis",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 2.8, // # default = 2.8 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -210,6 +216,7 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -2,
+                  "minY": -0.06,
                   "minTemp": 25, // # default = 25 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "maxTemp": 39, // # default = 39 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "rockTypeRemapGroup": "standard"
@@ -226,7 +233,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "09forlornhopetower-common",
-                  "name": "09forlornhopetower-common",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.06, // # default = 0.06 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -237,6 +243,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -8,
+                  "minY": -0.06,
                   "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "maxTemp": -4, // # default = -4 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "rockTypeRemapGroup": "standard"
@@ -249,7 +256,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "09forlornhopetower-rare",
-                  "name": "09forlornhopetower-rare",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -260,6 +266,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -8,
+                  "minY": -0.06,
                   "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "maxTemp": -4, // # default = -4 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "rockTypeRemapGroup": "standard"
@@ -276,7 +283,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "10giantcathedral",
-                  "name": "10giantcathedral",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 15, // # default = 15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -287,6 +293,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -23,
+                  "minY": -0.06,
                   "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "maxTemp": -7, // # default = -7 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
                   "rockTypeRemapGroup": "standard"
@@ -303,10 +310,9 @@
     "path": "/structures/-",
     "value": {
                   "code": "11shoppingcentre",
-                  "name": "11shoppingcentre",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.2, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.16, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-11/*"
@@ -315,6 +321,7 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -5,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -329,7 +336,6 @@
     "path": "/structures/-",
     "value": {
                   "code": "12undergroundlibrary",
-                  "name": "12undergroundlibrary",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
                   "chance": 1, // disabled for now bcs of framedrops waiting for a vanilla fix # default = 2.7 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
