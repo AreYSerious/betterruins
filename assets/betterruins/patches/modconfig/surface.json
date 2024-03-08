@@ -17,6 +17,7 @@
                     "overground/main/oldvanilla-ruins-small/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "offsetY": -3
     },
     "file": "game:worldgen/structures.json",
@@ -35,6 +36,7 @@
                     "overground/main/oldvanilla-ancientruins/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "offsetY": -3
     },
     "file": "game:worldgen/structures.json",
@@ -53,6 +55,7 @@
                     "overground/main/largeruins/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -73,6 +76,7 @@
                   ],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
+                  "minY": -0.02,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -101,6 +105,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-1",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
                   "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -109,6 +114,7 @@
                     "overground/main/translocators/o2/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -120,6 +126,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-2",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
                   "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -128,6 +135,7 @@
                     "overground/main/translocators/o1/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -139,14 +147,16 @@
     "path": "/structures/-",
     "value": {
                   "code": "gates",
+                  "name": "surface-translocators-3",
                   "group": "translocators", // group name used for minGroupDistance
                   "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
-                  "chance": 0.0005, // # default = 0.0005 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/main/translocators/o4/*"
                   ],
                   "suppressTrees": true,
+                  "minY": -0.02,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard"
     },
@@ -177,6 +187,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert1",
+                  "name": "brsurfaceruins-desert1",
                   "group": "desertspecific", // group name used for minGroupDistance
                   "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
                   "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -184,6 +195,7 @@
                     "overground/main/desert-climate/desertclimate-o1-niclass-small1", "overground/main/desert-climate/desertclimate-o1-niclass-small2", "overground/main/desert-climate/desertclimate-o1-niclass-small3", "overground/main/desert-climate/desertclimate-o1-niclass-small4"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": 28,
                   "maxTemp": 60
     },
@@ -198,6 +210,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert2",
+                  "name": "brsurfaceruins-desert2",
                   "group": "desertspecific", // group name used for minGroupDistance
                   "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
                   "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
@@ -209,6 +222,7 @@
                     "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": 25,
                   "maxTemp": 60
     },
@@ -230,13 +244,15 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-coldclimate1",
+                  "name": "brsurfaceruins-coldclimate1",
                   "group": "ironsnowball", // group name used for minGroupDistance
-                  "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
-                  "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 3000, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
+                  "chance": 0.0002, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/cold-climate/*"
                   ],
                   "rockTypeRemapGroup": "standard",
+                  "minY": -0.02,
                   "minTemp": -30,
                   "maxTemp": -7
     },

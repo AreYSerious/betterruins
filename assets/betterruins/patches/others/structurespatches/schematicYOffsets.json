@@ -65,10 +65,10 @@
       "overground/main/largeruins/largeruins-niclass-o3-0701": -3,
       "overground/main/largeruins/largeruins-niclass-o3-0703": -3,
       "overground/main/largeruins/largeruins-quentin-o1-0201": -1,
-      "overground/main/largeruins/largeruins-samgrey-o3-0102": -3,
+      "overground/main/largeruins/largeruins-samgrey-o3-0102": -1,
       "overground/main/largeruins/largeruins-samgrey-o3-0202": -3,
-      "overground/main/largeruins/largeruins-samgrey-o3-0302": -3,
-      "overground/main/largeruins/largeruins-samgrey-o3-0402": -3,
+      "overground/main/largeruins/largeruins-samgrey-o3-0302": -1,
+      "overground/main/largeruins/largeruins-samgrey-o3-0402": -1,
       "overground/main/largeruins/largeruins-samgrey-o3-0502": -3,
       "overground/main/largeruins/largeruins-vil-o3-0602": -3,
       "overground/main/largeruins/largeruins-vil-o3-0702": -3,
@@ -148,6 +148,10 @@
       "overground/main/road-for-village/road-niclass-o1-0105": -1,
       "overground/main/road-for-village/road-niclass-o1-0106": -1,
       "overground/main/road-for-village/road-niclass-o1-0107": -1,
+      "overground/main/road-for-village/road-niclass-o1-0201": -1,
+      "overground/main/road-for-village/road-niclass-o1-0202": -1,
+      "overground/main/road-for-village/road-niclass-o1-0203": -1,
+      "overground/main/road-for-village/road-niclass-o1-0204": -1,
       "overground/main/translocators/o1/translocator-niclass-o1-0101": -1,
       "overground/main/translocators/o1/translocator-niclass-o1-0102": -1,
       "overground/main/translocators/o1/translocator-niclass-o1-0103": -1,
@@ -183,6 +187,15 @@
       "overground/main/vsvillage-village/wallsegments/vsvillage-niclass-o1-0401": -1,
       "overground/main/vsvillage-village/wallsegments/vsvillage-niclass-o1-0402": -1,
       "overground/main/vsvillage-village/wells/vsvillage-niclass-o10-0601": -10,
+      "overground/main/prison-village/prison-1-long": -2,
+      "overground/main/prison-village/prison-2-big": -2,
+      "overground/main/prison-village/prison-3-medium": -2,
+      "overground/main/prison-village/prison-4-smalldestroyed": -2,
+      "overground/main/prison-village/prison-5-field": -2,
+      "overground/main/prison-village/prison-6-tinyroad": -2,
+      "overground/main/prison-village/prison-7-road": -2,
+      "overground/main/prison-village/prison-8-road": -2,
+      "overground/main/prison-village/prison-9-road": -2,
 
 
 
@@ -345,7 +358,7 @@
 
 
 
-
+      
       "overground/andesite1": 0,
 			"overground/andesite2": -4,
 			"overground/basalt1": -1,

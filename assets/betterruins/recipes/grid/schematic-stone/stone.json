@@ -128,7 +128,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["whitemarble", "suevite", "redmarble", "kimberlite", "greenmarble", "andesite", "chalk", "conglomerate", "shale", "basalt", "phyllite", "bauxite", "obsidian"]}
+            "B": {type: "Block", code: "game:rockpolished-*", name: "rock", skipVariants: ["suevite","kimberlite","obsidian"]}
         },
         "width": 1,
         "height": 3,
@@ -140,7 +140,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:polishedrockold-full-*", name: "rock", skipVariants: ["pinkmarble"]}
+            "B": {type: "Block", code: "game:polishedrockold-full-*", name: "rock"}
         },
         "width": 1,
         "height": 3,
@@ -159,5 +159,16 @@
         "output": {type: "Block", code: "game:crackedrock-{rock}"}
         
     },
+    {
+        "ingredientPattern": "P,B,X",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
+            "B": {type: "Block", code: "game:stonebricks-*", name: "rock"}
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:crackedstonebricks-{rock}"}
+        
+    },
 ]
-

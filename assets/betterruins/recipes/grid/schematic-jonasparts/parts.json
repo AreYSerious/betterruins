@@ -1,0 +1,85 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "XG_,MOM,_G_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "G": {type: "Block", code: "game:glassslab-plain-down-free" },
+            "M": {type: "Block", code: "game:metal-parts" },
+            "O": {type: "Item", code: "game:metalbit-gold", quantity: 10 }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-connector01" }
+        
+    },
+    {
+        "ingredientPattern": "XM_,NGN,_M_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "G": {type: "Item", code: "game:gear-temporal" },
+            "M": {type: "Block", code: "game:metal-parts" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-cylinder02" }
+        
+    },
+    {
+        "ingredientPattern": "X_M,GPN,__M",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "G": {type: "Item", code: "game:gear-temporal" },
+            "M": {type: "Block", code: "game:metal-parts" },
+            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-cylinder01" }
+        
+    },
+    {
+        "ingredientPattern": "XP_,NGN,_P_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "G": {type: "Item", code: "game:gear-temporal" },
+            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-tank01" }
+        
+    },
+    {
+        "ingredientPattern": "XM_,NGM,_M_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "G": {type: "Item", code: "game:gear-temporal" },
+            "M": {type: "Block", code: "game:metal-parts" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-tank02" }
+        
+    },
+    {
+        "ingredientPattern": "XNM,___,___",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
+            "M": {type: "Block", code: "game:metal-parts" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Item", code: "game:jonasparts-valve01" }
+        
+    },
+
+]

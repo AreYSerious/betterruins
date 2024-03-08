@@ -11,8 +11,10 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "oldvanillavillage",
       "code": "custom-village-main",
-      "chance": 0.01, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.005, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 7,
@@ -63,8 +65,10 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "vsvillage",
       "code": "vsvillage-village-main",
       "chance": 0.1, // # default = 0.1 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 9,
@@ -91,8 +95,10 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "forestvillage",
       "code": "forest-village-main",
       "chance": 0.085, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 8,
@@ -142,8 +148,10 @@
     "op": "add",
     "path": "/villageTypes/-",
     "value": {
+      "name": "desertvillage",
       "code": "desert-village-main",
-      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.02, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
         "avg": 5,
@@ -158,6 +166,40 @@
         {"path": "overground/main/desert-village/desertvillage-par-o3-0104","weight": 25, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/desert-village/desertvillage-par-o6-0101","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 1, "maxQuantity": 2}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // Prison village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "prisonvillage",
+      "code": "prison-village-main",
+      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 5,
+        "var": 1,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/prison-village/prison-1-long","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-2-big","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-3-medium","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-4-smalldestroyed","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-5-field","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/prison-village/prison-6-tinyroad","weight": 10},
+        {"path": "overground/main/prison-village/prison-7-road","weight": 100},
+        {"path": "overground/main/prison-village/prison-8-road","weight": 100},
+        {"path": "overground/main/prison-village/prison-9-road","weight": 100}
     ],
 
       "rockTypeRemapGroup": "standard"

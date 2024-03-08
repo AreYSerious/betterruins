@@ -1,0 +1,772 @@
+{
+  "version": 1,
+  "patches": {
+    "number": {
+      "betterruins:patches/modconfig/overallspawnchance.json": {
+        "0/value": "STRUCTURES_SPAWN_CHANCE",
+        "1/value": "VILLAGES_SPAWN_CHANCE"
+      },
+      "betterruins:patches/modconfig/mega.json": {
+        "0/value/chance": "WALLSEGMENT_SPAWN_CHANCE",
+        "1/value/chance": "ROCKFORMATION_SPAWN_CHANCE",
+        "2/value/chance": "NORDICHOUSE_SPAWN_CHANCE",
+        "3/value/chance": "VISINGBORG_SPAWN_CHANCE",
+        "4/value/chance": "CATNOIRSCASTLERUIN_SPAWN_CHANCE",
+        "5/value/chance": "DESTROYEDLARGECHURCH_SPAWN_CHANCE",
+        "6/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
+        "7/value/chance": "OASIS_SPAWN_CHANCE",
+        "8/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE",
+        "9/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE * 0.50",
+        "10/value/chance": "GIANTCATHEDRAL_SPAWN_CHANCE",
+        "11/value/chance": "SHOPPINGCENTRE_SPAWN_CHANCE",
+        "12/value/chance": "UNDERGROUNDLIBRARY_SPAWN_CHANCE",
+        "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
+        "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
+        "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE"
+      },
+      "betterruins:patches/modconfig/surface.json": {
+        "0/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE",
+        "1/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * 0.30",
+        "2/value/chance": "LARGERUINS_SPAWN_CHANCE",
+        "3/value/chance": "MEDIUMRUINS_SPAWN_CHANCE",
+        "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE",
+        "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
+        "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
+        "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * 0.3",
+        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE",
+        "9/value/chance": "COLDCLIMATERUINS_SPAWN_CHANCE"
+      },
+      "betterruins:patches/modconfig/village.json": {
+        "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE",
+        "1/value/chance": "VSVILLAGE_SPAWN_CHANCE",
+        "2/value/chance": "FORESTVILLAGE_SPAWN_CHANCE",
+        "3/value/chance": "DESERTVILLAGE_SPAWN_CHANCE",
+        "4/value/chance": "PRISONVILLAGE_SPAWN_CHANCE"
+      },
+      "betterruins:patches/modconfig/underground.json": {
+        "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * 3",
+        "1/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
+        "2/value/chance": "UNDERGROUND_SPAWN_CHANCE * 15",
+        "3/value/chance": "UNDERGROUND_SPAWN_CHANCE * 7",
+        "4/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
+        "5/value/chance": "UNDERGROUND_SPAWN_CHANCE * 4",
+        "6/value/chance": "UNDERGROUND_SPAWN_CHANCE * 6",
+        "7/value/chance": "UNDERGROUND_SPAWN_CHANCE * 3",
+        "8/value/chance": "UNDERGROUND_SPAWN_CHANCE * 1.125",
+        "9/value/chance": "UNDERGROUND_SPAWN_CHANCE * 50",
+        "10/value/chance": "UNDERGROUND_SPAWN_CHANCE * 30",
+        "11/value/chance": "UNDERGROUND_SPAWN_CHANCE * 20",
+        "12/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
+        "13/value/chance": "UNDERGROUND_SPAWN_CHANCE * 5"
+      },
+      "betterruins:patches/others/structurespatches/graves.json": {
+        "0/value/chance": "GRAVES_SPAWN_CHANCE * 0.001",
+        "1/value/chance": "GRAVES_SPAWN_CHANCE * 0.0005",
+        "2/value/chance": "GRAVES_SPAWN_CHANCE * 0.0001",
+        "3/value/chance": "GRAVES_SPAWN_CHANCE * 0.0015",
+        "4/value/chance": "GRAVES_SPAWN_CHANCE * 0.0005",
+        "5/value/chance": "GRAVES_SPAWN_CHANCE * 0.0003",
+        "6/value/chance": "GRAVES_SPAWN_CHANCE * 0.0001"
+      },
+      "betterruins:patches/others/randomizers/nerfs/nerfs.json": {
+        "0/value/chance": "LOOT_NERF * 12000",
+        "1/value/chance": "LOOT_NERF * 2000",
+        "2/value/chance": "LOOT_NERF * 12000",
+        "3/value/chance": "LOOT_NERF * 500",
+        "4/value/chance": "LOOT_NERF * 600",
+        "5/value/chance": "LOOT_NERF * 250",
+        "6/value/chance": "LOOT_NERF * 600",
+        "7/value/chance": "LOOT_NERF * 600",
+        "8/value/chance": "LOOT_NERF * 60",
+        "9/value/chance": "LOOT_NERF * 60",
+        "10/value/chance": "LOOT_NERF * 6",
+        "11/value/chance": "LOOT_NERF * 250"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-gear.json": {
+        "7/value/chance": "SCHEMATIC_DOOR",
+        "8/value/chance": "SCHEMATIC_BED",
+        "9/value/chance": "SCHEMATIC_CHEST",
+        "10/value/chance": "SCHEMATIC_CRATE",
+        "11/value/chance": "SCHEMATIC_GASLAMP",
+        "12/value/chance": "SCHEMATIC_JONASLAMP",
+        "13/value/chance": "SCHEMATIC_BANNER",
+        "14/value/chance": "SCHEMATIC_TABLE",
+        "15/value/chance": "SCHEMATIC_STONE",
+        "16/value/chance": "SCHEMATIC_WOOD",
+        "17/value/chance": "SCHEMATIC_ANCIENT",
+        "18/value/chance": "SCHEMATIC_CANDLE",
+        "19/value/chance": "SCHEMATIC_ROAD",
+        "20/value/chance": "SCHEMATIC_MECHANICAL",
+        "21/value/chance": "SCHEMATIC_JONASPART",
+        "22/value/chance": "SCHEMATIC_JONASASSEMBLY"
+      }
+    },
+	"integer": {
+      "betterruins:patches/modconfig/mega.json": {
+        "7/value/maxTemp": "OASIS_MAX_TEMP",
+        "7/value/minTemp": "OASIS_MIN_TEMP",
+        "8/value/maxTemp": "FORLORNHOPETOWER_MAX_TEMP",
+        "8/value/minTemp": "FORLORNHOPETOWER_MIN_TEMP",
+        "9/value/maxTemp": "FORLORNHOPETOWER_MAX_TEMP",
+        "9/value/minTemp": "FORLORNHOPETOWER_MIN_TEMP",
+        "10/value/maxTemp": "GIANTCATHEDRAL_MAX_TEMP",
+        "10/value/minTemp": "GIANTCATHEDRAL_MIN_TEMP",
+        "0/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "1/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "2/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "3/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "4/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "5/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "6/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "7/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "8/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "9/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "10/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "11/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "12/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
+      },
+      "betterruins:patches/modconfig/surface.json": {
+        "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
+        "5/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
+        "6/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE"
+      },
+      "betterruins:patches/others/structurespatches/graves.json": {
+        "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "1/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "2/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "3/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "4/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "5/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
+        "6/value/minGroupDistance": "GRAVES_MIN_DISTANCE"
+      }
+    }
+  },
+  "settings": {
+    "number": {
+      "STRUCTURES_SPAWN_CHANCE": {
+        "name": "structures_spawn_chance",
+        "comment": "Affects the spawn chance of all structures (surface, underground, traders). Vanilla default is 0.46 so this mod reduces it on default. (default = 0.30; vanilla = 0.46; 33% = 0.10; 66% = 0.20; 150% = 0.45; 200% = 0.60; 300% = 0.90)",
+        "default": 0.30,
+        "weight": 1.8,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
+      },
+      "VILLAGES_SPAWN_CHANCE": {
+        "name": "villages_spawn_chance",
+        "comment": "Affects the spawn chance of all villages (groups of structures on the surface). Vanilla default is 0.05 so this mod reduces it on default. (default = 0.035; vanilla = 0.05; 33% = 0.012; 66% = 0.023; 150% = 0.053; 200% = 0.070; 300% = 0.11)",
+        "default": 0.035,
+        "weight": 2.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10
+        }
+      },
+      "WALLSEGMENT_SPAWN_CHANCE": {
+        "name": "01wallsegment_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure wallsegment with tower. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#01-wallsegment",
+        "default": 0.035,
+        "weight": 3.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "ROCKFORMATION_SPAWN_CHANCE": {
+        "name": "02rockformation_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure rockformation. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#02-rockformation",
+        "default": 0.7,
+        "weight": 4.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "NORDICHOUSE_SPAWN_CHANCE": {
+        "name": "03nordichouse_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure nordichouse. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#03-nordichouse",
+        "default": 0.055,
+        "weight": 5.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "VISINGBORG_SPAWN_CHANCE": {
+        "name": "04visingborg_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure visingborg. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#04-visingsborg",
+        "default": 0.055,
+        "weight": 6.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "CATNOIRSCASTLERUIN_SPAWN_CHANCE": {
+        "name": "05catnoirscastleruin_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure catnoirscastleruin. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#05-catnoirscastleruin",
+        "default": 0.013,
+        "weight": 7.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "DESTROYEDLARGECHURCH_SPAWN_CHANCE": {
+        "name": "06destroyedlargechurch_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure destroyedlargechurch. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#06-destroyedlargechurch",
+        "default": 0.14,
+        "weight": 8.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "WOLFSTONECASTLE_SPAWN_CHANCE": {
+        "name": "07wolfstonecastle_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure wolfstonecastle. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle",
+        "default": 0.05,
+        "weight": 9.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "OASIS_SPAWN_CHANCE": {
+        "name": "08oasis_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure oasis. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#08-oasis",
+        "default": 2.8,
+        "weight": 10.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "FORLORNHOPETOWER_SPAWN_CHANCE": {
+        "name": "09forlornhopetower_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure forlornhopetower. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#09-forlornhopetower",
+        "default": 0.06,
+        "weight": 11.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "GIANTCATHEDRAL_SPAWN_CHANCE": {
+        "name": "10giantcathedral_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure giantcathedral. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#10-giantcathedral",
+        "default": 15,
+        "weight": 12.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "SHOPPINGCENTRE_SPAWN_CHANCE": {
+        "name": "11shoppingcentre_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#11-shoppingcentre",
+        "default": 0.16,
+        "weight": 13.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "UNDERGROUNDLIBRARY_SPAWN_CHANCE": {
+        "name": "12undergroundlibrary_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#11-shoppingcentre",
+        "default": 1,
+        "weight": 14.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "TRANSLOCATORRUINS_SPAWN_CHANCE": {
+        "name": "translocatorruins_spawn_chance",
+        "comment": "Affects the spawn chance of translocator overground ruins.",
+        "default": 0.03,
+        "weight": 15.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "OLDVANILLAVILLAGE_SPAWN_CHANCE": {
+        "name": "oldvanillavillage_spawn_chance",
+        "comment": "Affects the spawn chance of villages called oldvanillavillage which are structures which spawn in groups overground.",
+        "default": 0.01,
+        "weight": 16.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "VSVILLAGE_SPAWN_CHANCE": {
+        "name": "vsvillage_spawn_chance",
+        "comment": "Affects the spawn chance of villages called vsvillage which are structures which spawn in groups overground.",
+        "default": 0.01,
+        "weight": 17.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "FORESTVILLAGE_SPAWN_CHANCE": {
+        "name": "forestvillage_spawn_chance",
+        "comment": "Affects the spawn chance of villages called forestvillage which are structures which spawn in groups overground.",
+        "default": 0.085,
+        "weight": 18.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "DESERTVILLAGE_SPAWN_CHANCE": {
+        "name": "desertvillage_spawn_chance",
+        "comment": "Affects the spawn chance of villages called desertvillage which are structures which spawn in groups overground.",
+        "default": 0.03,
+        "weight": 19.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "PRISONVILLAGE_SPAWN_CHANCE": {
+        "name": "prisonvillage_spawn_chance",
+        "comment": "Affects the spawn chance of villages called prisonvillage which are structures which spawn in groups overground.",
+        "default": 0.03,
+        "weight": 19.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "OLDVANILLAREWORK_SPAWN_CHANCE": {
+        "name": "oldvanillarework_spawn_chance",
+        "comment": "Affects the spawn chance of oldvanillarework overground ruins.",
+        "default": 0.008,
+        "weight": 20.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "LARGERUINS_SPAWN_CHANCE": {
+        "name": "largeruins_spawn_chance",
+        "comment": "Affects the spawn chance of largeruins overground ruins.",
+        "default": 0.004,
+        "weight": 21.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "MEDIUMRUINS_SPAWN_CHANCE": {
+        "name": "mediumruins_spawn_chance",
+        "comment": "Affects the spawn chance of mediumruins overground ruins.",
+        "default": 0.007,
+        "weight": 22.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "DESERTRUINS_SPAWN_CHANCE": {
+        "name": "desertruins_spawn_chance",
+        "comment": "Affects the spawn chance of dessertruins overground ruins.",
+        "default": 0.003,
+        "weight": 23.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "COLDCLIMATERUINS_SPAWN_CHANCE": {
+        "name": "coldclimateruins_spawn_chance",
+        "comment": "Affects the spawn chance of dessertruins overground ruins.",
+        "default": 0.0002,
+        "weight": 24.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "UNDERGROUND_SPAWN_CHANCE": {
+        "name": "underground_spawn_chance",
+        "comment": "Affects the spawn chance of underground ruins.",
+        "default": 1.0,
+        "weight": 25.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "GRAVES_SPAWN_CHANCE": {
+        "name": "graves_spawn_chance",
+        "comment": "Affects the spawn chance of graves.",
+        "default": 1.0,
+        "weight": 26.01,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+
+
+
+
+      "LOOT_NERF": {
+        "name": "loot_nerf",
+        "comment": "The higher the value the more the loot is being nerfed. 0 = no nerfs; 0.5 = 30-40% reduced loot; 1 = 60-70% reduced loot; ... Affects the loot of all structures in the game to a certain extend.",
+        "default": 0.0,
+        "weight": 27.0,
+        "range": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "SCHEMATIC_DOOR": {
+        "name": "schematic_door",
+        "comment": "Defines the chance the door Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_BED": {
+        "name": "schematic_bed",
+        "comment": "Defines the chance the bed Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_CHEST": {
+        "name": "schematic_chest",
+        "comment": "Defines the chance the chest Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.2,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_CRATE": {
+        "name": "schematic_crate",
+        "comment": "Defines the chance the crate Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.3,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_GASLAMP": {
+        "name": "schematic_gaslamp",
+        "comment": "Defines the chance the gaslamp Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.4,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_JONASLAMP": {
+        "name": "schematic_jonaslamp",
+        "comment": "Defines the chance the jonaslamp Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.5,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_BANNER": {
+        "name": "schematic_banner",
+        "comment": "Defines the chance the banner Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.6,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_TABLE": {
+        "name": "schematic_table",
+        "comment": "Defines the chance the table Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.7,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_STONE": {
+        "name": "schematic_stone",
+        "comment": "Defines the chance the stone Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.8,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_WOOD": {
+        "name": "schematic_wood",
+        "comment": "Defines the chance the wood Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 28.9,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_ANCIENT": {
+        "name": "schematic_ancient",
+        "comment": "Defines the chance the ancient Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 29.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_CANDLE": {
+        "name": "schematic_candle",
+        "comment": "Defines the chance the candle Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 29.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_ROAD": {
+        "name": "schematic_road",
+        "comment": "Defines the chance the road Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 2.0,
+        "weight": 29.2,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_MECHANICAL": {
+        "name": "schematic_mechanical",
+        "comment": "Defines the chance the mechanical Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 1.0,
+        "weight": 29.3,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_JONASPART": {
+        "name": "schematic_jonaspart",
+        "comment": "Defines the chance the jonaspart Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 1.0,
+        "weight": 29.4,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_JONASASSEMBLY": {
+        "name": "schematic_jonasassembly",
+        "comment": "Defines the chance the jonasassembly Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "default": 1.0,
+        "weight": 29.5,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      }
+    },
+    "integer": {
+      "MEGASTRUCTURES_MIN_DISTANCE": {
+        "name": "megastructures_min_distance",
+        "comment": "Defines the distance between so called megastructures and is messured in blocks.",
+        "default": 5000,
+        "weight": 2.9,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "TRANSLOCATORRUINS_MIN_DISTANCE": {
+        "name": "translocatorruins_min_distance",
+        "comment": "Defines the distance between so called translocatorruins and is messured in blocks.",
+        "default": 1600,
+        "weight": 15.2,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "GRAVES_MIN_DISTANCE": {
+        "name": "graves_min_distance",
+        "comment": "Defines the distance between so called graves and is messured in blocks.",
+        "default": 850,
+        "weight": 26.02,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "OASIS_MAX_TEMP": {
+        "name": "08oasis_max_temp",
+        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "default": 39,
+        "weight": 10.1,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "OASIS_MIN_TEMP": {
+        "name": "08oasis_min_temp",
+        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "default": 25,
+        "weight": 10.2,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "FORLORNHOPETOWER_MAX_TEMP": {
+        "name": "09forlornhopetower_max_temp",
+        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "default": -4,
+        "weight": 11.1,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "FORLORNHOPETOWER_MIN_TEMP": {
+        "name": "09forlornhopetower_min_temp",
+        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "default": -30,
+        "weight": 11.2,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "GIANTCATHEDRAL_MAX_TEMP": {
+        "name": "10giantcathedral_max_temp",
+        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "default": -7,
+        "weight": 12.1,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      },
+      "GIANTCATHEDRAL_MIN_TEMP": {
+        "name": "10giantcathedral_min_temp",
+        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "default": -30,
+        "weight": 12.2,
+        "range": {
+          "min": -60,
+          "max": 60
+        }
+      }
+    }
+  },
+  "formatting": [
+    {
+      "type": "separator",
+      "title": "Overall Spawn Chances",
+      "weight": 1.1
+    },
+    {
+      "type": "separator",
+      "title": "Megastructures",
+      "weight": 2.5
+    },
+    {
+      "type": "separator",
+      "title": "Translocators",
+      "weight": 14.5
+    },
+    {
+      "type": "separator",
+      "title": "Villages",
+      "weight": 15.5
+    },
+    {
+      "type": "separator",
+      "title": "Ruins",
+      "weight": 19.5
+    },
+    {
+      "type": "separator",
+      "title": "Underground",
+      "weight": 24.5
+    },
+    {
+      "type": "separator",
+      "title": "Graves",
+      "weight": 26
+    },
+    {
+      "type": "separator",
+      "title": "Loot",
+      "weight": 26.5
+    }
+  ]
+}

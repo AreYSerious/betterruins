@@ -4,11 +4,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves1",
             "group": "graves",
             "chance": 0.001,
             "schematics": ["treasure/chests/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -19,11 +21,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves2",
             "group": "graves",
             "chance": 0.0005,
             "schematics": ["treasure/chests/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -34,11 +38,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves3",
             "group": "graves",
             "chance": 0.0001,
             "schematics": ["treasure/chests/rank3*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -49,11 +55,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves4",
             "group": "graves",
             "chance": 0.0015,
             "schematics": ["treasure/graves/rank1/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -64,11 +72,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves5",
             "group": "graves",
             "chance": 0.0005,
             "schematics": ["treasure/graves/rank2/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -79,11 +89,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves6",
             "group": "graves",
             "chance": 0.0003,
             "schematics": ["treasure/graves/rank3/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",
@@ -94,11 +106,13 @@
         "path": "/structures/-",
         "value": {
             "code": "graves",
+            "name": "graves7",
             "group": "graves",
             "chance": 0.0001,
             "schematics": ["treasure/graves/rank4/*"],
             "placement": "surface",
             "mindistance": 850,
+            "minY": 0,
             "offsety": -4
         },
         "file": "game:worldgen/structures.json",

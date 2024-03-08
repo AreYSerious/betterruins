@@ -1,0 +1,13 @@
+﻿{
+    "lore-wolfstone-title": "Hrad Vlčí kámen",
+    "game:ingamediscovery-lore-wolfstonecastle": "Objevena pověst \"Hrad Vlčí kámen\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření svého deníku</font>",
+    "lore-darkheat-title": "Temné dusno",
+    "game:ingamediscovery-lore-darkheat": "Objevena pověst \"Temné dusno\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření svého deníku</font>",
+    "lore-lastwall-title": "Pozůstatky zdi",
+    "game:ingamediscovery-lore-lastwall": "Objevena pověst \"Pozůstatky zdi\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření deníku</font>",
+    "lore-lastfisherman-title": "Poslední slova rybáře",
+    "game:ingamediscovery-lore-lastfisherman": "Objevena pověst \"Poslední slova rybáře\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření svého deníku</font>",
+    "game:item-stackrandomizer-darkheat": "BetterRuins LoreRandomizer Darkheat",
+    "game:item-stackrandomizer-glimmershield": "BetterRuins LoreRandomizer Glimmershield",
+    "game:item-stackrandomizer-lastfisherman": "BetterRuins LoreRandomizer Lastfisherman"
+}

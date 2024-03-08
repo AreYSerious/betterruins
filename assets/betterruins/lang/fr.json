@@ -62,5 +62,19 @@
     "item-locatormap-gates": "Carte du Reliquaire Mécanique",
     "item-locatormap-undergroundruins": "Carte de l'expédition des profondeurs",
     "item-locatormap-forlornhopetower": "Emplacement estimé de l'avant-poste",
-    "item-locatormap-giantcathedral": "Lieu sacré (estimation)"
+    "item-locatormap-giantcathedral": "Lieu sacré (estimation)",
+    "item-br-schematic-door": "Plan de Porte du Gardien",
+    "item-br-schematic-book": "Plan de Reliure du Relieur",
+    "item-br-schematic-chest": "Plan de Coffre du Gardien du Trésor",
+    "item-br-schematic-crate": "Plan de Caisse du Maître d'Entrepôt",
+    "item-br-schematic-bed": "Plan de Lit du Charpentier",
+    "item-br-schematic-gaslamp": "Plan de Lampe à Gaz du Lampiste",
+    "item-br-schematic-jonaslamp": "Plan de Lampe de Jonas du Métallurgiste",
+    "item-br-schematic-banner": "Plan de Bannière du Fabricant de Drapeaux",
+    "item-br-schematic-table": "Plan de Table du Menuisier",
+    "item-br-schematic-stone": "Plan du Tailleur de Pierre",
+    "item-br-schematic-wood": "Plan de Bois du Charpentier",
+    "item-br-schematic-ancient": "Plan Ancien du Tailleur de Pierre",
+    "item-br-schematic-candle": "Plan de Chandelle du Chandellier",
+    "item-br-schematic-road": "Plan de Route du Pavé"
 }

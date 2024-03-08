@@ -321,7 +321,7 @@
 				{
 				  "type": "item",
 				  "code": "cattailtops",
-				  "chance": 2000,
+				  "chance": 4000,
 				  "quantity": { "avg": 45, "var": 7 }
 				},
 				{
@@ -333,7 +333,7 @@
 				{
 				  "type": "item",
 				  "code": "flaxtwine",
-				  "chance": 1500,
+				  "chance": 3500,
 				  "quantity": { "avg": 7, "var": 2 }
 				}
 			  ]

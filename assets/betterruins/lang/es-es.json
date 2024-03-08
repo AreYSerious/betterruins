@@ -23,5 +23,19 @@
     "game:ingamediscovery-lore-forlornhoperecruitment": "Historia descubierta 'Carta de Reclutamiento de Forlorn Hope'\nParte {0} / {1}\n<font size=\"20\">Pulsa J para abrir tu diario</font>",
     "lore-forlornhopebounty-title": "Recompensa por Forlorn Hope",
     "lore-forlornhopebounty-piece1": "¡Recompensa por Forlorn Hope!\n\n¡¡Abajo Forlorn Hope!!\n\n¡Contempla la ira de La Falange de Hierro, señores de la oscuridad y amos del caos! ¡Que el mundo entero se estremezca de terror mientras desatamos nuestra furia sobre la maldita Forlorn Hope! ¡Ha llegado el momento de erradicar estas plagas insolentes de la existencia!\n\nForlorn Hope, un lamentable grupo de tontos descarriados, se ha atrevido a cruzar espadas con el poder de La Falange de Hierro. Se pavonean con arrogancia, creyendo que su coraje les otorga invencibilidad. ¡Pero que se sepa que su valentía no es más que una vela parpadeante frente a nuestro furioso infierno!\n\nPor lo tanto, La Falange de Hierro ofrece una recompensa salvaje, de color rojo sangre y que gotea la esencia del tormento. ¡Se otorgará una recompensa de 160 pepitas de oro a la mano despiadada que presente la cabeza cortada de cualquier malhechor de Forlorn Hope! ¡Sus cuerpos destrozados servirán como una advertencia inquietante para aquellos que se atrevan a soñar con desafiar nuestro dominio!\n\nNo se perdonará ninguna misericordia a estas almas desdichadas. ¡Si alguien intenta protegerlos, sus familias sufrirán horrores indescriptibles y sus tierras quedarán quemadas hasta convertirse en páramos áridos! Descubriremos sus escondites y los cazaremos hasta los confines de la tierra, ¡porque no hay refugio contra nuestra ira!\n\n¡Forlorn Hope será destrozada, sus nombres olvidados, su memoria borrada! ¡No serán más que una pesadilla fugaz en el gran tapiz de nuestro reino de terror! ¡Su destino está sellado y su perdición se acerca con una ferocidad sin medida!\n\nArrodíllate ante La Falange de Hierro y disfruta de la promesa de poder y riquezas inimaginables. Para aquellos que se atrevan a oponerse a nosotros, ¡dejemos que Forlorn Hope sirva como un escalofriante recordatorio del precio del desafío!\n\nPor la voluntad inquebrantable del general Aleron Ironheart,\nFecha desconocida                            ",
-    "game:ingamediscovery-lore-forlornhopebounty": "Historia descubierta 'Recompensa por Forlorn Hope'\nParte {0} / {1}\n<font size=\"20\">Pulsa J para abrir tu diario</font>"
+    "game:ingamediscovery-lore-forlornhopebounty": "Historia descubierta 'Recompensa por Forlorn Hope'\nParte {0} / {1}\n<font size=\"20\">Pulsa J para abrir tu diario</font>",
+    "item-br-schematic-door": "Plano del Portero",
+    "item-br-schematic-book": "Plano del Encuadernador",
+    "item-br-schematic-chest": "Plano del Guardián del Tesoro",
+    "item-br-schematic-crate": "Plano del Maestro de Almacén",
+    "item-br-schematic-bed": "Plano de la Cama del Carpintero",
+    "item-br-schematic-gaslamp": "Plano del Fabricante de Lámparas",
+    "item-br-schematic-jonaslamp": "Plano de la Lámpara de Jonas del Metalista",
+    "item-br-schematic-banner": "Plano del Estandarte del Fabricante de Banderas",
+    "item-br-schematic-table": "Plano de la Mesa del Ebanista",
+    "item-br-schematic-stone": "Plano del Cantero",
+    "item-br-schematic-wood": "Plano del Maderero",
+    "item-br-schematic-ancient": "Plano del Cantero de Reliquias",
+    "item-br-schematic-candle": "Plano del Velero",
+    "item-br-schematic-road": "Plano del Camino del Pavimentador"
 }
