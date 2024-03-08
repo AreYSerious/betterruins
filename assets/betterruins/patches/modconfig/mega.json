@@ -332,7 +332,7 @@
                   "name": "12undergroundlibrary",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0, // disabled for now bcs of framedrops waiting for a vanilla fix # default = 2.7 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 1, // disabled for now bcs of framedrops waiting for a vanilla fix # default = 2.7 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-12/*"
