@@ -228,35 +228,5 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
-  },
-
-
-  //
-  //
-  // Cold climate specific structures -4 to -30 °C
-  //
-  //
-
-
-  // Container styled homes
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-                  "code": "brsurfaceruins-coldclimate1",
-                  "name": "brsurfaceruins-coldclimate1",
-                  "group": "ironsnowball", // group name used for minGroupDistance
-                  "minGroupDistance": 3000, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [0] patches minGroupDistance aswell.
-                  "chance": 0.0002, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
-                  "schematics": [
-                    "overground/main/cold-climate/*"
-                  ],
-                  "rockTypeRemapGroup": "standard",
-                  "minY": -0.02,
-                  "minTemp": -30,
-                  "maxTemp": -7
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
   }
 ]
