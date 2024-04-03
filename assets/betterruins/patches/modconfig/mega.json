@@ -67,7 +67,7 @@
                   "code": "03nordichouse",
                   "group": "megaruins",
                   "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.055, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.045, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
