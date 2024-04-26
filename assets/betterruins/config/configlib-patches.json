@@ -22,7 +22,8 @@
         "12/value/chance": "UNDERGROUNDLIBRARY_SPAWN_CHANCE",
         "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
         "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
-        "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE"
+        "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
+        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "0/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE",
@@ -33,8 +34,7 @@
         "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
         "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
         "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * 0.3",
-        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE",
-        "9/value/chance": "COLDCLIMATERUINS_SPAWN_CHANCE"
+        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE",
@@ -123,7 +123,11 @@
         "9/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "10/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "11/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "12/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
+        "12/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "13/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "14/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "15/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "16/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -190,7 +194,7 @@
       "NORDICHOUSE_SPAWN_CHANCE": {
         "name": "03nordichouse_spawn_chance",
         "comment": "Affects the spawn chance of the megastructure nordichouse. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#03-nordichouse",
-        "default": 0.055,
+        "default": 0.045,
         "weight": 5.0,
         "logarithmic": true,
         "range": {
@@ -288,9 +292,20 @@
       },
       "UNDERGROUNDLIBRARY_SPAWN_CHANCE": {
         "name": "12undergroundlibrary_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#11-shoppingcentre",
+        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#12-undergroundlibrary",
         "default": 1,
         "weight": 14.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 10
+        }
+      },
+      "INDUSTRIALMINE_SPAWN_CHANCE": {
+        "name": "13industrialmine_spawn_chance",
+        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#13-industrialmine",
+        "default": 4,
+        "weight": 14.3,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -401,17 +416,6 @@
         "comment": "Affects the spawn chance of dessertruins overground ruins.",
         "default": 0.003,
         "weight": 23.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "COLDCLIMATERUINS_SPAWN_CHANCE": {
-        "name": "coldclimateruins_spawn_chance",
-        "comment": "Affects the spawn chance of dessertruins overground ruins.",
-        "default": 0.0002,
-        "weight": 24.0,
         "logarithmic": true,
         "range": {
           "min": 0,
