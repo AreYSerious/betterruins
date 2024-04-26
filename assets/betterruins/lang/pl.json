@@ -1,0 +1,18 @@
+﻿{
+    "lore-wolfstone-title": "Zamek Wilczego Kamienia",
+    "lore-darkheat-title": "Mroczny żar",
+    "game:location-graves": "Zapomniany Grobowiec",
+    "game:location-gates": "Uszkodzone Urządzenie",
+    "game:location-undergroundruins": "Jaskiniowe Grobowce",
+    "game:location-giantcathedral": "Święte Miejsce",
+    "item-locatormap-graves": "Ślady Zagubionego Grobowca",
+    "item-locatormap-gates": "Mechaniczna Mapa Relikwiarza",
+    "item-locatormap-undergroundruins": "Mapa Wyprawy Głębin",
+    "item-locatormap-forlornhopetower": "Szacowana Lokalizacja Posterunku",
+    "item-locatormap-giantcathedral": "Szacowane Święte Miejsce",
+    "item-br-schematic-door": "Schemat Strażnika Wrót",
+    "item-br-schematic-book": "Schemat Introligatora",
+    "item-br-schematic-chest": "Schemat Strażnika Skarbu",
+    "item-br-schematic-crate": "Schemat Strażnika Magazynu",
+    "item-br-schematic-bed": "Schemat Łóżka Cieśli"
+}
