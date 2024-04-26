@@ -189,7 +189,7 @@
       "NORDICHOUSE_SPAWN_CHANCE": {
         "name": "03nordichouse_spawn_chance",
         "comment": "Affects the spawn chance of the megastructure nordichouse. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#03-nordichouse",
-        "default": 0.055,
+        "default": 0.045,
         "weight": 5.0,
         "logarithmic": true,
         "range": {
