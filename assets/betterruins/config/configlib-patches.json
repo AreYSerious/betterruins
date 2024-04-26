@@ -33,8 +33,7 @@
         "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
         "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
         "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * 0.3",
-        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE",
-        "9/value/chance": "COLDCLIMATERUINS_SPAWN_CHANCE"
+        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE",
@@ -401,17 +400,6 @@
         "comment": "Affects the spawn chance of dessertruins overground ruins.",
         "default": 0.003,
         "weight": 23.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "COLDCLIMATERUINS_SPAWN_CHANCE": {
-        "name": "coldclimateruins_spawn_chance",
-        "comment": "Affects the spawn chance of dessertruins overground ruins.",
-        "default": 0.0002,
-        "weight": 24.0,
         "logarithmic": true,
         "range": {
           "min": 0,
