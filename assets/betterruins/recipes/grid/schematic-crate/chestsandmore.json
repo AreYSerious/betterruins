@@ -100,7 +100,7 @@
     {
         "ingredientPattern": "S__,B_B,PPP",
         "ingredients": {
-            "B": {type: "Block", code: "game:planks-aged-ns" },
+            "B": {type: "Block", code: "game:planks-aged-*" },
             "P": {type: "Item", code: "game:plank-aged" },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -519,7 +519,7 @@
     {
         "ingredientPattern": "S__,B_B,PPP",
         "ingredients": {
-            "B": {type: "Block", code: "game:planks-aged-ns" },
+            "B": {type: "Block", code: "game:planks-aged-*" },
             "P": {type: "Item", code: "game:plank-aged" },
             "S": {"type": "Item", "code": "br-schematic-crate" }
         },
@@ -791,7 +791,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-crate" },
             "B": {type: "Item", code: "game:plank-aged" },
-            "F": {type: "Block", code: "game:planks-aged-ns" }
+            "F": {type: "Block", code: "game:planks-aged-*" }
         },
         "width": 3,
         "height": 3,
