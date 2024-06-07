@@ -97,7 +97,7 @@
 		}
 	},
 	maxstacksize: 1,
-	texture: { base: "item/meta/randomizer/{type}" },
+	texture: { base: "item/meta/randomizer/brlore" },
 	creativeinventory: { "meta": ["*"] },
 	materialDensity: 600
 }
