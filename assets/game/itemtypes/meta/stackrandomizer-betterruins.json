@@ -2364,7 +2364,37 @@
 				  "code": "lore-scroll",
 				  "attributes": { "category": "villager" },
 				  "chance": 100
-				}
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "universalstories" },
+				  "chance": 10
+				},
+				{
+					"type": "item",
+					"code": "lore-book-aged-purpleorange",
+					"attributes": { "category": "universalstories" },
+					"chance": 5
+				  },
+				  {
+					"type": "item",
+					"code": "lore-book-aged-gray",
+					"attributes": { "category": "universalstories" },
+					"chance": 5
+				  },
+				  {
+					"type": "item",
+					"code": "lore-book-rotten-gray",
+					"attributes": { "category": "universalstories" },
+					"chance": 5
+				  },
+				  {
+					"type": "item",
+					"code": "lore-book-rotten-rust",
+					"attributes": { "category": "universalstories" },
+					"chance": 5
+				  }
 			  ]
 		},
 		"*-rottenkingclothing": {
