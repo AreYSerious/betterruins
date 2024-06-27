@@ -15,7 +15,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.05, 
+                  "chance": 0.01, 
                   "schematics": [
                     "overground/special/waystones/quentin/default-o0/*"
                   ],
@@ -34,7 +34,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.005, 
+                  "chance": 0.001, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-legendarychisel-o3"
                   ],
@@ -53,7 +53,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.01, 
+                  "chance": 0.002, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-locusttrap-o1"
                   ],
@@ -72,7 +72,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.1, 
+                  "chance": 0.02, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-tropical-o8"
                   ],
