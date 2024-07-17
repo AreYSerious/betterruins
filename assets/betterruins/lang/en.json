@@ -136,7 +136,7 @@
     "item-br-schematic-jonaspart": "Tinkerer's Part Blueprint",
     "item-br-schematic-jonasassembly": "Engineer's Assembly Blueprint",
     "item-br-schematic-mechanical": "Machinist's Mechanism Blueprint",
-    "itemdesc-br-schematic-*": "These Blueprints are reusable and duplicable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)"
+    "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
 
 
 }
