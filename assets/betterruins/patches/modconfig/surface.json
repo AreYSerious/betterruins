@@ -70,7 +70,7 @@
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-medium",
-                  "chance": 0.007, // # default = 0.007 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.005, // # default = 0.007 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "schematics": [
                     "overground/main/mediumruins/*"
                   ],
