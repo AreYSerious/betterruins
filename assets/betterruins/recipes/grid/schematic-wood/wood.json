@@ -110,7 +110,7 @@
         },
         "width": 1,
         "height": 2,
-        "output": {type: "Block", code: "game:planks-agedebony-*" }
+        "output": {type: "Block", code: "game:planks-agedebony-ud" }
     },
     {
         "ingredientPattern": "X,W",
@@ -120,7 +120,7 @@
         },
         "width": 1,
         "height": 2,
-        "output": {type: "Block", code: "game:planks-rottenebony-*" }
+        "output": {type: "Block", code: "game:planks-rottenebony-ud" }
     },
 
 

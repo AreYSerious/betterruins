@@ -4,7 +4,7 @@
   "name": "BetterRuins",
   "description" : "Adds a lot of structures to the worldgen over and underground.\nBuilderteam: Dampus, SamGrey, StAdrian, Bellcross, Djvirus, Bodlacek, Catnoir, \nPar, Rowly, Vilderos, Virrnogamr, QuentinQP, OnBean, Boitameu, LordJarJar, \nYerts, XurxoMF, Marlim, NeonScorpion\nTranslators: Xandoria, macoto_hino, yanazake, Knave2000, Grigoriewich, Jefferzon, \nSrloboalbino, Vilderos, Adrian Misiak, hellcatcher228, Richard Rokyta",
   "authors": ["NiclAss"],
-  "version": "0.3.6",
+  "version": "0.3.7",
   "side": "Universal",
   "dependencies": {
     "game": "1.19.0"
