@@ -8,7 +8,11 @@
 			"glimmershield", 
 			"lastfisherman", 
 			"lastwall",
-			"wolfstone"
+			"wolfstone",
+			"fieldengineersdiary",
+			"largechurch",
+			"undergroundlibrary",
+			"lostdoll"
 		] }
 	],
 	attributesByType: {
@@ -94,10 +98,38 @@
 			stacks: [
 				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "wolfstone" } }
 			  ]
+		},
+		
+		"*-fieldengineersdiary": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "fieldengineersdiary" } }
+			  ]
+		},
+		
+		"*-largechurch": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "largechurch" } }
+			  ]
+		},
+		
+		"*-undergroundlibrary": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "undergroundlibrary" } }
+			  ]
+		},
+		
+		"*-lostdoll": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lostdoll" } }
+			  ]
 		}
 	},
 	maxstacksize: 1,
-	texture: { base: "item/meta/randomizer/{type}" },
+	texture: { base: "item/meta/randomizer/brlore" },
 	creativeinventory: { "meta": ["*"] },
 	materialDensity: 600
 }

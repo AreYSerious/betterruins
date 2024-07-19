@@ -164,7 +164,7 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:chisel-*" , "isTool": true},
-            "B": {type: "Block", code: "game:stonebricks-*", name: "rock"}
+            "B": {type: "Block", code: "game:stonebricks-*", name: "rock", skipVariants: ["suevite","kimberlite","obsidian"]} // bcs of bricklayers
         },
         "width": 1,
         "height": 3,

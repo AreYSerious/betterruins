@@ -13,7 +13,7 @@
     "value": {
       "name": "oldvanillavillage",
       "code": "custom-village-main",
-      "chance": 0.005, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.004, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -97,7 +97,7 @@
     "value": {
       "name": "forestvillage",
       "code": "forest-village-main",
-      "chance": 0.085, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.065, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -150,7 +150,7 @@
     "value": {
       "name": "desertvillage",
       "code": "desert-village-main",
-      "chance": 0.02, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.01, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -182,7 +182,7 @@
     "value": {
       "name": "prisonvillage",
       "code": "prison-village-main",
-      "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.02, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -200,6 +200,138 @@
         {"path": "overground/main/prison-village/prison-7-road","weight": 100},
         {"path": "overground/main/prison-village/prison-8-road","weight": 100},
         {"path": "overground/main/prison-village/prison-9-road","weight": 100}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // Red village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "redvillage",
+      "code": "red-village-main",
+      "chance": 0.05, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 8,
+        "var": 2,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/red-village/1/*","weight": 700, "minQuantity": 0, "maxQuantity": 4}, //1500
+        {"path": "overground/main/red-village/2/*","weight": 250, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/red-village/3/*","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/red-village/4/*","weight": 1200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/red-village/5/*","weight": 400, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/red-village/6/*","weight": 300, "minQuantity": 0, "maxQuantity": 2}, //600
+        {"path": "overground/main/red-village/7/*","weight": 250, "minQuantity": 0, "maxQuantity": 1}, //600
+        {"path": "overground/main/red-village/paths/*","weight": 800, "minQuantity": 3, "maxQuantity": 3}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // blue village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "bluevillage",
+      "code": "blue-village-main",
+      "chance": 0.05, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 8,
+        "var": 2,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/blue-village/1/*","weight": 700, "minQuantity": 0, "maxQuantity": 4}, //1500
+        {"path": "overground/main/blue-village/2/*","weight": 250, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/blue-village/3/*","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/blue-village/4/*","weight": 1200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/blue-village/5/*","weight": 400, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/blue-village/6/*","weight": 300, "minQuantity": 0, "maxQuantity": 2}, //600
+        {"path": "overground/main/blue-village/7/*","weight": 250, "minQuantity": 0, "maxQuantity": 1}, //600
+        {"path": "overground/main/blue-village/paths/*","weight": 800, "minQuantity": 3, "maxQuantity": 3}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // fire village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "firevillage",
+      "code": "fire-village-main",
+      "chance": 0.05, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 8,
+        "var": 2,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/fire-village/1/*","weight": 700, "minQuantity": 0, "maxQuantity": 4}, //1500
+        {"path": "overground/main/fire-village/2/*","weight": 250, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/fire-village/3/*","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/fire-village/4/*","weight": 1200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/fire-village/5/*","weight": 400, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/fire-village/6/*","weight": 300, "minQuantity": 0, "maxQuantity": 2}, //600
+        {"path": "overground/main/fire-village/7/*","weight": 250, "minQuantity": 0, "maxQuantity": 1}, //600
+        {"path": "overground/main/fire-village/paths/*","weight": 800, "minQuantity": 3, "maxQuantity": 3}
+    ],
+
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+
+
+  // brown village
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "brownvillage",
+      "code": "brown-village-main",
+      "chance": 0.05, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 8,
+        "var": 2,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/brown-village/1/*","weight": 700, "minQuantity": 0, "maxQuantity": 4}, //1500
+        {"path": "overground/main/brown-village/2/*","weight": 250, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/brown-village/3/*","weight": 500, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/brown-village/4/*","weight": 1200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/brown-village/5/*","weight": 400, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/brown-village/6/*","weight": 300, "minQuantity": 0, "maxQuantity": 2}, //600
+        {"path": "overground/main/brown-village/7/*","weight": 250, "minQuantity": 0, "maxQuantity": 1}, //600
+        {"path": "overground/main/brown-village/paths/*","weight": 800, "minQuantity": 3, "maxQuantity": 3}
     ],
 
       "rockTypeRemapGroup": "standard"

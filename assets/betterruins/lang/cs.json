@@ -1,6 +1,5 @@
 ﻿{
     "lore-wolfstone-title": "Hrad Vlčí kámen",
-    "lore-wolfstone-piece1": "Částečně zřícený hrad Vlčí kámen má bohatou historii, která začala před staletími. V počátku vznikla pouze jedna čtvercová věž, postavená pro dohled nad cennými doly v okolí. Věž byla postavena s velkou péčí, protože zajišťovala bezpečnost regionu a doly byly životně důležité pro ekonomiku. Postupem času věž s robustní konstrukcí dokázala, že obstojí ve zkouškách živlů a času.\n\nPo nějaké době byla věž předána baronovi se stoupající pověstí za jeho úspěchy ve válce. Baron byl za dar neskonale vděčný a tvrdě pracoval na rozšíření věže v plnohodnotný hrad. Nechal vytvořit příkop a pevné hradby pro ochranu nádvoří. Za potomků barona se hrad dále vyvíjel a rozšiřoval s tím, jak doly stále více rostly.\n\nHrad byl pojmenován po vlčí smečce, která žila v okolí a byla místními lidmi uctívána pro jejich zuřivou sílu a odolnost. Hrad tak vešel ve známost jako Vlčí kámen, což je jméno, které přetrvá po celá staletí.\n\nPoslední pán z Vlčího kamene byl vášnivým čtenářem a spisovatelem, který strávil mnoho hodin studiem rozsáhlé sbírky knih v hradní knihovně. Byl to učený muž s bystrým intelektem a hlubokým porozuměním okolního světa. Často trávil dlouhé hodiny čtením u ohně, ztracený v myšlenkách, když přemítal o tajemstvích života.\n\nNavzdory své lásce ke knihám byl poslední pán z Vlčího kamene také urputným válečníkem, který statečně vedl svůj lid do bitvy. Byl to čestný a spravedlivý vládce, který se hluboce staral o svůj lid a neúnavně pracoval na zajištění jeho bezpečnosti a prosperity. Hrad však i přes jeho veškerou snahu nakonec chátral, protože doly začaly vysychat a okolí méně prosperovalo.\n\nČástečně zřícený hrad Vlčí kámen dnes stojí jako svědectví minulé doby, je připomínkou bohaté historie a tradic, které utvářely svět kolem nás.\n\nMy obchodníci jsme se usadili ve zbývajících budovách, používáme je jako úkryt a snažíme se, aby byla stavba zachována.                     ",
     "game:ingamediscovery-lore-wolfstonecastle": "Objevena pověst \"Hrad Vlčí kámen\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření deníku</font>",
     "lore-darkheat-title": "Temné dusno",
     "lore-darkheat-piece1": "Den 1:\n\nVydal jsem se prozkoumat ruiny, které zasáhl meteorit. Při zkoumání starověkých staveb jsem narazil na podivný kámen, který rozlomil meteorit. Nepodobal se ničemu, co jsem kdy viděl.\n\nDen 2:\n\nStrávil jsem noc v ruinách a nemohl odtrhnout oči od kamene. Když padla tma, všiml jsem si něčeho zvláštního. Kámen vyzařoval značné množství tepla. Čím byla větší tma, tím více žhnul. Bylo to, jako by kámen vytvářel své vlastní světlo.___NEWPAGE___",
@@ -10,8 +9,9 @@
     "game:ingamediscovery-lore-lastwall": "Objevena pověst \"Pozůstatky zdi\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření deníku</font>",
     "lore-lastfisherman-title": "Poslední slova rybáře",
     "game:ingamediscovery-lore-lastfisherman": "Objevena pověst \"Poslední slova rybáře\"\nČást {0} / {1}\n<font size=\"20\">Stiskni J pro otevření svého deníku</font>",
+    "lore-glimmershield-title": "Hrad Glimmershield",
+    "lore-forlornhoperecruitment-title": "Náborový dopis Forlornské naděje",
     "game:item-stackrandomizer-darkheat": "BetterRuins LoreRandomizer Darkheat",
     "game:item-stackrandomizer-glimmershield": "BetterRuins LoreRandomizer Glimmershield",
-    "game:item-stackrandomizer-lastfisherman": "BetterRuins LoreRandomizer Lastfisherman",
-    "itemdesc-br-schematic-*": "Plány jsou opakovaně použitelné a duplikovatelné, obsahují tajemství zapomenutých receptů vytvořených mistry svého oboru."
+    "game:item-stackrandomizer-lastfisherman": "BetterRuins LoreRandomizer Lastfisherman"
 }

@@ -1,88 +1,93 @@
 {
-  "version": 1,
+  "version": 2,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
-        "0/value": "STRUCTURES_SPAWN_CHANCE",
-        "1/value": "VILLAGES_SPAWN_CHANCE"
+        "0/value": "STRUCTURES_SPAWN_CHANCE * value",
+        "1/value": "VILLAGES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/mega.json": {
-        "0/value/chance": "WALLSEGMENT_SPAWN_CHANCE",
-        "1/value/chance": "ROCKFORMATION_SPAWN_CHANCE",
-        "2/value/chance": "NORDICHOUSE_SPAWN_CHANCE",
-        "3/value/chance": "VISINGBORG_SPAWN_CHANCE",
-        "4/value/chance": "CATNOIRSCASTLERUIN_SPAWN_CHANCE",
-        "5/value/chance": "DESTROYEDLARGECHURCH_SPAWN_CHANCE",
-        "6/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
-        "7/value/chance": "OASIS_SPAWN_CHANCE",
-        "8/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE",
-        "9/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE * 0.50",
-        "10/value/chance": "GIANTCATHEDRAL_SPAWN_CHANCE",
-        "11/value/chance": "SHOPPINGCENTRE_SPAWN_CHANCE",
-        "12/value/chance": "UNDERGROUNDLIBRARY_SPAWN_CHANCE",
-        "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
-        "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
-        "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE",
-        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE"
+        "0/value/chance": "WALLSEGMENT_SPAWN_CHANCE * value",
+        "1/value/chance": "ROCKFORMATION_SPAWN_CHANCE * value",
+        "2/value/chance": "NORDICHOUSE_SPAWN_CHANCE * value",
+        "3/value/chance": "VISINGBORG_SPAWN_CHANCE * value",
+        "4/value/chance": "CATNOIRSCASTLERUIN_SPAWN_CHANCE * value",
+        "5/value/chance": "DESTROYEDLARGECHURCH_SPAWN_CHANCE * value",
+        "6/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
+        "7/value/chance": "OASIS_SPAWN_CHANCE * value",
+        "8/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE * value",
+        "9/value/chance": "FORLORNHOPETOWER_SPAWN_CHANCE * value",
+        "10/value/chance": "GIANTCATHEDRAL_SPAWN_CHANCE * value",
+        "11/value/chance": "SHOPPINGCENTRE_SPAWN_CHANCE * value",
+        "12/value/chance": "UNDERGROUNDLIBRARY_SPAWN_CHANCE * value",
+        "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
+        "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
+        "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
+        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/surface.json": {
-        "0/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE",
-        "1/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * 0.30",
-        "2/value/chance": "LARGERUINS_SPAWN_CHANCE",
-        "3/value/chance": "MEDIUMRUINS_SPAWN_CHANCE",
-        "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE",
-        "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
-        "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * 0.33",
-        "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * 0.3",
-        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE"
+        "0/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * value",
+        "1/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * value",
+        "2/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "3/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
+        "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
+        "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
+        "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
+        "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
+      },
+      "betterruins:patches/others/structurespatches/special.json": {
+        "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "1/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "2/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "3/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "4/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "5/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
-        "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE",
-        "1/value/chance": "VSVILLAGE_SPAWN_CHANCE",
-        "2/value/chance": "FORESTVILLAGE_SPAWN_CHANCE",
-        "3/value/chance": "DESERTVILLAGE_SPAWN_CHANCE",
-        "4/value/chance": "PRISONVILLAGE_SPAWN_CHANCE"
+        "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE * value",
+        "1/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
+        "2/value/chance": "FORESTVILLAGE_SPAWN_CHANCE * value",
+        "3/value/chance": "DESERTVILLAGE_SPAWN_CHANCE * value",
+        "4/value/chance": "PRISONVILLAGE_SPAWN_CHANCE * value",
+        "5/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
+        "6/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
+        "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
+        "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/underground.json": {
-        "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * 3",
-        "1/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
-        "2/value/chance": "UNDERGROUND_SPAWN_CHANCE * 15",
-        "3/value/chance": "UNDERGROUND_SPAWN_CHANCE * 7",
-        "4/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
-        "5/value/chance": "UNDERGROUND_SPAWN_CHANCE * 4",
-        "6/value/chance": "UNDERGROUND_SPAWN_CHANCE * 6",
-        "7/value/chance": "UNDERGROUND_SPAWN_CHANCE * 3",
-        "8/value/chance": "UNDERGROUND_SPAWN_CHANCE * 1.125",
-        "9/value/chance": "UNDERGROUND_SPAWN_CHANCE * 50",
-        "10/value/chance": "UNDERGROUND_SPAWN_CHANCE * 30",
-        "11/value/chance": "UNDERGROUND_SPAWN_CHANCE * 20",
-        "12/value/chance": "UNDERGROUND_SPAWN_CHANCE * 10",
-        "13/value/chance": "UNDERGROUND_SPAWN_CHANCE * 5"
+        "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "1/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "2/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "3/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "4/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "5/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "6/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "7/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "8/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "9/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "10/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "11/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "12/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
+        "13/value/chance": "UNDERGROUND_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
-        "0/value/chance": "GRAVES_SPAWN_CHANCE * 0.001",
-        "1/value/chance": "GRAVES_SPAWN_CHANCE * 0.0005",
-        "2/value/chance": "GRAVES_SPAWN_CHANCE * 0.0001",
-        "3/value/chance": "GRAVES_SPAWN_CHANCE * 0.0015",
-        "4/value/chance": "GRAVES_SPAWN_CHANCE * 0.0005",
-        "5/value/chance": "GRAVES_SPAWN_CHANCE * 0.0003",
-        "6/value/chance": "GRAVES_SPAWN_CHANCE * 0.0001"
-      },
-      "betterruins:patches/others/randomizers/nerfs/nerfs.json": {
-        "0/value/chance": "LOOT_NERF * 12000",
-        "1/value/chance": "LOOT_NERF * 2000",
-        "2/value/chance": "LOOT_NERF * 12000",
-        "3/value/chance": "LOOT_NERF * 500",
-        "4/value/chance": "LOOT_NERF * 600",
-        "5/value/chance": "LOOT_NERF * 250",
-        "6/value/chance": "LOOT_NERF * 600",
-        "7/value/chance": "LOOT_NERF * 600",
-        "8/value/chance": "LOOT_NERF * 60",
-        "9/value/chance": "LOOT_NERF * 60",
-        "10/value/chance": "LOOT_NERF * 6",
-        "11/value/chance": "LOOT_NERF * 250"
+        "0/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "1/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "2/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "3/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "4/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "5/value/chance": "GRAVES_SPAWN_CHANCE * value",
+        "6/value/chance": "GRAVES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-gear.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
         "7/value/chance": "SCHEMATIC_DOOR",
         "8/value/chance": "SCHEMATIC_BED",
         "9/value/chance": "SCHEMATIC_CHEST",
@@ -99,6 +104,506 @@
         "20/value/chance": "SCHEMATIC_MECHANICAL",
         "21/value/chance": "SCHEMATIC_JONASPART",
         "22/value/chance": "SCHEMATIC_JONASASSEMBLY"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-lantern.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value",
+        "8/value/chance": "LOOT * value",
+        "9/value/chance": "LOOT * value",
+        "10/value/chance": "LOOT * value",
+        "11/value/chance": "LOOT * value",
+        "12/value/chance": "LOOT * value"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-paintings.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value",
+        "8/value/chance": "LOOT * value",
+        "9/value/chance": "LOOT * value",
+        "10/value/chance": "LOOT * value",
+        "11/value/chance": "LOOT * value",
+        "12/value/chance": "LOOT * value",
+        "13/value/chance": "LOOT * value",
+        "14/value/chance": "LOOT * value",
+        "15/value/chance": "LOOT * value",
+        "16/value/chance": "LOOT * value",
+        "17/value/chance": "LOOT * value"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-resource.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value",
+        "8/value/chance": "LOOT * value",
+        "9/value/chance": "LOOT * value",
+        "10/value/chance": "LOOT * value",
+        "11/value/chance": "LOOT * value",
+        "12/value/chance": "LOOT * value",
+        "13/value/chance": "LOOT * value",
+        "14/value/chance": "LOOT * value",
+        "15/value/chance": "LOOT * value",
+        "16/value/chance": "LOOT * value",
+        "17/value/chance": "LOOT * value",
+        "18/value/chance": "LOOT * value",
+        "19/value/chance": "LOOT * value",
+        "20/value/chance": "LOOT * value"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-seeds.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value",
+        "8/value/chance": "LOOT * value",
+        "9/value/chance": "LOOT * value",
+        "10/value/chance": "LOOT * value",
+        "11/value/chance": "LOOT * value",
+        "12/value/chance": "LOOT * value",
+        "13/value/chance": "LOOT * value",
+        "14/value/chance": "LOOT * value",
+        "15/value/chance": "LOOT * value",
+        "16/value/chance": "LOOT * value",
+        "17/value/chance": "LOOT * value",
+        "18/value/chance": "LOOT * value"
+      },
+      "betterruins:patches/others/randomizers/stackrandomizers-weapon.json": {
+        "0/value/chance": "LOOT * value",
+        "1/value/chance": "LOOT * value",
+        "2/value/chance": "LOOT * value",
+        "3/value/chance": "LOOT * value",
+        "4/value/chance": "LOOT * value",
+        "5/value/chance": "LOOT * value",
+        "6/value/chance": "LOOT * value",
+        "7/value/chance": "LOOT * value"
+      },
+      "game:itemtypes/meta/stackrandomizer-betterruins-lore.json": {
+        "attributesByType/*-darkheat/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/0/chance": "(LORE) ? 1.0 : 0.0"
+      },
+      "game:itemtypes/meta/stackrandomizer-betterruins.json": {
+        "attributesByType/*-armor/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/26/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/27/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/28/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/29/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/30/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/31/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/32/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/33/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/34/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/35/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/36/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/37/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/38/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/39/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/40/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/41/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/42/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/43/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/44/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/45/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/46/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/47/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/48/chance": "LOOT * value",
+        "attributesByType/*-armor/stacks/49/chance": "LOOT * value",
+
+
+        "attributesByType/*-backpack/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-backpack/stacks/6/chance": "LOOT * value",
+
+
+        "attributesByType/*-buildingblocks/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/26/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/27/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/28/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/29/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/30/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/31/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/32/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/33/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/34/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/35/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/36/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/37/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/38/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/39/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/40/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/41/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/42/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/43/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/44/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/45/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/46/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/47/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/48/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/49/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/50/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/51/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/52/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/53/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/54/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/55/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/56/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/57/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/58/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/59/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/60/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/61/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/62/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/63/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/64/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/65/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/66/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/67/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/68/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/69/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/70/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/71/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/72/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/73/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/74/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/75/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/76/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/77/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/78/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/79/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/80/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/81/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/82/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/83/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/84/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/85/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/86/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/87/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/88/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/89/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/90/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/91/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/92/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/93/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/94/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/95/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/96/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/97/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/98/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/99/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/100/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/101/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/102/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/103/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/104/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/105/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/106/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/107/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/108/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/109/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/110/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/111/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/112/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/113/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/114/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/115/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/116/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/117/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/118/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/119/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/120/chance": "LOOT * value",
+        "attributesByType/*-buildingblocks/stacks/121/chance": "LOOT * value",
+
+
+        "attributesByType/*-clayproducts/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/26/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/27/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/28/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/29/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/30/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/31/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/32/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/33/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/34/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/35/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/36/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/37/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/38/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/39/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/40/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/41/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/42/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/43/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/44/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/45/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/46/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/47/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/48/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/49/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/50/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/51/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/52/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/53/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/54/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/55/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/56/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/57/chance": "LOOT * value",
+        "attributesByType/*-clayproducts/stacks/58/chance": "LOOT * value",
+
+
+        "attributesByType/*-kingclothing/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/26/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/27/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/28/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/29/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/30/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/31/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/32/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/33/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/34/chance": "LOOT * value",
+        "attributesByType/*-kingclothing/stacks/35/chance": "LOOT * value",
+
+
+        "attributesByType/*-mask/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-mask/stacks/26/chance": "LOOT * value",
+
+
+        "attributesByType/*-mechanical/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/14/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/15/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/16/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/17/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/18/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/19/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/20/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/21/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/22/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/23/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/24/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/25/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/26/chance": "LOOT * value",
+        "attributesByType/*-mechanical/stacks/27/chance": "LOOT * value",
+
+
+        "attributesByType/*-newlore/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/16/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/17/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/18/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/19/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/20/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/21/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-newlore/stacks/22/chance": "(LORE) ? 1.0 : 0.0",
+
+
+        "attributesByType/*-rottenkingclothing/stacks/0/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/1/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/2/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/3/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/4/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/5/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/6/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/7/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/8/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/9/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/10/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/11/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/12/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/13/chance": "LOOT * value",
+        "attributesByType/*-rottenkingclothing/stacks/14/chance": "LOOT * value"
       }
     },
 	"integer": {
@@ -142,325 +647,405 @@
         "4/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "5/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
         "6/value/minGroupDistance": "GRAVES_MIN_DISTANCE"
+      },
+      "betterruins:patches/others/structurespatches/special.json": {
+        "0/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "1/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "2/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "3/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "4/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "5/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
+
+      },
+      "betterruins:recipes/grid/copy-schematic/schematiccopy.json": {
+        "enabled": "SCHEMATIC_CRAFTING"
       }
     }
   },
   "settings": {
+    "boolean": {
+      "LORE": {
+        "name": "lore",
+        "comment": "betterruins:lore_comment",
+        "ingui": "betterruins:lore",
+        "weight": 0.41,
+        "default": true
+      },
+      "SCHEMATIC_CRAFTING": {
+        "name": "schematic_crafting",
+        "comment": "betterruins:schematic_crafting_comment",
+        "ingui": "betterruins:schematic_crafting",
+        "weight": 27.91,
+        "default": false
+      }
+    },
     "number": {
       "STRUCTURES_SPAWN_CHANCE": {
         "name": "structures_spawn_chance",
-        "comment": "Affects the spawn chance of all structures (surface, underground, traders). Vanilla default is 0.46 so this mod reduces it on default. (default = 0.30; vanilla = 0.46; 33% = 0.10; 66% = 0.20; 150% = 0.45; 200% = 0.60; 300% = 0.90)",
-        "default": 0.30,
+        "comment": "betterruins:structures_spawn_chance_comment",
+        "ingui": "betterruins:structures_spawn_chance",
+        "default": 1.0,
         "weight": 1.8,
         "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "VILLAGES_SPAWN_CHANCE": {
+        "name": "villages_spawn_chance",
+        "comment": "betterruins:villages_spawn_chance_comment",
+        "ingui": "betterruins:villages_spawn_chance",
+        "default": 1.0,
+        "weight": 2.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "WALLSEGMENT_SPAWN_CHANCE": {
+        "name": "01wallsegment_spawn_chance",
+        "comment": "betterruins:01wallsegment_spawn_chance_comment",
+        "ingui": "betterruins:01wallsegment_spawn_chance",
+        "default": 1.0,
+        "weight": 3.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "ROCKFORMATION_SPAWN_CHANCE": {
+        "name": "02rockformation_spawn_chance",
+        "comment": "betterruins:02rockformation_spawn_chance_comment",
+        "ingui": "betterruins:02rockformation_spawn_chance",
+        "default": 1.0,
+        "weight": 4.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "NORDICHOUSE_SPAWN_CHANCE": {
+        "name": "03nordichouse_spawn_chance",
+        "comment": "betterruins:03nordichouse_spawn_chance_comment",
+        "ingui": "betterruins:03nordichouse_spawn_chance",
+        "default": 1.0,
+        "weight": 5.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "VISINGBORG_SPAWN_CHANCE": {
+        "name": "04visingborg_spawn_chance",
+        "comment": "betterruins:04visingborg_spawn_chance_comment",
+        "ingui": "betterruins:04visingborg_spawn_chance",
+        "default": 1.0,
+        "weight": 6.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "CATNOIRSCASTLERUIN_SPAWN_CHANCE": {
+        "name": "05catnoirscastleruin_spawn_chance",
+        "comment": "betterruins:05catnoirscastleruin_spawn_chance_comment",
+        "ingui": "betterruins:05catnoirscastleruin_spawn_chance",
+        "default": 1.0,
+        "weight": 7.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "DESTROYEDLARGECHURCH_SPAWN_CHANCE": {
+        "name": "06destroyedlargechurch_spawn_chance",
+        "comment": "betterruins:06destroyedlargechurch_spawn_chance_comment",
+        "ingui": "betterruins:06destroyedlargechurch_spawn_chance",
+        "default": 1.0,
+        "weight": 8.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "WOLFSTONECASTLE_SPAWN_CHANCE": {
+        "name": "07wolfstonecastle_spawn_chance",
+        "comment": "betterruins:07wolfstonecastle_spawn_chance_comment",
+        "ingui": "betterruins:07wolfstonecastle_spawn_chance",
+        "default": 1.0,
+        "weight": 9.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "OASIS_SPAWN_CHANCE": {
+        "name": "08oasis_spawn_chance",
+        "comment": "betterruins:08oasis_spawn_chance_comment",
+        "ingui": "betterruins:08oasis_spawn_chance",
+        "default": 1.0,
+        "weight": 10.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "FORLORNHOPETOWER_SPAWN_CHANCE": {
+        "name": "09forlornhopetower_spawn_chance",
+        "comment": "betterruins:09forlornhopetower_spawn_chance_comment",
+        "ingui": "betterruins:09forlornhopetower_spawn_chance",
+        "default": 1.0,
+        "weight": 11.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "GIANTCATHEDRAL_SPAWN_CHANCE": {
+        "name": "10giantcathedral_spawn_chance",
+        "comment": "betterruins:10giantcathedral_spawn_chance_comment",
+        "ingui": "betterruins:10giantcathedral_spawn_chance",
+        "default": 1.0,
+        "weight": 12.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "SHOPPINGCENTRE_SPAWN_CHANCE": {
+        "name": "11shoppingcentre_spawn_chance",
+        "comment": "betterruins:11shoppingcentre_spawn_chance_comment",
+        "ingui": "betterruins:11shoppingcentre_spawn_chance",
+        "default": 1.0,
+        "weight": 13.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "UNDERGROUNDLIBRARY_SPAWN_CHANCE": {
+        "name": "12undergroundlibrary_spawn_chance",
+        "comment": "betterruins:12undergroundlibrary_spawn_chance_comment",
+        "ingui": "betterruins:12undergroundlibrary_spawn_chance",
+        "default": 1.0,
+        "weight": 14.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "INDUSTRIALMINE_SPAWN_CHANCE": {
+        "name": "13industrialmine_spawn_chance",
+        "comment": "betterruins:13industrialmine_spawn_chance_comment",
+        "ingui": "betterruins:13industrialmine_spawn_chance",
+        "default": 1.0,
+        "weight": 14.3,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "TRANSLOCATORRUINS_SPAWN_CHANCE": {
+        "name": "translocatorruins_spawn_chance",
+        "comment": "betterruins:translocatorruins_spawn_chance_comment",
+        "ingui": "betterruins:translocatorruins_spawn_chance",
+        "default": 1.0,
+        "weight": 15.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "OLDVANILLAVILLAGE_SPAWN_CHANCE": {
+        "name": "oldvanillavillage_spawn_chance",
+        "comment": "betterruins:oldvanillavillage_spawn_chance_comment",
+        "ingui": "betterruins:oldvanillavillage_spawn_chance",
+        "default": 1.0,
+        "weight": 16.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "VSVILLAGE_SPAWN_CHANCE": {
+        "name": "vsvillage_spawn_chance",
+        "comment": "betterruins:vsvillage_spawn_chance_comment",
+        "ingui": "betterruins:vsvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 17.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "FORESTVILLAGE_SPAWN_CHANCE": {
+        "name": "forestvillage_spawn_chance",
+        "comment": "betterruins:forestvillage_spawn_chance_comment",
+        "ingui": "betterruins:forestvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 18.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "DESERTVILLAGE_SPAWN_CHANCE": {
+        "name": "desertvillage_spawn_chance",
+        "comment": "betterruins:desertvillage_spawn_chance_comment",
+        "ingui": "betterruins:desertvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 19.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "PRISONVILLAGE_SPAWN_CHANCE": {
+        "name": "prisonvillage_spawn_chance",
+        "comment": "betterruins:prisonvillage_spawn_chance_comment",
+        "ingui": "betterruins:prisonvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 19.1,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "COLOREDVILLAGE_SPAWN_CHANCE": {
+        "name": "coloredvillage_spawn_chance",
+        "comment": "betterruins:coloredvillage_spawn_chance_comment",
+        "ingui": "betterruins:coloredvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 19.2,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "OLDVANILLAREWORK_SPAWN_CHANCE": {
+        "name": "oldvanillarework_spawn_chance",
+        "comment": "betterruins:oldvanillarework_spawn_chance_comment",
+        "ingui": "betterruins:oldvanillarework_spawn_chance",
+        "default": 1.0,
+        "weight": 20.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "LARGERUINS_SPAWN_CHANCE": {
+        "name": "largeruins_spawn_chance",
+        "comment": "betterruins:largeruins_spawn_chance_comment",
+        "ingui": "betterruins:largeruins_spawn_chance",
+        "default": 1.0,
+        "weight": 21.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "MEDIUMRUINS_SPAWN_CHANCE": {
+        "name": "mediumruins_spawn_chance",
+        "comment": "betterruins:mediumruins_spawn_chance_comment",
+        "ingui": "betterruins:mediumruins_spawn_chance",
+        "default": 1.0,
+        "weight": 22.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "DESERTRUINS_SPAWN_CHANCE": {
+        "name": "desertruins_spawn_chance",
+        "comment": "betterruins:desertruins_spawn_chance_comment",
+        "ingui": "betterruins:desertruins_spawn_chance",
+        "default": 1.0,
+        "weight": 23.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "WAYSTONES_SPAWN_CHANCE": {
+        "name": "waystones_spawn_chance",
+        "comment": "betterruins:waystones_spawn_chance_comment",
+        "ingui": "betterruins:waystones_spawn_chance",
+        "default": 1.0,
+        "weight": 23.5,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "UNDERGROUND_SPAWN_CHANCE": {
+        "name": "underground_spawn_chance",
+        "comment": "betterruins:underground_spawn_chance_comment",
+        "ingui": "betterruins:underground_spawn_chance",
+        "default": 1.0,
+        "weight": 25.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "GRAVES_SPAWN_CHANCE": {
+        "name": "graves_spawn_chance",
+        "comment": "betterruins:graves_spawn_chance_comment",
+        "ingui": "betterruins:graves_spawn_chance",
+        "default": 1.0,
+        "weight": 26.01,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+
+
+
+      "LOOT": {
+        "name": "loot",
+        "comment": "betterruins:loot_comment",
+        "ingui": "betterruins:loot",
+        "default": 1.0,
+        "weight": 0.31,
         "range": {
           "min": 0.0,
           "max": 10.0
         }
       },
-      "VILLAGES_SPAWN_CHANCE": {
-        "name": "villages_spawn_chance",
-        "comment": "Affects the spawn chance of all villages (groups of structures on the surface). Vanilla default is 0.05 so this mod reduces it on default. (default = 0.035; vanilla = 0.05; 33% = 0.012; 66% = 0.023; 150% = 0.053; 200% = 0.070; 300% = 0.11)",
-        "default": 0.035,
-        "weight": 2.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0.0,
-          "max": 10
-        }
-      },
-      "WALLSEGMENT_SPAWN_CHANCE": {
-        "name": "01wallsegment_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure wallsegment with tower. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#01-wallsegment",
-        "default": 0.035,
-        "weight": 3.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "ROCKFORMATION_SPAWN_CHANCE": {
-        "name": "02rockformation_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure rockformation. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#02-rockformation",
-        "default": 0.7,
-        "weight": 4.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "NORDICHOUSE_SPAWN_CHANCE": {
-        "name": "03nordichouse_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure nordichouse. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#03-nordichouse",
-        "default": 0.045,
-        "weight": 5.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "VISINGBORG_SPAWN_CHANCE": {
-        "name": "04visingborg_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure visingborg. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#04-visingsborg",
-        "default": 0.055,
-        "weight": 6.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "CATNOIRSCASTLERUIN_SPAWN_CHANCE": {
-        "name": "05catnoirscastleruin_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure catnoirscastleruin. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#05-catnoirscastleruin",
-        "default": 0.013,
-        "weight": 7.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "DESTROYEDLARGECHURCH_SPAWN_CHANCE": {
-        "name": "06destroyedlargechurch_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure destroyedlargechurch. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#06-destroyedlargechurch",
-        "default": 0.14,
-        "weight": 8.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "WOLFSTONECASTLE_SPAWN_CHANCE": {
-        "name": "07wolfstonecastle_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure wolfstonecastle. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle",
-        "default": 0.05,
-        "weight": 9.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "OASIS_SPAWN_CHANCE": {
-        "name": "08oasis_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure oasis. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#08-oasis",
-        "default": 2.8,
-        "weight": 10.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "FORLORNHOPETOWER_SPAWN_CHANCE": {
-        "name": "09forlornhopetower_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure forlornhopetower. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#09-forlornhopetower",
-        "default": 0.06,
-        "weight": 11.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "GIANTCATHEDRAL_SPAWN_CHANCE": {
-        "name": "10giantcathedral_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure giantcathedral. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#10-giantcathedral",
-        "default": 15,
-        "weight": 12.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 100
-        }
-      },
-      "SHOPPINGCENTRE_SPAWN_CHANCE": {
-        "name": "11shoppingcentre_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#11-shoppingcentre",
-        "default": 0.16,
-        "weight": 13.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "UNDERGROUNDLIBRARY_SPAWN_CHANCE": {
-        "name": "12undergroundlibrary_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/Mega-Structures#12-undergroundlibrary",
-        "default": 1,
-        "weight": 14.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "INDUSTRIALMINE_SPAWN_CHANCE": {
-        "name": "13industrialmine_spawn_chance",
-        "comment": "Affects the spawn chance of the megastructure shoppingcentre. Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#13-industrialmine",
-        "default": 4,
-        "weight": 14.3,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "TRANSLOCATORRUINS_SPAWN_CHANCE": {
-        "name": "translocatorruins_spawn_chance",
-        "comment": "Affects the spawn chance of translocator overground ruins.",
-        "default": 0.03,
-        "weight": 15.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "OLDVANILLAVILLAGE_SPAWN_CHANCE": {
-        "name": "oldvanillavillage_spawn_chance",
-        "comment": "Affects the spawn chance of villages called oldvanillavillage which are structures which spawn in groups overground.",
-        "default": 0.01,
-        "weight": 16.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "VSVILLAGE_SPAWN_CHANCE": {
-        "name": "vsvillage_spawn_chance",
-        "comment": "Affects the spawn chance of villages called vsvillage which are structures which spawn in groups overground.",
-        "default": 0.01,
-        "weight": 17.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "FORESTVILLAGE_SPAWN_CHANCE": {
-        "name": "forestvillage_spawn_chance",
-        "comment": "Affects the spawn chance of villages called forestvillage which are structures which spawn in groups overground.",
-        "default": 0.085,
-        "weight": 18.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "DESERTVILLAGE_SPAWN_CHANCE": {
-        "name": "desertvillage_spawn_chance",
-        "comment": "Affects the spawn chance of villages called desertvillage which are structures which spawn in groups overground.",
-        "default": 0.03,
-        "weight": 19.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "PRISONVILLAGE_SPAWN_CHANCE": {
-        "name": "prisonvillage_spawn_chance",
-        "comment": "Affects the spawn chance of villages called prisonvillage which are structures which spawn in groups overground.",
-        "default": 0.03,
-        "weight": 19.1,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "OLDVANILLAREWORK_SPAWN_CHANCE": {
-        "name": "oldvanillarework_spawn_chance",
-        "comment": "Affects the spawn chance of oldvanillarework overground ruins.",
-        "default": 0.008,
-        "weight": 20.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "LARGERUINS_SPAWN_CHANCE": {
-        "name": "largeruins_spawn_chance",
-        "comment": "Affects the spawn chance of largeruins overground ruins.",
-        "default": 0.004,
-        "weight": 21.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "MEDIUMRUINS_SPAWN_CHANCE": {
-        "name": "mediumruins_spawn_chance",
-        "comment": "Affects the spawn chance of mediumruins overground ruins.",
-        "default": 0.007,
-        "weight": 22.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "DESERTRUINS_SPAWN_CHANCE": {
-        "name": "desertruins_spawn_chance",
-        "comment": "Affects the spawn chance of dessertruins overground ruins.",
-        "default": 0.003,
-        "weight": 23.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "UNDERGROUND_SPAWN_CHANCE": {
-        "name": "underground_spawn_chance",
-        "comment": "Affects the spawn chance of underground ruins.",
-        "default": 1.0,
-        "weight": 25.0,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-      "GRAVES_SPAWN_CHANCE": {
-        "name": "graves_spawn_chance",
-        "comment": "Affects the spawn chance of graves.",
-        "default": 1.0,
-        "weight": 26.01,
-        "logarithmic": true,
-        "range": {
-          "min": 0,
-          "max": 10
-        }
-      },
-
-
-
-
-      "LOOT_NERF": {
-        "name": "loot_nerf",
-        "comment": "The higher the value the more the loot is being nerfed. 0 = no nerfs; 0.5 = 30-40% reduced loot; 1 = 60-70% reduced loot; ... Affects the loot of all structures in the game to a certain extend.",
-        "default": 0.0,
-        "weight": 27.0,
-        "range": {
-          "min": 0,
-          "max": 4
-        }
-      },
       "SCHEMATIC_DOOR": {
         "name": "schematic_door",
-        "comment": "Defines the chance the door Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_door_comment",
+        "ingui": "betterruins:schematic_door",
         "default": 2.0,
         "weight": 28.0,
         "logarithmic": true,
@@ -471,7 +1056,8 @@
       },
       "SCHEMATIC_BED": {
         "name": "schematic_bed",
-        "comment": "Defines the chance the bed Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_bed_comment",
+        "ingui": "betterruins:schematic_bed",
         "default": 2.0,
         "weight": 28.1,
         "logarithmic": true,
@@ -482,7 +1068,8 @@
       },
       "SCHEMATIC_CHEST": {
         "name": "schematic_chest",
-        "comment": "Defines the chance the chest Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_chest_comment",
+        "ingui": "betterruins:schematic_chest",
         "default": 2.0,
         "weight": 28.2,
         "logarithmic": true,
@@ -493,7 +1080,8 @@
       },
       "SCHEMATIC_CRATE": {
         "name": "schematic_crate",
-        "comment": "Defines the chance the crate Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_crate_comment",
+        "ingui": "betterruins:schematic_crate",
         "default": 2.0,
         "weight": 28.3,
         "logarithmic": true,
@@ -504,7 +1092,8 @@
       },
       "SCHEMATIC_GASLAMP": {
         "name": "schematic_gaslamp",
-        "comment": "Defines the chance the gaslamp Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_gaslamp_comment",
+        "ingui": "betterruins:schematic_gaslamp",
         "default": 2.0,
         "weight": 28.4,
         "logarithmic": true,
@@ -515,7 +1104,8 @@
       },
       "SCHEMATIC_JONASLAMP": {
         "name": "schematic_jonaslamp",
-        "comment": "Defines the chance the jonaslamp Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_jonaslamp_comment",
+        "ingui": "betterruins:schematic_jonaslamp",
         "default": 2.0,
         "weight": 28.5,
         "logarithmic": true,
@@ -526,7 +1116,8 @@
       },
       "SCHEMATIC_BANNER": {
         "name": "schematic_banner",
-        "comment": "Defines the chance the banner Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_banner_comment",
+        "ingui": "betterruins:schematic_banner",
         "default": 2.0,
         "weight": 28.6,
         "logarithmic": true,
@@ -537,7 +1128,8 @@
       },
       "SCHEMATIC_TABLE": {
         "name": "schematic_table",
-        "comment": "Defines the chance the table Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_table_comment",
+        "ingui": "betterruins:schematic_table",
         "default": 2.0,
         "weight": 28.7,
         "logarithmic": true,
@@ -548,7 +1140,8 @@
       },
       "SCHEMATIC_STONE": {
         "name": "schematic_stone",
-        "comment": "Defines the chance the stone Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_stone_comment",
+        "ingui": "betterruins:schematic_stone",
         "default": 2.0,
         "weight": 28.8,
         "logarithmic": true,
@@ -559,7 +1152,8 @@
       },
       "SCHEMATIC_WOOD": {
         "name": "schematic_wood",
-        "comment": "Defines the chance the wood Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_wood_comment",
+        "ingui": "betterruins:schematic_wood",
         "default": 2.0,
         "weight": 28.9,
         "logarithmic": true,
@@ -570,7 +1164,8 @@
       },
       "SCHEMATIC_ANCIENT": {
         "name": "schematic_ancient",
-        "comment": "Defines the chance the ancient Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_ancient_comment",
+        "ingui": "betterruins:schematic_ancient",
         "default": 2.0,
         "weight": 29.0,
         "logarithmic": true,
@@ -581,7 +1176,8 @@
       },
       "SCHEMATIC_CANDLE": {
         "name": "schematic_candle",
-        "comment": "Defines the chance the candle Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_candle_comment",
+        "ingui": "betterruins:schematic_candle",
         "default": 2.0,
         "weight": 29.1,
         "logarithmic": true,
@@ -592,7 +1188,8 @@
       },
       "SCHEMATIC_ROAD": {
         "name": "schematic_road",
-        "comment": "Defines the chance the road Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_road_comment",
+        "ingui": "betterruins:schematic_road",
         "default": 2.0,
         "weight": 29.2,
         "logarithmic": true,
@@ -603,7 +1200,8 @@
       },
       "SCHEMATIC_MECHANICAL": {
         "name": "schematic_mechanical",
-        "comment": "Defines the chance the mechanical Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_mechanical_comment",
+        "ingui": "betterruins:schematic_mechanical",
         "default": 1.0,
         "weight": 29.3,
         "logarithmic": true,
@@ -614,7 +1212,8 @@
       },
       "SCHEMATIC_JONASPART": {
         "name": "schematic_jonaspart",
-        "comment": "Defines the chance the jonaspart Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_jonaspart_comment",
+        "ingui": "betterruins:schematic_jonaspart",
         "default": 1.0,
         "weight": 29.4,
         "logarithmic": true,
@@ -625,7 +1224,8 @@
       },
       "SCHEMATIC_JONASASSEMBLY": {
         "name": "schematic_jonasassembly",
-        "comment": "Defines the chance the jonasassembly Blueprint can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+        "comment": "betterruins:schematic_jonasassembly_comment",
+        "ingui": "betterruins:schematic_jonasassembly",
         "default": 1.0,
         "weight": 29.5,
         "logarithmic": true,
@@ -638,7 +1238,8 @@
     "integer": {
       "MEGASTRUCTURES_MIN_DISTANCE": {
         "name": "megastructures_min_distance",
-        "comment": "Defines the distance between so called megastructures and is messured in blocks.",
+        "comment": "betterruins:megastructures_min_distance_comment",
+        "ingui": "betterruins:megastructures_min_distance",
         "default": 5000,
         "weight": 2.9,
         "logarithmic": true,
@@ -649,7 +1250,8 @@
       },
       "TRANSLOCATORRUINS_MIN_DISTANCE": {
         "name": "translocatorruins_min_distance",
-        "comment": "Defines the distance between so called translocatorruins and is messured in blocks.",
+        "comment": "betterruins:translocatorruins_min_distance_comment",
+        "ingui": "betterruins:translocatorruins_min_distance",
         "default": 1600,
         "weight": 15.2,
         "logarithmic": true,
@@ -660,7 +1262,8 @@
       },
       "GRAVES_MIN_DISTANCE": {
         "name": "graves_min_distance",
-        "comment": "Defines the distance between so called graves and is messured in blocks.",
+        "comment": "betterruins:graves_min_distance_comment",
+        "ingui": "betterruins:graves_min_distance",
         "default": 850,
         "weight": 26.02,
         "logarithmic": true,
@@ -669,9 +1272,22 @@
           "max": 100000
         }
       },
+      "WAYSTONES_MIN_DISTANCE": {
+        "name": "waystones_min_distance",
+        "comment": "betterruins:waystones_min_distance_comment",
+        "ingui": "betterruins:waystones_min_distance",
+        "default": 7500,
+        "weight": 23.51,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
       "OASIS_MAX_TEMP": {
         "name": "08oasis_max_temp",
-        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:08oasis_max_temp_comment",
+        "ingui": "betterruins:08oasis_max_temp",
         "default": 39,
         "weight": 10.1,
         "range": {
@@ -681,7 +1297,8 @@
       },
       "OASIS_MIN_TEMP": {
         "name": "08oasis_min_temp",
-        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:08oasis_min_temp_comment",
+        "ingui": "betterruins:08oasis_min_temp",
         "default": 25,
         "weight": 10.2,
         "range": {
@@ -691,7 +1308,8 @@
       },
       "FORLORNHOPETOWER_MAX_TEMP": {
         "name": "09forlornhopetower_max_temp",
-        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:09forlornhopetower_max_temp_comment",
+        "ingui": "betterruins:09forlornhopetower_max_temp",
         "default": -4,
         "weight": 11.1,
         "range": {
@@ -701,7 +1319,8 @@
       },
       "FORLORNHOPETOWER_MIN_TEMP": {
         "name": "09forlornhopetower_min_temp",
-        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:09forlornhopetower_min_temp_comment",
+        "ingui": "betterruins:09forlornhopetower_min_temp",
         "default": -30,
         "weight": 11.2,
         "range": {
@@ -711,7 +1330,8 @@
       },
       "GIANTCATHEDRAL_MAX_TEMP": {
         "name": "10giantcathedral_max_temp",
-        "comment": "Max temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:10giantcathedral_max_temp_comment",
+        "ingui": "betterruins:10giantcathedral_max_temp",
         "default": -7,
         "weight": 12.1,
         "range": {
@@ -721,7 +1341,8 @@
       },
       "GIANTCATHEDRAL_MIN_TEMP": {
         "name": "10giantcathedral_min_temp",
-        "comment": "Min temperature in °C where the structure is allowed to spawn.",
+        "comment": "betterruins:10giantcathedral_min_temp_comment",
+        "ingui": "betterruins:10giantcathedral_min_temp",
         "default": -30,
         "weight": 12.2,
         "range": {
@@ -734,43 +1355,58 @@
   "formatting": [
     {
       "type": "separator",
-      "title": "Overall Spawn Chances",
+      "title": "betterruins:overall_spawn_chances_title",
       "weight": 1.1
     },
     {
       "type": "separator",
-      "title": "Megastructures",
+      "title": "betterruins:megastructures_title",
       "weight": 2.5
     },
     {
       "type": "separator",
-      "title": "Translocators",
+      "title": "betterruins:translocators_title",
       "weight": 14.5
     },
     {
       "type": "separator",
-      "title": "Villages",
+      "title": "betterruins:villages_title",
       "weight": 15.5
     },
     {
       "type": "separator",
-      "title": "Ruins",
+      "title": "betterruins:ruins_title",
       "weight": 19.5
     },
     {
       "type": "separator",
-      "title": "Underground",
+      "title": "betterruins:underground_title",
       "weight": 24.5
     },
     {
       "type": "separator",
-      "title": "Graves",
+      "title": "betterruins:graves_title",
       "weight": 26
     },
     {
       "type": "separator",
-      "title": "Loot",
-      "weight": 26.5
-    }
-  ]
+      "title": "betterruins:loot_title",
+      "weight": 0.30
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:blueprints_spawn_chance_title",
+      "weight": 27.90
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:lore_title",
+      "weight": 0.40
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:waystones_title",
+      "weight": 23.49
+    }    
+      ]
 }

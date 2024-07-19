@@ -20,6 +20,7 @@
     "shapeless": true,
     "width": 2,
     "height": 2,
+    "enabled": false,
     "name": "brschematiccopy",
     "output": {
         "type": "item",

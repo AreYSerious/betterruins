@@ -1,0 +1,94 @@
+[
+ 
+    
+    {
+        "ingredientPattern": "XC_,N_N,_N_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" },
+            "C": {type: "Item", code: "game:metalchain-*" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:chandelier-candle0" }
+        
+    },
+
+
+
+    {
+        "ingredientPattern": "XR_,_R_,NPN",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "P": {type: "Item", code: "game:metalplate-*" },
+            "R": {type: "Item", code: "game:hoop-*" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" , "collected": true}, quantity: 4 }
+        
+    },
+
+    {
+        "ingredientPattern": "XF,_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "F": {type: "Item", code: "game:firewood" , quantity: 8},
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" , "collected": true} }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "brazier2" , "collected": true} }
+        
+    },
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XR_,_R_,NPN",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "P": {type: "Item", code: "game:metalplate-*" },
+            "R": {type: "Item", code: "game:hoop-*" },
+            "N": {type: "Item", code: "game:metalnailsandstrips-*" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" } , quantity: 4}
+        
+    },
+
+    {
+        "ingredientPattern": "XF,_B",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-candle" },
+            "F": {type: "Item", code: "game:firewood" , quantity: 8},
+            "B": {type: "Block", code: "game:clutter", attributes: { "type": "brazier1" } }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:clutter", attributes: { "type": "brazier2" } }
+        
+    },
+
+]
+
+
+
+
+
