@@ -42,7 +42,8 @@
         "2/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "3/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "4/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "5/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
+        "5/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "6/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE * value",
@@ -654,7 +655,8 @@
         "2/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "3/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "4/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "5/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
+        "5/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "6/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
 
       },
       "betterruins:recipes/grid/copy-schematic/schematiccopy.json": {
