@@ -126,5 +126,24 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "bellcross-waystones",
+                  "name": "bellcross-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.007, // 0.001
+                  "schematics": [
+                    "overground/special/waystones/bellcross/o1/*"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -1
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
