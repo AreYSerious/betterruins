@@ -75,6 +75,10 @@
     "lore-desperatetimes-piece1": "Food's running out. We're having to push further and further into the wastes to find any decent meal that hasn't been turned to a heap of Rot. The risk of infection only heightens as days go on... we've already had to deny the entry of two people. They didn't take that lightly.\r\n\r\nWe had to do something that... I never thought we'd have to do. After we killed one of those creatures from the Rifts... Tobias decided to try and cook it. The smell was horrible. A metallic odor spread throughout the caverns. Worse yet was the taste-moldy, rotten stuff. All muscles and blood vessels, no meat or fat. Disgusting. Worst part is, there are little chunks of metal embedded throughout the body. I nearly broke a tooth.\r\n\r\nI have to say, though... I wasn't hungry afterward. Either lost my appetite, or found some semblance of nutrition from that foul thing. In any case, I hope they return with more food soon... food that isn't... that.                 \r\n\r\n___NEWPAGE___",
     "game:ingamediscovery-lore-desperatetimes": "Discovered lore 'Desperate Times'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
+    "lore-finalhour-title": "The Final Hour",
+    "lore-finalhour-piece1": "I am afraid that I do not have much time left. Two of our three doctors have already succumbed to the black sick. One poor fellow tried to cling to life, but my hand was forced. I could not allow myself to become infected, too.\r\n\r\nI've been trying to discern the source of the infection, but as I have been working, my own hands have begun to shake. I fear that I am going to become like them. The corpses that we have been examining, the beasts outside our doors.\r\n\r\nYesterday, we received a ragtag batch of refugees, fleeing from some faraway town. I could not afford to let them discover this basement, lest they too become afflicted. I have sealed the way shut with the altar. With any hope, they will think this merely a simple church.\r\n\r\nI am watching it take me now. My right hand begins to blacken as I write this, and not from the ink. I can only pray that those above never move aside the altar, and that all of this insanity quickly passes and fades.\r\n\r\nIf anyone is still alive, reading this, know that I, Auden Hamiltone, did all that I could to protect humanity. It is with my deepest hopes that you will be living in a much better world than I.\r\n\r\n___NEWPAGE___",
+    "game:ingamediscovery-lore-finalhour": "Discovered lore 'The Final Hour'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
 
     "game:item-stackrandomizer-darkheat":"BetterRuins LoreRandomizer Darkheat",
     "game:item-stackrandomizer-glimmershield":"BetterRuins LoreRandomizer Glimmershield",
@@ -86,6 +90,8 @@
     "game:item-stackrandomizer-largechurch":"BetterRuins LoreRandomizer Large Church",
     "game:item-stackrandomizer-undergroundlibrary":"BetterRuins LoreRandomizer Underground Library",
     "game:item-stackrandomizer-lostdoll":"BetterRuins LoreRandomizer Lost Doll",
+    "game:item-stackrandomizer-finalhour":"BetterRuins LoreRandomizer The Final Hour",
+
 
 
 
