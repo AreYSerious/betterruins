@@ -97,12 +97,12 @@
     "value": {
       "name": "forestvillage",
       "code": "forest-village-main",
-      "chance": 0.065, // # default = 0.085 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+      "chance": 0.065, // # default = 0.065 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
-        "avg": 8,
-        "var": 4,
+        "avg": 7,
+        "var": 3,
         "dist": "InvExp"
       },
       "schematics": [
@@ -132,8 +132,9 @@
         {"path": "overground/main/forest-village/all/forestvillage-virrno-o6-0602","weight": 100},
         {"path": "overground/main/forest-village/all/forestvillage-virrno-o8-0502","weight": 100},
         {"path": "overground/main/forest-village/all/forestvillage-virrno-o8-0601","weight": 100},
+        {"path": "overground/main/forest-village/all/forestvillage-ifoz-o2-0704","weight": 100},
         {"path": "overground/main/forest-village/windmills/*","weight": 100, "minQuantity": 1, "maxQuantity": 1},
-        {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 2, "maxQuantity": 2}
+        {"path": "overground/main/road-for-village/*","weight": 100, "minQuantity": 2, "maxQuantity": 3}
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none"],
       "rockTypeRemapGroup": "standard"
