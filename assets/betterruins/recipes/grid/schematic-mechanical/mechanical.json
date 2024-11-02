@@ -5,6 +5,7 @@
     
     {
         "ingredientPattern": "HCZ,XFS,BBB",
+        "recipeGroup": 3,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
@@ -33,6 +34,7 @@
 
     {
         "ingredientPattern": "XH,PC",
+        "recipeGroup": 3,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
