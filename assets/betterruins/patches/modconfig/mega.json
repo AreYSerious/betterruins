@@ -472,5 +472,28 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "14mansion",
+                  "group": "megaruins",
+                  "minGroupDistance": 5000, // # default = 5000 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
+                  "chance": 0.6, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-14/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -22,
+                  "minY": -0.06,
+                  "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
   }
 ]
