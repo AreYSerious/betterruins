@@ -6,43 +6,6 @@
   //
 
 
-  // Old vanilla reworked ruins with a pretty rare default spawn chance
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-                  "code": "brsurfaceruins-small",
-                  "chance": 0.008, // # default = 0.008 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
-                  "schematics": [
-                    "overground/main/oldvanilla-ruins-small/*"
-                  ],
-                  "rockTypeRemapGroup": "standard",
-                  "minY": -0.02,
-                  "offsetY": -3
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-
-
-  // Old ancient vanilla reworked ruins with a pretty rare default spawn chance
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
-                  "code": "brsurfaceruins-ancient",
-                  "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
-                  "schematics": [
-                    "overground/main/oldvanilla-ancientruins/*"
-                  ],
-                  "rockTypeRemapGroup": "standard",
-                  "minY": -0.02,
-                  "offsetY": -3
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-
 
   // Large Structures of any kind. No megastructures. size up to 40x40
   {

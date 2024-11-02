@@ -26,8 +26,6 @@
         "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/surface.json": {
-        "0/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * value",
-        "1/value/chance": "OLDVANILLAREWORK_SPAWN_CHANCE * value",
         "2/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "3/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
         "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
@@ -46,7 +44,6 @@
         "6/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
-        "0/value/chance": "OLDVANILLAVILLAGE_SPAWN_CHANCE * value",
         "1/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
         "2/value/chance": "FORESTVILLAGE_SPAWN_CHANCE * value",
         "3/value/chance": "DESERTVILLAGE_SPAWN_CHANCE * value",
@@ -874,10 +871,6 @@
           "max": 100.0
         }
       },
-      "OLDVANILLAVILLAGE_SPAWN_CHANCE": {
-        "name": "oldvanillavillage_spawn_chance",
-        "comment": "betterruins:oldvanillavillage_spawn_chance_comment",
-        "ingui": "betterruins:oldvanillavillage_spawn_chance",
         "default": 1.0,
         "weight": 16.0,
         "logarithmic": true,
@@ -940,18 +933,6 @@
         "ingui": "betterruins:coloredvillage_spawn_chance",
         "default": 1.0,
         "weight": 19.2,
-        "logarithmic": true,
-        "range": {
-          "min": 0.0,
-          "max": 100.0
-        }
-      },
-      "OLDVANILLAREWORK_SPAWN_CHANCE": {
-        "name": "oldvanillarework_spawn_chance",
-        "comment": "betterruins:oldvanillarework_spawn_chance_comment",
-        "ingui": "betterruins:oldvanillarework_spawn_chance",
-        "default": 1.0,
-        "weight": 20.0,
         "logarithmic": true,
         "range": {
           "min": 0.0,
