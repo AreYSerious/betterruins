@@ -101,7 +101,8 @@
         "19/value/chance": "SCHEMATIC_ROAD",
         "20/value/chance": "SCHEMATIC_MECHANICAL",
         "21/value/chance": "SCHEMATIC_JONASPART",
-        "22/value/chance": "SCHEMATIC_JONASASSEMBLY"
+        "22/value/chance": "SCHEMATIC_JONASASSEMBLY",
+        "23/value/chance": "SCHEMATIC_ROOFING"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -1234,7 +1235,20 @@
           "min": 0,
           "max": 1000
         }
+      },
+      "SCHEMATIC_ROOFING": {
+        "name": "schematic_roofing",
+        "comment": "betterruins:schematic_roofing_comment",
+        "ingui": "betterruins:schematic_roofing",
+        "default": 2.0,
+        "weight": 29.22,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
       }
+
     },
     "integer": {
       "MEGASTRUCTURES_MIN_DISTANCE": {
