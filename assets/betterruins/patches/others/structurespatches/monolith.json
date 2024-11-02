@@ -1,0 +1,33 @@
+[
+  //
+  //
+  // Monolith structures
+  //
+  //
+
+
+
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "virrno-monolith",
+                  "name": "virrno-monolith",
+                  "group": "virrno-monolith",
+                  "minGroupDistance": 40000, 
+                  "chance": 0.05, 
+                  "schematics": [
+                    "overground/special/monoliths/desert/*"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -4,
+                  "minTemp": 28,
+                  "maxTemp": 39,
+                  "minForest": 0,
+                  "maxForest": 0.5
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]
