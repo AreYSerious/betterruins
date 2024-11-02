@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -23,16 +23,21 @@
         "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
-        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE * value"
+        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE * value",
+        "17/value/chance": "MANSION_SPAWN_CHANCE * value",
+        "18/value/chance": "AULDBURG_SPAWN_CHANCE * value",
+        "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value"
+        
       },
       "betterruins:patches/modconfig/surface.json": {
-        "2/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "3/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
+        "0/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "1/value/chance": "MEDIUMRUINS_SPAWN_CHANCE * value",
+        "2/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
+        "3/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
         "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
-        "5/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
-        "6/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
-        "7/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "8/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
+        "5/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "6/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
+        "7/value/chance": "NORMALCLIMATERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -44,14 +49,14 @@
         "6/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
-        "1/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
-        "2/value/chance": "FORESTVILLAGE_SPAWN_CHANCE * value",
-        "3/value/chance": "DESERTVILLAGE_SPAWN_CHANCE * value",
-        "4/value/chance": "PRISONVILLAGE_SPAWN_CHANCE * value",
+        "0/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
+        "1/value/chance": "FORESTVILLAGE_SPAWN_CHANCE * value",
+        "2/value/chance": "DESERTVILLAGE_SPAWN_CHANCE * value",
+        "3/value/chance": "PRISONVILLAGE_SPAWN_CHANCE * value",
+        "4/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "5/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "6/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
-        "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
-        "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
+        "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/underground.json": {
         "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
@@ -637,12 +642,16 @@
         "13/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "14/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "15/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "16/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
+        "16/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "17/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "18/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
+        
       },
       "betterruins:patches/modconfig/surface.json": {
-        "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
-        "5/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
-        "6/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE"
+        "2/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
+        "3/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
+        "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -866,20 +875,48 @@
           "max": 100.0
         }
       },
-      "TRANSLOCATORRUINS_SPAWN_CHANCE": {
-        "name": "translocatorruins_spawn_chance",
-        "comment": "betterruins:translocatorruins_spawn_chance_comment",
-        "ingui": "betterruins:translocatorruins_spawn_chance",
+      "MANSION_SPAWN_CHANCE": {
+        "name": "14mansion_spawn_chance",
+        "comment": "betterruins:14mansion_spawn_chance_comment",
+        "ingui": "betterruins:14mansion_spawn_chance",
         "default": 1.0,
-        "weight": 15.0,
+        "weight": 14.32,
         "logarithmic": true,
         "range": {
           "min": 0.0,
           "max": 100.0
         }
       },
+      "AULDBURG_SPAWN_CHANCE": {
+        "name": "15auldburg_spawn_chance",
+        "comment": "betterruins:15auldburg_spawn_chance_comment",
+        "ingui": "betterruins:15auldburg_spawn_chance",
         "default": 1.0,
-        "weight": 16.0,
+        "weight": 14.34,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "NORMANCASTLE_SPAWN_CHANCE": {
+        "name": "16normancastle_spawn_chance",
+        "comment": "betterruins:16normancastle_spawn_chance_comment",
+        "ingui": "betterruins:16normancastle_spawn_chance",
+        "default": 1.0,
+        "weight": 14.36,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "TRANSLOCATORRUINS_SPAWN_CHANCE": {
+        "name": "translocatorruins_spawn_chance",
+        "comment": "betterruins:translocatorruins_spawn_chance_comment",
+        "ingui": "betterruins:translocatorruins_spawn_chance",
+        "default": 1.0,
+        "weight": 15.0,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -976,6 +1013,18 @@
         "ingui": "betterruins:desertruins_spawn_chance",
         "default": 1.0,
         "weight": 23.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "NORMALCLIMATERUINS_SPAWN_CHANCE": {
+        "name": "normalclimateruins_spawn_chance",
+        "comment": "betterruins:normalclimateruins_spawn_chance_comment",
+        "ingui": "betterruins:normalclimateruins_spawn_chance",
+        "default": 1.0,
+        "weight": 23.1,
         "logarithmic": true,
         "range": {
           "min": 0.0,
