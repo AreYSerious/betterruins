@@ -601,7 +601,13 @@
         "attributesByType/*-rottenkingclothing/stacks/11/chance": "LOOT * value",
         "attributesByType/*-rottenkingclothing/stacks/12/chance": "LOOT * value",
         "attributesByType/*-rottenkingclothing/stacks/13/chance": "LOOT * value",
-        "attributesByType/*-rottenkingclothing/stacks/14/chance": "LOOT * value"
+        "attributesByType/*-rottenkingclothing/stacks/14/chance": "LOOT * value",
+
+        "attributesByType/*-blrmeteoriciron/stacks/1/chance": "METEORVALUE",
+        "attributesByType/*-blrmeteoriciron/stacks/0/chance": "(100 - METEORVALUE) / 3",
+        "attributesByType/*-blrmeteoriciron/stacks/2/chance": "(100 - METEORVALUE) / 3",
+        "attributesByType/*-blrmeteoriciron/stacks/3/chance": "(100 - METEORVALUE) / 3"
+
       }
     },
 	"integer": {
@@ -1025,6 +1031,18 @@
           "max": 10.0
         }
       },
+      "METEORVALUE": {
+          "name": "meteorvalue",
+          "comment": "betterruins:meteorvalue_comment",
+          "ingui": "betterruins:meteorvalue",
+          "default": 25.0,  
+          "weight": 0.315,  
+          "range": {
+              "min": 0.0,
+              "max": 100.0
+          }
+      },
+
       "SCHEMATIC_DOOR": {
         "name": "schematic_door",
         "comment": "betterruins:schematic_door_comment",

@@ -2521,22 +2521,22 @@
 				{
 				  "type": "block",
 				  "code": "rock-suevite",
-				  "chance": 1000
+				  "chance": 25
 				},
 				{
 				  "type": "block",
 				  "code": "meteorite-iron",
-				  "chance": 1000
+				  "chance": 25
 				},
 				{
 				  "type": "block",
 				  "code": "crackedrock-obsidian",
-				  "chance": 1000
+				  "chance": 25
 				},
 				{
 				  "type": "block",
 				  "code": "rock-obsidian",
-				  "chance": 1000
+				  "chance": 25
 				}
 			  ]
 		}

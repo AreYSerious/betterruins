@@ -107,6 +107,10 @@
 
 
 
+    
+    "game:item-stackrandomizer-blrmeteoriciron":"BetterRuins BlockRandomizer Meteoric Iron",
+
+
 
 
     "game:location-graves": "Forgotten Tombstone",
@@ -190,6 +194,8 @@
     "10giantcathedral_max_temp_comment": "Max temperature in °C where the structure is allowed to spawn.",
     "loot": "Loot Multiplier",
     "loot_comment": "Allows to change the loot additions and changes of betterruins. Set to 0 to completely disable them.",
+    "meteorvalue": "Meteorite Spawn Chance (%)",
+    "meteorvalue_comment": "Adjusts the spawn chance percentage for meteorite blocks in BetterRuins. Set to 100% for meteorite to appear in all eligible blocks, or lower the percentage to control its rarity. Setting it to 0% disables meteorite spawns entirely.",
     "lore": "Lore Toggle",
     "lore_comment": "Allows to toggle the spawning of betterruins lore content. Untick to disable spawning.",
     "translocatorruins_spawn_chance": "Translocators Spawn Chance Multiplier",
