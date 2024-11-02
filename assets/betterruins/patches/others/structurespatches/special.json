@@ -135,7 +135,7 @@
                   "name": "bellcross-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.007, // 0.001
+                  "chance": 0.001, // 0.001
                   "schematics": [
                     "overground/special/waystones/bellcross/o1/*"
                   ],
