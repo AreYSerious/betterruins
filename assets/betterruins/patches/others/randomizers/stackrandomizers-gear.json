@@ -274,6 +274,17 @@
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-gear/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "betterruins:br-schematic-roofing",
+      "chance": 2
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
   }
 
 

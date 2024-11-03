@@ -12,7 +12,8 @@
 			"fieldengineersdiary",
 			"largechurch",
 			"undergroundlibrary",
-			"lostdoll"
+			"lostdoll",
+			"finalhour"
 		] }
 	],
 	attributesByType: {
@@ -125,6 +126,13 @@
 			handbook: { exclude: true },
 			stacks: [
 				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lostdoll" } }
+			  ]
+		},
+		
+		"*-finalhour": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "finalhour" } }
 			  ]
 		}
 	},

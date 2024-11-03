@@ -5,6 +5,7 @@
     
     {
         "ingredientPattern": "HCZ,XFS,BBB",
+        "recipeGroup": 3,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
@@ -33,6 +34,7 @@
 
     {
         "ingredientPattern": "XH,PC",
+        "recipeGroup": 3,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "H": {type: "Item", code: "game:hammer-*", isTool: true },
@@ -45,4 +47,87 @@
         
     },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "HXY,PCP,RSF",
+        "recipeGroup": 3,
+		ingredients: {
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "block", code: "game:log-placed-*-ud" , quantity: 2 },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" , quantity: 2 },
+			"F": { type: "item", code: "game:fat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 2 }
+	},
+	{
+		ingredientPattern: "HXY,PCP,RSF",
+        "recipeGroup": 3,
+		ingredients: {
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 10 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
+			"S": { type: "block", code: "game:logsection-placed-*-ud" , quantity: 2 },
+			"R": { type: "item", code: "game:resin" },
+			"P": { type: "item", code: "game:stick" , quantity: 2 },
+			"F": { type: "item", code: "game:fat" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:angledgears-s", quantity: 2 }
+	},
+
+
+
+
+
+
+
+
+    {
+		ingredientPattern: "HY,C_,SF",
+        "recipeGroup": 3,
+		ingredients: {
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
+			"S": { type: "block", code: "game:log-placed-*-ud", name: "wood" , quantity: 3 },
+			"F": { type: "item", code: "game:fat" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 6 }
+	},
+	{
+		ingredientPattern: "HY,C_,SF",
+        "recipeGroup": 3,
+		ingredients: {
+            "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
+			"C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 30 },
+			"S": { type: "block", code: "game:logsection-placed-*-ud" , quantity: 3 },
+			"F": { type: "item", code: "game:fat" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:woodenaxle-ud", quantity: 6 }
+	},
 ]

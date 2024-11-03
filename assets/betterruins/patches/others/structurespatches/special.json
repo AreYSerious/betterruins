@@ -34,7 +34,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.001, 
+                  "chance": 0.002, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-legendarychisel-o3"
                   ],
@@ -53,7 +53,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.001, 
+                  "chance": 0.00025, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-locusttrap-o1"
                   ],
@@ -72,7 +72,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.02, 
+                  "chance": 0.005, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-tropical-o8"
                   ],
@@ -97,7 +97,7 @@
                   "name": "quentin-waystones",
                   "group": "specialwaystones", // group name used for minGroupDistance
                   "minGroupDistance": 7500, 
-                  "chance": 0.001, 
+                  "chance": 0.00025, 
                   "schematics": [
                     "overground/special/waystones/quentin/waystone-quentin-whitemarble1-o2"
                   ],
@@ -123,6 +123,25 @@
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
                   "offsety": -2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "bellcross-waystones",
+                  "name": "bellcross-waystones",
+                  "group": "specialwaystones", // group name used for minGroupDistance
+                  "minGroupDistance": 7500, 
+                  "chance": 0.001, // 0.001
+                  "schematics": [
+                    "overground/special/waystones/bellcross/o1/*"
+                  ],
+                  "rockTypeRemapGroup": "standard",
+                  "minY": 1,
+                  "offsety": -1
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

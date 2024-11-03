@@ -1,0 +1,529 @@
+[
+	{
+		ingredientPattern: "XH,H_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:thatch", name: "type", quantity: 2 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "XH,H_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-normal-ud", name: "type" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofing-thatch-east-free", quantity: 16  }
+	},
+
+	{
+		ingredientPattern: "XH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:thatch", name: "type", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "XH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-normal-ud", name: "type" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-thatch-ns-free", quantity: 16  }
+	},
+
+	{
+		ingredientPattern: "XH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:thatch", name: "type", quantity: 2 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingtip-thatch-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "XH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-normal-ud", name: "type" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingtip-thatch-free", quantity: 2  }
+	},
+
+	{
+		ingredientPattern: "XH,H_,_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:thatch", name: "type", quantity: 2 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "XH,H_,_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-normal-ud", name: "type" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-thatch-east-free", quantity: 16  }
+	},
+
+	{
+		ingredientPattern: "XH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:thatch", name: "type", quantity: 2 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "XH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-normal-ud", name: "type" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-thatch-east-free", quantity: 16  }
+	},
+
+	{
+		ingredientPattern: "X_H,_H_,H__",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-{material}clay-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-{material}clay-ns-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "HS,X_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:clayshinglestairs-*-up-north-free", name: "material" },
+			"S": { type: "item", code: "game:shingle-burned-*", name: "material" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofing-{material}clay-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingtip-{material}clay-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "XH,H_,_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-{material}clay-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:shingle-burned-*", name: "material", quantity: 1 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-{material}clay-east-free", quantity: 8  }
+	},
+
+
+	{
+		ingredientPattern: "XTH,CH_,H__",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-slate-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XT_,CH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+
+			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-slate-ns-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XT_,CH_,HHH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1 },
+
+			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"H": { type: "item", code: "game:stone-slate", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingtip-slate-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "XHT,HC_,_H_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+
+			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-slate-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XT,CH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
+
+			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-slate-east-free", quantity: 8  }
+	},
+
+	
+	{
+		ingredientPattern: "X_H,_H_,H__",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-bamboo-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-bamboo-ns-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingtip-bamboo-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "XH,H_,_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-bamboo-east-free", quantity: 8  }
+	},
+	{
+		ingredientPattern: "XH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:bamboostakes" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-bamboo-east-free", quantity: 8  }
+	},
+
+	{
+		ingredientPattern: "XH,HP,PS",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "XH_,HPH,PSP",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "XH_,PSP",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 1 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 2  }
+	},
+	{
+		ingredientPattern: "PHX,PH_,PSH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "XH,HH,PS",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "game:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 16  }
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	{
+		ingredientPattern: "XH,H_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-aged-ud", name: "type" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofing-agedthatch-east-free", quantity: 16  }
+	},
+
+	
+	{
+		ingredientPattern: "XH_,H_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-aged-ud", name: "type" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-agedthatch-ns-free", quantity: 16  }
+	},
+
+	{
+		ingredientPattern: "XH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-aged-ud", name: "type" }
+		},
+		width: 2,
+		height: 1,
+		output: { type: "block", code: "game:slantedroofingtip-agedthatch-free", quantity: 2  }
+	},
+
+
+	{
+		ingredientPattern: "XH,H_,_H",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-aged-ud", name: "type" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-agedthatch-east-free", quantity: 16  }
+	},
+
+
+	{
+		ingredientPattern: "XH,HH",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"H": { type: "block", code: "game:hay-aged-ud", name: "type" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-agedthatch-east-free", quantity: 16  }
+	},
+
+
+
+
+
+
+
+]
