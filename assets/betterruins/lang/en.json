@@ -223,7 +223,7 @@
     "mediumruins_spawn_chance_comment": "Affects the spawn chance of mediumruins overground ruins.",
     "desertruins_spawn_chance": "Desert Ruins Spawn Chance Multiplier",
     "desertruins_spawn_chance_comment": "Affects the spawn chance of desert ruins overground ruins.",
-    "normalclimateruins_spawn_chance": "betterruins:normalclimateruins_spawn_chance",
+    "normalclimateruins_spawn_chance": "Normal Climate Spawn Chance Multiplier",
     "normalclimateruins_spawn_chance_comment": "Affects the spawn chance of normal climate overground ruins. Set to 0 to disable spawning.",
     "underground_spawn_chance": "Underground Ruins Spawn Chance Multiplier",
     "underground_spawn_chance_comment": "Affects the spawn chance of underground ruins.",
