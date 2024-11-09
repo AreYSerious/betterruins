@@ -79,7 +79,7 @@
     "path": "/attributesByType/*-resource/stacks/-",
     "value": {
       "type": "item",
-      "code": "powderedborax",
+      "code": "powder-borax",
       "quantity": {
         "avg": 10,
         "var": 5
