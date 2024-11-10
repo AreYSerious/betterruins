@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -56,7 +56,8 @@
         "4/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "5/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "6/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
-        "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
+        "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
+        "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/underground.json": {
         "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
