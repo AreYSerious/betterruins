@@ -11,7 +11,7 @@
             "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
             "F": {type: "Item", code: "game:fat" , quantity: 2},
             "S": {type: "Item", code: "game:stick" , quantity: 6},
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
             "Z": {type: "Item", code: "game:saw-*", isTool: true },
             "C": {type: "Item", code: "game:chisel-*", isTool: true }
         },
@@ -37,7 +37,7 @@
         "recipeGroup": 3,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
             "C": {type: "Item", code: "game:chutesection-copper" },
             "P": {type: "Item", code: "game:metalplate-copper" }
         },

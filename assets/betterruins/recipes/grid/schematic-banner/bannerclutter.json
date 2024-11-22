@@ -237,7 +237,8 @@
             "H": {
                 "type": "item",
                 "code": "game:hammer-*",
-                "isTool": true
+                "isTool": true,
+                "toolDurabilityCost": 5
             },
             "N": {
                 "type": "item",

@@ -15,12 +15,12 @@
         
     },
 
-    
+
     {
         "ingredientPattern": "H,L,X",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-candle" },
-            "H": {type: "Item", code: "game:hammer-*" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" , "collected": true} }
         },
         "width": 1,
@@ -129,7 +129,7 @@
         "ingredientPattern": "H,L,X",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-candle" },
-            "H": {type: "Item", code: "game:hammer-*" },
+            "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
             "L": {type: "Block", code: "game:clutter", attributes: { "type": "lantern/ground1" } }
         },
         "width": 1,

@@ -35,7 +35,7 @@
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
             "M": {type: "Block", code: "game:metal-parts" },
-            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "P": {type: "Item", code: "game:rod-cupronickel" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
         },
         "width": 3,
@@ -48,7 +48,7 @@
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-jonaspart" },
             "G": {type: "Item", code: "game:gear-temporal" },
-            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "P": {type: "Item", code: "game:rod-cupronickel" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
         },
         "width": 3,
