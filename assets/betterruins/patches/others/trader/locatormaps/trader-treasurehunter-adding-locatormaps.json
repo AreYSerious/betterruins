@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-graves",
       "type": "item",
@@ -15,11 +15,11 @@
         "var": 2
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   },
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-gates",
       "type": "item",
@@ -33,11 +33,11 @@
         "var": 2
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   },
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-undergroundruins",
       "type": "item",
@@ -51,6 +51,6 @@
         "var": 3
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   }
 ]
