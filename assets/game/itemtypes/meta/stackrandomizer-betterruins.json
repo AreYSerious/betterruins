@@ -946,7 +946,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-blue",
+				  "code": "brickcourse-four-running-gray",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -973,7 +973,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-red",
+				  "code": "brickcourse-four-running-red",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -982,7 +982,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickslabs-blue-down-free",
+				  "code": "brickslabs-four-gray-down-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1054,7 +1054,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "clayshingleblock-blue",
+				  "code": "clayshingleblock-gray",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1081,7 +1081,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "clayshinglestairs-blue-up-north-free",
+				  "code": "clayshinglestairs-gray-up-north-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
