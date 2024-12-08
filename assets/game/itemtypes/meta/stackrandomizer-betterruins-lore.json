@@ -13,7 +13,8 @@
 			"largechurch",
 			"undergroundlibrary",
 			"lostdoll",
-			"finalhour"
+			"finalhour",
+			"minerlogentries"
 		] }
 	],
 	attributesByType: {
@@ -133,6 +134,13 @@
 			handbook: { exclude: true },
 			stacks: [
 				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "finalhour" } }
+			  ]
+		},
+		
+		"*-minerlogentries": {
+			handbook: { exclude: true },
+			stacks: [
+				{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "minerlogentries" } }
 			  ]
 		}
 	},
