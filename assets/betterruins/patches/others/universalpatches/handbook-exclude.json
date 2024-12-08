@@ -23,5 +23,10 @@
       }
     },
     "file": "game:blocktypes/wood/woodtyped/crate.json"
+  {
+    "file": "game:itemtypes/meta/textureflipper.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
   }
 ]
