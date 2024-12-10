@@ -13,7 +13,9 @@
 				"forlornhopedungeon",
 				"giantcathedral",
 				"university",
-				"coalmine"
+				"coalmine",
+				"mine1",
+				"mine2"
 			]
 		}
 	],
@@ -99,6 +101,28 @@
 			"*-coalmine": {
 				"schematiccode": "coalmine",
 				"waypointtext": "location-coalmine",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-mine1": {
+				"schematiccode": "mine1",
+				"waypointtext": "location-mine1",
+				"waypointicon": "x",
+				"waypointcolor": [
+					0.2,
+					0.25,
+					1,
+					1
+				]
+			},
+			"*-mine2": {
+				"schematiccode": "mine2",
+				"waypointtext": "location-mine2",
 				"waypointicon": "x",
 				"waypointcolor": [
 					0.2,
