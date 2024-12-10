@@ -523,7 +523,126 @@
 
 
 
+	{
+		ingredientPattern: "BB,X_",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"]}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:beam-ridge-{wood}-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "B,X",
+        "recipeGroup": 3,
+
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"] }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:beam-plane-{wood}-free", quantity: 16  }
+	},
 
 
+	{
+		ingredientPattern: "BB,X_",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
 
+			"B": { type: "item", code: "game:shingle-burned-*", name: "material"}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:beam-ridge-{material}clay-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "B,X",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:shingle-burned-*", name: "material"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:beam-plane-{material}clay-free", quantity: 16  }
+	},
+
+
+	{
+		ingredientPattern: "BB,X_",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:rod-copper"}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:beam-ridge-copper-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "B,X",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:rod-copper"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:beam-plane-copper-free", quantity: 16  }
+	},
+
+
+	{
+		ingredientPattern: "BB,X_",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:stone-slate"}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:beam-ridge-slate-free", quantity: 16  }
+	},
+	{
+		ingredientPattern: "B,X",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": { type: "item", code: "game:stone-slate"}
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:beam-plane-slate-free", quantity: 16  }
+	},
+
+
+	{
+		ingredientPattern: "BB,X_",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": {type: "Item", code: "game:bamboostakes" }
+		},
+		width: 2,
+		height: 2,
+		output: {type: "Block", code: "game:beam-ridge-bamboo-free" , "quantity": 16}
+	},
+	{
+		ingredientPattern: "B,X",
+		ingredients: {
+            "X": {type: "Item", code: "br-schematic-roofing" },
+
+			"B": {type: "Item", code: "game:bamboostakes" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:beam-plane-bamboo-free", quantity: 16  }
+	},
 ]
