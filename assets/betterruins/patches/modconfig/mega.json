@@ -459,7 +459,7 @@
                   "code": "13industrialmine",
                   "group": "megaruins",
                   "minGroupDistance": 5000, 
-                  "chance": 4,
+                  "chance": 0, // 4
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-13/*"
