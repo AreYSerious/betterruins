@@ -390,7 +390,13 @@
       "overground/main/village-samsvillage-blackclay/08/village-samsvillage-0801-o3-samgray": -3,
       "overground/main/village-samsvillage-blackclay/08/village-samsvillage-0802-o3-samgray": -3,
       "overground/main/village-samsvillage-blackclay/08/village-samsvillage-0803-o3-samgray": -3,
-      "overground/main/village-samsvillage-blackclay/08/village-samsvillage-0804-o3-samgray": -3
+      "overground/main/village-samsvillage-blackclay/08/village-samsvillage-0804-o3-samgray": -3,
+
+      "overground/main/village-ogdred/main/main1-o2": -2,
+      "overground/main/village-ogdred/statues/statue1": -1,
+      "overground/main/village-ogdred/houses/house1-o5": -5,
+      "overground/main/village-ogdred/houses/house2-o2": -2,
+      "overground/main/village-ogdred/houses/house3-o6": -6
             },
     "file": "game:worldgen/structures.json"
   }
