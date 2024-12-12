@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -108,7 +108,10 @@
         "20/value/chance": "SCHEMATIC_MECHANICAL",
         "21/value/chance": "SCHEMATIC_JONASPART",
         "22/value/chance": "SCHEMATIC_JONASASSEMBLY",
-        "23/value/chance": "SCHEMATIC_ROOFING"
+        "23/value/chance": "SCHEMATIC_ROOFING",
+        "24/value/chance": "LOOT * value",
+        "25/value/chance": "LOOT * value",
+        "26/value/chance": "LOOT * value"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -225,7 +228,9 @@
         "attributesByType/*-fieldengineersdiary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-largechurch/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-undergroundlibrary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
-        "attributesByType/*-lostdoll/stacks/0/chance": "(LORE) ? 1.0 : 0.0"
+        "attributesByType/*-lostdoll/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-minerlogentries/stacks/0/chance": "(LORE) ? 1.0 : 0.0"
       },
       "game:itemtypes/meta/stackrandomizer-betterruins.json": {
         "attributesByType/*-armor/stacks/0/chance": "LOOT * value",
@@ -868,7 +873,7 @@
         "name": "13industrialmine_spawn_chance",
         "comment": "betterruins:13industrialmine_spawn_chance_comment",
         "ingui": "betterruins:13industrialmine_spawn_chance",
-        "default": 1.0,
+        "default": 0.0,
         "weight": 14.3,
         "logarithmic": true,
         "range": {
@@ -1305,7 +1310,7 @@
         "name": "megastructures_min_distance",
         "comment": "betterruins:megastructures_min_distance_comment",
         "ingui": "betterruins:megastructures_min_distance",
-        "default": 5000,
+        "default": 6500,
         "weight": 2.9,
         "logarithmic": true,
         "range": {
@@ -1341,7 +1346,7 @@
         "name": "waystones_min_distance",
         "comment": "betterruins:waystones_min_distance_comment",
         "ingui": "betterruins:waystones_min_distance",
-        "default": 7500,
+        "default": 5000,
         "weight": 23.51,
         "logarithmic": true,
         "range": {
