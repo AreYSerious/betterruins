@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-graves",
       "type": "item",
@@ -15,11 +15,11 @@
         "var": 2
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   },
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-gates",
       "type": "item",
@@ -29,15 +29,15 @@
         "var": 0.75
       },
       "price": {
-        "avg": 10,
+        "avg": 8,
         "var": 2
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   },
   {
     "op": "add",
-    "path": "/attributes/tradeProps/selling/list/-",
+    "path": "/selling/list/-",
     "value": {
       "code": "betterruins:locatormap-undergroundruins",
       "type": "item",
@@ -51,6 +51,42 @@
         "var": 3
       }
     },
-    "file": "game:entities/humanoid/trader-treasurehunter.json"
+    "file": "game:config/tradelists/trader-treasurehunter.json"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "betterruins:locatormap-mine1",
+      "type": "item",
+      "stacksize": 1,
+      "stock": {
+        "avg": 1.5,
+        "var": 0.75
+      },
+      "price": {
+        "avg": 12,
+        "var": 3
+      }
+    },
+    "file": "game:config/tradelists/trader-treasurehunter.json"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "betterruins:locatormap-mine2",
+      "type": "item",
+      "stacksize": 1,
+      "stock": {
+        "avg": 1.5,
+        "var": 0.75
+      },
+      "price": {
+        "avg": 12,
+        "var": 3
+      }
+    },
+    "file": "game:config/tradelists/trader-treasurehunter.json"
   }
 ]

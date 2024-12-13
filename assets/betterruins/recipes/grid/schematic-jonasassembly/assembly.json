@@ -8,7 +8,7 @@
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 3},
-            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "P": {type: "Item", code: "game:rod-cupronickel" },
             "N": {type: "Item", code: "game:metalnailsandstrips-iron" }
         },
         "width": 3,
@@ -21,7 +21,7 @@
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-jonasassembly" },
             "G": {type: "Item", code: "game:gear-rusty" , quantity: 5},
-            "P": {type: "Item", code: "game:ingot-cupronickel" },
+            "P": {type: "Item", code: "game:rod-cupronickel" },
             "J": {type: "Item", code: "game:metalnailsandstrips-iron" },
             "N": {type: "Item", code: "game:metalnailsandstrips-cupronickel" }
         },

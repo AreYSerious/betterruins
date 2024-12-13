@@ -1,0 +1,47 @@
+[
+    {
+        "ingredientPattern": "WLH,JCS,XT_",
+        "ingredients": {
+            "X": {
+                "type": "Item",
+                "code": "br-schematic-textureflipper"
+            },
+            "H": {
+                "type": "Item",
+                "code": "game:hammer-*",
+                "isTool": true
+            },
+            "W": {
+                "type": "Item",
+                "code": "game:wrench-*",
+                "isTool": true
+            },
+            "J": {
+                "type": "Item",
+                "code": "game:jonasparts-tank01"
+            },
+            "C": {
+                "type": "Item",
+                "code": "game:jonasparts-valve01"
+            },
+            "S": {
+                "type": "Item",
+                "code": "game:jonasparts-tank02"
+            },
+            "T": {
+                "type": "Item",
+                "code": "game:scrapweaponkit"
+            },
+            "L": {
+                "type": "Item",
+                "code": "game:jonasparts-cylinder02"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "Item",
+            "code": "game:textureflipper"
+        }
+    }
+]

@@ -67,6 +67,34 @@
 
 
 
+    {
+        "ingredientPattern": "X,B,S",
+        "ingredients": {
+            "X": {type: "Item", code: "game:cloth-plain" },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "S": {"type": "Item", "code": "br-schematic-crate" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: {"collected":true, "type": "crate/large-clothing1" } }
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {
         "ingredientPattern": "S__,P_P,_N_",
@@ -484,7 +512,22 @@
         
     },
 
+    {
+        "ingredientPattern": "X,B,S",
+        "ingredients": {
+            "X": {type: "Item", code: "game:cloth-plain" },
+            "B": {type: "Block", code: "game:crate", attributes: { "lidState": "opened", "type": "wood-aged" } },
+            "S": {"type": "Item", "code": "br-schematic-crate" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": {type: "Block", code: "game:clutter", attributes: {"type": "crate/large-clothing1" } }
+        
+    },
 
+
+
+    
 
 
     {
@@ -591,6 +634,20 @@
         "height": 3,
         "output": {type: "Block", code: "game:clutter", attributes: { "type": "crate/crate-small-rot" } } 
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

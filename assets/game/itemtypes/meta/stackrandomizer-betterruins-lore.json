@@ -1,8 +1,8 @@
 {
-	code: "stackrandomizer",
-	class: "ItemStackRandomizer",
-	variantgroups: [
-		{ code: "type", states: [
+	"code": "stackrandomizer",
+	"class": "ItemStackRandomizer",
+	"variantgroups": [
+		{ "code": "type", "states": [
 			"darkheat", 
 			"forlornhope", 
 			"glimmershield", 
@@ -13,23 +13,96 @@
 			"largechurch",
 			"undergroundlibrary",
 			"lostdoll",
-			"finalhour"
+			"finalhour",
+			"minerlogentries"
 		] }
 	],
-	attributesByType: {
+	"attributesByType": {
 		"*-darkheat": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "darkheat" } }
 			  ]
 		},
 		
 		"*-forlornhope": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orangebrown",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orange",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgreen",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgray",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-cherryred",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-brickred",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkolive",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkbeige",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-olive",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-purpleorange",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-gray",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
 				{
 				  "type": "item",
 				  "code": "lore-book-rotten-gray",
+				  "attributes": { "category": "forlornhope" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
 				  "attributes": { "category": "forlornhope" },
 				  "chance": 10
 				},
@@ -53,12 +126,6 @@
 				},
 				{
 				  "type": "item",
-				  "code": "lore-book-rotten-brown",
-				  "attributes": { "category": "forlornhope" },
-				  "chance": 10
-				},
-				{
-				  "type": "item",
 				  "code": "lore-paper",
 				  "attributes": { "category": "forlornhope" },
 				  "chance": 50
@@ -70,74 +137,420 @@
 				  "chance": 50
 				}
 			  ]
+			  
 		},
 		
 		
 		"*-glimmershield": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "glimmershield" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orangebrown",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orange",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgreen",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgray",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-cherryred",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-brickred",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkolive",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkbeige",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-olive",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-purpleorange",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-gray",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-gray",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-rust",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-purple",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-green",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-paper",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 50
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "glimmershield" },
+				  "chance": 50
+				}
 			  ]
+			  
 		},
 		
 		"*-lastfisherman": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastfisherman" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orangebrown",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-orange",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgreen",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkgray",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-cherryred",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-brickred",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkolive",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-darkbeige",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-olive",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-purpleorange",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-aged-gray",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-gray",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-brown",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-rust",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-purple",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-book-rotten-green",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 10
+				},
+				{
+				  "type": "item",
+				  "code": "lore-paper",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 50
+				},
+				{
+				  "type": "item",
+				  "code": "lore-scroll",
+				  "attributes": { "category": "lastfisherman" },
+				  "chance": 50
+				}
 			  ]
-		},
+					  },
 		
 		"*-lastwall": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastwall" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "lastwall" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "lastwall" } }
 			  ]
+			  
 		},
 		
 		"*-wolfstone": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "wolfstone" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "wolfstone" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "wolfstone" } }
 			  ]
+			  
 		},
 		
 		"*-fieldengineersdiary": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "fieldengineersdiary" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "fieldengineersdiary" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "fieldengineersdiary" } }
 			  ]
-		},
+					  },
 		
 		"*-largechurch": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "largechurch" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "largechurch" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "largechurch" } }
 			  ]
-		},
+					  },
 		
 		"*-undergroundlibrary": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "undergroundlibrary" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "undergroundlibrary" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "undergroundlibrary" } }
 			  ]
-		},
+					  },
 		
 		"*-lostdoll": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lostdoll" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 5, "attributes": { "category": "lostdoll" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 5, "attributes": { "category": "lostdoll" } }
 			  ]
+			  
 		},
 		
 		"*-finalhour": {
-			handbook: { exclude: true },
-			stacks: [
-				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "finalhour" } }
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-book-aged-orangebrown", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-orange", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgreen", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkgray", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-cherryred", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-brickred", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkolive", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-darkbeige", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-olive", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-purpleorange", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-aged-gray", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-rotten-gray", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-rotten-brown", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-rotten-rust", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-rotten-purple", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-book-rotten-green", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "finalhour" } },
+				{ "type": "item", "code": "game:lore-scroll", "chance": 1, "attributes": { "category": "finalhour" } }
+			  ]
+			  
+		},
+		
+		"*-minerlogentries": {
+			"handbook": { "exclude": true },
+			"stacks": [
+				{ "type": "item", "code": "game:lore-paper", "chance": 1, "attributes": { "category": "minerlogentries" } }
 			  ]
 		}
 	},
-	maxstacksize: 1,
-	texture: { base: "item/meta/randomizer/brlore" },
-	creativeinventory: { "meta": ["*"] },
-	materialDensity: 600
+	"maxstacksize": 1,
+	"texture": { "base": "item/meta/randomizer/brlore" },
+	"creativeinventory": { "meta": ["*"] },
+	"materialDensity": 600
 }

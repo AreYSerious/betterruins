@@ -5,7 +5,7 @@
             "X": {"type": "Item", "code": "br-schematic-banner" },
             "O": {
                 "type": "item",
-                "code": "game:leather-orange"
+                "code": "game:leather-normal-orange"
             },
             "B": {
                 "type": "block",
@@ -37,7 +37,7 @@
             "X": {"type": "Item", "code": "br-schematic-banner" },
             "O": {
                 "type": "item",
-                "code": "game:leather-orange"
+                "code": "game:leather-normal-orange"
             },
             "B": {
                 "type": "block",
@@ -95,7 +95,7 @@
             "X": {"type": "Item", "code": "br-schematic-banner" },
             "O": {
                 "type": "item",
-                "code": "game:leather-orange"
+                "code": "game:leather-normal-orange"
             },
             "B": {
                 "type": "block",
@@ -127,7 +127,7 @@
             "X": {"type": "Item", "code": "br-schematic-banner" },
             "O": {
                 "type": "item",
-                "code": "game:leather-orange"
+                "code": "game:leather-normal-orange"
             },
             "B": {
                 "type": "block",

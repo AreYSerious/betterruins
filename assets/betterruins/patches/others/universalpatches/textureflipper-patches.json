@@ -1,0 +1,240 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/rackable",
+    "value": true,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "add",
+    "path": "/tpOffHandTransform",
+    "value": {
+      "translation": {
+        "x": -1.05,
+        "y": -0.68,
+        "z": -0.9
+      },
+      "rotation": {
+        "x": -79,
+        "y": -50,
+        "z": -17
+      },
+      "scale": 1.01
+    },
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+  {
+    "op": "add",
+    "path": "/heldRightReadyAnimation",
+    "value": "heldblockready",
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "add",
+    "path": "/heldTpIdleAnimation",
+    "value": "holdbothhandslarge",
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "add",
+    "path": "/heldTpUseAnimation",
+    "value": "twohandplaceblock",
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "add",
+    "path": "/heldTpHitAnimation",
+    "value": "holdbothhandslarge",
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+  {
+    "op": "replace",
+    "path": "/fpHandTransform/scale",
+    "value": 2.75,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/rotation/x",
+    "value": 20,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/rotation/y",
+    "value": 13,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/rotation/z",
+    "value": -94,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/scale",
+    "value": 1.01,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/translation/x",
+    "value": -0.88,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/translation/y",
+    "value": -0.878,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransform/translation/z",
+    "value": -0.389,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/guiTransform/origin/x",
+    "value": 0.5299,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform/rotation/x",
+    "value": 72,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform/rotation/y",
+    "value": 35,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform/scale",
+    "value": 2.34,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform/translation/x",
+    "value": 4,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransform/translation/y",
+    "value": 2,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/groundTransform/rotation/z",
+    "value": 10,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/groundTransform/scale",
+    "value": 5.23,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/groundTransform/translation/y",
+    "value": 0.04,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/attributes/toolrackTransform/rotation/y",
+    "value": 180,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/toolrackTransform/scale",
+    "value": 1.93,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/toolrackTransform/translation/y",
+    "value": 0.7,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+
+
+  {
+    "op": "remove",
+    "path": "/attributes/groundStorageTransform/scale",
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/groundStorageTransform/scaleXyz",
+    "value": {
+      "x": -1.05,
+      "y": 1.05,
+      "z": 1.05
+    },
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/groundStorageTransform/rotation/x",
+    "value": 27,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/groundStorageTransform/translation/y",
+    "value": 0.07,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/groundStorageTransform/translation/z",
+    "value": -0.2,
+    "file": "game:itemtypes/meta/textureflipper.json"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+]

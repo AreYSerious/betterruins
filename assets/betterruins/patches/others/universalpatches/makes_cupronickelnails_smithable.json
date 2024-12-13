@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "cupronickel",
+    "file": "game:recipes/smithing/nails.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "cupronickel",
+    "file": "game:recipes/smithing/nails.json"
+  }
+]

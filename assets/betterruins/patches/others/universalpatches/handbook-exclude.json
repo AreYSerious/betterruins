@@ -23,5 +23,23 @@
       }
     },
     "file": "game:blocktypes/wood/woodtyped/crate.json"
+  },
+  {
+    "file": "game:blocktypes/roofing/beam-plane.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:blocktypes/roofing/beam-ridge.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
+  },
+  {
+    "file": "game:itemtypes/meta/textureflipper.json",
+    "op": "replace",
+    "path": "/attributes/handbook/exclude",
+    "value": false
   }
 ]

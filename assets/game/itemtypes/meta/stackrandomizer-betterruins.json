@@ -286,7 +286,7 @@
 			stacks: [
 				{
 				  "type": "item",
-				  "code": "backpack",
+				  "code": "backpack-normal",
 				  "chance": 250
 				},
 				{
@@ -296,7 +296,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "glider",
+				  "code": "backpack-sturdy",
 				  "chance": 40
 				},
 				{
@@ -327,7 +327,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "leather-plain",
+				  "code": "leather-normal-plain",
 				  "chance": 1000,
 				  "quantity": { "avg": 8, "var": 3 }
 				},
@@ -739,7 +739,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "clayshinglelabs-blue-down-free",
+				  "code": "clayshinglelabs-black-down-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -946,7 +946,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-blue",
+				  "code": "brickcourse-four-running-black",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -955,7 +955,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-brown",
+				  "code": "brickcourse-four-running-brown",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -973,7 +973,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-red",
+				  "code": "brickcourse-four-running-red",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -982,7 +982,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickslabs-blue-down-free",
+				  "code": "brickslabs-four-black-down-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -991,7 +991,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickslabs-brown-down-free",
+				  "code": "brickslabs-four-brown-down-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1009,7 +1009,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickslabs-red-down-free",
+				  "code": "brickslabs-four-red-down-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1018,7 +1018,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickstairs-blue-up-north-free",
+				  "code": "brickstairs-four-black-up-north-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1027,7 +1027,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickstairs-brown-up-north-free",
+				  "code": "brickstairs-four-brown-up-north-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1045,7 +1045,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "brickstairs-red-up-north-free",
+				  "code": "brickstairs-four-red-up-north-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1054,7 +1054,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "clayshingleblock-blue",
+				  "code": "clayshingleblock-black",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1081,7 +1081,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "clayshinglestairs-blue-up-north-free",
+				  "code": "clayshinglestairs-black-up-north-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1126,7 +1126,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "slantedroofing-blueclay-east-free",
+				  "code": "slantedroofing-blackclay-east-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1162,7 +1162,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "slantedroofingcornerinner-blueclay-east-free",
+				  "code": "slantedroofingcornerinner-blackclay-east-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1198,7 +1198,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "slantedroofingcornerouter-blueclay-east-free",
+				  "code": "slantedroofingcornerouter-blackclay-east-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1234,7 +1234,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "slantedroofingridge-blueclay-ns-free",
+				  "code": "slantedroofingridge-blackclay-ns-free",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1270,7 +1270,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "slantedroofingtip-blueclay-free",
+				  "code": "slantedroofingtip-blackclay-free",
 				  "quantity": {
 					"avg": 2,
 					"var": 1
@@ -1530,52 +1530,52 @@
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-axe",
+				  "code": "toolmold-burned-axe-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-pickaxe",
+				  "code": "toolmold-burned-pickaxe-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-shovel",
+				  "code": "toolmold-burned-shovel-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-blade-falx",
+				  "code": "toolmold-burned-blade-falx-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-hammer",
+				  "code": "toolmold-burned-hammer-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-anvil",
+				  "code": "toolmold-burned-anvil-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-helvehammer",
+				  "code": "toolmold-burned-helvehammer-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-hoe",
+				  "code": "toolmold-burned-hoe-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-prospectingpick",
+				  "code": "toolmold-burned-prospectingpick-north",
 				  "chance": 80
 				},
 				{
 				  "type": "block",
-				  "code": "toolmold-burned-lamellae",
+				  "code": "toolmold-burned-lamellae-north",
 				  "chance": 80
 				},
 				{
@@ -2064,7 +2064,7 @@
 				},
 				{
 				  "type": "item",
-				  "code": "clothes-head-surgeon",
+				  "code": "clothes-face-surgeon",
 				  "chance": 1000
 				},
 				{
