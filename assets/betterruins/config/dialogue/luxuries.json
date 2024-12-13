@@ -197,8 +197,8 @@
 			text: [
 				{ value: "betterruins:The Forlorn Hope? Tell me more.", jumpTo: "forlornhope1" },
 				{ value: "betterruins:What’s so significant about this tower?", jumpTo: "forlornhope2" },
-				{ value: "betterruins:I’ll take the map. How much is it?", jumpTo: "howmuchisit" },
-				{ value: "betterruins:I now want to buy the map you talked about.", jumpTo: "buyforlornmap", conditions: [{ variable: "entity.requestprice1", isValue: "true" }, { variable: "entity.forlornhopemapreceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 15 }" } ] },
+				{ value: "betterruins:I’ll take the map. How much is it?", jumpTo: "howmuchisit" , conditions: [{ variable: "entity.forlornhopemapreceived", isNotValue: "true" } ]},
+				{ value: "betterruins:I now want to buy the map you talked about.", jumpTo: "buyforlornmap", conditions: [{ variable: "entity.requestprice1", isValue: "true" }, { variable: "entity.forlornhopemapreceived", isNotValue: "true" }, { variable: "player.inventory", isValue: "{ type: 'item', code: 'game:gear-rusty', quantity: 10 }" } ] },
 				{ value: "betterruins:Not interested. Maybe another time.", jumpTo: "main" }
 			]
 		},
