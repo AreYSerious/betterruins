@@ -75,9 +75,9 @@
       "overground/main/largeruins/largeruins-vil-o3-0602": -3,
       "overground/main/largeruins/largeruins-vil-o3-0702": -3,
       "overground/main/largeruins/largeruins-vil-o4-0303": -4,
-      "overground/main/largeruins/largeruins-ifoz-o11-0902": -11,
-      "overground/main/largeruins/largeruins-ifoz-o11-0802": -11,
-      "overground/main/largeruins/largeruins-ifoz-o11-0803": -11,
+      "overground/main/largeruins/largeruins-ifoz-o11-0902": -10,
+      "overground/main/largeruins/largeruins-ifoz-o11-0802": -10,
+      "overground/main/largeruins/largeruins-ifoz-o11-0803": -10,
       "overground/main/largeruins/largeruins-vil-o3-0304": -3,
       "overground/main/largeruins/largeruins-vil-o3-0404": -3,
       "overground/main/mediumruins/mediumruins-bell-o1-0304": -1,
@@ -396,7 +396,25 @@
       "overground/main/village-ogdred/statues/statue1": -1,
       "overground/main/village-ogdred/houses/house1-o5": -5,
       "overground/main/village-ogdred/houses/house2-o2": -2,
-      "overground/main/village-ogdred/houses/house3-o6": -6
+      "overground/main/village-ogdred/houses/house3-o6": -6,
+
+
+
+      "overground/main/village-femursnapper/chapel1": -4,
+      "overground/main/village-femursnapper/galgen1": -4,
+      "overground/main/village-femursnapper/house1": -4,
+      "overground/main/village-femursnapper/house2": -4,
+      "overground/main/village-femursnapper/house3": -4,
+      "overground/main/village-femursnapper/house4": -4,
+      "overground/main/village-femursnapper/house5": -4,
+      "overground/main/village-femursnapper/house6": -4,
+      "overground/main/village-femursnapper/house7": -4,
+      "overground/main/village-femursnapper/house8": -4,
+      "overground/main/village-femursnapper/house9": -4,
+      "overground/main/village-femursnapper/ruin1": -4,
+      "overground/main/village-femursnapper/ruin2": -4,
+      "overground/main/village-femursnapper/ruin3": -4,
+      "overground/main/village-femursnapper/wood1": -4
             },
     "file": "game:worldgen/structures.json"
   }

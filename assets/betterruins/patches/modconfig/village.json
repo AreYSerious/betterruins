@@ -291,7 +291,7 @@
     "value": {
       "name": "village-ogdred",
       "code": "village-ogdred",
-      "chance": 0.1,
+      "chance": 0.03,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -305,6 +305,44 @@
         {"path": "overground/main/village-ogdred/houses/house2-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/houses/house3-o6","weight": 100, "minQuantity": 0, "maxQuantity": 1},
         {"path": "overground/main/village-ogdred/main/main1-o2","weight": 100, "minQuantity": 0, "maxQuantity": 1}
+    ],
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],
+      "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/villages.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/villageTypes/-",
+    "value": {
+      "name": "village-femursnapper",
+      "code": "village-femursnapper",
+      "chance": 0.1,
+      "minY": 0,
+      "generator": "LooselyGrouped",
+      "quantityStructures": {
+        "avg": 7,
+        "var": 2,
+        "dist": "InvExp"
+      },
+      "schematics": [
+        {"path": "overground/main/village-femursnapper/chapel1","weight": 500, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/galgen1","weight": 200, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house1","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house2","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house3","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house4","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house5","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house6","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house7","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house8","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/house9","weight": 100, "minQuantity": 0, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/ruin1","weight": 500, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/ruin2","weight": 500, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/ruin3","weight": 500, "minQuantity": 1, "maxQuantity": 1},
+        {"path": "overground/main/village-femursnapper/wood1","weight": 200, "minQuantity": 0, "maxQuantity": 1}
+
     ],
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none", "gravel-granite"],
       "rockTypeRemapGroup": "standard"
