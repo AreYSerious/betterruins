@@ -29,7 +29,7 @@
       "minSpawnDistZ": 500,
       "maxSpawnDistZ": 1500,
       "requireLandform": "cold glaciers",
-      "landformRadius": 150,
+      "landformRadius": 400,
       "forceTemperature": -9,
       "rockTypeRemapGroup": "underground",
       "skipGenerationCategories": {
@@ -64,12 +64,12 @@
       "requireLandform": "cold glaciers",
       "forceRain": 134,
 			"forceTemperature": -14,
-      "landformRadius": 400,
+      "landformRadius": 500,
       "ExcludeSchematicSizeProtect":true,
       "skipGenerationCategories": {
         "structures": 800,
         "trees": 200,
-        "shrubs": 120,
+        "shrubs": 20,
         "hotsprings": 200,
         "pond": 200,
         "rivulets": 60,
@@ -102,7 +102,7 @@
       "skipGenerationCategories": {
         "structures": 800,
         "trees": 70,
-        "shrubs": 120,
+        "shrubs": 70,
         "hotsprings": 200,
         "pond": 200,
         "rivulets": 100,
@@ -135,7 +135,7 @@
       "skipGenerationCategories": {
         "structures": 800,
         "trees": 70,
-        "shrubs": 120,
+        "shrubs": 60,
         "hotsprings": 200,
         "pond": 200,
         "rivulets": 100,

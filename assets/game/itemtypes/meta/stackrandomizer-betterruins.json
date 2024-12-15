@@ -1964,7 +1964,7 @@
 				{
 				  "type": "item",
 				  "code": "cloth-plain",
-				  "chance": 10000
+				  "chance": 3000
 				}
 			  ]
 		},
@@ -2110,7 +2110,7 @@
 				{
 				  "type": "item",
 				  "code": "cloth-plain",
-				  "chance": 10000
+				  "chance": 4000
 				}
 			  ]
 		},
@@ -2507,11 +2507,6 @@
 				  "type": "item",
 				  "code": "clothes-upperbodyover-rotwalker",
 				  "chance": 1000
-				},
-				{
-				  "type": "item",
-				  "code": "cloth-plain",
-				  "chance": 5000
 				}
 			  ]
 		},
