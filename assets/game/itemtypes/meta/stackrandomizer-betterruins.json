@@ -1,8 +1,8 @@
 {
-	code: "stackrandomizer",
-	class: "ItemStackRandomizer",
-	variantgroups: [
-		{ code: "type", states: [
+	"code": "stackrandomizer",
+	"class": "ItemStackRandomizer",
+	"variantgroups": [
+		{ "code": "type", "states": [
 			"armor", 
 			"backpack", 
 			"buildingblocks", 
@@ -13,12 +13,12 @@
 			"newlore", 
 			"rottenkingclothing",
 			"blrmeteoriciron"
-		] },
+		] }
 	],
-	attributesByType: {
+	"attributesByType": {
 		"*-armor": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
         {
           "type": "item",
           "code": "armor-body-improvised-wood",
@@ -282,8 +282,8 @@
 		},
 		
 		"*-backpack": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "backpack-normal",
@@ -342,8 +342,8 @@
 		
 		
 		"*-buildingblocks": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "block",
 				  "code": "wallpaper-blue4",
@@ -964,7 +964,7 @@
 				},
 				{
 				  "type": "block",
-				  "code": "claybricks-fire",
+				  "code": "claybricks-good-fire",
 				  "quantity": {
 					"avg": 45,
 					"var": 10
@@ -1451,8 +1451,8 @@
 		},
 		
 		"*-clayproducts": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "block",
 				  "code": "storagevessel-oxblood",
@@ -1779,8 +1779,8 @@
 		},
 		
 		"*-kingclothing": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "clothes-foot-king",
@@ -1970,8 +1970,8 @@
 		},
 		
 		"*-mask": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "clothes-face-survivor",
@@ -2115,8 +2115,8 @@
 			  ]
 		},
 		"*-mechanical": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "pounder-oak",
@@ -2279,8 +2279,8 @@
 			  ]
 		},
 		"*-newlore": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "lore-book-aged-orangebrown",
@@ -2431,8 +2431,8 @@
 			  ]
 		},
 		"*-rottenkingclothing": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "item",
 				  "code": "clothes-face-rottenking",
@@ -2511,8 +2511,8 @@
 			  ]
 		},
 		"*-blrmeteoriciron": {
-			handbook: { exclude: true },
-			stacks: [
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "block",
 				  "code": "rock-suevite",
@@ -2536,8 +2536,8 @@
 			  ]
 		}
 	},
-	maxstacksize: 1,
-	texture: { base: "item/meta/randomizer/{type}" },
-	creativeinventory: { "meta": ["*"] },
-	materialDensity: 600
+	"maxstacksize": 1,
+	"texture": { "base": "item/meta/randomizer/{type}" },
+	"creativeinventory": { "meta": ["*"] },
+	"materialDensity": 600
 }
