@@ -320,7 +320,7 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -10,
+                  "offsety": -12,
                   "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
