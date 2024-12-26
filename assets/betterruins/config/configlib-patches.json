@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -36,8 +36,7 @@
         "3/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
         "4/value/chance": "TRANSLOCATORRUINS_SPAWN_CHANCE * value",
         "5/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "6/value/chance": "DESERTRUINS_SPAWN_CHANCE * value",
-        "7/value/chance": "NORMALCLIMATERUINS_SPAWN_CHANCE * value"
+        "6/value/chance": "DESERTRUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -46,7 +45,14 @@
         "3/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "4/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
         "5/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
-        "6/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
+        "6/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "7/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
+        "8/value/chance": "WAYSTONES_SPAWN_CHANCE * value"
+      },
+      "betterruins:patches/modconfig/surfaceunderground.json": {
+        "0/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
+        "1/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
+        "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -57,7 +63,9 @@
         "5/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "6/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
         "7/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
-        "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value"
+        "8/value/chance": "COLOREDVILLAGE_SPAWN_CHANCE * value",
+        "9/value/chance": "OGDREDVILLAGE_SPAWN_CHANCE * value",
+        "10/value/chance": "FEMURSNAPPERVILLAGE_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/underground.json": {
         "0/value/chance": "UNDERGROUND_SPAWN_CHANCE * value",
@@ -84,6 +92,9 @@
         "5/value/chance": "GRAVES_SPAWN_CHANCE * value",
         "6/value/chance": "GRAVES_SPAWN_CHANCE * value"
       },
+      "betterruins:patches/others/structurespatches/monolith.json": {
+        "0/value/chance": "MONOLITH_SPAWN_CHANCE * value"
+      },
       "betterruins:patches/others/randomizers/stackrandomizers-gear.json": {
         "0/value/chance": "LOOT * value",
         "1/value/chance": "LOOT * value",
@@ -108,10 +119,7 @@
         "20/value/chance": "SCHEMATIC_MECHANICAL",
         "21/value/chance": "SCHEMATIC_JONASPART",
         "22/value/chance": "SCHEMATIC_JONASASSEMBLY",
-        "23/value/chance": "SCHEMATIC_ROOFING",
-        "24/value/chance": "LOOT * value",
-        "25/value/chance": "LOOT * value",
-        "26/value/chance": "LOOT * value"
+        "23/value/chance": "SCHEMATIC_ROOFING"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -214,6 +222,23 @@
       },
       "game:itemtypes/meta/stackrandomizer-betterruins-lore.json": {
         "attributesByType/*-darkheat/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-darkheat/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-forlornhope/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-forlornhope/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-forlornhope/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
@@ -221,70 +246,182 @@
         "attributesByType/*-forlornhope/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-forlornhope/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-forlornhope/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-forlornhope/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-glimmershield/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-glimmershield/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-lastfisherman/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/16/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastfisherman/stacks/17/chance": "(LORE) ? 1.0 : 0.0",
         "attributesByType/*-lastwall/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-lastwall/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-wolfstone/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-wolfstone/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-fieldengineersdiary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-fieldengineersdiary/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-largechurch/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-largechurch/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-undergroundlibrary/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-undergroundlibrary/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-lostdoll/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-lostdoll/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-finalhour/stacks/0/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/1/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/2/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/3/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/4/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/5/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/6/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/7/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/8/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/9/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/10/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/11/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/12/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/13/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/14/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/15/chance": "(LORE) ? 1.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/16/chance": "(LORE) ? 5.0 : 0.0",
+        "attributesByType/*-finalhour/stacks/17/chance": "(LORE) ? 5.0 : 0.0",
         "attributesByType/*-minerlogentries/stacks/0/chance": "(LORE) ? 1.0 : 0.0"
       },
       "game:itemtypes/meta/stackrandomizer-betterruins.json": {
-        "attributesByType/*-armor/stacks/0/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/1/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/2/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/3/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/4/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/5/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/6/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/7/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/8/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/9/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/10/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/11/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/12/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/13/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/14/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/15/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/16/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/17/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/18/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/19/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/20/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/21/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/22/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/23/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/24/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/25/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/26/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/27/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/28/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/29/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/30/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/31/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/32/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/33/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/34/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/35/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/36/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/37/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/38/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/39/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/40/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/41/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/42/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/43/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/44/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/45/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/46/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/47/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/48/chance": "LOOT * value",
-        "attributesByType/*-armor/stacks/49/chance": "LOOT * value",
-
-
         "attributesByType/*-backpack/stacks/0/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/1/chance": "LOOT * value",
         "attributesByType/*-backpack/stacks/2/chance": "LOOT * value",
@@ -675,8 +812,17 @@
         "3/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "4/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "5/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "6/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
-
+        "6/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "7/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "8/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
+      },
+      "betterruins:patches/modconfig/surfaceunderground.json": {
+        "0/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
+        "1/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
+        "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
+      },
+      "betterruins:patches/others/structurespatches/monolith.json": {
+        "0/value/minGroupDistance": "MONOLITH_MIN_DISTANCE"
       },
       "betterruins:recipes/grid/copy-schematic/schematiccopy.json": {
         "enabled": "SCHEMATIC_CRAFTING"
@@ -989,6 +1135,30 @@
           "max": 100.0
         }
       },
+      "OGDREDVILLAGE_SPAWN_CHANCE": {
+        "name": "ogdredvillage_spawn_chance",
+        "comment": "betterruins:ogdredvillage_spawn_chance_comment",
+        "ingui": "betterruins:ogdredvillage_spawn_chance",
+        "default": 1.0,
+        "weight": 19.22,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "FEMURSNAPPERVILLAGE_SPAWN_CHANCE": {
+        "name": "femursnappervillage_spawn_chance",
+        "comment": "betterruins:femursnappervillage_spawn_chance_comment",
+        "ingui": "betterruins:femursnappervillage_spawn_chance",
+        "default": 1.0,
+        "weight": 19.24,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
       "LARGERUINS_SPAWN_CHANCE": {
         "name": "largeruins_spawn_chance",
         "comment": "betterruins:largeruins_spawn_chance_comment",
@@ -1025,12 +1195,12 @@
           "max": 100.0
         }
       },
-      "NORMALCLIMATERUINS_SPAWN_CHANCE": {
-        "name": "normalclimateruins_spawn_chance",
-        "comment": "betterruins:normalclimateruins_spawn_chance_comment",
-        "ingui": "betterruins:normalclimateruins_spawn_chance",
+      "SURFACEUNDERGROUND_SPAWN_CHANCE": {
+        "name": "surfaceunderground_spawn_chance",
+        "comment": "betterruins:surfaceunderground_spawn_chance_comment",
+        "ingui": "betterruins:surfaceunderground_spawn_chance",
         "default": 1.0,
-        "weight": 23.1,
+        "weight": 23.2,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1043,6 +1213,18 @@
         "ingui": "betterruins:waystones_spawn_chance",
         "default": 1.0,
         "weight": 23.5,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "MONOLITH_SPAWN_CHANCE": {
+        "name": "monolith_spawn_chance",
+        "comment": "betterruins:monolith_spawn_chance_comment",
+        "ingui": "betterruins:monolith_spawn_chance",
+        "default": 1.0,
+        "weight": 23.54,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1315,7 +1497,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 100000
+          "max": 40000
         }
       },
       "TRANSLOCATORRUINS_MIN_DISTANCE": {
@@ -1327,7 +1509,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 100000
+          "max": 40000
         }
       },
       "GRAVES_MIN_DISTANCE": {
@@ -1339,7 +1521,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 100000
+          "max": 40000
         }
       },
       "WAYSTONES_MIN_DISTANCE": {
@@ -1351,7 +1533,31 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 100000
+          "max": 40000
+        }
+      },
+      "MONOLITH_MIN_DISTANCE": {
+        "name": "monolith_min_distance",
+        "comment": "betterruins:monolith_min_distance_comment",
+        "ingui": "betterruins:monolith_min_distance",
+        "default": 40000,
+        "weight": 23.55,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 40000
+        }
+      },
+      "SURFACEUNDERGROUND_MIN_DISTANCE": {
+        "name": "surfaceunderground_min_distance",
+        "comment": "betterruins:surfaceunderground_min_distance_comment",
+        "ingui": "betterruins:surfaceunderground_min_distance",
+        "default": 7500,
+        "weight": 23.21,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 40000
         }
       },
       "OASIS_MAX_TEMP": {

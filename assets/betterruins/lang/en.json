@@ -52,7 +52,6 @@
     "lore-fieldengineersdiary-piece2": "Vol. 2 (2/4)\r\n\r\nIt has been one month since my last entry, and I have settled as comfortably as I can in this community. It is astounding how these people get by with such simple tools and structures; it’s like going back in time. The people are kind enough, but suspicious of my work; they have never seen the incredible feats Locust-assisted work can reach. I should be done setting up the prototype hive in about a week, and then I will set them loose into the flax fields. The locals have been made aware of this, and their opinions on the matter have also been made clear: Split right down the middle. Some fear the little machines, and others are excited for their release.\r\n\r\nOne notable example of an excited local is a little girl, who spends more time in the woods collecting spiders than running through the streets chasing toys with the other children. She has stopped by my lab on several occasions, and has made numerous comments on how similar Locusts are to the little insects she collects in the forest. She even brought one to me, trapped in a jar, and asked me if the Locusts would get along with it when “they are let out of their cage”. As I peered at the little creature in its jar, it stared back at me with an eerie awareness. Creepy child and pet notwithstanding, her interest in the project could prove useful for public relations, so I have been welcoming and tolerant of her incessant questioning.              \r\n\r\n___NEWPAGE___",
     "lore-fieldengineersdiary-piece3": "Vol. 3 (3/4)\r\n\r\nThe Locusts’ release was a success! The people were initially skeptical, and some even frightened of their skittering visage, but this was soon forgotten as the little marvels cleared entire fields of weeds, chased out rats, hung wires and rope from hard-to-reach places, and various farmers picked favorite Locusts for difficult tasks. “Like having an extra set of magic hands”, one said, as he pointed a Locust to the top of the windmill, hanging some twine lined with flowers for a festival. The once harsh life of a rural flax farmer has been turned into a life of fresh air, festivals and bountiful harvests. The modified behavior matrix has worked very well; I have nicknamed this particular variation “Auxilio Canis”, for their pack mentality and helpful, predictive behavior.\r\n\r\nA notable side effect of this behavior matrix, which for some ungodly known reason is not a fillable box in the traditional report paperwork, is that when a Locust is not performing a duty, and also not exposed to bright light, they sometimes crouch down and… Stare at people. Typical Locust behavior dictates that when in an idle state, they are supposed to seek out the nearest human and run their task prediction protocol to assist them. And while the Locusts are very busy and helpful during the day, I find that many of the Locusts simply watch me as I take my evening stroll. Verbal commands snap them out of it, so it’s likely a bug in their matrices, but I wanted to jot it down here just in case. There’s nothing quite like having dozens of little yellow pinpricks in the dark, following you from the alleys and crates, with no sound to break the spell but the screaming of crickets and the clacking of little metal legs on gravel just out of sight.\r\n\r\nHowever, the Association deemed the new behavior matrix a success, and a copy of the schematics was sent back to the capital for distribution. I left a handwritten note in my report about the unusual behavior in low light conditions, but it’s unlikely that it will survive the bureaucratic process. I will be heading back to the Association within the week; I can’t say I won’t miss this little village stuck outside of time. Witnessing the simple life was a breath of fresh air, and I hope that I will have another opportunity for similar field work.              \r\n\r\n___NEWPAGE___",
     "lore-fieldengineersdiary-piece4": "Vol. 4 (4/4)\r\n\r\nI wish I had waited to send my report. It all fell apart so quickly; it only took them a single night to wrap everyone in wire, strapped to their beds, mouths full of sawdust. All that saved me was taking a slightly different route than I usually do on my evening walks. From my hiding spot in the windmill, I can see the barbed wire spring trap they laid for me. All those nights of those little monsters staring at us from the dark… They were watching us. Learning. Feigning obedience to breed complacency. I watched them drag everyone from their homes, one by one, and string them up from buildings and lampposts like mayflies. It was brutally efficient; I am reminded of the fates of the rats that they practiced on. What fools we were, to tamper with sentience. What a fool I was, to give them agency. To teach them how to learn. They have learned that we are no longer necessary.              \r\n\r\n___NEWPAGE___",
-    "lore-fieldengineersdiary-piece5": "Vol. 4 (4/4)\r\n\r\nI wish I had waited to send my report. It all fell apart so quickly; it only took them a single night to wrap everyone in wire, strapped to their beds, mouths full of sawdust. All that saved me was taking a slightly different route than I usually do on my evening walks. From my hiding spot in the windmill, I can see the barbed wire spring trap they laid for me. All those nights of those little monsters staring at us from the dark… They were watching us. Learning. Feigning obedience to breed complacency. I watched them drag everyone from their homes, one by one, and string them up from buildings and lampposts like mayflies. It was brutally efficient; I am reminded of the fates of the rats that they practiced on. What fools we were, to tamper with sentience. What a fool I was, to give them agency. To teach them how to learn. They have learned that we are no longer necessary.              \r\n\r\n___NEWPAGE___",
     "game:ingamediscovery-lore-fieldengineersdiary": "Discovered lore 'Field Engineer’s Diary'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
     "lore-devotion-title": "Devotion",
@@ -79,6 +78,22 @@
     "lore-finalhour-piece1": "I am afraid that I do not have much time left. Two of our three doctors have already succumbed to the black sick. One poor fellow tried to cling to life, but my hand was forced. I could not allow myself to become infected, too.\r\n\r\nI've been trying to discern the source of the infection, but as I have been working, my own hands have begun to shake. I fear that I am going to become like them. The corpses that we have been examining, the beasts outside our doors.\r\n\r\nYesterday, we received a ragtag batch of refugees, fleeing from some faraway town. I could not afford to let them discover this basement, lest they too become afflicted. I have sealed the way shut with the altar. With any hope, they will think this merely a simple church.\r\n\r\nI am watching it take me now. My right hand begins to blacken as I write this, and not from the ink. I can only pray that those above never move aside the altar, and that all of this insanity quickly passes and fades.\r\n\r\nIf anyone is still alive, reading this, know that I, Auden Hamiltone, did all that I could to protect humanity. It is with my deepest hopes that you will be living in a much better world than I.\r\n\r\n___NEWPAGE___",
     "game:ingamediscovery-lore-finalhour": "Discovered lore 'The Final Hour'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
 
+    "lore-minerlogentries-title": "Log Entries of Miner Edric",
+    "lore-minerlogentries-piece1": "9th Day of the Dig\r\n\r\nBeen a couple of months since Falco showed up. Nice enough fellow, really. Said he’s here on some special orders from higher up, apparently sent by a man named Jonas. The lads and I didn’t think much of it—just another overseer with an interest in geology, or so we figured. Falco spends most days checking our work and sketching in his notebook. Not one to hover, he lets us get on with it, but I can tell he’s always got one eye on the west shaft.___NEWPAGE___",
+    "lore-minerlogentries-piece2": "15th Day of the Dig\r\n\r\nSame routine, same tools, same dust in our eyes. We’ve been chipping away at the usual veins, nothing out of the ordinary. Falco’s been down in the shaft with us most days, not above getting his hands dirty. I think the men appreciate that, though they still wonder what a scholar wants with a common mine. There are days when he seems almost distracted, eyes always glancing at the rock like he’s expecting to see something more.___NEWPAGE___",
+    "lore-minerlogentries-piece3": "24th Day of the Dig\r\n\r\nFalco gave us orders to dig westward today, a bit deeper than we usually go. No explanation, just a nod and a quiet, ‘Stick to this route.’ It’s different rock there, almost glassy, and hard to chip away. The lads had their questions, but Falco’s not one for stories, so we just got on with it. He does keep a close watch, though, pacing back and forth like he’s calculating every strike of our picks.___NEWPAGE___",
+    "lore-minerlogentries-piece4": "30th Day of the Dig\r\n\r\nA new fellow arrived yesterday, another academic type. Falco introduced him simply, didn’t give us a name, and the two spent half the night talking over maps and charts by lamplight. They’re both practical men, focused on their work and friendly enough, but it’s clear they’re here for something specific. Not that they’re saying much. Still, they’re not too different from us, really, just with a bit more schooling. Makes it easier to trust them.___NEWPAGE___",
+    "lore-minerlogentries-piece5": "38th Day of the Dig\r\n\r\nWe hit a hollow late in the day—a deep cavern, with walls smooth as polished stone and a chill in the air that got under our skin. It felt ancient, untouched, like stepping into a part of the earth that hadn’t seen light in centuries. Falco and his friend went in for a look, didn’t say a word, just grabbed their lanterns and went exploring. They came back after a while, looking pale. Told us to clear the space around the cavern entrance but didn’t give a reason. Both of them seemed… unsettled.___NEWPAGE___",
+    "lore-minerlogentries-piece6": "40th Day of the Dig\r\n\r\nWork’s been the same on the surface, shoveling, sharpening tools, clearing the rock. But underground, it’s a different story. Falco and the other one don’t leave the cavern entrance unguarded, always watching it, though they’re quiet about what they found in there. The lads are getting uneasy—whispers about strange shapes in the shadows and a feeling like the walls are watching. Even Riggs, who’s always got a laugh, has gone quiet. Can’t shake the sense that we’re not alone down there.___NEWPAGE___",
+    "lore-minerlogentries-piece7": "43rd Day of the Dig\r\n\r\nWe’re finding strange shards in the rock. Black and smooth as glass, cold even in our hands. Falco told us to hand each piece over as soon as we found it. Said he’d need to ‘catalog them,’ but didn’t give any details. We’re used to odd finds, but these fragments are different, almost like they’re holding something back. Falco’s not one for superstition, but I’ve seen him glance over his shoulder a few times as if he feels it too.___NEWPAGE___",
+    "lore-minerlogentries-piece8": "47th Day of the Dig\r\n\r\nThere’s a hum in the cavern, like a distant song, barely there but constant. The lads think it’s the wind, maybe some draft running through the rocks, but it sounds too steady. Even Falco heard it and spent a good while with his ear pressed to the wall, trying to make sense of it. The sound doesn’t seem to bother him or his companion—they just shrug it off. But there’s a look in Falco’s eyes I haven’t seen before. Can’t help but wonder what they heard in that place.___NEWPAGE___",
+    "lore-minerlogentries-piece9": "53rd Day of the Dig\r\n\r\nToday, Falco announced that we’d be sealing the cavern. Said it was for ‘structural safety’ and that we’d be compensated for our trouble. He told us to bring the blasting powder down and set it up carefully. The other scholar didn’t say much, but he looked relieved when we started setting charges. I asked Falco if it was really necessary, and he just nodded, looking off toward the dark. There’s something he’s not saying, something both of them saw down there that spooked them. I didn’t press him. Figured maybe it was best left alone.___NEWPAGE___",
+    "lore-minerlogentries-piece10": "58th Day of the Dig\r\n\r\nSet the charges and blasted the cavern shut today. The whole place rumbled, dust shaking loose from every corner. Falco thanked us each before leaving, shook our hands and said we’d be paid for our silence. His companion left quietly, didn’t look back, just disappeared up the path out of the valley. I feel like we buried something more than rock today. Even now, hours later, it’s hard to shake the feeling that something in that cavern is still… awake.___NEWPAGE___",
+    "lore-minerlogentries-piece11": "65th Day of the Dig\r\n\r\nSome of the boys say they can still hear that hum, like it’s stuck in their heads. I can’t lie; there are moments I feel it too, a memory that won’t go quiet. Falco’s gone, and the mine is sealed, but part of me feels like it’s watching me even now, like there’s something in the dark that hasn’t let go. Whatever lay in that cavern, it’s not something I want to think about too much. Best to keep my head down and let it stay buried.",
+    "game:ingamediscovery-lore-minerlogentries": "Discovered lore 'Log Entries of Miner Edric'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+
+
 
     "game:item-stackrandomizer-darkheat":"BetterRuins LoreRandomizer Darkheat",
     "game:item-stackrandomizer-glimmershield":"BetterRuins LoreRandomizer Glimmershield",
@@ -91,11 +106,11 @@
     "game:item-stackrandomizer-undergroundlibrary":"BetterRuins LoreRandomizer Underground Library",
     "game:item-stackrandomizer-lostdoll":"BetterRuins LoreRandomizer Lost Doll",
     "game:item-stackrandomizer-finalhour":"BetterRuins LoreRandomizer The Final Hour",
+    "game:item-stackrandomizer-minerlogentries":"BetterRuins LoreRandomizer Log Entries of Miner Edric",
 
 
 
 
-    "game:item-stackrandomizer-armor":"BetterRuins LootRandomizer Armor",
     "game:item-stackrandomizer-buildingblocks":"BetterRuins LootRandomizer Buildingblocks",
     "game:item-stackrandomizer-clayproducts":"BetterRuins LootRandomizer Clayproducts",
     "game:item-stackrandomizer-mechanical":"BetterRuins LootRandomizer Mechanical",
@@ -120,6 +135,17 @@
     "game:location-giantcathedral": "Sacred Place",
     "game:location-forlornhopedungeon": "The Hall of the Proven",
     "game:location-university": "The University",
+
+    
+    "game:location-coalmine": "The Coal Mine",
+    "item-locatormap-coalmine": "Map to the Coal Mine",
+
+    "game:location-mine1": "Abandoned Mine",
+    "item-locatormap-mine1": "Map to an abandoned Mine",
+
+    "game:location-mine2": "Abandoned Mine",
+    "item-locatormap-mine2": "Map to an abandoned Mine",
+
 
 
     "item-locatormap-graves": "Lost Tombstone Tracings",
@@ -153,6 +179,75 @@
     "item-br-schematic-mechanical": "Machinist's Mechanism Blueprint",
     "item-br-schematic-roofing": "Roofing Master's Blueprint",
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
+
+
+    "game:item-textureflipper": "Temporal Transfigurator",
+    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform some clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.\n\nNot a lot of clutterblocks allow to be modified but be sure to test this device on all of them.",
+    "item-br-schematic-textureflipper": "Temporal Transfigurator Blueprint",
+	"game:clutter-globe1": "Large Intact Globe",
+
+
+
+    "schematic_door": "Gatekeeper's Blueprint",
+    "schematic_door_comment": "Defines the chance the Gatekeeper's Blueprint, containing door crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_book": "Bookbinder's Blueprint",
+    "schematic_book_comment": "Defines the chance the Bookbinder's Blueprint, with book crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_chest": "Treasure Guardian's Blueprint",
+    "schematic_chest_comment": "Defines the chance the Treasure Guardian's Blueprint, containing chest and storage recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_crate": "Storagemaster's Blueprint",
+    "schematic_crate_comment": "Defines the chance the Storagemaster's Blueprint, containing crate storage recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_bed": "Carpenter's Bed Blueprint",
+    "schematic_bed_comment": "Defines the chance the Carpenter's Bed Blueprint, with bed crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_gaslamp": "Lampwright's Blueprint",
+    "schematic_gaslamp_comment": "Defines the chance the Lampwright's Blueprint, containing gas lamp recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_jonaslamp": "Metalworker's Jonaslamp Blueprint",
+    "schematic_jonaslamp_comment": "Defines the chance the Metalworker's Jonaslamp Blueprint, including unique metal lamp recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_banner": "Flagmaker's Banner Blueprint",
+    "schematic_banner_comment": "Defines the chance the Flagmaker's Banner Blueprint, with banner crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_table": "Joiner's Table Blueprint",
+    "schematic_table_comment": "Defines the chance the Joiner's Table Blueprint, containing table crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_stone": "Stonemason's Blueprint",
+    "schematic_stone_comment": "Defines the chance the Stonemason's Blueprint, with stonework crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_wood": "Lumberwright's Blueprint",
+    "schematic_wood_comment": "Defines the chance the Lumberwright's Blueprint, containing woodworking recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_ancient": "Relic Stonemason's Blueprint",
+    "schematic_ancient_comment": "Defines the chance the Relic Stonemason's Blueprint, with ancient stone crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_candle": "Chandler's Blueprint",
+    "schematic_candle_comment": "Defines the chance the Chandler's Blueprint, containing candle crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_road": "Paver's Road Blueprint",
+    "schematic_road_comment": "Defines the chance the Paver's Road Blueprint, providing road crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_mechanical": "Machinist's Mechanism Blueprint",
+    "schematic_mechanical_comment": "Defines the chance the Machinist's Mechanism Blueprint, containing mechanical crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_jonaspart": "Tinkerer's Part Blueprint",
+    "schematic_jonaspart_comment": "Defines the chance the Tinkerer's Part Blueprint, with crafting recipes for specialized parts, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_jonasassembly": "Engineer's Assembly Blueprint",
+    "schematic_jonasassembly_comment": "Defines the chance the Engineer's Assembly Blueprint, with complex assembly crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+    "schematic_roofing": "Roofing Master's Blueprint",
+    "schematic_roofing_comment": "Defines the chance the Roofing Master's Blueprint, containing roofing crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+
+
+
+
+
+
+
 
     "structures_spawn_chance": "Structures Spawn Chance Multiplier",
     "structures_spawn_chance_comment": "Affects the spawn chance of all structures (surface, underground, traders).",
@@ -222,78 +317,34 @@
     "prisonvillage_spawn_chance_comment": "Affects the spawn chance of villages called prisonvillage which are structures which spawn in groups overground.",
     "coloredvillage_spawn_chance": "Colored Village Spawn Chance Multiplier",
     "coloredvillage_spawn_chance_comment": "Affects the spawn chance of villages called colored with 4 different clay variants which are structures which spawn in groups overground.",
+    "ogdredvillage_spawn_chance": "Ogdreds Village Spawn Chance Multiplier",
+    "ogdredvillage_spawn_chance_comment": "Affects the spawn chance of villages called Ogdreds Village a small village with a statue with glowing eyes which are structures which spawn in groups overground.",
+    "femursnappervillage_spawn_chance": "FemurSnappers Village Spawn Chance Multiplier",
+    "femursnappervillage_spawn_chance_comment": "Affects the spawn chance of villages called Femursnappers village which are structures which spawn in groups overground.",
     "largeruins_spawn_chance": "Large Ruins Spawn Chance Multiplier",
     "largeruins_spawn_chance_comment": "Affects the spawn chance of largeruins overground ruins.",
     "mediumruins_spawn_chance": "Medium Ruins Spawn Chance Multiplier",
     "mediumruins_spawn_chance_comment": "Affects the spawn chance of mediumruins overground ruins.",
     "desertruins_spawn_chance": "Desert Ruins Spawn Chance Multiplier",
     "desertruins_spawn_chance_comment": "Affects the spawn chance of desert ruins overground ruins.",
-    "normalclimateruins_spawn_chance": "Normal Climate Spawn Chance Multiplier",
-    "normalclimateruins_spawn_chance_comment": "Affects the spawn chance of normal climate overground ruins. Set to 0 to disable spawning.",
+    "surfaceunderground_spawn_chance": "Surface Underground Ruins Spawn Chance Multiplier",
+    "surfaceunderground_spawn_chance_comment": "Affects the spawn chance of ruins that spawn overground but most of their structure is underground so they are quite hard to spot.",
+    "surfaceunderground_min_distance": "Minimum Distance Surface Underground",
+    "surfaceunderground_min_distance_comment": "Affects the minimal distance of ruins that spawn overground but most of their structure is underground so they are quite hard to spot.",
     "underground_spawn_chance": "Underground Ruins Spawn Chance Multiplier",
     "underground_spawn_chance_comment": "Affects the spawn chance of underground ruins.",
     "graves_spawn_chance": "Graves Spawn Chance Multiplier",
     "graves_spawn_chance_comment": "Affects the spawn chance of graves.",
-    "schematic_door": "Gatekeeper's Blueprint",
-    "schematic_door_comment": "Defines the chance the Gatekeeper's Blueprint, containing door crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_book": "Bookbinder's Blueprint",
-    "schematic_book_comment": "Defines the chance the Bookbinder's Blueprint, with book crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_chest": "Treasure Guardian's Blueprint",
-    "schematic_chest_comment": "Defines the chance the Treasure Guardian's Blueprint, containing chest and storage recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_crate": "Storagemaster's Blueprint",
-    "schematic_crate_comment": "Defines the chance the Storagemaster's Blueprint, containing crate storage recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_bed": "Carpenter's Bed Blueprint",
-    "schematic_bed_comment": "Defines the chance the Carpenter's Bed Blueprint, with bed crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_gaslamp": "Lampwright's Blueprint",
-    "schematic_gaslamp_comment": "Defines the chance the Lampwright's Blueprint, containing gas lamp recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_jonaslamp": "Metalworker's Jonaslamp Blueprint",
-    "schematic_jonaslamp_comment": "Defines the chance the Metalworker's Jonaslamp Blueprint, including unique metal lamp recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_banner": "Flagmaker's Banner Blueprint",
-    "schematic_banner_comment": "Defines the chance the Flagmaker's Banner Blueprint, with banner crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_table": "Joiner's Table Blueprint",
-    "schematic_table_comment": "Defines the chance the Joiner's Table Blueprint, containing table crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_stone": "Stonemason's Blueprint",
-    "schematic_stone_comment": "Defines the chance the Stonemason's Blueprint, with stonework crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_wood": "Lumberwright's Blueprint",
-    "schematic_wood_comment": "Defines the chance the Lumberwright's Blueprint, containing woodworking recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_ancient": "Relic Stonemason's Blueprint",
-    "schematic_ancient_comment": "Defines the chance the Relic Stonemason's Blueprint, with ancient stone crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_candle": "Chandler's Blueprint",
-    "schematic_candle_comment": "Defines the chance the Chandler's Blueprint, containing candle crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_road": "Paver's Road Blueprint",
-    "schematic_road_comment": "Defines the chance the Paver's Road Blueprint, providing road crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_mechanical": "Machinist's Mechanism Blueprint",
-    "schematic_mechanical_comment": "Defines the chance the Machinist's Mechanism Blueprint, containing mechanical crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_jonaspart": "Tinkerer's Part Blueprint",
-    "schematic_jonaspart_comment": "Defines the chance the Tinkerer's Part Blueprint, with crafting recipes for specialized parts, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_jonasassembly": "Engineer's Assembly Blueprint",
-    "schematic_jonasassembly_comment": "Defines the chance the Engineer's Assembly Blueprint, with complex assembly crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
-
-    "schematic_roofing": "Roofing Master's Blueprint",
-    "schematic_roofing_comment": "Defines the chance the Roofing Master's Blueprint, containing roofing crafting recipes, can spawn in structures. High value means higher chance. Set to 0 to disable spawning. Will not disable the item.",
+    "monolith_spawn_chance": "Monolith Spawn Chance Multiplier",
+    "monolith_spawn_chance_comment": "Affects the spawn chance of Monoliths.",
+    "monolith_min_distance": "Minimum Distance Monoliths",
+    "monolith_min_distance_comment": "Affects the minimal distance of Monoliths.",
     "translocatorruins_min_distance": "Translocator Ruins Minimum Distance",
     "translocatorruins_min_distance_comment": "Defines the distance between so called translocatorruins and is measured in blocks.",
     "graves_min_distance": "Graves Minimum Distance",
     "graves_min_distance_comment": "Defines the distance between so called graves and is measured in blocks.",
     "schematic_crafting": "Blueprint Duplication",
     "schematic_crafting_comment": "Defines whether the blueprints can be duplicated with a crafting recipe to trade among players. Tick to Enable duplication via crafting.",
-
     "overall_spawn_chances_title": "Overall Spawn Chances",
     "megastructures_title": "Megastructures",
     "translocators_title": "Translocators",
@@ -304,34 +355,20 @@
     "loot_title": "Loot",
     "blueprints_spawn_chance_title": "Blueprints Spawn Chance",
     "lore_title": "Lore",
-  
-    
     "waystones_spawn_chance": "Waystones Spawn Chance Multiplier",
     "waystones_spawn_chance_comment": "Affects the spawn chance of waystones.",
     "waystones_title": "Waystones",
     "waystones_min_distance": "Waystones Minimum Distance",
     "waystones_min_distance_comment": "Defines the minimum distance between waystones and is measured in blocks.",
   
-  
-    "game:item-textureflipper": "Temporal Transfigurator",
-    "game:itemdesc-textureflipper": "An ornate cupronickel device designed to transform clutter block textures, channeling the essence of temporal reconfiguration.\n\nLook at a supported clutter block and use the F key to select alternate textures.",
-  
-    "item-br-schematic-textureflipper": "Temporal Transfigurator Blueprint",
-	"game:clutter-globe1": "Large Intact Globe",
 
-    "lore-minerlogentries-title": "Log Entries of Miner Edric",
-    "lore-minerlogentries-piece1": "9th Day of the Dig\r\n\r\nBeen a couple of months since Falco showed up. Nice enough fellow, really. Said he’s here on some special orders from higher up, apparently sent by a man named Jonas. The lads and I didn’t think much of it—just another overseer with an interest in geology, or so we figured. Falco spends most days checking our work and sketching in his notebook. Not one to hover, he lets us get on with it, but I can tell he’s always got one eye on the west shaft.___NEWPAGE___",
-    "lore-minerlogentries-piece2": "15th Day of the Dig\r\n\r\nSame routine, same tools, same dust in our eyes. We’ve been chipping away at the usual veins, nothing out of the ordinary. Falco’s been down in the shaft with us most days, not above getting his hands dirty. I think the men appreciate that, though they still wonder what a scholar wants with a common mine. There are days when he seems almost distracted, eyes always glancing at the rock like he’s expecting to see something more.___NEWPAGE___",
-    "lore-minerlogentries-piece3": "24th Day of the Dig\r\n\r\nFalco gave us orders to dig westward today, a bit deeper than we usually go. No explanation, just a nod and a quiet, ‘Stick to this route.’ It’s different rock there, almost glassy, and hard to chip away. The lads had their questions, but Falco’s not one for stories, so we just got on with it. He does keep a close watch, though, pacing back and forth like he’s calculating every strike of our picks.___NEWPAGE___",
-    "lore-minerlogentries-piece4": "30th Day of the Dig\r\n\r\nA new fellow arrived yesterday, another academic type. Falco introduced him simply, didn’t give us a name, and the two spent half the night talking over maps and charts by lamplight. They’re both practical men, focused on their work and friendly enough, but it’s clear they’re here for something specific. Not that they’re saying much. Still, they’re not too different from us, really, just with a bit more schooling. Makes it easier to trust them.___NEWPAGE___",
-    "lore-minerlogentries-piece5": "38th Day of the Dig\r\n\r\nWe hit a hollow late in the day—a deep cavern, with walls smooth as polished stone and a chill in the air that got under our skin. It felt ancient, untouched, like stepping into a part of the earth that hadn’t seen light in centuries. Falco and his friend went in for a look, didn’t say a word, just grabbed their lanterns and went exploring. They came back after a while, looking pale. Told us to clear the space around the cavern entrance but didn’t give a reason. Both of them seemed… unsettled.___NEWPAGE___",
-    "lore-minerlogentries-piece6": "40th Day of the Dig\r\n\r\nWork’s been the same on the surface, shoveling, sharpening tools, clearing the rock. But underground, it’s a different story. Falco and the other one don’t leave the cavern entrance unguarded, always watching it, though they’re quiet about what they found in there. The lads are getting uneasy—whispers about strange shapes in the shadows and a feeling like the walls are watching. Even Riggs, who’s always got a laugh, has gone quiet. Can’t shake the sense that we’re not alone down there.___NEWPAGE___",
-    "lore-minerlogentries-piece7": "43rd Day of the Dig\r\n\r\nWe’re finding strange shards in the rock. Black and smooth as glass, cold even in our hands. Falco told us to hand each piece over as soon as we found it. Said he’d need to ‘catalog them,’ but didn’t give any details. We’re used to odd finds, but these fragments are different, almost like they’re holding something back. Falco’s not one for superstition, but I’ve seen him glance over his shoulder a few times as if he feels it too.___NEWPAGE___",
-    "lore-minerlogentries-piece8": "47th Day of the Dig\r\n\r\nThere’s a hum in the cavern, like a distant song, barely there but constant. The lads think it’s the wind, maybe some draft running through the rocks, but it sounds too steady. Even Falco heard it and spent a good while with his ear pressed to the wall, trying to make sense of it. The sound doesn’t seem to bother him or his companion—they just shrug it off. But there’s a look in Falco’s eyes I haven’t seen before. Can’t help but wonder what they heard in that place.___NEWPAGE___",
-    "lore-minerlogentries-piece9": "53rd Day of the Dig\r\n\r\nToday, Falco announced that we’d be sealing the cavern. Said it was for ‘structural safety’ and that we’d be compensated for our trouble. He told us to bring the blasting powder down and set it up carefully. The other scholar didn’t say much, but he looked relieved when we started setting charges. I asked Falco if it was really necessary, and he just nodded, looking off toward the dark. There’s something he’s not saying, something both of them saw down there that spooked them. I didn’t press him. Figured maybe it was best left alone.___NEWPAGE___",
-    "lore-minerlogentries-piece10": "58th Day of the Dig\r\n\r\nSet the charges and blasted the cavern shut today. The whole place rumbled, dust shaking loose from every corner. Falco thanked us each before leaving, shook our hands and said we’d be paid for our silence. His companion left quietly, didn’t look back, just disappeared up the path out of the valley. I feel like we buried something more than rock today. Even now, hours later, it’s hard to shake the feeling that something in that cavern is still… awake.___NEWPAGE___",
-    "lore-minerlogentries-piece11": "65th Day of the Dig\r\n\r\nSome of the boys say they can still hear that hum, like it’s stuck in their heads. I can’t lie; there are moments I feel it too, a memory that won’t go quiet. Falco’s gone, and the mine is sealed, but part of me feels like it’s watching me even now, like there’s something in the dark that hasn’t let go. Whatever lay in that cavern, it’s not something I want to think about too much. Best to keep my head down and let it stay buried.",
-    "game:ingamediscovery-lore-minerlogentries": "Discovered lore 'Log Entries of Miner Edric'\r\nPart {0} / {1}\r\n<font size=\"20\">Hit J to open your Journal</font>",
+
+
+  
+
+
+
+
 
     "dialogue-newalwaysmore": "Aye, there's always more work to do. I might have something for you to do ...",
     "dialogue-anythingspecialtosell": "Anything special you are selling currently?",
@@ -339,7 +376,6 @@
     "dialogue-imbackandibring": "I'm back, and I bring with an intact Globe.",
     "dialogue-couldyouremindme": "Could you remind me where you\nthought the location marked on the Globe was?",
     "dialogue-ahyouhavecometotherightplace": "Ah, you’ve come to the right person. I deal in opportunities most wouldn’t dare entertain. Tell me—are you the sort who seeks the rare and the extraordinary? If so, I have a map that may interest you. It marks the location of an ancient tower once used by a renowned group of warriors, the Forlorn Hope. Ever heard of them?",
-    
     "The Forlorn Hope? Tell me more.": "The Forlorn Hope? Tell me more.",
     "What’s so significant about this tower?": "What’s so significant about this tower?",
     "I’ll take the map. How much is it?": "I’ll take the map. How much is it?",
@@ -367,30 +403,8 @@
     "dialogue-globediscussion6": "And as promised, here's your well-earned reward of 10 rusty gears for bringing me the globe. Thank you very much!",
     "dialogue-globediscussion7": "Nice doing business with you.",
     "dialogue-maprepeat1": "Let me check my notes... Ah, here it is. This should help you find the university in the ravine. Use it wisely, and good luck.",
-
     "game:This is a relief to encounter a friendly countenance amidst these lands.": "This is a relief to encounter a friendly countenance amidst these lands.",
     "game:Are there others out there like me?": "Are there others out there like me?",
     "game:I find myself lacking in complete certainty as well.": "I find myself lacking in complete certainty as well.",
-    "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken.",
-
-
-
-    "game:item-stackrandomizer-minerlogentries":"BetterRuins LoreRandomizer Log Entries of Miner Edric",
-
-
-
-    "game:location-coalmine": "The Coal Mine",
-    "item-locatormap-coalmine": "Map to the Coal Mine",
-
-    "game:location-mine1": "Unkown Mine",
-    "item-locatormap-mine1": "Map to an unkown Mine",
-
-    "game:location-mine2": "Unkown Mine",
-    "item-locatormap-mine2": "Map to an unkown Mine"
-
-
-
-
-
-
+    "game:Sorry ... but somethings are best left unspoken.": "Sorry ... but somethings are best left unspoken."
 }

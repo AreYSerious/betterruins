@@ -1,12 +1,4 @@
 [
-  //
-  //
-  // Monolith structures
-  //
-  //
-
-
-
   {
     "op": "add",
     "path": "/structures/-",
