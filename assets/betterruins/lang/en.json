@@ -382,11 +382,11 @@
     "game:location-coalmine": "The Coal Mine",
     "item-locatormap-coalmine": "Map to the Coal Mine",
 
-    "game:location-mine1": "Unkown Mine",
-    "item-locatormap-mine1": "Map to an unkown Mine",
+    "game:location-mine1": "Abandoned Mine",
+    "item-locatormap-mine1": "Map to an abandoned Mine",
 
-    "game:location-mine2": "Unkown Mine",
-    "item-locatormap-mine2": "Map to an unkown Mine"
+    "game:location-mine2": "Abandoned Mine",
+    "item-locatormap-mine2": "Map to an abandoned Mine"
 
 
 
