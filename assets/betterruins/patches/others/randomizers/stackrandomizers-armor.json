@@ -1,0 +1,530 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-improvised-wood",
+      "chance": 12
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-lamellar-wood",
+      "chance": 7
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-lamellar-wood",
+      "chance": 7
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-jerkin-leather",
+      "chance": 3
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-jerkin-leather",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-sewn-leather",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-sewn-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-blue-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-brown-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-gray-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-black-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-green-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-orange-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-pink-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-plain-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-purple-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-red-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-white-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-yellow-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-sewn-leather",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-sewn-leather",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-sewn-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-sewn-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-blue-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-blue-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-brown-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-brown-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-gray-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-gray-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-black-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-black-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-green-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-green-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-orange-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-orange-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-head-tailored-pink-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-pink-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-pink-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-plain-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-plain-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-purple-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-purple-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-red-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-red-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-white-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-white-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-body-tailored-yellow-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-armor/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "armor-legs-tailored-yellow-linen",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
