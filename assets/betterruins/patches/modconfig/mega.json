@@ -312,7 +312,7 @@
                   "code": "11shoppingcentre",
                   "group": "megaruins",
                   "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 1.3, // # default = 0.15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 1.0, // # default = 0.15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-11/*"
@@ -480,7 +480,7 @@
                   "code": "14mansion",
                   "group": "megaruins",
                   "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.4, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.35, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-14/*"
