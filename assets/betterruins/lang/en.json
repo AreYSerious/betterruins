@@ -178,6 +178,7 @@
     "item-br-schematic-jonasassembly": "Engineer's Assembly Blueprint",
     "item-br-schematic-mechanical": "Machinist's Mechanism Blueprint",
     "item-br-schematic-roofing": "Roofing Master's Blueprint",
+    "item-br-schematic-palisade": "Palisade Builder Blueprint",
     "itemdesc-br-schematic-*": "These Blueprints are reusable, containing the secrets of forgotten recipes crafted by masters of their trade.\n\n(Note: Clutter items will appear twice in the recipe browser right below here. The lower ones will work the others will not be clickable.)",
 
 
