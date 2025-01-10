@@ -25,7 +25,8 @@
         "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "17/value/chance": "MANSION_SPAWN_CHANCE * value",
         "18/value/chance": "AULDBURG_SPAWN_CHANCE * value",
-        "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value"
+        "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
+        "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value"
         
       },
       "betterruins:patches/modconfig/surface.json": {
@@ -788,8 +789,8 @@
         "16/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "17/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "18/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
-        
+        "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "2/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -1045,6 +1046,18 @@
         "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.36,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
+      "AQUEDUCT_SPAWN_CHANCE": {
+        "name": "17aqueduct_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38,
         "logarithmic": true,
         "range": {
           "min": 0.0,
@@ -1763,6 +1776,11 @@
       "type": "separator",
       "title": "betterruins:megastructure_normancastle",
       "weight": 14.355
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_aqueduct",
+      "weight": 14.375
     }
       ]
 }

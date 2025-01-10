@@ -542,5 +542,27 @@
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "17aqueduct",
+                  "group": "megaruins",
+                  "minGroupDistance": 6500,
+                  "chance": 0.23,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-17/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -5,
+                  "minY": -0.06,
+                  "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]
