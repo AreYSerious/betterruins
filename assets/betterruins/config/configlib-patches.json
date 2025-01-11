@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
