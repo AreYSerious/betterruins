@@ -486,7 +486,7 @@
                   "code": "17aqueduct",
                   "group": "megaruins",
                   "minGroupDistance": 6500,
-                  "chance": 0.23,
+                  "chance": 0.16,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-17/*"
