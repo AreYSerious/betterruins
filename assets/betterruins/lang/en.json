@@ -128,11 +128,11 @@
 
 
 
-    "game:location-graves": "Forgotten Tombstone",
-    "game:location-gates": "Damaged Apparatus",
-    "game:location-undergroundruins": "Cavernous Tombs",
+    "game:location-graves": "Hidden Tomb",
+    "game:location-gates": "Hidden Passage",
+    "game:location-undergroundruins": "Underground Hideout",
     "game:location-forlornhopetower": "Forlorn Hope Tower",
-    "game:location-giantcathedral": "Sacred Place",
+    "game:location-giantcathedral": "The Grand Cathedral",
     "game:location-forlornhopedungeon": "The Hall of the Proven",
     "game:location-university": "The University",
 
@@ -148,13 +148,21 @@
 
 
 
-    "item-locatormap-graves": "Lost Tombstone Tracings",
-    "item-locatormap-gates": "Mechanical Reliquary Map",
-    "item-locatormap-undergroundruins": "Depths Expedition Map",
-    "item-locatormap-forlornhopetower": "Map to a Forlorn Hope Tower",
-    "item-locatormap-giantcathedral": "Estimated Scared Place",
-    "item-locatormap-forlornhopedungeon": "The Forlorn Bastion",
+    "item-locatormap-graves": "Map to a Hidden Tomb",
+    "item-locatormap-gates": "Map to a Hidden Passage",
+    "item-locatormap-undergroundruins": "Map to an Underground Hideout",
+    "item-locatormap-forlornhopetower": "Map to the Forlorn Hope Tower",
+    "item-locatormap-giantcathedral": "Map to the Grand Cathedral",
+    "item-locatormap-forlornhopedungeon": "Map to the Forlorn Bastion",
     "item-locatormap-university": "Map to the University",
+    "itemdesc-locatormap-*": "A map leading to a hidden location. Use it to find the entrance to the hidden area.\n(Right click to mark on map)",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Talk to</strong>\nLuxuries Trader",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Found in</strong>\nThe Forlorn Hope Tower",
+    "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Talk to</strong>\nLuxuries Trader",
+    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Talk to</strong>\nWilfred Ivor Prescott",
+    "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Found in</strong>\nRare in any ruin",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Found in</strong>\nRare in any ruin",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Found in</strong>\nRare in any ruin",
 
 
 
