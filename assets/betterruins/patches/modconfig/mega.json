@@ -1,21 +1,12 @@
 [
-  //
-  //
-  // Megastructures
-  //
-  //
-
-
-  // Wallsegment with tower
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#01-wallsegment
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "01wallsegment",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.025, // # default = 0.035 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.025,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
@@ -30,18 +21,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Multiple giant stones which look out of place. Has a experiment lab in one of the stones and pipes around it.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#02-rockformation
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "02rockformation",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.9, // # default = 0.85 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.9,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-2/*"
@@ -56,18 +43,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure which looks like a nordic house which has fallen apart.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#03-nordichouse
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "03nordichouse",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.023, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.010,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-3/*"
@@ -82,18 +65,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Dampus built after the rl ruin Visingsborg. Spawns with local stone type.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#04-visingsborg
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "04visingsborg",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.04 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500, 
+                  "chance": 0.035,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-4/*"
@@ -109,18 +88,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Catnoir ruinified by me. Spawns with local stone type.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#05-catnoirscastleruin
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "05catnoirscastleruin",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.011, // # default = 0.01 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.011,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-5/*"
@@ -136,18 +111,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by bodláček. Spawns with local stone type.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#06-destroyedlargechurch
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "06destroyedlargechurch",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.16, // # default = 0.12 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.13,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-6/*"
@@ -162,18 +133,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Par
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "07wolfstonecastle-normalclimate",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.09 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-5-normal",
@@ -195,18 +162,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Savanna oasis by StAdrian
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#08-oasis
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "08oasis",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 2.8, // # default = 2.8 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 2.8,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-8/*"
@@ -217,25 +180,21 @@
                   "EntranceRotation": 270,
                   "offsety": -2,
                   "minY": -0.06,
-                  "minTemp": 25, // # default = 25 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
-                  "maxTemp": 39, // # default = 39 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
+                  "minTemp": 25,
+                  "maxTemp": 39,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Forlornhopetower
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#09-forlornhopetower
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "09forlornhopetower-common",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.06, // # default = 0.06 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.06,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-9/common/*"
@@ -244,8 +203,8 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minY": -0.06,
-                  "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
-                  "maxTemp": -4, // # default = -4 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
+                  "minTemp": -30,
+                  "maxTemp": -4,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
@@ -257,8 +216,8 @@
     "value": {
                   "code": "09forlornhopetower-rare",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-9/rare/*"
@@ -267,25 +226,21 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minY": -0.06,
-                  "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
-                  "maxTemp": -4, // # default = -4 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
+                  "minTemp": -30,
+                  "maxTemp": -4,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Giant cathedral
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#10-giantcathedral
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "10giantcathedral",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 15, // # default = 15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 15,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-10/*"
@@ -294,25 +249,21 @@
                   "suppressWaterfalls": true,
                   "offsety": -23,
                   "minY": -0.06,
-                  "minTemp": -30, // # default = -30 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
-                  "maxTemp": -7, // # default = -7 defines in what temperature this structure is allowed to spawn. If you want to disable this you can remove the line completely or add a // infront to comment it out.
+                  "minTemp": -30,
+                  "maxTemp": -7,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Big ruined shopping center.
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#11-shoppingcentre
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "11shoppingcentre",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 1.0, // # default = 0.15 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.74,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-11/*"
@@ -327,18 +278,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Underground library
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#12-undergroundlibrary
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "12undergroundlibrary",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 1.3, // disabled for now bcs of framedrops waiting for a vanilla fix # default = 2.7 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 1.45,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-12/*"
@@ -353,18 +300,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Par
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "07wolfstonecastle-forest",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.09 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-7-forest",
@@ -386,18 +329,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Par
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "07wolfstonecastle-dryclimate",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.09 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-3-dry",
@@ -419,18 +358,14 @@
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Megastructure by Par
-  // Wiki entry with images: https://github.com/AreYSerious/betterruins/wiki/mega-structures#07-wolfstonecastle
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "07wolfstonecastle-desert",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.04, // # default = 0.09 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.04,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-1-desert",
@@ -459,7 +394,7 @@
                   "code": "13industrialmine",
                   "group": "megaruins",
                   "minGroupDistance": 6500, 
-                  "chance": 0, // 4
+                  "chance": 0,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-13/*"
@@ -479,8 +414,8 @@
     "value": {
                   "code": "14mansion",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.35, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.35,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-14/*"
@@ -501,8 +436,8 @@
     "value": {
                   "code": "15auldburg",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 2.2, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 2.3,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-15/*"
@@ -512,6 +447,7 @@
                   "suppressWaterfalls": true,
                   "offsety": -13,
                   "minY": -0.06,
+                  "EntranceRotation": 0,
                   "minForest": 0.0,
                   "maxForest": 0.15,
                   "rockTypeRemapGroup": "standard"
@@ -525,8 +461,8 @@
     "value": {
                   "code": "16normancastle",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, // # default = 6500 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [13] patches minGroupDistance aswell.
-                  "chance": 0.03, // # default = 0.2 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "minGroupDistance": 6500,
+                  "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-16/*"
@@ -538,6 +474,28 @@
                   "minY": -0.06,
                   "minForest": 0.0,
                   "maxForest": 0.15,
+                  "rockTypeRemapGroup": "standard"
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+                  "code": "17aqueduct",
+                  "group": "megaruins",
+                  "minGroupDistance": 6500,
+                  "chance": 0.16,
+                  "placement": "surface",
+                  "schematics": [
+                    "overground/megastructures/megastructure-17/*"
+                  ],
+			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
+                  "suppressTrees": true,
+                  "suppressWaterfalls": true,
+                  "offsety": -5,
+                  "minY": -0.06,
                   "rockTypeRemapGroup": "standard"
     },
     "file": "game:worldgen/structures.json",

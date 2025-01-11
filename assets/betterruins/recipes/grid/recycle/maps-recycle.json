@@ -1,0 +1,23 @@
+[
+    {
+        "ingredientPattern": "KM",
+        "ingredients": {
+            "K": {
+                "type": "Item",
+                "code": "betterruins:locatormap-*"
+            },
+            "M": {
+                "type": "Item",
+                "code": "game:knife-generic-*",
+                "isTool": true
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "recipeGroup": 3,
+        "output": {
+            "type": "Item",
+            "code": "game:flaxtwine"
+        }
+    }
+]

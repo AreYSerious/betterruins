@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "patches": {
     "number": {
       "betterruins:patches/modconfig/overallspawnchance.json": {
@@ -23,10 +23,10 @@
         "13/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "14/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
         "15/value/chance": "WOLFSTONECASTLE_SPAWN_CHANCE * value",
-        "16/value/chance": "INDUSTRIALMINE_SPAWN_CHANCE * value",
         "17/value/chance": "MANSION_SPAWN_CHANCE * value",
         "18/value/chance": "AULDBURG_SPAWN_CHANCE * value",
-        "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value"
+        "19/value/chance": "NORMANCASTLE_SPAWN_CHANCE * value",
+        "20/value/chance": "AQUEDUCT_SPAWN_CHANCE * value"
         
       },
       "betterruins:patches/modconfig/surface.json": {
@@ -119,7 +119,8 @@
         "20/value/chance": "SCHEMATIC_MECHANICAL",
         "21/value/chance": "SCHEMATIC_JONASPART",
         "22/value/chance": "SCHEMATIC_JONASASSEMBLY",
-        "23/value/chance": "SCHEMATIC_ROOFING"
+        "23/value/chance": "SCHEMATIC_ROOFING",
+        "24/value/chance": "SCHEMATIC_PALISADE"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -788,8 +789,8 @@
         "16/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "17/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "18/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
-        
+        "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "2/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
@@ -873,8 +874,8 @@
       },
       "WALLSEGMENT_SPAWN_CHANCE": {
         "name": "01wallsegment_spawn_chance",
-        "comment": "betterruins:01wallsegment_spawn_chance_comment",
-        "ingui": "betterruins:01wallsegment_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 3.0,
         "logarithmic": true,
@@ -885,8 +886,8 @@
       },
       "ROCKFORMATION_SPAWN_CHANCE": {
         "name": "02rockformation_spawn_chance",
-        "comment": "betterruins:02rockformation_spawn_chance_comment",
-        "ingui": "betterruins:02rockformation_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 4.0,
         "logarithmic": true,
@@ -897,8 +898,8 @@
       },
       "NORDICHOUSE_SPAWN_CHANCE": {
         "name": "03nordichouse_spawn_chance",
-        "comment": "betterruins:03nordichouse_spawn_chance_comment",
-        "ingui": "betterruins:03nordichouse_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 5.0,
         "logarithmic": true,
@@ -909,8 +910,8 @@
       },
       "VISINGBORG_SPAWN_CHANCE": {
         "name": "04visingborg_spawn_chance",
-        "comment": "betterruins:04visingborg_spawn_chance_comment",
-        "ingui": "betterruins:04visingborg_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 6.0,
         "logarithmic": true,
@@ -921,8 +922,8 @@
       },
       "CATNOIRSCASTLERUIN_SPAWN_CHANCE": {
         "name": "05catnoirscastleruin_spawn_chance",
-        "comment": "betterruins:05catnoirscastleruin_spawn_chance_comment",
-        "ingui": "betterruins:05catnoirscastleruin_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 7.0,
         "logarithmic": true,
@@ -933,8 +934,8 @@
       },
       "DESTROYEDLARGECHURCH_SPAWN_CHANCE": {
         "name": "06destroyedlargechurch_spawn_chance",
-        "comment": "betterruins:06destroyedlargechurch_spawn_chance_comment",
-        "ingui": "betterruins:06destroyedlargechurch_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 8.0,
         "logarithmic": true,
@@ -945,8 +946,8 @@
       },
       "WOLFSTONECASTLE_SPAWN_CHANCE": {
         "name": "07wolfstonecastle_spawn_chance",
-        "comment": "betterruins:07wolfstonecastle_spawn_chance_comment",
-        "ingui": "betterruins:07wolfstonecastle_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 9.0,
         "logarithmic": true,
@@ -957,8 +958,8 @@
       },
       "OASIS_SPAWN_CHANCE": {
         "name": "08oasis_spawn_chance",
-        "comment": "betterruins:08oasis_spawn_chance_comment",
-        "ingui": "betterruins:08oasis_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 10.0,
         "logarithmic": true,
@@ -969,8 +970,8 @@
       },
       "FORLORNHOPETOWER_SPAWN_CHANCE": {
         "name": "09forlornhopetower_spawn_chance",
-        "comment": "betterruins:09forlornhopetower_spawn_chance_comment",
-        "ingui": "betterruins:09forlornhopetower_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 11.0,
         "logarithmic": true,
@@ -981,8 +982,8 @@
       },
       "GIANTCATHEDRAL_SPAWN_CHANCE": {
         "name": "10giantcathedral_spawn_chance",
-        "comment": "betterruins:10giantcathedral_spawn_chance_comment",
-        "ingui": "betterruins:10giantcathedral_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 12.0,
         "logarithmic": true,
@@ -993,8 +994,8 @@
       },
       "SHOPPINGCENTRE_SPAWN_CHANCE": {
         "name": "11shoppingcentre_spawn_chance",
-        "comment": "betterruins:11shoppingcentre_spawn_chance_comment",
-        "ingui": "betterruins:11shoppingcentre_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 13.0,
         "logarithmic": true,
@@ -1005,8 +1006,8 @@
       },
       "UNDERGROUNDLIBRARY_SPAWN_CHANCE": {
         "name": "12undergroundlibrary_spawn_chance",
-        "comment": "betterruins:12undergroundlibrary_spawn_chance_comment",
-        "ingui": "betterruins:12undergroundlibrary_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.0,
         "logarithmic": true,
@@ -1015,22 +1016,10 @@
           "max": 100.0
         }
       },
-      "INDUSTRIALMINE_SPAWN_CHANCE": {
-        "name": "13industrialmine_spawn_chance",
-        "comment": "betterruins:13industrialmine_spawn_chance_comment",
-        "ingui": "betterruins:13industrialmine_spawn_chance",
-        "default": 0.0,
-        "weight": 14.3,
-        "logarithmic": true,
-        "range": {
-          "min": 0.0,
-          "max": 100.0
-        }
-      },
       "MANSION_SPAWN_CHANCE": {
         "name": "14mansion_spawn_chance",
-        "comment": "betterruins:14mansion_spawn_chance_comment",
-        "ingui": "betterruins:14mansion_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.32,
         "logarithmic": true,
@@ -1041,8 +1030,8 @@
       },
       "AULDBURG_SPAWN_CHANCE": {
         "name": "15auldburg_spawn_chance",
-        "comment": "betterruins:15auldburg_spawn_chance_comment",
-        "ingui": "betterruins:15auldburg_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.34,
         "logarithmic": true,
@@ -1053,8 +1042,8 @@
       },
       "NORMANCASTLE_SPAWN_CHANCE": {
         "name": "16normancastle_spawn_chance",
-        "comment": "betterruins:16normancastle_spawn_chance_comment",
-        "ingui": "betterruins:16normancastle_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 14.36,
         "logarithmic": true,
@@ -1063,10 +1052,22 @@
           "max": 100.0
         }
       },
+      "AQUEDUCT_SPAWN_CHANCE": {
+        "name": "17aqueduct_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
+        "default": 1.0,
+        "weight": 14.38,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 100.0
+        }
+      },
       "TRANSLOCATORRUINS_SPAWN_CHANCE": {
         "name": "translocatorruins_spawn_chance",
-        "comment": "betterruins:translocatorruins_spawn_chance_comment",
-        "ingui": "betterruins:translocatorruins_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 15.0,
         "logarithmic": true,
@@ -1077,7 +1078,7 @@
       },
       "VSVILLAGE_SPAWN_CHANCE": {
         "name": "vsvillage_spawn_chance",
-        "comment": "betterruins:vsvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:vsvillage_spawn_chance",
         "default": 1.0,
         "weight": 17.0,
@@ -1089,7 +1090,7 @@
       },
       "FORESTVILLAGE_SPAWN_CHANCE": {
         "name": "forestvillage_spawn_chance",
-        "comment": "betterruins:forestvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:forestvillage_spawn_chance",
         "default": 1.0,
         "weight": 18.0,
@@ -1101,7 +1102,7 @@
       },
       "DESERTVILLAGE_SPAWN_CHANCE": {
         "name": "desertvillage_spawn_chance",
-        "comment": "betterruins:desertvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:desertvillage_spawn_chance",
         "default": 1.0,
         "weight": 19.0,
@@ -1113,7 +1114,7 @@
       },
       "PRISONVILLAGE_SPAWN_CHANCE": {
         "name": "prisonvillage_spawn_chance",
-        "comment": "betterruins:prisonvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:prisonvillage_spawn_chance",
         "default": 1.0,
         "weight": 19.1,
@@ -1125,7 +1126,7 @@
       },
       "COLOREDVILLAGE_SPAWN_CHANCE": {
         "name": "coloredvillage_spawn_chance",
-        "comment": "betterruins:coloredvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:coloredvillage_spawn_chance",
         "default": 1.0,
         "weight": 19.2,
@@ -1137,7 +1138,7 @@
       },
       "OGDREDVILLAGE_SPAWN_CHANCE": {
         "name": "ogdredvillage_spawn_chance",
-        "comment": "betterruins:ogdredvillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:ogdredvillage_spawn_chance",
         "default": 1.0,
         "weight": 19.22,
@@ -1149,7 +1150,7 @@
       },
       "FEMURSNAPPERVILLAGE_SPAWN_CHANCE": {
         "name": "femursnappervillage_spawn_chance",
-        "comment": "betterruins:femursnappervillage_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:femursnappervillage_spawn_chance",
         "default": 1.0,
         "weight": 19.24,
@@ -1161,7 +1162,7 @@
       },
       "LARGERUINS_SPAWN_CHANCE": {
         "name": "largeruins_spawn_chance",
-        "comment": "betterruins:largeruins_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:largeruins_spawn_chance",
         "default": 1.0,
         "weight": 21.0,
@@ -1173,7 +1174,7 @@
       },
       "MEDIUMRUINS_SPAWN_CHANCE": {
         "name": "mediumruins_spawn_chance",
-        "comment": "betterruins:mediumruins_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:mediumruins_spawn_chance",
         "default": 1.0,
         "weight": 22.0,
@@ -1185,7 +1186,7 @@
       },
       "DESERTRUINS_SPAWN_CHANCE": {
         "name": "desertruins_spawn_chance",
-        "comment": "betterruins:desertruins_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:desertruins_spawn_chance",
         "default": 1.0,
         "weight": 23.0,
@@ -1197,7 +1198,7 @@
       },
       "SURFACEUNDERGROUND_SPAWN_CHANCE": {
         "name": "surfaceunderground_spawn_chance",
-        "comment": "betterruins:surfaceunderground_spawn_chance_comment",
+        "comment": "betterruins:universal_spawnchance_comment",
         "ingui": "betterruins:surfaceunderground_spawn_chance",
         "default": 1.0,
         "weight": 23.2,
@@ -1209,8 +1210,8 @@
       },
       "WAYSTONES_SPAWN_CHANCE": {
         "name": "waystones_spawn_chance",
-        "comment": "betterruins:waystones_spawn_chance_comment",
-        "ingui": "betterruins:waystones_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 23.5,
         "logarithmic": true,
@@ -1221,8 +1222,8 @@
       },
       "MONOLITH_SPAWN_CHANCE": {
         "name": "monolith_spawn_chance",
-        "comment": "betterruins:monolith_spawn_chance_comment",
-        "ingui": "betterruins:monolith_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 23.54,
         "logarithmic": true,
@@ -1233,8 +1234,8 @@
       },
       "UNDERGROUND_SPAWN_CHANCE": {
         "name": "underground_spawn_chance",
-        "comment": "betterruins:underground_spawn_chance_comment",
-        "ingui": "betterruins:underground_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 25.0,
         "logarithmic": true,
@@ -1245,8 +1246,8 @@
       },
       "GRAVES_SPAWN_CHANCE": {
         "name": "graves_spawn_chance",
-        "comment": "betterruins:graves_spawn_chance_comment",
-        "ingui": "betterruins:graves_spawn_chance",
+        "comment": "betterruins:universal_spawnchance_comment",
+        "ingui": "betterruins:universal_spawnchance",
         "default": 1.0,
         "weight": 26.01,
         "logarithmic": true,
@@ -1283,8 +1284,8 @@
 
       "SCHEMATIC_DOOR": {
         "name": "schematic_door",
-        "comment": "betterruins:schematic_door_comment",
-        "ingui": "betterruins:schematic_door",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-door",
         "default": 2.0,
         "weight": 28.0,
         "logarithmic": true,
@@ -1295,8 +1296,8 @@
       },
       "SCHEMATIC_BED": {
         "name": "schematic_bed",
-        "comment": "betterruins:schematic_bed_comment",
-        "ingui": "betterruins:schematic_bed",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-bed",
         "default": 2.0,
         "weight": 28.1,
         "logarithmic": true,
@@ -1307,8 +1308,8 @@
       },
       "SCHEMATIC_CHEST": {
         "name": "schematic_chest",
-        "comment": "betterruins:schematic_chest_comment",
-        "ingui": "betterruins:schematic_chest",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-chest",
         "default": 2.0,
         "weight": 28.2,
         "logarithmic": true,
@@ -1319,8 +1320,8 @@
       },
       "SCHEMATIC_CRATE": {
         "name": "schematic_crate",
-        "comment": "betterruins:schematic_crate_comment",
-        "ingui": "betterruins:schematic_crate",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-crate",
         "default": 2.0,
         "weight": 28.3,
         "logarithmic": true,
@@ -1331,8 +1332,8 @@
       },
       "SCHEMATIC_GASLAMP": {
         "name": "schematic_gaslamp",
-        "comment": "betterruins:schematic_gaslamp_comment",
-        "ingui": "betterruins:schematic_gaslamp",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-gaslamp",
         "default": 2.0,
         "weight": 28.4,
         "logarithmic": true,
@@ -1343,8 +1344,8 @@
       },
       "SCHEMATIC_JONASLAMP": {
         "name": "schematic_jonaslamp",
-        "comment": "betterruins:schematic_jonaslamp_comment",
-        "ingui": "betterruins:schematic_jonaslamp",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-jonaslamp",
         "default": 2.0,
         "weight": 28.5,
         "logarithmic": true,
@@ -1355,8 +1356,8 @@
       },
       "SCHEMATIC_BANNER": {
         "name": "schematic_banner",
-        "comment": "betterruins:schematic_banner_comment",
-        "ingui": "betterruins:schematic_banner",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-banner",
         "default": 2.0,
         "weight": 28.6,
         "logarithmic": true,
@@ -1367,8 +1368,8 @@
       },
       "SCHEMATIC_TABLE": {
         "name": "schematic_table",
-        "comment": "betterruins:schematic_table_comment",
-        "ingui": "betterruins:schematic_table",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-table",
         "default": 2.0,
         "weight": 28.7,
         "logarithmic": true,
@@ -1379,8 +1380,8 @@
       },
       "SCHEMATIC_STONE": {
         "name": "schematic_stone",
-        "comment": "betterruins:schematic_stone_comment",
-        "ingui": "betterruins:schematic_stone",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-stone",
         "default": 2.0,
         "weight": 28.8,
         "logarithmic": true,
@@ -1391,8 +1392,8 @@
       },
       "SCHEMATIC_WOOD": {
         "name": "schematic_wood",
-        "comment": "betterruins:schematic_wood_comment",
-        "ingui": "betterruins:schematic_wood",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-wood",
         "default": 2.0,
         "weight": 28.9,
         "logarithmic": true,
@@ -1403,8 +1404,8 @@
       },
       "SCHEMATIC_ANCIENT": {
         "name": "schematic_ancient",
-        "comment": "betterruins:schematic_ancient_comment",
-        "ingui": "betterruins:schematic_ancient",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-ancient",
         "default": 2.0,
         "weight": 29.0,
         "logarithmic": true,
@@ -1415,8 +1416,8 @@
       },
       "SCHEMATIC_CANDLE": {
         "name": "schematic_candle",
-        "comment": "betterruins:schematic_candle_comment",
-        "ingui": "betterruins:schematic_candle",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-candle",
         "default": 2.0,
         "weight": 29.1,
         "logarithmic": true,
@@ -1427,8 +1428,8 @@
       },
       "SCHEMATIC_ROAD": {
         "name": "schematic_road",
-        "comment": "betterruins:schematic_road_comment",
-        "ingui": "betterruins:schematic_road",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-road",
         "default": 2.0,
         "weight": 29.2,
         "logarithmic": true,
@@ -1439,8 +1440,8 @@
       },
       "SCHEMATIC_MECHANICAL": {
         "name": "schematic_mechanical",
-        "comment": "betterruins:schematic_mechanical_comment",
-        "ingui": "betterruins:schematic_mechanical",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-mechanical",
         "default": 1.0,
         "weight": 29.3,
         "logarithmic": true,
@@ -1451,8 +1452,8 @@
       },
       "SCHEMATIC_JONASPART": {
         "name": "schematic_jonaspart",
-        "comment": "betterruins:schematic_jonaspart_comment",
-        "ingui": "betterruins:schematic_jonaspart",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-jonaspart",
         "default": 1.0,
         "weight": 29.4,
         "logarithmic": true,
@@ -1463,8 +1464,8 @@
       },
       "SCHEMATIC_JONASASSEMBLY": {
         "name": "schematic_jonasassembly",
-        "comment": "betterruins:schematic_jonasassembly_comment",
-        "ingui": "betterruins:schematic_jonasassembly",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-jonasassembly",
         "default": 1.0,
         "weight": 29.5,
         "logarithmic": true,
@@ -1475,10 +1476,22 @@
       },
       "SCHEMATIC_ROOFING": {
         "name": "schematic_roofing",
-        "comment": "betterruins:schematic_roofing_comment",
-        "ingui": "betterruins:schematic_roofing",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-roofing",
         "default": 2.0,
         "weight": 29.22,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_palisade": {
+        "name": "schematic_palisade",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-palisade",
+        "default": 2.0,
+        "weight": 29.221,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -1490,7 +1503,7 @@
     "integer": {
       "MEGASTRUCTURES_MIN_DISTANCE": {
         "name": "megastructures_min_distance",
-        "comment": "betterruins:megastructures_min_distance_comment",
+        "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:megastructures_min_distance",
         "default": 6500,
         "weight": 2.9,
@@ -1502,7 +1515,7 @@
       },
       "TRANSLOCATORRUINS_MIN_DISTANCE": {
         "name": "translocatorruins_min_distance",
-        "comment": "betterruins:translocatorruins_min_distance_comment",
+        "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:translocatorruins_min_distance",
         "default": 1600,
         "weight": 15.2,
@@ -1514,8 +1527,8 @@
       },
       "GRAVES_MIN_DISTANCE": {
         "name": "graves_min_distance",
-        "comment": "betterruins:graves_min_distance_comment",
-        "ingui": "betterruins:graves_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:universal_mindistance",
         "default": 850,
         "weight": 26.02,
         "logarithmic": true,
@@ -1526,8 +1539,8 @@
       },
       "WAYSTONES_MIN_DISTANCE": {
         "name": "waystones_min_distance",
-        "comment": "betterruins:waystones_min_distance_comment",
-        "ingui": "betterruins:waystones_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:universal_mindistance",
         "default": 5000,
         "weight": 23.51,
         "logarithmic": true,
@@ -1538,8 +1551,8 @@
       },
       "MONOLITH_MIN_DISTANCE": {
         "name": "monolith_min_distance",
-        "comment": "betterruins:monolith_min_distance_comment",
-        "ingui": "betterruins:monolith_min_distance",
+        "comment": "betterruins:universal_mindistance_comment",
+        "ingui": "betterruins:universal_mindistance",
         "default": 40000,
         "weight": 23.55,
         "logarithmic": true,
@@ -1550,7 +1563,7 @@
       },
       "SURFACEUNDERGROUND_MIN_DISTANCE": {
         "name": "surfaceunderground_min_distance",
-        "comment": "betterruins:surfaceunderground_min_distance_comment",
+        "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:surfaceunderground_min_distance",
         "default": 7500,
         "weight": 23.21,
@@ -1562,8 +1575,8 @@
       },
       "OASIS_MAX_TEMP": {
         "name": "08oasis_max_temp",
-        "comment": "betterruins:08oasis_max_temp_comment",
-        "ingui": "betterruins:08oasis_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
         "default": 39,
         "weight": 10.1,
         "range": {
@@ -1573,8 +1586,8 @@
       },
       "OASIS_MIN_TEMP": {
         "name": "08oasis_min_temp",
-        "comment": "betterruins:08oasis_min_temp_comment",
-        "ingui": "betterruins:08oasis_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
         "default": 25,
         "weight": 10.2,
         "range": {
@@ -1584,8 +1597,8 @@
       },
       "FORLORNHOPETOWER_MAX_TEMP": {
         "name": "09forlornhopetower_max_temp",
-        "comment": "betterruins:09forlornhopetower_max_temp_comment",
-        "ingui": "betterruins:09forlornhopetower_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
         "default": -4,
         "weight": 11.1,
         "range": {
@@ -1595,8 +1608,8 @@
       },
       "FORLORNHOPETOWER_MIN_TEMP": {
         "name": "09forlornhopetower_min_temp",
-        "comment": "betterruins:09forlornhopetower_min_temp_comment",
-        "ingui": "betterruins:09forlornhopetower_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
         "default": -30,
         "weight": 11.2,
         "range": {
@@ -1606,8 +1619,8 @@
       },
       "GIANTCATHEDRAL_MAX_TEMP": {
         "name": "10giantcathedral_max_temp",
-        "comment": "betterruins:10giantcathedral_max_temp_comment",
-        "ingui": "betterruins:10giantcathedral_max_temp",
+        "comment": "betterruins:universal_maxtemperature_comment",
+        "ingui": "betterruins:universal_maxtemperature",
         "default": -7,
         "weight": 12.1,
         "range": {
@@ -1617,8 +1630,8 @@
       },
       "GIANTCATHEDRAL_MIN_TEMP": {
         "name": "10giantcathedral_min_temp",
-        "comment": "betterruins:10giantcathedral_min_temp_comment",
-        "ingui": "betterruins:10giantcathedral_min_temp",
+        "comment": "betterruins:universal_mintemperature_comment",
+        "ingui": "betterruins:universal_mintemperature",
         "default": -30,
         "weight": 12.2,
         "range": {
@@ -1666,6 +1679,11 @@
     },
     {
       "type": "separator",
+      "title": "betterruins:monoliths_title",
+      "weight": 23.5399
+    },
+    {
+      "type": "separator",
       "title": "betterruins:loot_title",
       "weight": 0.30
     },
@@ -1683,6 +1701,86 @@
       "type": "separator",
       "title": "betterruins:waystones_title",
       "weight": 23.49
-    }    
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_wallsegment",
+      "weight": 2.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_rockformation",
+      "weight": 3.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_nordichouse",
+      "weight": 4.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_visingborg",
+      "weight": 5.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_catnoirscastleruin",
+      "weight": 6.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_destroyedlargechurch",
+      "weight": 7.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_wolfstonecastle",
+      "weight": 8.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_oasis",
+      "weight": 9.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_forlornhopetower",
+      "weight": 10.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_giantcathedral",
+      "weight": 11.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_shoppingcentre",
+      "weight": 12.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_undergroundlibrary",
+      "weight": 13.95
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_mansion",
+      "weight": 14.315
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_auldburg",
+      "weight": 14.335
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_normancastle",
+      "weight": 14.355
+    },
+    {
+      "type": "separator",
+      "title": "betterruins:megastructure_aqueduct",
+      "weight": 14.375
+    }
       ]
 }
