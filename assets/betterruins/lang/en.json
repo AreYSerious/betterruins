@@ -95,35 +95,30 @@
 
 
 
-    "game:item-stackrandomizer-darkheat":"BetterRuins LoreRandomizer Darkheat",
-    "game:item-stackrandomizer-glimmershield":"BetterRuins LoreRandomizer Glimmershield",
-    "game:item-stackrandomizer-lastfisherman":"BetterRuins LoreRandomizer Lastfisherman",
-    "game:item-stackrandomizer-lastwall":"BetterRuins LoreRandomizer Lastwall",
-    "game:item-stackrandomizer-wolfstone":"BetterRuins LoreRandomizer Wolfstone",
-    "game:item-stackrandomizer-forlornhope":"BetterRuins LoreRandomizer Forlornhope",
-    "game:item-stackrandomizer-fieldengineersdiary":"BetterRuins LoreRandomizer Field Engineer’s Diary",
-    "game:item-stackrandomizer-largechurch":"BetterRuins LoreRandomizer Large Church",
-    "game:item-stackrandomizer-undergroundlibrary":"BetterRuins LoreRandomizer Underground Library",
-    "game:item-stackrandomizer-lostdoll":"BetterRuins LoreRandomizer Lost Doll",
-    "game:item-stackrandomizer-finalhour":"BetterRuins LoreRandomizer The Final Hour",
-    "game:item-stackrandomizer-minerlogentries":"BetterRuins LoreRandomizer Log Entries of Miner Edric",
+    "game:item-stackrandomizer-darkheat":"BR Lore Darkheat",
+    "game:item-stackrandomizer-glimmershield":"BR Lore Glimmershield",
+    "game:item-stackrandomizer-lastfisherman":"BR Lore Lastfisherman",
+    "game:item-stackrandomizer-lastwall":"BR Lore Lastwall",
+    "game:item-stackrandomizer-wolfstone":"BR Lore Wolfstone",
+    "game:item-stackrandomizer-forlornhope":"BR Lore Forlornhope",
+    "game:item-stackrandomizer-fieldengineersdiary":"BR Lore Field Engineer’s Diary",
+    "game:item-stackrandomizer-largechurch":"BR Lore Large Church",
+    "game:item-stackrandomizer-undergroundlibrary":"BR Lore Underground Library",
+    "game:item-stackrandomizer-lostdoll":"BR Lore Lost Doll",
+    "game:item-stackrandomizer-finalhour":"BR Lore The Final Hour",
+    "game:item-stackrandomizer-minerlogentries":"BR Lore Miner Edric",
 
+    "game:item-stackrandomizer-buildingblocks":"BR Loot Buildingblocks",
+    "game:item-stackrandomizer-clayproducts":"BR Loot Clayproducts",
+    "game:item-stackrandomizer-mechanical":"BR Loot Mechanical",
+    "game:item-stackrandomizer-backpack":"BR Loot Backpack",
+    "game:item-stackrandomizer-kingclothing":"BR Loot King Clothing",
+    "game:item-stackrandomizer-rottenkingclothing":"BR Loot RottenKing Clothing",
+    "game:item-stackrandomizer-mask":"BR Loot Mask",
+    "game:item-stackrandomizer-newlore":"BR Loot AllLoreEntries",
 
+    "game:item-stackrandomizer-blrmeteoriciron":"BR Block Meteoric Iron",
 
-
-    "game:item-stackrandomizer-buildingblocks":"BetterRuins LootRandomizer Buildingblocks",
-    "game:item-stackrandomizer-clayproducts":"BetterRuins LootRandomizer Clayproducts",
-    "game:item-stackrandomizer-mechanical":"BetterRuins LootRandomizer Mechanical",
-    "game:item-stackrandomizer-backpack":"BetterRuins LootRandomizer Backpack",
-    "game:item-stackrandomizer-kingclothing":"BetterRuins LootRandomizer King Clothing",
-    "game:item-stackrandomizer-rottenkingclothing":"BetterRuins LootRandomizer RottenKing Clothing",
-    "game:item-stackrandomizer-mask":"BetterRuins LootRandomizer Mask",
-    "game:item-stackrandomizer-newlore":"BetterRuins LootRandomizer AllLoreEntries",
-
-
-
-    
-    "game:item-stackrandomizer-blrmeteoriciron":"BetterRuins BlockRandomizer Meteoric Iron",
 
 
 
