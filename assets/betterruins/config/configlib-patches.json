@@ -1486,7 +1486,7 @@
           "max": 1000
         }
       },
-      "SCHEMATIC_palisade": {
+      "SCHEMATIC_PALISADE": {
         "name": "schematic_palisade",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-palisade",
