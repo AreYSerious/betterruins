@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/structures/5/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -14,7 +14,7 @@
   {
     "op": "replace",
     "path": "/structures/6/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -26,7 +26,7 @@
   {
     "op": "replace",
     "path": "/structures/7/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -38,7 +38,7 @@
   {
     "op": "replace",
     "path": "/structures/8/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -50,7 +50,7 @@
   {
     "op": "replace",
     "path": "/structures/9/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
@@ -62,7 +62,7 @@
   {
     "op": "replace",
     "path": "/structures/10/requireLandform",
-    "value": "cr very flat",
+    "value": "cr plains",
     "file": "game:worldgen/storystructures.json",
     "side": "Server",
     "dependsOn": [
