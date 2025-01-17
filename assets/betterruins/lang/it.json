@@ -1,4 +1,4 @@
-﻿{
+{
     "lore-wolfstone-title": "Il Castello di Wolfstone",
     "lore-wolfstone-piece1": "Il castello parzialmente in rovina di Wolfstone aveva una storia ricca che iniziò secoli fa, quando era solo una singola torre quadrata, costruita per sorvegliare le preziose miniere nell'area circostante. La torre fu costruita con grande cura, poiché le miniere erano vitali per l'economia e la sicurezza della regione. Col tempo, la torre si rivelò una struttura solida, resistendo alla prova del tempo e degli elementi.\r\n\r\nCol passare degli anni, la torre fu donata a un barone appena elevato per i suoi successi in una qualche guerra. Il barone era grato per il dono e lavorò duramente per espandere la torre in un vero e proprio castello, aggiungendo un fossato e muri robusti per proteggere la zona. Il castello continuò a evolversi ed espandersi sotto i discendenti del barone originale, man mano che le miniere diventavano sempre più prospere.\r\n\r\nIl castello fu chiamato così in onore di un branco di lupi che viveva nei dintorni, venerati dalla popolazione locale per la loro forza feroce e resistenza. Così, il castello divenne noto come Wolfstone, un nome che sarebbe durato per secoli.\r\n\r\nL'ultimo signore di Wolfstone era un appassionato lettore e scrittore, che trascorreva molte ore immerso nella vasta collezione di libri della biblioteca del castello. Era un uomo colto, con un'intelligenza acuta e una profonda comprensione del mondo che lo circondava. Spesso passava lunghe ore leggendo vicino al fuoco, perso nei suoi pensieri mentre rifletteva sui misteri della vita.\r\n\r\nNonostante il suo amore per i libri, l'ultimo signore di Wolfstone era anche un feroce guerriero che guidava il suo popolo con coraggio in battaglia. Era un sovrano giusto e corretto, che si preoccupava profondamente per il suo popolo e lavorava instancabilmente per garantire la loro sicurezza e prosperità. Tuttavia, nonostante i suoi migliori sforzi, il castello alla fine cadde in rovina, poiché le miniere iniziarono a prosciugarsi e l'area circostante divenne meno prospera.\r\n\r\nOggi, il castello parzialmente in rovina di Wolfstone è un testimone di un'epoca passata, un ricordo della ricca storia e delle tradizioni che hanno plasmato il mondo che ci circonda.",
     "game:ingamediscovery-lore-wolfstonecastle": "Scoperta la tradizione 'Il Castello di Wolfstone'\r\nParte {0} / {1}\r\n<font size=\"20\">Premi J per aprire il tuo diario</font>",
@@ -79,6 +79,14 @@
     "item-locatormap-gates": "Mappa del Reliquiario Meccanico",
     "item-locatormap-undergroundruins": "Mappa dell'Esplorazione delle Profondità",
     "item-locatormap-giantcathedral": "Posizione Stimata del Luogo Sacro",
+    "itemdesc-locatormap-*": "Una mappa che conduce a un luogo nascosto. Usala per trovare l'ingresso all'area nascosta.\n(Clic destro per segnare sulla mappa)",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Parla con</strong>\nMercante di lusso",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Trovato in</strong>\nLa Torre della Speranza Perduta",
+    "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Parla con</strong>\nMercante di lusso",
+    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Parla con</strong>\nWilfred Ivor Prescott",
+    "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Trovato in</strong>\nRaro in qualsiasi rovina",
     "item-br-schematic-door": "Progetto del Guardiano della Porta",
     "item-br-schematic-book": "Progetto del Legatore di Libri",
     "item-br-schematic-chest": "Progetto del Custode del Tesoro",

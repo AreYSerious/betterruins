@@ -1,3 +1,11 @@
-﻿{
-    "lore-wolfstone-title": "O Castelo Wolfstone"
+{
+    "lore-wolfstone-title": "O Castelo Wolfstone",
+    "itemdesc-locatormap-*": "Um mapa que leva a um local escondido. Use-o para encontrar a entrada da área secreta.\n(Clique com o botão direito para marcar no mapa)",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopetower": "<strong>Fale com</strong>\nComerciante de Luxo",
+    "betterruins:item-handbooktext-betterruins:locatormap-forlornhopedungeon": "<strong>Encontrado em</strong>\nA Torre da Esperança Perdida",
+    "betterruins:item-handbooktext-betterruins:locatormap-university": "<strong>Fale com</strong>\nComerciante de Luxo",
+    "betterruins:item-handbooktext-betterruins:locatormap-giantcathedral": "<strong>Fale com</strong>\nWilfred Ivor Prescott",
+    "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Encontrado em</strong>\nRaro em qualquer ruína",
+    "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Encontrado em</strong>\nRaro em qualquer ruína"
 }
