@@ -35,7 +35,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "game:Your folk have sprung forth like daisies across these lands, yet the origins that brought you here remain a mystery. None among you seem willing to share." }
+				{ value: "game:dialogue-daisies" }
 			],
 		},
 		{
@@ -54,7 +54,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "game:Fear not. My hopes were not set high." }
+				{ value: "game:That's alright, stranger. I didn't expect anything else." }
 			],
 			jumpTo: "main"
 		},
@@ -63,7 +63,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "game:Ah, I do wish I could offer more assistance to you." }
+				{ value: "game:Hm, wish I could be more help to ya." }
 			],
 			jumpTo: "main"
 		},
@@ -72,7 +72,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "game:<i>He nods soberly</i>As always." }
+				{ value: "game:(He nods soberly) As always." }
 			],
 			jumpTo: "main"
 		},
@@ -81,7 +81,7 @@
 			owner: "trader",
 			type: "talk",
 			text: [
-				{ value: "game:Indeed, it is so. Unfamiliarly colored strangers traverse these lands." }
+				{ value: "game:That's right. Strange-colored strangers walk the land." }
 			],
 			jumpTo: "main"
 		},
