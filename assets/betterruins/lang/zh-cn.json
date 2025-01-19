@@ -103,6 +103,7 @@
     "item-br-schematic-jonaspart": "工匠部件 蓝图",
     "item-br-schematic-jonasassembly": "工程师的装配体蓝图",
     "item-br-schematic-mechanical": "机械师的机构蓝图",
+    "item-br-schematic-roofing": "屋顶大师蓝图",
     "itemdesc-br-schematic-*": "这些蓝图是可重复使用的，其中包含了由他们的行业大师制作的被遗忘配方的秘密。\n\n（注意：待筛选邮件项目将在此处下方的配方浏览器中出现两次。较低的将起作用，其他的将不可点击。",
     "megastructures_min_distance": "最小距离巨型结构",
     "megastructures_min_distance_comment": "定义所谓的巨型结构之间的距离，并以块为单位进行测量。",
