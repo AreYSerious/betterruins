@@ -11,7 +11,8 @@
 			"mechanical", 
 			"newlore", 
 			"rottenkingclothing",
-			"blrmeteoriciron"
+			"blrmeteoriciron",
+			"cursed"
 		] }
 	],
 	"attributesByType": {
@@ -2262,6 +2263,16 @@
 				  "code": "crackedrock-obsidian",
 				  "chance": 25
 				},
+				{
+				  "type": "block",
+				  "code": "rock-obsidian",
+				  "chance": 25
+				}
+			  ]
+		},
+		"*-cursed": {
+			"handbook": { "exclude": true },
+			"stacks": [
 				{
 				  "type": "block",
 				  "code": "rock-obsidian",

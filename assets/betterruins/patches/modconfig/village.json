@@ -5,6 +5,8 @@
     "value": {
       "name": "village-vsvillage",
       "code": "village-vsvillage",
+			"group": "village-vsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.1,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -32,6 +34,8 @@
     "value": {
       "name": "village-forest",
       "code": "village-forest",
+      "group": "village-forest",
+			"minGroupDistance": 2500,
       "chance": 0.065, 
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -83,6 +87,8 @@
     "value": {
       "name": "village-desert",
       "code": "village-desert",
+      "group": "village-desert",
+			"minGroupDistance": 2500,
       "chance": 0.01,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -111,6 +117,8 @@
     "value": {
       "name": "village-prison",
       "code": "village-prison",
+      "group": "village-prison",
+			"minGroupDistance": 2500,
       "chance": 0.02,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -141,6 +149,8 @@
     "value": {
       "name": "village-samsvillage-redclay",
       "code": "village-samsvillage-redclay",
+      "group": "village-samsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.05,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -171,6 +181,8 @@
     "value": {
       "name": "village-samsvillage-blackclay",
       "code": "village-samsvillage-blackclay",
+      "group": "village-samsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.05,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -201,6 +213,8 @@
     "value": {
       "name": "village-samsvillage-fireclay",
       "code": "village-samsvillage-fireclay",
+      "group": "village-samsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.05, 
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -231,6 +245,8 @@
     "value": {
       "name": "village-samsvillage-orange",
       "code": "village-samsvillage-orangeclay",
+      "group": "village-samsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.05,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -261,6 +277,8 @@
     "value": {
       "name": "village-samsvillage-cream",
       "code": "village-samsvillage-creamclay",
+      "group": "village-samsvillage",
+			"minGroupDistance": 2500,
       "chance": 0.05,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -291,6 +309,8 @@
     "value": {
       "name": "village-ogdred",
       "code": "village-ogdred",
+      "group": "village-ogdred",
+			"minGroupDistance": 2500,
       "chance": 0.03,
       "minY": 0,
       "generator": "LooselyGrouped",
@@ -318,6 +338,8 @@
     "value": {
       "name": "village-femursnapper",
       "code": "village-femursnapper",
+      "group": "village-femursnapper",
+			"minGroupDistance": 2500,
       "chance": 0.07,
       "minY": 0,
       "generator": "LooselyGrouped",

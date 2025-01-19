@@ -14,7 +14,8 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -21
+                  "offsety": -21,
+                  "MaxBelowSealevel": 0
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -34,7 +35,8 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -12
+                  "offsety": -12,
+                  "MaxBelowSealevel": 0
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -54,7 +56,8 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "minY": 1,
-                  "offsety": -11
+                  "offsety": -11,
+                  "MaxBelowSealevel": 0
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"

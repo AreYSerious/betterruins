@@ -1,85 +1,55 @@
 [
-  //
-  //
-  // General structures
-  //
-  //
-
-
-
-  // Large Structures of any kind. No megastructures. size up to 40x40
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-large",
-                  "chance": 0.004, // # default = 0.004 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.004,
                   "schematics": [
                     "overground/main/largeruins/*"
                   ],
                   "suppressTrees": true,
-                  "minY": -0.02,
                   "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 2
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Medium Structures of any kind. No megastructures. size up to 25x25
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-medium",
-                  "chance": 0.005, // # default = 0.007 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "chance": 0.005,
                   "schematics": [
                     "overground/main/mediumruins/*"
                   ],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "minY": -0.02,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 2
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-
-
-
-
-
-
-
-
-  //
-  //
-  // Translocator structures
-  //
-  //
-
-
-  // Different types of translocator structures for different y offsets
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "gates",
                   "name": "surface-translocators-1",
-                  "group": "translocators", // group name used for minGroupDistance
-                  "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
-                  "chance": 0.03, // # default = 0.03 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "group": "translocators",
+                  "minGroupDistance": 1600,
+                  "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
                     "overground/main/translocators/o2/*"
                   ],
                   "suppressTrees": true,
-                  "minY": -0.02,
                   "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 2
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -90,17 +60,18 @@
     "value": {
                   "code": "gates",
                   "name": "surface-translocators-2",
-                  "group": "translocators", // group name used for minGroupDistance
-                  "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
-                  "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "group": "translocators",
+                  "minGroupDistance": 1600,
+                  "chance": 0.001,
                   "placement": "surface",
                   "schematics": [
                     "overground/main/translocators/o1/*"
                   ],
                   "suppressTrees": true,
-                  "minY": -0.02,
                   "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 1500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -111,72 +82,51 @@
     "value": {
                   "code": "gates",
                   "name": "surface-translocators-3",
-                  "group": "translocators", // group name used for minGroupDistance
-                  "minGroupDistance": 1600, // # default = 1600 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [2] patches minGroupDistance aswell.
-                  "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "group": "translocators",
+                  "minGroupDistance": 1600,
+                  "chance": 0.001,
                   "placement": "surface",
                   "schematics": [
                     "overground/main/translocators/o4/*"
                   ],
                   "suppressTrees": true,
-                  "minY": -0.02,
                   "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 1500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-
-
-
-
-
-
-
-
-  
-  //
-  //
-  // Desert specific structures 28 to 60 °C
-  //
-  //
-
-
-  // Small greek shrines
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert1",
                   "name": "brsurfaceruins-desert1",
-                  "group": "desertspecific", // group name used for minGroupDistance
-                  "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
-                  "chance": 0.001, // # default = 0.001 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "group": "desertspecific",
+                  "minGroupDistance": 1800,
+                  "chance": 0.001,
                   "schematics": [
                     "overground/main/desert-climate/desertclimate-o1-niclass-small1", "overground/main/desert-climate/desertclimate-o1-niclass-small2", "overground/main/desert-climate/desertclimate-o1-niclass-small3", "overground/main/desert-climate/desertclimate-o1-niclass-small4"
                   ],
                   "rockTypeRemapGroup": "standard",
-                  "minY": -0.02,
                   "minTemp": 28,
-                  "maxTemp": 60
+                  "maxTemp": 60,
+                  "MaxBelowSealevel": 2
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
-
-
-  // Desert and greek styled ruins
   {
     "op": "add",
     "path": "/structures/-",
     "value": {
                   "code": "brsurfaceruins-desert2",
                   "name": "brsurfaceruins-desert2",
-                  "group": "desertspecific", // group name used for minGroupDistance
-                  "minGroupDistance": 1800, // # default = 1800 defines the distance between structures from the same group. Every patch has to have the same mindistance so be sure to change the other [1] patches minGroupDistance aswell.
-                  "chance": 0.003, // # default = 0.003 defines how often this structure pool will spawn increase to let is spawn more often and decrease to make it more rare.
+                  "group": "desertspecific",
+                  "minGroupDistance": 1800,
+                  "chance": 0.003,
                   "schematics": [
                     "overground/main/desert-climate/desertclimate-o1-stadrian-deserthouse1", 
                     "overground/main/desert-climate/desertclimate-o2-dampus-greek1",
@@ -186,9 +136,9 @@
                   ],
                   "rockTypeRemapGroup": "standard",
                   "replacewithblocklayers": ["soil-medium-normal", "soil-medium-none"],
-                  "minY": -0.02,
                   "minTemp": 25,
-                  "maxTemp": 60
+                  "maxTemp": 60,
+                  "MaxBelowSealevel": 2
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
