@@ -5,8 +5,8 @@
     "value": {
                   "code": "01wallsegment",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.025,
+                  "minGroupDistance": 5000,
+                  "chance": 0.022,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-1/*"
@@ -15,8 +15,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -4,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -27,7 +28,7 @@
     "value": {
                   "code": "02rockformation",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.9,
                   "placement": "surface",
                   "schematics": [
@@ -35,10 +36,11 @@
                   ],
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1"],
                   "offsety": -10,
-                  "minY": -0.06,
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -49,7 +51,7 @@
     "value": {
                   "code": "03nordichouse",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.010,
                   "placement": "surface",
                   "schematics": [
@@ -59,8 +61,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -9,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -71,7 +74,7 @@
     "value": {
                   "code": "04visingsborg",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, 
+                  "minGroupDistance": 5000, 
                   "chance": 0.035,
                   "placement": "surface",
                   "schematics": [
@@ -82,8 +85,9 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 180,
                   "offsety": -6,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -94,7 +98,7 @@
     "value": {
                   "code": "05catnoirscastleruin",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.011,
                   "placement": "surface",
                   "schematics": [
@@ -105,8 +109,9 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -5,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -117,7 +122,7 @@
     "value": {
                   "code": "06destroyedlargechurch",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.13,
                   "placement": "surface",
                   "schematics": [
@@ -127,8 +132,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -5,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -139,8 +145,8 @@
     "value": {
                   "code": "07wolfstonecastle-normalclimate",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.04,
+                  "minGroupDistance": 5000,
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-5-normal",
@@ -150,14 +156,15 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -4,
-                  "minY": -0.06,
                   "minTemp": -40,
                   "maxTemp": 32,
                   "minRain": 0.2,
                   "maxRain": 0.49,
                   "minForest": 0.5,
                   "maxForest": 0.79,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -168,7 +175,7 @@
     "value": {
                   "code": "08oasis",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 2.8,
                   "placement": "surface",
                   "schematics": [
@@ -179,10 +186,11 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -2,
-                  "minY": -0.06,
                   "minTemp": 25,
                   "maxTemp": 39,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -193,7 +201,7 @@
     "value": {
                   "code": "09forlornhopetower-common",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.06,
                   "placement": "surface",
                   "schematics": [
@@ -202,10 +210,11 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -8,
-                  "minY": -0.06,
                   "minTemp": -30,
                   "maxTemp": -4,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -216,7 +225,7 @@
     "value": {
                   "code": "09forlornhopetower-rare",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
@@ -225,10 +234,11 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -8,
-                  "minY": -0.06,
                   "minTemp": -30,
                   "maxTemp": -4,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -239,7 +249,7 @@
     "value": {
                   "code": "10giantcathedral",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 15,
                   "placement": "surface",
                   "schematics": [
@@ -248,10 +258,11 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -23,
-                  "minY": -0.06,
                   "minTemp": -30,
                   "maxTemp": -7,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -262,7 +273,7 @@
     "value": {
                   "code": "11shoppingcentre",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.74,
                   "placement": "surface",
                   "schematics": [
@@ -272,8 +283,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -12,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -284,7 +296,7 @@
     "value": {
                   "code": "12undergroundlibrary",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 1.45,
                   "placement": "surface",
                   "schematics": [
@@ -293,9 +305,10 @@
 			            "replacewithblocklayers": ["soil-low-none", "soil-medium-none", "soil-medium-normal", "soil-low-normal", "forestfloor-1", "gravel-granite"],
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
-                  "offsety": -43,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "offsety": -42,
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -306,8 +319,8 @@
     "value": {
                   "code": "07wolfstonecastle-forest",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.04,
+                  "minGroupDistance": 5000,
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-7-forest",
@@ -317,14 +330,15 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -4,
-                  "minY": -0.06,
                   "minTemp": -40,
                   "maxTemp": 32,
                   "minRain": 0.5,
                   "maxRain": 1,
                   "minForest": 0.8,
                   "maxForest": 1,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -335,8 +349,8 @@
     "value": {
                   "code": "07wolfstonecastle-dryclimate",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.04,
+                  "minGroupDistance": 5000,
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-3-dry",
@@ -346,14 +360,15 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -4,
-                  "minY": -0.06,
                   "minTemp": 5,
                   "maxTemp": 45,
                   "minRain": 0.1,
                   "maxRain": 0.3,
                   "minForest": 0,
                   "maxForest": 0.49,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -364,8 +379,8 @@
     "value": {
                   "code": "07wolfstonecastle-desert",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.04,
+                  "minGroupDistance": 5000,
+                  "chance": 0.05,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-7/megastructure7-1-desert",
@@ -375,14 +390,15 @@
                   "suppressWaterfalls": true,
                   "EntranceRotation": 270,
                   "offsety": -4,
-                  "minY": -0.06,
                   "minTemp": 20,
                   "maxTemp": 45,
                   "minRain": 0,
                   "maxRain": 0.2,
                   "minForest": 0,
                   "maxForest": 0.2,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -393,7 +409,7 @@
     "value": {
                   "code": "13industrialmine",
                   "group": "megaruins",
-                  "minGroupDistance": 6500, 
+                  "minGroupDistance": 5000, 
                   "chance": 0,
                   "placement": "surface",
                   "schematics": [
@@ -403,7 +419,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -62,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -414,7 +432,7 @@
     "value": {
                   "code": "14mansion",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.35,
                   "placement": "surface",
                   "schematics": [
@@ -424,8 +442,9 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -22,
-                  "minY": -0.06,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -436,7 +455,7 @@
     "value": {
                   "code": "15auldburg",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 2.3,
                   "placement": "surface",
                   "schematics": [
@@ -446,11 +465,12 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -13,
-                  "minY": -0.06,
                   "EntranceRotation": 0,
                   "minForest": 0.0,
                   "maxForest": 0.15,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -461,7 +481,7 @@
     "value": {
                   "code": "16normancastle",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
+                  "minGroupDistance": 5000,
                   "chance": 0.03,
                   "placement": "surface",
                   "schematics": [
@@ -471,10 +491,11 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "offsety": -6,
-                  "minY": -0.06,
                   "minForest": 0.0,
                   "maxForest": 0.15,
-                  "rockTypeRemapGroup": "standard"
+                  "rockTypeRemapGroup": "standard",
+                  "MaxBelowSealevel": 3,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
@@ -485,8 +506,8 @@
     "value": {
                   "code": "17aqueduct",
                   "group": "megaruins",
-                  "minGroupDistance": 6500,
-                  "chance": 0.16,
+                  "minGroupDistance": 5000,
+                  "chance": 0.08,
                   "placement": "surface",
                   "schematics": [
                     "overground/megastructures/megastructure-17/*"

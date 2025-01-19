@@ -11,7 +11,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -28,7 +29,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -45,7 +47,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -62,7 +65,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -79,7 +83,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -96,7 +101,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"
@@ -113,7 +119,8 @@
             "placement": "surface",
             "minGroupDistance": 850,
             "minY": 0,
-            "offsety": -4
+            "offsety": -4,
+            "MaxBelowSealevel": 0
         },
         "file": "game:worldgen/structures.json",
         "side": "Server"

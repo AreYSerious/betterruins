@@ -1,9 +1,4 @@
 [
-  //
-  //
-  // Underground !!! NOT DOCUMENTED !!!
-  //
-  //
   {
     "op": "add",
     "path": "/structures/-",
@@ -79,7 +74,7 @@
     "path": "/structures/-",
     "value": {
       "code": "undergroundruins",
-      "chance": 10, //13
+      "chance": 10,
       "name": "underground-rare",
       "placement": "underground",
       "schematics": [
@@ -129,7 +124,7 @@
     "path": "/structures/-",
     "value": {
       "code": "gates",
-      "chance": 3, //20
+      "chance": 3,
       "name": "underground-translocator-uncommon",
       "placement": "underground",
       "schematics": [
@@ -149,7 +144,7 @@
     "path": "/structures/-",
     "value": {
       "code": "undergroundruins",
-      "chance": 1.125, //20
+      "chance": 1.125,
       "name": "underground-translocator-verycommon",
       "placement": "underground",
       "schematics": [

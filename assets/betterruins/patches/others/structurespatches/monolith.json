@@ -17,7 +17,9 @@
                   "minTemp": 28,
                   "maxTemp": 39,
                   "minForest": 0,
-                  "maxForest": 0.5
+                  "maxForest": 0.5,
+                  "MaxBelowSealevel": 0,
+                  "MinSpawnDistance": 2500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
