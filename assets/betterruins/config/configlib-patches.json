@@ -53,7 +53,8 @@
       "betterruins:patches/modconfig/surfaceunderground.json": {
         "0/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "1/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
-        "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
+        "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
+        "3/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -822,7 +823,8 @@
       "betterruins:patches/modconfig/surfaceunderground.json": {
         "0/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
         "1/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
-        "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
+        "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
+        "3/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/monolith.json": {
         "0/value/minGroupDistance": "MONOLITH_MIN_DISTANCE"
