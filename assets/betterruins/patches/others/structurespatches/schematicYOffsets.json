@@ -421,6 +421,7 @@
       "overground/main/village-femursnapper/ruin3": -4,
       "overground/main/village-femursnapper/wood1": -4
             },
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]

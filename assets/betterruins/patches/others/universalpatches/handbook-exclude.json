@@ -3,13 +3,15 @@
     "file": "game:blocktypes/overlay/damagedstone.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
-    "value": false
+    "value": false,
+    "side": "Server"
   },
   {
     "file": "game:blocktypes/metal/ironfence.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
-    "value": false
+    "value": false,
+    "side": "Server"
   },
   {
     "op": "add",
@@ -22,24 +24,28 @@
         "type": "wood-aged"
       }
     },
-    "file": "game:blocktypes/wood/woodtyped/crate.json"
+    "file": "game:blocktypes/wood/woodtyped/crate.json",
+    "side": "Server"
   },
   {
     "file": "game:blocktypes/roofing/beam-plane.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
-    "value": false
+    "value": false,
+    "side": "Server"
   },
   {
     "file": "game:blocktypes/roofing/beam-ridge.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
-    "value": false
+    "value": false,
+    "side": "Server"
   },
   {
     "file": "game:itemtypes/meta/textureflipper.json",
     "op": "replace",
     "path": "/attributes/handbook/exclude",
-    "value": false
+    "value": false,
+    "side": "Server"
   }
 ]
