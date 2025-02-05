@@ -49,7 +49,8 @@
                   "suppressTrees": true,
                   "suppressWaterfalls": true,
                   "rockTypeRemapGroup": "standard",
-                  "MaxBelowSealevel": 2
+                  "MaxBelowSealevel": 2,
+                  "MinSpawnDistance": 1500
     },
     "file": "game:worldgen/structures.json",
     "side": "Server"
