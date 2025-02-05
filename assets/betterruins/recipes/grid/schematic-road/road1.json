@@ -2,7 +2,7 @@
  
     {
         ingredientPattern: "L_,SX",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         ingredients: {
             "X": {type: "Item", code: "br-schematic-road" },
             "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 4 },
@@ -15,7 +15,7 @@
     },
     {
         ingredientPattern: "LSL,_X_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         ingredients: {
             "X": {type: "Item", code: "br-schematic-road" },
             "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 1 },
@@ -28,7 +28,7 @@
     },
     {
         ingredientPattern: "LM_,SX_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         ingredients: {
             "X": {type: "Item", code: "br-schematic-road" },
             "L": { type: "item", code: "game:stone-*", name: "rock", quantity: 3 },
@@ -41,7 +41,7 @@
     },
     {
         ingredientPattern: "SPX",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         ingredients: {
             "S": { type: "item", code: "game:saw-*", isTool: true },
             "X": {type: "Item", code: "br-schematic-road" },

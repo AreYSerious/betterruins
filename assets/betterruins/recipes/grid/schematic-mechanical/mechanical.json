@@ -5,7 +5,7 @@
     
     {
         "ingredientPattern": "HCZ,XFS,BBB",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "B": {type: "Item", code: "game:plank-oak" , quantity: 2},
@@ -34,7 +34,7 @@
 
     {
         "ingredientPattern": "XH,PC",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
         "ingredients": {
             "X": {type: "Item", code: "betterruins:br-schematic-mechanical" },
             "H": {type: "Item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5},
@@ -62,7 +62,7 @@
 
     {
 		ingredientPattern: "HXY,PCP,RSF",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 		ingredients: {
             "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
 			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
@@ -79,7 +79,7 @@
 	},
 	{
 		ingredientPattern: "HXY,PCP,RSF",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 		ingredients: {
             "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
 			"X": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 10 },
@@ -104,7 +104,7 @@
 
     {
 		ingredientPattern: "HY,C_,SF",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 		ingredients: {
             "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
@@ -118,7 +118,7 @@
 	},
 	{
 		ingredientPattern: "HY,C_,SF",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 		ingredients: {
             "Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
 			"H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 30 },
