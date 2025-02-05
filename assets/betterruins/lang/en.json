@@ -202,6 +202,8 @@
     "universal_mintemperature_comment": "Specifies the minimum temperature required for this structure to spawn. Structures will not spawn if the temperature is below this value.",
     "universal_maxtemperature": "Maximum Temperature",
     "universal_maxtemperature_comment": "Specifies the maximum temperature limit for this structure to spawn. Structures will not spawn if the temperature exceeds this value.",
+    "universal_min_spawn_distance": "Minimum Distance from Spawn",
+    "universal_minspawndistance_comment": "Defines the distance between this structure type and world spawn and is measured in blocks.",
 
 
 
@@ -229,7 +231,6 @@
     "desertruins_spawn_chance": "Desert Ruins Spawn Chance",
     "surfaceunderground_spawn_chance": "Surface Underground Ruins Spawn Chance",
     "surfaceunderground_min_distance": "Minimum Distance Surface Underground",
-    "translocatorruins_min_distance": "Translocator Ruins Minimum Distance",
     "schematic_crafting": "Blueprint Duplication",
     "schematic_crafting_comment": "Defines whether the blueprints can be duplicated with a crafting recipe to trade among players. Tick to Enable duplication via crafting.",
     "overall_spawn_chances_title": "Overall Spawn Chances",
@@ -261,6 +262,8 @@
     "megastructure_normancastle": "Megastructure Norman Castle",
     "megastructure_aqueduct": "Megastructure Aqueduct",
     "megastructure_jumblerockcastle": "Megastructure Jumblerockcastle",
+    "megastructures_min_spawn_distance": "Minimum Distance from Spawn Megastructures",
+
 
 
 
