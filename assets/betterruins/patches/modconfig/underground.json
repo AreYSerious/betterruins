@@ -178,7 +178,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "samgreyundergroundruin",
+      "code": "undergroundruins",
       "group": "rank-1",
       "chance": 50,
       "name": "underground-samgrey-1",
@@ -195,7 +195,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "samgreyundergroundruin",
+      "code": "undergroundruins",
       "group": "rank-2",
       "chance": 30,
       "name": "underground-samgrey-2",
@@ -212,7 +212,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "samgreyundergroundruin",
+      "code": "undergroundruins",
       "group": "rank-3",
       "chance": 20,
       "name": "underground-samgrey-3",
@@ -229,7 +229,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "samgreyundergroundruin",
+      "code": "undergroundruins",
       "group": "rank-4",
       "chance": 10,
       "name": "underground-samgrey-4",
@@ -246,7 +246,7 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "samgreyundergroundruin",
+      "code": "undergroundruins",
       "group": "rank-5",
       "chance": 5,
       "name": "underground-samgrey-5",
