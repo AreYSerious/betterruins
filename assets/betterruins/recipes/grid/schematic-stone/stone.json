@@ -171,4 +171,56 @@
         "output": {type: "Block", code: "game:crackedstonebricks-{rock}"}
         
     },
+
+    {
+        "ingredientPattern": "BPX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:mortar" },
+            "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-running-{clay}" }
+        
+    },
+    {
+        "ingredientPattern": "BPX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:mortar" },
+            "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-soldier-{clay}" }
+        
+    },
+    {
+        "ingredientPattern": "BPX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:mortar" },
+            "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Block", code: "game:claybricks-uneven-four-header-{clay}" }
+        
+    },
+
+
+    {
+        "ingredientPattern": "PX,B_",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-stone" },
+            "P": {type: "Item", code: "game:hammer-*" , "isTool": true },
+            "B": {type: "Block", code: "game:claybricks-uneven-four-running-*" , name: "clay", allowedVariants: ["gray", "brown", "orange", "red", "tan" ], quantity: 1}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:brickruin-irregular-{clay}" }
+        
+    },
+
 ]
