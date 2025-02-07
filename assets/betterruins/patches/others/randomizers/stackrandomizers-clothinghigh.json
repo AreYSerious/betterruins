@@ -1,0 +1,310 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-hand-forgotten",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-hand-deep",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-forgotten",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbodyover-forgotten",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-forgotten",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-rottenking",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-mooncloth-robe",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-longsleeve-pearl-moonrobe",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-royal-fur",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-deep",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-deep",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-king",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-hand-rottenking",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-fancy-royal-belt",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-aristocrat-belt",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-foot-king",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-noble-sash",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-king",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-prince-waistband",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-rottenking",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-rottenking",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-noble-fur-collar",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-chateau-blouse",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-temptress-velvet-shirt",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-scarlet-ornate-linen-tunic",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-azure-embroidered-shirt",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-prince-breeches",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-aristocrat-leggings",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

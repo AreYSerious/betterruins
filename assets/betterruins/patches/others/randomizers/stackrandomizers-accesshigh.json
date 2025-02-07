@@ -1,0 +1,409 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-face-face8",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-face-face9",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-face-face15",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-face-face16",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-golden-necklace",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-noble-necklace",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-fancy-royal-collar",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-silver-pin",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-royal-pin",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-brass-ruby-brooch",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-gold-waist-chain",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-face-forlorn-veil",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-head-mianguan",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-head-crown",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-head-gem-encrusted-fur-hat",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-head-gold-coronet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-arm-silver-bracelet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-arm-silver-chain",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-falcon",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-silver-brooch",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-lily",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-emblem-fibula",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-jade-amulet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-gorget-vulture",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-gorget",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-gear-amulet-gold",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-fancy-cross",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-teardrop-amulet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-simple-cross",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-head-crown-byzantine",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-arm-gem-studded-bracelet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-arm-long-gem-studded-bracelet",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-arm-japamala",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-blanket-deepnoble",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-blanket-forlorn",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-blanket-king",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-accessory-highstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:hoovedwearables-blanket-prince",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]
