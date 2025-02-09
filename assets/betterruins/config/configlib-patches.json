@@ -53,7 +53,8 @@
       "betterruins:patches/modconfig/surfaceunderground.json": {
         "0/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
         "1/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
-        "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
+        "2/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value",
+        "3/value/chance": "SURFACEUNDERGROUND_SPAWN_CHANCE * value"
       },
       "betterruins:patches/modconfig/village.json": {
         "0/value/chance": "VSVILLAGE_SPAWN_CHANCE * value",
@@ -792,12 +793,37 @@
         "18/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "19/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
         "20/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
-        "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE"
+        "21/value/minGroupDistance": "MEGASTRUCTURES_MIN_DISTANCE",
+        "0/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "1/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "2/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "3/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "5/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "6/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "7/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "8/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "9/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "10/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "11/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "12/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "13/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "14/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "15/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "16/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "17/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "18/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "19/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "20/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE",
+        "21/value/MinSpawnDistance": "MEGASTRUCTURES_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/surface.json": {
         "2/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
         "3/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
-        "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE"
+        "4/value/minGroupDistance": "TRANSLOCATORRUINS_MIN_DISTANCE",
+        "2/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
+        "3/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
@@ -817,15 +843,26 @@
         "5/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "6/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
         "7/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
-        "8/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE"
+        "8/value/minGroupDistance": "WAYSTONES_MIN_DISTANCE",
+        "0/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "1/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "2/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "3/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "4/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "5/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "6/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "7/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE",
+        "8/value/MinSpawnDistance": "WAYSTONES_MIN_SPAWN_DISTANCE"
       },
       "betterruins:patches/modconfig/surfaceunderground.json": {
         "0/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
         "1/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
-        "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
+        "2/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE",
+        "3/value/minGroupDistance": "SURFACEUNDERGROUND_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/monolith.json": {
-        "0/value/minGroupDistance": "MONOLITH_MIN_DISTANCE"
+        "0/value/minGroupDistance": "MONOLITH_MIN_DISTANCE",
+        "0/value/MinSpawnDistance": "MONOLITH_MIN_SPAWN_DISTANCE"
       },
       "betterruins:recipes/grid/copy-schematic/schematiccopy.json": {
         "enabled": "SCHEMATIC_CRAFTING"
@@ -1542,6 +1579,54 @@
 
     },
     "integer": {
+      "WAYSTONES_MIN_SPAWN_DISTANCE": {
+        "name": "waystones_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 600,
+        "weight": 23.511,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "MONOLITH_MIN_SPAWN_DISTANCE": {
+        "name": "monolith_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 2500,
+        "weight": 23.551,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "TRANSLOCATORRUINS_MIN_SPAWN_DISTANCE": {
+        "name": "translocatorruins_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:universal_min_spawn_distance",
+        "default": 1500,
+        "weight": 15.21,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
+      "MEGASTRUCTURES_MIN_SPAWN_DISTANCE": {
+        "name": "megastructures_min_spawn_distance",
+        "comment": "betterruins:universal_minspawndistance_comment",
+        "ingui": "betterruins:megastructures_min_spawn_distance",
+        "default": 2500,
+        "weight": 2.91,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 100000
+        }
+      },
       "MEGASTRUCTURES_MIN_DISTANCE": {
         "name": "megastructures_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
@@ -1551,19 +1636,19 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "TRANSLOCATORRUINS_MIN_DISTANCE": {
         "name": "translocatorruins_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
-        "ingui": "betterruins:translocatorruins_min_distance",
+        "ingui": "betterruins:universal_mindistance",
         "default": 1600,
         "weight": 15.2,
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "GRAVES_MIN_DISTANCE": {
@@ -1575,7 +1660,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "WAYSTONES_MIN_DISTANCE": {
@@ -1587,7 +1672,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "MONOLITH_MIN_DISTANCE": {
@@ -1599,7 +1684,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "SURFACEUNDERGROUND_MIN_DISTANCE": {
@@ -1611,7 +1696,7 @@
         "logarithmic": true,
         "range": {
           "min": 0,
-          "max": 40000
+          "max": 100000
         }
       },
       "OASIS_MAX_TEMP": {

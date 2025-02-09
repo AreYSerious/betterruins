@@ -14,7 +14,8 @@
         },
         "width": 2,
         "height": 1,
-        "recipeGroup": 3,
+        "shapeless": true,
+        "recipeGroup": 333,
         "output": {
             "type": "Item",
             "code": "game:flaxtwine"

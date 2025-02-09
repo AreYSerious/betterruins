@@ -1,0 +1,144 @@
+[
+ 
+    {
+        "ingredientPattern": "X,L",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "game:supportbeam-*" , "name": "wood", "skipVariants": ["tarnishedmetal-bismuthbronze", "tarnishedmetal-blackbronze", "tarnishedmetal-blistersteel", "tarnishedmetal-brass", "tarnishedmetal-copper", "tarnishedmetal-iron", "tarnishedmetal-lead", "tarnishedmetal-rust", "tarnishedmetal-rusty-iron", "tarnishedmetal-steel", "aged", "veryaged", "veryagedrotten"]}
+        },
+        "width": 1,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-lower-cornerin-west" , "quantity": 1}
+    },
+    {
+        "ingredientPattern": "XA,_L",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-cornerin-west" , "name": "wood" , "quantity": 1},
+            "A": {"type": "Item", "code": "game:knife-generic-*", "isTool": true }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-top-cornerin-west" }
+    },
+    {
+        "ingredientPattern": "XA,FL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-cornerin-west", "name": "wood" , "quantity": 1},
+            "A": {"type": "Item", "code": "game:knife-generic-*", "isTool": true },
+            "F": {"type": "Item", "code": "game:axe-felling-*", "isTool": true }
+
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-halftop-cornerin-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL,_K_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-top-cornerin-west" , "name": "wood"},
+            "K": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-cornerin-west" , "name": "wood"}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "vanvar:palisadestakes-{wood}-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-three-lower-wall-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-top-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-three-top-wall-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-halftop-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-three-halftop-wall-west" }
+    },
+
+    {
+        "ingredientPattern": "X__,LLL,L__",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-lower-wall-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL,L__",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-top-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-top-wall-west" }
+    },
+    {
+        "ingredientPattern": "X__,LLL,L__",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-halftop-cornerin-west" , "name": "wood", "quantity": 1}
+        },
+        "width": 3,
+        "height": 3,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-halftop-wall-west" }
+    },
+
+
+    {
+        "ingredientPattern": "X_,KL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-three-lower-wall-west" , "name": "wood"},
+            "K": {"type": "Block", "code": "vanvar:palisadewall-*-four-lower-wall-west" , "name": "wood"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-lower-cornerout-west" }
+    },
+    {
+        "ingredientPattern": "X_,KL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-halftop-wall-west" , "name": "wood"},
+            "K": {"type": "Block", "code": "vanvar:palisadewall-*-three-halftop-wall-west" , "name": "wood"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-halftop-cornerout-west" }
+    },
+    {
+        "ingredientPattern": "X_,KL",
+        "ingredients": {
+            "X": {"type": "Item", "code": "betterruins:br-schematic-palisade" },
+            "L": {"type": "Block", "code": "vanvar:palisadewall-*-four-top-wall-west" , "name": "wood"},
+            "K": {"type": "Block", "code": "vanvar:palisadewall-*-three-top-wall-west" , "name": "wood"}
+        },
+        "width": 2,
+        "height": 2,
+        "output": {"type": "Block", "code": "vanvar:palisadewall-{wood}-four-top-cornerout-west" }
+    }
+]

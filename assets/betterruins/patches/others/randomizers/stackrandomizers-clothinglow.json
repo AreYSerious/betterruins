@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-foot-rottenking",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbodyover-rotwalker",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-rotwalker",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-rotwalker",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-miner",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-marketeer",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-artisans-scarf",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-lowstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-peasent-kaftan",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

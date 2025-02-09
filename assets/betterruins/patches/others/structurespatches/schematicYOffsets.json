@@ -18,6 +18,8 @@
       "overground/main/desert-climate/desertclimate-o2-stadrian-deserthouse2": -2,
       "overground/main/desert-climate/desertclimate-o20-stadrian-undergroundwithentrance": -20,
       "overground/main/desert-climate/desertclimate-o2-ogdred": -2,
+      "overground/main/desert-climate/femuroasiso6": -6,
+      "overground/main/desert-climate/mixco-viejo-o6-yapludepatte": -6,
       "overground/main/village-desert/desertvillage-par-o2-0102": -2,
       "overground/main/village-desert/desertvillage-par-o2-0103": -2,
       "overground/main/village-desert/desertvillage-par-o2-0105": -2,
@@ -26,6 +28,7 @@
       "overground/main/village-desert/desertvillage-par-o6-0101": -6,
       "overground/main/largeruins/normalclimate-o10-freian-graveyard": -9,
       "overground/main/largeruins/femurtowero4": -3,
+      "overground/main/largeruins/femurbelltowero7": -7,
       "overground/main/largeruins/freianfarmo2": -2,
       "overground/main/village-forest/all/village-forest-0101-o3-par": -3,
       "overground/main/village-forest/all/village-forest-0102-o3-par": -3,
@@ -51,7 +54,7 @@
       "overground/main/village-forest/all/village-forest-0211-o5-par": -4,
       "overground/main/village-forest/all/village-forest-0301-o3-virrno": -3,
       "overground/main/village-forest/all/village-forest-0302-o10-virrno": -10,
-      "overground/main/village-forest/all/village-forest-0303-o8-virrno": -8,
+      "overground/main/village-forest/all/village-forest-0303-o9-virrno": -9,
       "overground/main/village-forest/all/village-forest-0304-o8-virrno": -8,
       "overground/main/village-forest/all/village-forest-0305-o3-ifoz": -3,
       "overground/main/village-forest/windmills/village-forest-0401-o3-virrno": -3,
@@ -419,6 +422,7 @@
       "overground/main/village-femursnapper/ruin3": -4,
       "overground/main/village-femursnapper/wood1": -4
             },
-    "file": "game:worldgen/structures.json"
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
   }
 ]

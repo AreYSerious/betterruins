@@ -1,0 +1,167 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-messenger-trousers",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-clockmaker-pants",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-minstrel-pants",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-blackguard-leggings",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-messenger-shirt",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbody-tailor-blouse",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-waist-alchemist",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-hand-clockmaker-wristguard",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-neck-marketeer",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-embroidered-tartarean-scarf",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-upperbodyover-marketeer",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-surgeon",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-scribe",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-shoulder-alchemist",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-cloth-mediumstatus/stacks/-",
+    "value": {
+      "type": "item",
+      "code": "game:clothes-lowerbody-marketeer",
+      "chance": 0.5
+    },
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

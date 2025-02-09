@@ -1,7 +1,7 @@
 [
 	{
 		ingredientPattern: "XH,H_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -14,7 +14,7 @@
 	},
 	{
 		ingredientPattern: "XH,H_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -28,7 +28,7 @@
 
 	{
 		ingredientPattern: "XH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -41,7 +41,7 @@
 	},
 	{
 		ingredientPattern: "XH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -55,7 +55,7 @@
 
 	{
 		ingredientPattern: "XH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -68,7 +68,7 @@
 	},
 	{
 		ingredientPattern: "XH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -82,7 +82,7 @@
 
 	{
 		ingredientPattern: "XH,H_,_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -95,7 +95,7 @@
 	},
 	{
 		ingredientPattern: "XH,H_,_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -109,7 +109,7 @@
 
 	{
 		ingredientPattern: "XH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -122,7 +122,7 @@
 	},
 	{
 		ingredientPattern: "XH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -136,7 +136,7 @@
 
 	{
 		ingredientPattern: "X_H,_H_,H__",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -149,7 +149,7 @@
 	},
 	{
 		ingredientPattern: "XH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -162,7 +162,7 @@
 	},
 	{
 		ingredientPattern: "HS,X_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -176,7 +176,7 @@
 	},
 	{
 		ingredientPattern: "XH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -189,7 +189,7 @@
 	},
 	{
 		ingredientPattern: "XH,H_,_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -202,7 +202,7 @@
 	},
 	{
 		ingredientPattern: "XH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -217,7 +217,7 @@
 
 	{
 		ingredientPattern: "XTH,CH_,H__",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -231,7 +231,7 @@
 	},
 	{
 		ingredientPattern: "XT_,CH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -246,7 +246,7 @@
 	},
 	{
 		ingredientPattern: "XT_,CH_,HHH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -261,7 +261,7 @@
 	},
 	{
 		ingredientPattern: "XHT,HC_,_H_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -276,7 +276,7 @@
 	},
 	{
 		ingredientPattern: "XT,CH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -293,7 +293,7 @@
 	
 	{
 		ingredientPattern: "X_H,_H_,H__",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -306,7 +306,7 @@
 	},
 	{
 		ingredientPattern: "XH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -319,7 +319,7 @@
 	},
 	{
 		ingredientPattern: "XH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -332,7 +332,7 @@
 	},
 	{
 		ingredientPattern: "XH,H_,_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -345,7 +345,7 @@
 	},
 	{
 		ingredientPattern: "XH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -359,7 +359,7 @@
 
 	{
 		ingredientPattern: "XH,HP,PS",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -374,7 +374,7 @@
 	},
 	{
 		ingredientPattern: "XH_,HPH,PSP",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -389,7 +389,7 @@
 	},
 	{
 		ingredientPattern: "XH_,PSP",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -404,7 +404,7 @@
 	},
 	{
 		ingredientPattern: "PHX,PH_,PSH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -419,7 +419,7 @@
 	},
 	{
 		ingredientPattern: "XH,HH,PS",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -449,7 +449,7 @@
 	
 	{
 		ingredientPattern: "XH,H_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -464,7 +464,7 @@
 	
 	{
 		ingredientPattern: "XH_,H_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -478,7 +478,7 @@
 
 	{
 		ingredientPattern: "XH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -493,7 +493,7 @@
 
 	{
 		ingredientPattern: "XH,H_,_H",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -508,7 +508,7 @@
 
 	{
 		ingredientPattern: "XH,HH",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -525,7 +525,7 @@
 
 	{
 		ingredientPattern: "BB,X_",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
@@ -538,7 +538,7 @@
 	},
 	{
 		ingredientPattern: "B,X",
-        "recipeGroup": 3,
+        "recipeGroup": 333,
 
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },

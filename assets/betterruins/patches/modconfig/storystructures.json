@@ -10,7 +10,8 @@
       "story/brmine": 15
 
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -43,7 +44,8 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -77,7 +79,8 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -111,7 +114,8 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -145,7 +149,8 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -179,7 +184,8 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   },
   {
     "op": "add",
@@ -213,6 +219,7 @@
         "patches": 0
       }
     },
-    "file": "game:worldgen/storystructures.json"
+    "file": "game:worldgen/storystructures.json",
+    "side": "Server"
   }
 ]
