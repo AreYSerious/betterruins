@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "Generación de las Ruinas del Desierto",
     "surfaceunderground_spawn_chance": "Generación de Ruinas Subterráneas de Superficie",
     "surfaceunderground_min_distance": "Distancia Mínima Superficial de ruinas subterráneas",
-    "translocatorruins_min_distance": "Distancia Mínima de Ruinas de Translocalizadores",
     "schematic_crafting": "Duplicación de Planos",
     "schematic_crafting_comment": "Define si los planos se pueden duplicar con una receta de creación para intercambiarlos entre jugadores. Marca esta casilla para activar la duplicación.",
     "overall_spawn_chances_title": "Probabilidad General de Generación",

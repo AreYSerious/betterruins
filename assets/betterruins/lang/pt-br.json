@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "Chance de Geração de Ruínas do Deserto",
     "surfaceunderground_spawn_chance": "Chance de Geração de Ruínas Subterrâneas de Superfície",
     "surfaceunderground_min_distance": "Distância Mínima para Estruturas Subterrâneas de Superfície",
-    "translocatorruins_min_distance": "Distância Mínima para Ruínas com Translocadores",
     "schematic_crafting": "Duplicação de Esquemas",
     "schematic_crafting_comment": "Determina se os esquemas podem ser duplicados usando uma receita de crafting para serem compartilhados entre jogadores. Ative para permitir a duplicação através do crafting.",
     "overall_spawn_chances_title": "Chances Gerais de Geração",

@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "沙漠废墟生成机会",
     "surfaceunderground_spawn_chance": "地表地下废墟生成机会",
     "surfaceunderground_min_distance": "地表地下最小距离",
-    "translocatorruins_min_distance": "传送门废墟最小距离",
     "schematic_crafting": "蓝图复制",
     "schematic_crafting_comment": "决定是否可以通过制作配方复制蓝图以便玩家之间交换。启用可通过制作实现复制。",
     "overall_spawn_chances_title": "整体生成概率",

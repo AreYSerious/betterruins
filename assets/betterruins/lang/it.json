@@ -176,7 +176,6 @@
     "desertruins_spawn_chance": "Probabilità di generazione di rovine desertiche",
     "surfaceunderground_spawn_chance": "Probabilità di generazione di rovine superficiali sotterranee",
     "surfaceunderground_min_distance": "Distanza minima per strutture sotterranee superficiali",
-    "translocatorruins_min_distance": "Distanza minima per rovine con traslocatori",
     "schematic_crafting": "Duplicazione schemi",
     "schematic_crafting_comment": "Determina se gli schemi possono essere duplicati utilizzando una ricetta di crafting per essere scambiati tra i giocatori. Attiva per consentire la duplicazione tramite il crafting.",
     "overall_spawn_chances_title": "Probabilità generali di generazione",

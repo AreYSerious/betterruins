@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "Chance d'apparition des ruines désertiques",
     "surfaceunderground_spawn_chance": "Chance d'apparition des ruines de surface souterraines",
     "surfaceunderground_min_distance": "Distance minimale des structures souterraines de surface",
-    "translocatorruins_min_distance": "Distance minimale des ruines de translocateurs",
     "schematic_crafting": "Duplication de plans",
     "schematic_crafting_comment": "Définit si les plans peuvent être dupliqués à l'aide d'une recette d'artisanat afin qu'ils puissent être échangés entre les joueurs. Activez pour permettre la duplication via l'artisanat.",
     "overall_spawn_chances_title": "Chances globales d'apparition",

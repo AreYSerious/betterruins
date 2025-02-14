@@ -173,7 +173,6 @@
     "desertruins_spawn_chance": "Šance na spawn pouštních ruin",
     "surfaceunderground_spawn_chance": "Šance na spawn povrchových a podzemních ruin",
     "surfaceunderground_min_distance": "Minimální vzdálenost podzemních povrchových struktur",
-    "translocatorruins_min_distance": "Minimální vzdálenost ruin s translokátory",
     "schematic_crafting": "Duplikace schémat",
     "schematic_crafting_comment": "Určuje, zda lze schémata duplikovat pomocí receptu v craftingu, aby je mohli hráči sdílet. Aktivujte pro povolení duplikace přes crafting.",
     "overall_spawn_chances_title": "Celkové šance na spawn",
