@@ -4,7 +4,8 @@
         "ingredients": {
             "K": {
                 "type": "Item",
-                "code": "betterruins:locatormap-*"
+                "code": "betterruins:locatormap-*",
+                "skipVariants": [ "forlornhopetower", "university" ]
             },
             "M": {
                 "type": "Item",
