@@ -1,0 +1,993 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0101-femursnapper-o7",
+      "chance": 0.004,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0101-femursnapper-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0102-femursnapper-o7",
+      "chance": 0.006,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0102-femursnapper-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0103-femursnapper-o7",
+      "chance": 0.006,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0103-femursnapper-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0104-freianofvoid-o7",
+      "chance": 0.004,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0104-freianofvoid-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0105-dampus-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0105-dampus-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0106-niclass-o7",
+      "chance": 0.001,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0106-niclass-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0107-niclass-o7",
+      "chance": 0.001,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0107-niclass-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0201-ifoz-o11",
+      "chance": 0.0015,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0201-ifoz-largeruin-o11"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0202-ifoz-o11",
+      "chance": 0.0015,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0202-ifoz-largeruin-o11"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0203-ifoz-o11",
+      "chance": 0.0015,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0203-ifoz-largeruin-o11"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0204-niclass-o7",
+      "chance": 0.001,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0204-niclass-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0205-niclass-o7",
+      "chance": 0.0023,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0205-niclass-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0206-samgrey-o7",
+      "chance": 0.0025,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0206-samgrey-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0207-samgrey-o7",
+      "chance": 0.0015,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0207-samgrey-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0208-samgrey-o7",
+      "chance": 0.003,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0208-samgrey-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0401-samgrey-o7",
+      "chance": 0.0025,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0401-samgrey-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0402-vil-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0402-vil-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0403-vil-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0403-vil-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0404-vil-o7",
+      "chance": 0.003,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0404-vil-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0405-vil-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0405-vil-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0406-vil-o7",
+      "chance": 0.001,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0406-vil-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0407-virrno-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0407-virrno-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0408-virrno-o7",
+      "chance": 0.007,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0408-virrno-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0501-freianofvoid-o10",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0501-freianofvoid-largeruin-o10"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0601-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0601-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0602-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0602-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0603-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0603-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0604-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0604-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2,
+      "offsety": -6
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0605-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0605-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0606-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0606-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0607-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0607-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0608-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0608-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "brsurfaceruins-0609-sirayne-o7",
+      "chance": 0.005,
+      "minGroupDistance": 700,
+      "group": "largeruins",
+      "schematics": [
+        "overground/main/largeruins/0609-sirayne-largeruin-o7"
+      ],
+      "suppressTrees": true,
+      "suppressWaterfalls": true,
+      "rockTypeRemapGroup": "standard",
+      "replacewithblocklayers": [
+        "soil-low-none",
+        "soil-medium-none",
+        "soil-medium-normal",
+        "soil-low-normal",
+        "forestfloor-1",
+        "soil-verylow-normal",
+        "soil-verylow-none",
+        "soil-verylow-sparse",
+        "soil-verylow-verysparse"
+      ],
+      "MaxBelowSealevel": 2
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

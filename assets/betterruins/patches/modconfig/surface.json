@@ -3,23 +3,6 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "brsurfaceruins-large",
-                  "chance": 0.004,
-                  "schematics": [
-                    "overground/main/largeruins/*"
-                  ],
-                  "suppressTrees": true,
-                  "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard",
-                  "MaxBelowSealevel": 2
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
                   "code": "brsurfaceruins-medium",
                   "chance": 0.005,
                   "schematics": [
