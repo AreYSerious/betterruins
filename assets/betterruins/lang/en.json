@@ -230,6 +230,7 @@
     "mediumruins_spawn_chance": "Medium Ruins Spawn Chance",
     "desertruins_spawn_chance": "Desert Ruins Spawn Chance",
     "surfaceunderground_spawn_chance": "Surface Underground Ruins Spawn Chance",
+    "largeruins_min_distance": "Minimum Distance Large Ruins",
     "surfaceunderground_min_distance": "Minimum Distance Surface Underground",
     "schematic_crafting": "Blueprint Duplication",
     "schematic_crafting_comment": "Defines whether the blueprints can be duplicated with a crafting recipe to trade among players. Tick to Enable duplication via crafting.",
