@@ -159,6 +159,10 @@
     "betterruins:item-handbooktext-betterruins:locatormap-coalmine": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine1": "<strong>Found in</strong>\nRare in any ruin",
     "betterruins:item-handbooktext-betterruins:locatormap-mine2": "<strong>Found in</strong>\nRare in any ruin",
+    "game:blockdesc-door-1x2heavy-aged": "This door is rusted and can not be opened.",
+    "game:blockdesc-door-1x3heavy-aged": "This door is rusted and can not be opened.",
+    "game:blockdesc-door-2x4heavy-aged": "This door is rusted and can not be opened.",
+
 
 
 
