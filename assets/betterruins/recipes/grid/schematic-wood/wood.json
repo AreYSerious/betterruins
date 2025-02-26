@@ -3,20 +3,7 @@
     
     
     
-    {
-        "ingredientPattern": "HX,C_,W_",
-        "ingredients": {
-            "X": {type: "Item", code: "br-schematic-wood" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
-            "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
-            "C": {type: "Item", code: "game:chisel-*", isTool: true }
-        },
-        "width": 2,
-        "height": 3,
-        "output": {type: "Block", code: "game:carvedlog-acacia-aged-top-plain-ud" }
-        
-    },
-       
+
     {
         "ingredientPattern": "H_,CX,W_",
         "ingredients": {
@@ -27,66 +14,80 @@
         },
         "width": 2,
         "height": 3,
+        "recipeGroup": 333,
         "output": {type: "Block", code: "game:carvedlog-acacia-aged-middle-plain-ud" }  
     },
 
     {
-        "ingredientPattern": "H_,C_,WX",
+        "ingredientPattern": "WX",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-wood" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
-            "W": {type: "Block", code: "game:debarkedlog-acacia-ud" },
-            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-middle-plain-ud" },
         },
         "width": 2,
-        "height": 3,
-        "output": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-plain-ud" }  
+        "height": 1,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-top-plain-ud" }
+        
     },
 
-
-
-
-
-
-
     {
-        "ingredientPattern": "HX,C_,W_",
+        "ingredientPattern": "WX",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-wood" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
-            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
-            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-top-plain-ud" },
         },
         "width": 2,
-        "height": 3,
+        "height": 1,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-plain-ud" }
+        
+    },
+
+    {
+        "ingredientPattern": "WX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-plain-ud" },
+        },
+        "width": 2,
+        "height": 1,
         "output": {type: "Block", code: "game:carvedlog-acacia-aged-top-fancy-ud" }
         
     },
-       
+
     {
-        "ingredientPattern": "H_,CX,W_",
+        "ingredientPattern": "WX",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-wood" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
-            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
-            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-top-fancy-ud" },
         },
         "width": 2,
-        "height": 3,
+        "height": 1,
         "output": {type: "Block", code: "game:carvedlog-acacia-aged-middle-fancy-ud" }
+        
     },
 
     {
-        "ingredientPattern": "H_,C_,WX",
+        "ingredientPattern": "WX",
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-wood" },
-            "H": {type: "Item", code: "game:hammer-*", isTool: true },
-            "W": {type: "Block", code: "game:log-placed-acacia-ud" },
-            "C": {type: "Item", code: "game:chisel-*", isTool: true }
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-middle-fancy-ud" },
         },
         "width": 2,
-        "height": 3,
+        "height": 1,
         "output": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-fancy-ud" }
+        
+    },
+
+    {
+        "ingredientPattern": "WX",
+        "ingredients": {
+            "X": {type: "Item", code: "br-schematic-wood" },
+            "W": {type: "Block", code: "game:carvedlog-acacia-aged-bottom-fancy-ud" },
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:carvedlog-acacia-aged-middle-plain-ud" }
+        
     },
 
 
