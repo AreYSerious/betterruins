@@ -177,11 +177,11 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+            "B": {type: "Block", code: "game:brickcourse-four-running-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
-        "output": {type: "Block", code: "game:claybricks-uneven-four-running-{clay}" }
+        "output": {type: "Block", code: "game:claybricks-uneven-four-running-{clay}", quantity: 16 }
         
     },
     {
@@ -189,11 +189,11 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+            "B": {type: "Block", code: "game:brickcourse-four-soldier-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
-        "output": {type: "Block", code: "game:claybricks-uneven-four-soldier-{clay}" }
+        "output": {type: "Block", code: "game:claybricks-uneven-four-soldier-{clay}", quantity: 16 }
         
     },
     {
@@ -201,11 +201,11 @@
         "ingredients": {
             "X": {type: "Item", code: "br-schematic-stone" },
             "P": {type: "Item", code: "game:mortar" },
-            "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", skipVariants: ["clinker" ], quantity: 1}
+            "B": {type: "Block", code: "game:brickcourse-four-header-*" , name: "clay", skipVariants: ["clinker" ], quantity: 16}
         },
         "width": 3,
         "height": 1,
-        "output": {type: "Block", code: "game:claybricks-uneven-four-header-{clay}" }
+        "output": {type: "Block", code: "game:claybricks-uneven-four-header-{clay}", quantity: 16 }
         
     },
 
