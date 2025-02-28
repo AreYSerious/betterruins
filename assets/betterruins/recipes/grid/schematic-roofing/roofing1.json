@@ -530,7 +530,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"]}
+			"B": { type: "item", code: "game:plank-*", name: "wood"}
 		},
 		width: 2,
 		height: 2,
@@ -543,7 +543,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"] }
+			"B": { type: "item", code: "game:plank-*", name: "wood"}
 		},
 		width: 1,
 		height: 2,
