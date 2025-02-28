@@ -71,7 +71,11 @@
         "29/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "30/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
         "31/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
-        "32/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
+        "32/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "33/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "34/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "35/value/chance": "LARGERUINS_SPAWN_CHANCE * value",
+        "36/value/chance": "LARGERUINS_SPAWN_CHANCE * value"
       },
       "betterruins:patches/others/structurespatches/special.json": {
         "0/value/chance": "WAYSTONES_SPAWN_CHANCE * value",
@@ -892,7 +896,11 @@
         "29/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "30/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
         "31/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
-        "32/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
+        "32/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "33/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "34/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "35/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE",
+        "36/value/minGroupDistance": "LARGERUINS_MIN_DISTANCE"
       },
       "betterruins:patches/others/structurespatches/graves.json": {
         "0/value/minGroupDistance": "GRAVES_MIN_DISTANCE",
