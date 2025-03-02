@@ -105,7 +105,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-door",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -116,7 +116,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-bed",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -127,7 +127,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-chest",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -138,7 +138,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-crate",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -149,7 +149,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-gaslamp",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -160,7 +160,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-jonaslamp",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -171,7 +171,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-banner",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -182,7 +182,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-table",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -193,7 +193,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-stone",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -204,7 +204,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-wood",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -215,7 +215,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-ancient",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -226,7 +226,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-candle",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -237,7 +237,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-road",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -248,7 +248,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-mechanical",
-      "chance": 1
+      "chance": 1.5
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -259,7 +259,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-jonaspart",
-      "chance": 1
+      "chance": 1.5
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -270,7 +270,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-jonasassembly",
-      "chance": 1
+      "chance": 1.5
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -281,7 +281,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-roofing",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
@@ -292,7 +292,7 @@
     "value": {
       "type": "item",
       "code": "betterruins:br-schematic-palisade",
-      "chance": 2
+      "chance": 3
     },
     "file": "game:itemtypes/meta/stackrandomizer.json",
     "side": "Server"
