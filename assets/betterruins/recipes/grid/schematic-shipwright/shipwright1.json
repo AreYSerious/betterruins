@@ -1,0 +1,218 @@
+[
+ 
+    
+    
+    
+    {
+        "ingredientPattern": "RX",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Item", code: "game:rope" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:supportrope-one-new" , quantity: 32 }
+        
+    },
+    {
+        "ingredientPattern": "RX,R_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Item", code: "game:rope" }
+        },
+        "width": 2,
+        "height": 2,
+        "output": {type: "Block", code: "game:supportrope-two-new" , quantity: 32 }
+        
+    },
+	{
+        "ingredientPattern": "RX,R_,R_",
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Item", code: "game:rope" }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {type: "Block", code: "game:supportrope-three-new" , quantity: 32 }
+        
+    },
+
+
+
+
+	{
+        "ingredientPattern": "RX",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Block", code: "game:supportrope-one-new" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:supportrope-one-old" }
+        
+    },
+
+	{
+        "ingredientPattern": "RX",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Block", code: "game:supportrope-two-new" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:supportrope-two-old" }
+        
+    },
+
+	{
+        "ingredientPattern": "RX",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Block", code: "game:supportrope-three-new" }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {type: "Block", code: "game:supportrope-three-old" }
+        
+    },
+
+	{
+        "ingredientPattern": "RXR",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Item", code: "game:cattailtops" }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Item", code: "game:rope" }
+        
+    },
+
+	{
+        "ingredientPattern": "RXR",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Block", code: "game:wildvine-section-north" }
+        },
+        "width": 3,
+        "height": 1,
+        "output": {type: "Item", code: "game:rope", "quantity": 2 }
+        
+    },
+
+	{
+        "ingredientPattern": "XS_,RSR,_S_",
+		"recipeGroup": 333,
+        "ingredients": {
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "R": {type: "Item", code: "game:rope" },
+            "S": {type: "Item", code: "game:stick" }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {type: "Block", code: "game:ladder-rope-north" , quantity: 9 }
+        
+    },
+
+
+
+    {
+		name: "Wood raft",
+        "recipeGroup": 333,
+		ingredientPattern: "LXL,LRL,LRL",
+		ingredients: {
+			"L": { type: "block", code: "game:log-placed-*-ud", name: "wood", quantity: 1 },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:boat-raft-{wood}"  }
+	},
+	{
+		name: "Wood raft",
+        "recipeGroup": 333,
+		ingredientPattern: "LXL,LRL,LRL",
+		ingredients: {
+			"L": { type: "block", code: "game:logsection-placed-*-ne-ud", name: "wood", quantity: 1 },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:boat-raft-{wood}"  }
+	},
+	{
+		name: "Bamboo raft",
+        "recipeGroup": 333,
+		ingredientPattern: "LXL,LRL,LRL",
+		ingredients: {
+			"L": { type: "item", code: "game:bamboostakes", quantity: 1 },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+			"R": { type: "item", code: "game:rope" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "game:boat-raft-bamboo"  }
+	},
+    {
+        ingredientPattern: "HRR,CXR,ZFR",
+        "recipeGroup": 333,
+        ingredients: {
+            "H": { type: "item", code: "game:hammer-*", isTool: true, toolDurabilityCost: 5 },
+            "Z": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+            "C": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 10 },
+            "F": { type: "item", code: "game:firewood", quantity: 2 },
+            "X": { type: "block", code: "game:rock-*", name: "rock" },
+            "R": { type: "item", code: "game:rope", quantity: 1 }
+        },
+        name: "anchor",
+        width: 3,
+        height: 3,
+        output: { type: "item", code: "game:anchor-stone"  }
+    },
+    {
+		ingredientPattern: "WWW,WXW",
+        "recipeGroup": 333,
+
+		ingredients: {
+			"W": { type: "item", code: "game:plank-*", name: "wood",skipVariants: ["aged"] },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:boatseat-{wood}" , "quantity": 4 }
+	},
+    {
+        ingredientPattern: "RXR,RRR,R_R",
+        "recipeGroup": 333,
+
+        ingredients: {
+            "R": { type: "item", code: "game:rope", quantity: 1 },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+        },
+        width: 3,
+        height: 3,
+        output: { type: "item", code: "game:ratlines", quantity: 2  }
+    },
+    {
+		ingredientPattern: "HLX",
+        "recipeGroup": 333,
+		ingredients: {
+			"H": { type: "item", code: "game:saw-*", isTool: true  },
+			"L": { type: "block", code: "game:debarkedlog-*-ud", name: "wood" },
+            "X": {type: "Item", code: "betterruins:br-schematic-shipwright" },
+
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:supportbeam-{wood}", quantity: 12  }
+	}
+    
+    
+]
