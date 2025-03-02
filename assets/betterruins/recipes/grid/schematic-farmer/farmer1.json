@@ -1,0 +1,30 @@
+[
+    {
+		ingredientPattern: "CXC	BSB	CBC",
+		ingredients: {
+			"C": { type: "item", code: "game:compost", quantity: 1 },
+			"S": { type: "item", code: "game:powder-charcoal", quantity: 2  },
+			"B": { type: "item", code: "game:bonemeal", quantity: 1  },
+            "X": {"type": "Item", "code": "br-schematic-farmer" }
+
+		},
+		recipeGroup: 332,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:soil-high-none", quantity: 1  }
+	},
+	{
+		ingredientPattern: "CXC	KSK	CBC",
+		ingredients: {
+			"C": { type: "item", code: "game:compost", quantity: 2 },
+			"S": { type: "block", code: "game:soil-compost-none", quantity: 1  },
+			"K": { type: "item", code: "game:powder-charcoal", quantity: 2  },
+			"B": { type: "item", code: "game:bonemeal", quantity: 4  },
+            "X": {"type": "Item", "code": "br-schematic-farmer" }
+		},
+		recipeGroup: 333,
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:soil-high-none", quantity: 3  }
+	}
+]
