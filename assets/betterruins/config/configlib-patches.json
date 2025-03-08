@@ -160,7 +160,9 @@
         "21/value/chance": "SCHEMATIC_JONASPART",
         "22/value/chance": "SCHEMATIC_JONASASSEMBLY",
         "23/value/chance": "SCHEMATIC_ROOFING",
-        "24/value/chance": "SCHEMATIC_PALISADE"
+        "24/value/chance": "SCHEMATIC_PALISADE",
+        "28/value/chance": "SCHEMATIC_FARMER",
+        "29/value/chance": "SCHEMATIC_SHIPWRIGHT"
       },
       "betterruins:patches/others/randomizers/stackrandomizers-ingots.json": {
         "0/value/chance": "LOOT * value",
@@ -1441,7 +1443,7 @@
         "name": "schematic_door",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-door",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.0,
         "logarithmic": true,
         "range": {
@@ -1453,7 +1455,7 @@
         "name": "schematic_bed",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-bed",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.1,
         "logarithmic": true,
         "range": {
@@ -1465,7 +1467,7 @@
         "name": "schematic_chest",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-chest",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.2,
         "logarithmic": true,
         "range": {
@@ -1477,7 +1479,7 @@
         "name": "schematic_crate",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-crate",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.3,
         "logarithmic": true,
         "range": {
@@ -1489,7 +1491,7 @@
         "name": "schematic_gaslamp",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-gaslamp",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.4,
         "logarithmic": true,
         "range": {
@@ -1501,7 +1503,7 @@
         "name": "schematic_jonaslamp",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-jonaslamp",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.5,
         "logarithmic": true,
         "range": {
@@ -1513,7 +1515,7 @@
         "name": "schematic_banner",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-banner",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.6,
         "logarithmic": true,
         "range": {
@@ -1525,7 +1527,7 @@
         "name": "schematic_table",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-table",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.7,
         "logarithmic": true,
         "range": {
@@ -1537,7 +1539,7 @@
         "name": "schematic_stone",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-stone",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.8,
         "logarithmic": true,
         "range": {
@@ -1549,7 +1551,7 @@
         "name": "schematic_wood",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-wood",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 28.9,
         "logarithmic": true,
         "range": {
@@ -1561,7 +1563,7 @@
         "name": "schematic_ancient",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-ancient",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 29.0,
         "logarithmic": true,
         "range": {
@@ -1573,7 +1575,7 @@
         "name": "schematic_candle",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-candle",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 29.1,
         "logarithmic": true,
         "range": {
@@ -1585,7 +1587,7 @@
         "name": "schematic_road",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-road",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 29.2,
         "logarithmic": true,
         "range": {
@@ -1597,7 +1599,7 @@
         "name": "schematic_mechanical",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-mechanical",
-        "default": 1.0,
+        "default": 1.5,
         "weight": 29.3,
         "logarithmic": true,
         "range": {
@@ -1609,7 +1611,7 @@
         "name": "schematic_jonaspart",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-jonaspart",
-        "default": 1.0,
+        "default": 1.5,
         "weight": 29.4,
         "logarithmic": true,
         "range": {
@@ -1621,7 +1623,7 @@
         "name": "schematic_jonasassembly",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-jonasassembly",
-        "default": 1.0,
+        "default": 1.5,
         "weight": 29.5,
         "logarithmic": true,
         "range": {
@@ -1633,7 +1635,7 @@
         "name": "schematic_roofing",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-roofing",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 29.22,
         "logarithmic": true,
         "range": {
@@ -1645,8 +1647,32 @@
         "name": "schematic_palisade",
         "comment": "betterruins:universal_schematic_comment",
         "ingui": "betterruins:item-br-schematic-palisade",
-        "default": 2.0,
+        "default": 3.0,
         "weight": 29.221,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_FARMER": {
+        "name": "schematic_farmer",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-farmer",
+        "default": 3.0,
+        "weight": 29.222,
+        "logarithmic": true,
+        "range": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "SCHEMATIC_SHIPWRIGHT": {
+        "name": "schematic_shipwright",
+        "comment": "betterruins:universal_schematic_comment",
+        "ingui": "betterruins:item-br-schematic-shipwright",
+        "default": 3.0,
+        "weight": 29.223,
         "logarithmic": true,
         "range": {
           "min": 0,
@@ -1780,7 +1806,7 @@
         "name": "largeruins_min_distance",
         "comment": "betterruins:universal_mindistance_comment",
         "ingui": "betterruins:largeruins_min_distance",
-        "default": 700,
+        "default": 2000,
         "weight": 21.001,
         "logarithmic": true,
         "range": {
