@@ -3,25 +3,20 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-                  "code": "brsurfaceruins-large",
-                  "chance": 0.004,
-                  "schematics": [
-                    "overground/main/largeruins/*"
-                  ],
-                  "suppressTrees": true,
-                  "suppressWaterfalls": true,
-                  "rockTypeRemapGroup": "standard",
-                  "MaxBelowSealevel": 2
-    },
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "add",
-    "path": "/structures/-",
-    "value": {
                   "code": "brsurfaceruins-medium",
                   "chance": 0.005,
+                  "replacewithblocklayers": [
+                    "soil-low-none",
+                    "soil-medium-none",
+                    "soil-medium-normal",
+                    "soil-low-normal",
+                    "forestfloor-1",
+                    "soil-verylow-normal",
+                    "soil-verylow-none",
+                    "soil-verylow-sparse",
+                    "soil-verylow-verysparse"
+                  ],
+
                   "schematics": [
                     "overground/main/mediumruins/*"
                   ],
@@ -43,7 +38,18 @@
                   "minGroupDistance": 1600,
                   "chance": 0.03,
                   "placement": "surface",
-                  "schematics": [
+                  "replacewithblocklayers": [
+                    "soil-low-none",
+                    "soil-medium-none",
+                    "soil-medium-normal",
+                    "soil-low-normal",
+                    "forestfloor-1",
+                    "soil-verylow-normal",
+                    "soil-verylow-none",
+                    "soil-verylow-sparse",
+                    "soil-verylow-verysparse"
+                  ],
+                              "schematics": [
                     "overground/main/translocators/o2/*"
                   ],
                   "suppressTrees": true,
@@ -65,7 +71,18 @@
                   "minGroupDistance": 1600,
                   "chance": 0.001,
                   "placement": "surface",
-                  "schematics": [
+                  "replacewithblocklayers": [
+                    "soil-low-none",
+                    "soil-medium-none",
+                    "soil-medium-normal",
+                    "soil-low-normal",
+                    "forestfloor-1",
+                    "soil-verylow-normal",
+                    "soil-verylow-none",
+                    "soil-verylow-sparse",
+                    "soil-verylow-verysparse"
+                  ],
+                              "schematics": [
                     "overground/main/translocators/o1/*"
                   ],
                   "suppressTrees": true,
@@ -85,9 +102,20 @@
                   "name": "surface-translocators-3",
                   "group": "translocators",
                   "minGroupDistance": 1600,
-                  "chance": 0.001,
+                  "chance": 0.006,
                   "placement": "surface",
-                  "schematics": [
+                  "replacewithblocklayers": [
+                    "soil-low-none",
+                    "soil-medium-none",
+                    "soil-medium-normal",
+                    "soil-low-normal",
+                    "forestfloor-1",
+                    "soil-verylow-normal",
+                    "soil-verylow-none",
+                    "soil-verylow-sparse",
+                    "soil-verylow-verysparse"
+                  ],
+                              "schematics": [
                     "overground/main/translocators/o4/*"
                   ],
                   "suppressTrees": true,

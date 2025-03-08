@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "砂漠の遺跡生成確率",
     "surfaceunderground_spawn_chance": "地上地下遺跡生成確率",
     "surfaceunderground_min_distance": "地表地下構造物最小距離",
-    "translocatorruins_min_distance": "トランスロケーター遺跡最小距離",
     "schematic_crafting": "設計図複製",
     "schematic_crafting_comment": "設計図がクラフトレシピを使用して複製可能かどうかを決定します。複製を有効にするにはクラフトを許可します。",
     "overall_spawn_chances_title": "全体の生成確率",

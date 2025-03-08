@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "فرصة ظهور أطلال الصحراء",
     "surfaceunderground_spawn_chance": "فرصة ظهور أطلال السطح تحت الأرض",
     "surfaceunderground_min_distance": "المسافة الدنيا لأطلال السطح تحت الأرض",
-    "translocatorruins_min_distance": "المسافة الدنيا لأطلال المنقولات",
     "schematic_crafting": "تكرار المخططات",
     "schematic_crafting_comment": "يحدد ما إذا كانت المخططات قابلة للتكرار بوصفة صياغة للتداول بين اللاعبين. حدد للتفعيل.",
     "overall_spawn_chances_title": "فرص التوليد الإجمالية",

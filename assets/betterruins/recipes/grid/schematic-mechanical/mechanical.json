@@ -130,4 +130,62 @@
 		height: 3,
 		output: { type: "block", code: "game:woodenaxle-ud", quantity: 6 }
 	},
+
+
+
+	{
+		ingredientPattern: "I_,YI",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"I": { type: "item", code: "game:chutesection-copper" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:chute-elbow-down-east" , "quantity" : 4}
+	},
+	{
+		ingredientPattern: "II,Y_",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"I": { type: "item", code: "game:chutesection-copper" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "game:chute-straight-ns"  , "quantity" : 8}
+	},
+	{
+		ingredientPattern: "YI_,I_I,_I_",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"I": { type: "item", code: "game:chutesection-copper" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chute-cross-ground"  , "quantity" : 4}
+	},
+	{
+		ingredientPattern: "YI_,I_I",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"I": { type: "item", code: "game:chutesection-copper" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chute-t-ns"  , "quantity" : 4}
+	},
+	{
+		ingredientPattern: "YI_,II_",
+		"recipeGroup": 333,
+		ingredients: {
+			"Y": {type: "Item", code: "betterruins:br-schematic-mechanical" },
+			"I": { type: "item", code: "game:chutesection-copper" }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:chute-3way-down-east"  , "quantity" : 4}
+	}
 ]

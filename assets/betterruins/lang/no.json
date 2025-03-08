@@ -179,7 +179,6 @@
     "desertruins_spawn_chance": "Ørkenruiner spawn-sjanse",
     "surfaceunderground_spawn_chance": "Overflate-underjordiske ruiner spawn-sjanse",
     "surfaceunderground_min_distance": "Minimumsavstand overflate-underjordisk",
-    "translocatorruins_min_distance": "Translocatorruiner minimumsavstand",
     "schematic_crafting": "Blåkopi duplisering",
     "schematic_crafting_comment": "Definerer om blåkopiene kan dupliseres med en oppskriftsoppsett for å bytte mellom spillere. Kryss av for å aktivere duplisering via crafting.",
     "overall_spawn_chances_title": "Generelle spawn-sjanser",

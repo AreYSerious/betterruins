@@ -182,7 +182,6 @@
     "desertruins_spawn_chance": "Ökenruiners spawnchans",
     "surfaceunderground_spawn_chance": "Ytligt underjordiska ruiners spawnchans",
     "surfaceunderground_min_distance": "Minsta avstånd för ytligt underjordiska strukturer",
-    "translocatorruins_min_distance": "Minsta avstånd för translokatorruiner",
     "schematic_crafting": "Dubblering av ritningar",
     "schematic_crafting_comment": "Anger om ritningar kan dubbleras med hjälp av crafting-recept för att delas mellan spelare. Aktivera för att tillåta dubblering via crafting.",
     "overall_spawn_chances_title": "Övergripande spawnchanser",

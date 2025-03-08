@@ -222,7 +222,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
-			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"C": { type: "item", code: "game:clay-*", quantity: 1 },
 			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
 		},
 		width: 3,
@@ -237,7 +237,7 @@
             "X": {type: "Item", code: "br-schematic-roofing" },
 			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
 
-			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"C": { type: "item", code: "game:clay-*", quantity: 1 },
 			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
 		},
 		width: 3,
@@ -252,7 +252,7 @@
             "X": {type: "Item", code: "br-schematic-roofing" },
 			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 1 },
 
-			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"C": { type: "item", code: "game:clay-*", quantity: 1 },
 			"H": { type: "item", code: "game:stone-slate", quantity: 1 }
 		},
 		width: 3,
@@ -267,7 +267,7 @@
             "X": {type: "Item", code: "br-schematic-roofing" },
 			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
 
-			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"C": { type: "item", code: "game:clay-*", quantity: 1 },
 			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
 		},
 		width: 3,
@@ -282,7 +282,7 @@
             "X": {type: "Item", code: "br-schematic-roofing" },
 			"T": { type: "item", code: "game:chisel-*", isTool: true, toolDurabilityCost: 5 },
 
-			"C": { type: "item", code: "game:clay-blue", quantity: 1 },
+			"C": { type: "item", code: "game:clay-*", quantity: 1 },
 			"H": { type: "item", code: "game:stone-slate", quantity: 10 }
 		},
 		width: 2,
@@ -530,7 +530,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"]}
+			"B": { type: "item", code: "game:plank-*", name: "wood"}
 		},
 		width: 2,
 		height: 2,
@@ -543,7 +543,7 @@
 		ingredients: {
             "X": {type: "Item", code: "br-schematic-roofing" },
 
-			"B": { type: "item", code: "game:plank-*", name: "wood", skipVariants: ["ebony"] }
+			"B": { type: "item", code: "game:plank-*", name: "wood"}
 		},
 		width: 1,
 		height: 2,
