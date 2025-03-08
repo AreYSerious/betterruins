@@ -151,7 +151,7 @@
       "code": "village-samsvillage-redclay",
       "group": "village-samsvillage",
 			"minGroupDistance": 1500,
-      "chance": 0.05,
+      "chance": 0.08,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -183,7 +183,7 @@
       "code": "village-samsvillage-blackclay",
       "group": "village-samsvillage",
 			"minGroupDistance": 1500,
-      "chance": 0.05,
+      "chance": 0.08,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -215,7 +215,7 @@
       "code": "village-samsvillage-fireclay",
       "group": "village-samsvillage",
 			"minGroupDistance": 1500,
-      "chance": 0.05, 
+      "chance": 0.08, 
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -247,7 +247,7 @@
       "code": "village-samsvillage-orangeclay",
       "group": "village-samsvillage",
 			"minGroupDistance": 1500,
-      "chance": 0.05,
+      "chance": 0.08,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
@@ -279,7 +279,7 @@
       "code": "village-samsvillage-creamclay",
       "group": "village-samsvillage",
 			"minGroupDistance": 1500,
-      "chance": 0.05,
+      "chance": 0.08,
       "minY": 0,
       "generator": "LooselyGrouped",
       "quantityStructures": {
