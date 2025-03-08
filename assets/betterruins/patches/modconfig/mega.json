@@ -211,7 +211,7 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minTemp": -30,
-                  "maxTemp": -4,
+                  "maxTemp": -5,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
                   "MinSpawnDistance": 2500
@@ -235,7 +235,7 @@
                   "suppressWaterfalls": true,
                   "offsety": -8,
                   "minTemp": -30,
-                  "maxTemp": -4,
+                  "maxTemp": -5,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
                   "MinSpawnDistance": 2500
@@ -259,7 +259,7 @@
                   "suppressWaterfalls": true,
                   "offsety": -23,
                   "minTemp": -30,
-                  "maxTemp": -7,
+                  "maxTemp": -8,
                   "rockTypeRemapGroup": "standard",
                   "MaxBelowSealevel": 3,
                   "MinSpawnDistance": 2500
