@@ -469,6 +469,508 @@
                 "collected": true
             }
         }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "SPX,RWR,BWB",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "R": {
+                "type": "item",
+                "code": "game:cloth-red"
+            },
+            "W": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-blue"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-wall-ship"
+            }
+        }
+    },
+
+
+
+
+
+
+    {
+        "ingredientPattern": "SPX,RWR,RWR",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "R": {
+                "type": "item",
+                "code": "game:cloth-red"
+            },
+            "W": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-wall-town"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "SPX,WBW,WRW",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "R": {
+                "type": "item",
+                "code": "game:cloth-red"
+            },
+            "W": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-blue"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-wall-fish"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "SPX,BWB,GWG",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "G": {
+                "type": "item",
+                "code": "game:cloth-green"
+            },
+            "W": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            },
+            "B": {
+                "type": "item",
+                "code": "game:cloth-blue"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-wall-keys"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "SPX,GWG,GWG",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "S": {
+                "type": "item",
+                "code": "game:sewingkit"
+            },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "G": {
+                "type": "item",
+                "code": "game:cloth-green"
+            },
+            "W": {
+                "type": "item",
+                "code": "game:cloth-plain"
+            }
+        },
+        "width": 3,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-wall-largefish"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "HX,B_,N_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "B": {
+                "type": "block",
+                "code": "game:supportbeam-aged",
+                "quantity": 3
+            },
+            "H": {
+                "type": "item",
+                "code": "game:hammer-*",
+                "isTool": true,
+                "toolDurabilityCost": 5
+            },
+            "N": {
+                "type": "item",
+                "code": "game:metalnailsandstrips-*"
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-segment",
+            "attributes": {
+                "type": "segment"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XP,PB,P_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "B": {
+                "type": "block",
+                "code": "game:banner-banner",
+                "attributes": {
+                    "type": "hansa-wall-largefish"
+                }
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-ground-largefish"
+            }
+        }
+    },
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XP,PB,P_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "B": {
+                "type": "block",
+                "code": "game:banner-banner",
+                "attributes": {
+                    "type": "hansa-wall-fish"
+                }
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-ground-fish"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XP,PB,P_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "B": {
+                "type": "block",
+                "code": "game:banner-banner",
+                "attributes": {
+                    "type": "hansa-wall-keys"
+                }
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-ground-keys"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "XP,PB,P_",
+        "ingredients": {
+            "X": {"type": "Item", "code": "br-schematic-banner" },
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "B": {
+                "type": "block",
+                "code": "game:banner-banner",
+                "attributes": {
+                    "type": "hansa-wall-ship"
+                }
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-ground-ship"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "ingredientPattern": "_P,PB,P_",
+        "ingredients": {
+            "P": {
+                "type": "block",
+                "code": "game:banner-segment",
+                "attributes": {
+                    "type": "segment"
+                }
+            },
+            "B": {
+                "type": "block",
+                "code": "game:banner-banner",
+                "attributes": {
+                    "type": "hansa-wall-town"
+                }
+            }
+        },
+        "width": 2,
+        "height": 3,
+        "output": {
+            "type": "block",
+            "code": "game:banner-banner",
+            "attributes": {
+                "type": "hansa-ground-town"
+            }
+        }
     }
+
 
 ]
