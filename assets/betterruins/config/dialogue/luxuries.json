@@ -251,7 +251,7 @@
 				{ value: "betterruins:Yes here you go.", jumpTo: "actualbuying" }
 			],
 			trigger: "takefrominventory",
-			triggerdata: {type: 'item', code: 'game:gear-rusty', quantity: 15 },
+			triggerdata: {type: 'item', code: 'game:gear-rusty', quantity: 10 },
 
 		},
 		
